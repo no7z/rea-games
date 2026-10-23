@@ -11,7 +11,7 @@
 
 中文或英文均可。请勿提交原版ROM、光盘镜像、游戏资源或密钥。
 
-提交原创介绍或翻译，即同意将这些文字按本仓库的 [CC BY 4.0](LICENSE) 授权。提供第三方图片时请注明来源，并确认有权提交；第三方内容的权利说明见[版权与来源](NOTICE.md)。
+提交原创介绍或翻译，即同意将这些文字按本仓库的 [MIT](LICENSE) 授权。提供第三方图片时请注明来源，并确认有权提交；第三方内容的权利说明见[版权与来源](NOTICE.md)。
 
 ---
 
@@ -26,4 +26,4 @@ Please include:
 
 Chinese and English submissions are welcome. Do not submit original ROMs, disc images, game assets or secrets.
 
-Original descriptions or translations submitted here are contributed under this repository's [CC BY 4.0](LICENSE) license. Credit third-party images and ensure you have the right to submit them; see [content and attribution](NOTICE.md) for the scope of third-party rights.
+Original descriptions or translations submitted here are contributed under this repository's [MIT](LICENSE) license. Credit third-party images and ensure you have the right to submit them; see [content and attribution](NOTICE.md) for the scope of third-party rights.

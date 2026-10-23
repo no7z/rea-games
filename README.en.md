@@ -1612,4 +1612,4 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 This directory links to projects and browser editions; it hosts no original game executables or assets.
 
-Original editorial text is licensed under [CC BY 4.0](LICENSE). See [content and attribution](NOTICE.md) for third-party material.
+Original editorial text is licensed under [MIT](LICENSE). See [content and attribution](NOTICE.md) for third-party material.
