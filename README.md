@@ -6,7 +6,7 @@
 
 [游戏资源获取](RESOURCES.md) · [贡献项目](CONTRIBUTING.md)
 
-105 个展示项目 · 75 个浏览器入口。
+112 个展示项目 · 78 个浏览器入口。
 
 可直接体验的项目与需要自行构建的项目分别展示。构建条目写明平台、构建入口和原版文件要求；自行构建仍可能需要ROM或游戏数据。
 
@@ -516,9 +516,23 @@
 
     [**打开在线入口**](https://atbfun.github.io/cutrope/) · [项目源码](https://github.com/atbfun/cutrope)
 
+37. **虚拟佐特尔梅尔 · Virtueel Zoetermeer**
+
+    <a href="https://virtueelzoetermeer.bou.ke/"><img src="https://pbs.twimg.com/media/HVUFoFNXYAACIZG?format=jpg&amp;name=small" width="760" alt="作者原帖项目预览"></a>
+
+    <sub>作者原帖项目预览 <a href="https://x.com/BvdBijl/status/2113601796438737023">图片来源</a></sub>
+
+    重建荷兰佐特尔梅尔的城市建设游戏。作者将2000年代初的旧作品重建为浏览器WASM版本。
+
+    **平台：** 桌面浏览器 / WebAssembly
+
+    **运行：** 打开作者在线入口；页面会加载游戏数据。
+
+    [**打开在线入口**](https://virtueelzoetermeer.bou.ke/) · [项目介绍](https://x.com/BvdBijl/status/2113601796438737023)
+
 ## 浏览器演示
 
-37. **暗黑破坏神 · Diablo Web演示版**
+38. **暗黑破坏神 · Diablo Web演示版**
 
     <a href="https://d07riv.github.io/diabloweb/"><img src="assets/screenshots/diabloweb-entry.jpg" width="760" alt="文件选择与演示入口"></a>
 
@@ -534,7 +548,7 @@
 
     [**打开在线入口**](https://d07riv.github.io/diabloweb/) · [项目源码](https://github.com/d07RiV/diabloweb) · [演示版资源入口](https://d07riv.github.io/diabloweb/)
 
-38. **小小大冒险1/2 · 探索演示**
+39. **小小大冒险1/2 · 探索演示**
 
     <a href="https://lba2remake.net/"><img src="https://raw.githubusercontent.com/LBALab/lba2remake/master/doc/images/screenshot_game.jpeg" width="760" alt="作者提供的项目画面"></a>
 
@@ -548,7 +562,23 @@
 
     [**打开在线入口**](https://lba2remake.net/) · [项目介绍](https://github.com/LBALab/lba2remake)
 
-39. **雷神之锤II · Qwasm2**
+40. **横扫千军 · Nanolathe**
+
+    <a href="https://nanolathe.gg/play/"><img src="https://nanolathe.gg/images/reel/poster.jpg" width="760" alt="上游引擎演示画面"></a>
+
+    <sub>上游引擎演示画面 <a href="https://github.com/nanolathe-gg/nanolathe">图片来源</a></sub>
+
+    指挥机器人军团建造基地、争夺资源。浏览器演示包含原版演示的三关，完整游戏还可使用自有数据运行。
+
+    **平台：** 桌面Chrome / Edge / Safari；原生Windows / macOS / Linux
+
+    **运行：** 打开三关演示；首次启动会获取演示数据。原生版按官网安装说明构建并选择游戏目录。
+
+    **所需文件：** 完整游戏需要自己的Total Annihilation安装目录及HPI数据。
+
+    [**打开在线入口**](https://nanolathe.gg/play/) · [项目源码](https://github.com/nanolathe-gg/nanolathe)
+
+41. **雷神之锤II · Qwasm2**
 
     <a href="https://qwasm2.m-h.org.uk/"><img src="assets/screenshots/qwasm2-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
 
@@ -564,7 +594,7 @@
 
     [**打开在线入口**](https://qwasm2.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Qwasm2)
 
-40. **雷神之锤 · Qwasm**
+42. **雷神之锤 · Qwasm**
 
     <a href="https://qwasm.m-h.org.uk/"><img src="assets/screenshots/qwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
 
@@ -580,7 +610,7 @@
 
     [**打开在线入口**](https://qwasm.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Qwasm)
 
-41. **阿克斯之城 · Arxwasm演示**
+43. **阿克斯之城 · Arxwasm演示**
 
     <a href="https://wasm.continuation-labs.com/arxdemo/"><img src="assets/screenshots/arxwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
 
@@ -594,7 +624,7 @@
 
     [**打开在线入口**](https://wasm.continuation-labs.com/arxdemo/) · [项目介绍](https://github.com/gabrielcuvillier/arxwasm)
 
-42. **毁灭战士 · Dwasm**
+44. **毁灭战士 · Dwasm**
 
     <a href="https://dwasm.m-h.org.uk/"><img src="assets/screenshots/dwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
 
@@ -610,7 +640,7 @@
 
     [**打开在线入口**](https://dwasm.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Dwasm)
 
-43. **重返德军总部 · Wwasm**
+45. **重返德军总部 · Wwasm**
 
     <a href="https://wwasm.m-h.org.uk/"><img src="assets/screenshots/wwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
 
@@ -626,7 +656,7 @@
 
     [**打开在线入口**](https://wwasm.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Wwasm)
 
-44. **暗黑破坏神 · Diablo Web（JohnImril）**
+46. **暗黑破坏神 · Diablo Web（JohnImril）**
 
     <a href="https://johnimril.github.io/diablo_web/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-diablo.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -642,7 +672,7 @@
 
     [**打开在线入口**](https://johnimril.github.io/diablo_web/) · [项目介绍](https://github.com/JohnImril/diablo_web)
 
-45. **半条命 · WebXash 演示版**
+47. **半条命 · WebXash 演示版**
 
     <a href="https://x8bitrain.github.io/webXash/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -658,7 +688,7 @@
 
     [**打开在线入口**](https://x8bitrain.github.io/webXash/) · [项目介绍](https://github.com/x8BitRain/webXash)
 
-46. **雷神之锤 · NetQuake.io**
+48. **雷神之锤 · NetQuake.io**
 
     <a href="https://www.netquake.io/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-netquake-io.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -674,7 +704,7 @@
 
     [**打开在线入口**](https://www.netquake.io/) · [项目介绍](https://www.netquake.io/)
 
-47. **雷神之锤III竞技场 · Q3JS**
+49. **雷神之锤III竞技场 · Q3JS**
 
     <a href="https://q3js.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/quake-iii-arena.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -690,7 +720,7 @@
 
 ## 浏览器运行 · 已提供游戏资源入口
 
-48. **红色警戒2 · Chrono Divide**
+50. **红色警戒2 · Chrono Divide**
 
     <a href="https://game.chronodivide.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-red-alert-2.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -706,7 +736,7 @@
 
     [**打开在线入口**](https://game.chronodivide.com/) · [项目介绍](https://chronodivide.com/) · [资源获取](https://archive.org/download/red-alert-2-multiplayer/Red-Alert-2-Multiplayer.exe)
 
-49. **侠盗猎车手：罪恶都市 · Joncode WASM**
+51. **侠盗猎车手：罪恶都市 · Joncode WASM**
 
     <a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-vice-city.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -724,7 +754,7 @@
 
 ## 下载安装后运行
 
-50. **OpenRA：红警、命令与征服、沙丘2000**
+52. **OpenRA：红警、命令与征服、沙丘2000**
 
     <a href="https://www.openra.net/download/"><img src="assets/screenshots/openra-official-preview.jpg" width="760" alt="官网游戏预览"></a>
 
@@ -738,7 +768,7 @@
 
     [**下载与运行说明**](https://www.openra.net/download/) · [项目源码](https://github.com/OpenRA/OpenRA) · [资源获取](https://www.openra.net/about/)
 
-51. **运输大亨 · OpenTTD**
+53. **运输大亨 · OpenTTD**
 
     <a href="https://www.openttd.org/downloads/openttd-releases/latest"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openttd-openttd.jpg" width="760" alt="上游项目预览"></a>
 
@@ -752,7 +782,7 @@
 
     [**下载与运行说明**](https://www.openttd.org/downloads/openttd-releases/latest) · [项目源码](https://github.com/OpenTTD/OpenTTD) · [资源获取](https://www.openttd.org/downloads/opengfx-releases/latest)
 
-52. **战争地带2100 · Warzone 2100**
+54. **战争地带2100 · Warzone 2100**
 
     <a href="https://wz2100.net/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/warzone2100-warzone2100.jpg" width="760" alt="上游项目预览"></a>
 
@@ -766,7 +796,7 @@
 
     [**下载与运行说明**](https://wz2100.net/) · [项目源码](https://github.com/Warzone2100/warzone2100)
 
-53. **上古卷轴II：匕首雨 · Daggerfall Unity**
+55. **上古卷轴II：匕首雨 · Daggerfall Unity**
 
     <a href="https://github.com/Interkarma/daggerfall-unity/blob/master/README.md"><img src="https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b" width="760" alt="作者README提供的游戏预览"></a>
 
@@ -782,7 +812,7 @@
 
     [**下载与运行说明**](https://github.com/Interkarma/daggerfall-unity/blob/master/README.md) · [项目介绍](https://github.com/Interkarma/daggerfall-unity) · [资源获取](https://store.steampowered.com/app/1812390/The_Elder_Scrolls_II_Daggerfall/)
 
-54. **英雄无敌II · fheroes2**
+56. **英雄无敌II · fheroes2**
 
     <a href="https://github.com/ihhub/fheroes2/blob/master/README.md"><img src="https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_world_map.webp" width="760" alt="作者提供的项目画面"></a>
 
@@ -798,7 +828,7 @@
 
     [**下载与运行说明**](https://github.com/ihhub/fheroes2/blob/master/README.md) · [项目介绍](https://github.com/ihhub/fheroes2) · [资源获取](https://github.com/ihhub/fheroes2/blob/master/docs/INSTALL.md)
 
-55. **Cube 2：Sauerbraten · Sour**
+57. **Cube 2：Sauerbraten · Sour**
 
     <a href="https://github.com/cfoust/sour/blob/main/README.md#installation"><img src="https://raw.githubusercontent.com/cfoust/sour/main/gh-assets/header.png" width="760" alt="作者提供的项目封面"></a>
 
@@ -814,7 +844,7 @@
 
 ## 自行构建
 
-56. **过山车大亨2 · OpenRCT2**
+58. **过山车大亨2 · OpenRCT2**
 
     <a href="https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openrct2-openrct2.jpg" width="760" alt="上游项目预览"></a>
 
@@ -830,7 +860,7 @@
 
     [**构建说明**](https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game) · [项目源码](https://github.com/OpenRCT2/OpenRCT2)
 
-57. **暗黑破坏神与地狱火 · DevilutionX**
+59. **暗黑破坏神与地狱火 · DevilutionX**
 
     <a href="https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/diasurgical-devilutionx.jpg" width="760" alt="上游项目预览"></a>
 
@@ -846,7 +876,7 @@
 
     [**构建说明**](https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md) · [项目源码](https://github.com/diasurgical/DevilutionX)
 
-58. **VVVVVV · 公开源码版**
+60. **VVVVVV · 公开源码版**
 
     <a href="https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md"><img src="https://raw.githubusercontent.com/TerryCavanagh/VVVVVV/master/logo.gif" width="760" alt="原项目标题图"></a>
 
@@ -862,7 +892,7 @@
 
     [**构建说明**](https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md) · [项目介绍](https://github.com/TerryCavanagh/VVVVVV)
 
-59. **塞尔达传说：姆吉拉的假面 · Zelda64Recomp**
+61. **塞尔达传说：姆吉拉的假面 · Zelda64Recomp**
 
     <a href="https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/zelda64recomp-zelda64recomp.jpg" width="760" alt="上游项目预览"></a>
 
@@ -878,7 +908,7 @@
 
     [**构建说明**](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md) · [项目源码](https://github.com/Zelda64Recomp/Zelda64Recomp)
 
-60. **上古卷轴III：晨风 · OpenMW**
+62. **上古卷轴III：晨风 · OpenMW**
 
     <a href="https://wiki.openmw.org/index.php?title=Development_Environment_Setup"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openmw-openmw.jpg" width="760" alt="上游项目预览"></a>
 
@@ -894,7 +924,7 @@
 
     [**构建说明**](https://wiki.openmw.org/index.php?title=Development_Environment_Setup) · [项目源码](https://github.com/OpenMW/openmw)
 
-61. **塞尔达传说：黄昏公主 · Dusklight**
+63. **塞尔达传说：黄昏公主 · Dusklight**
 
     <a href="https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/twilitrealm-dusklight.jpg" width="760" alt="上游项目预览"></a>
 
@@ -910,7 +940,7 @@
 
     [**构建说明**](https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md) · [项目源码](https://github.com/TwilitRealm/dusklight)
 
-62. **英雄无敌III · VCMI**
+64. **英雄无敌III · VCMI**
 
     <a href="https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/vcmi-vcmi.jpg" width="760" alt="上游项目预览"></a>
 
@@ -926,7 +956,7 @@
 
     [**构建说明**](https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers) · [项目源码](https://github.com/vcmi/vcmi)
 
-63. **塞尔达传说：时之笛 · Ship of Harkinian**
+65. **塞尔达传说：时之笛 · Ship of Harkinian**
 
     <a href="https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-shipwright.jpg" width="760" alt="上游项目预览"></a>
 
@@ -942,7 +972,7 @@
 
     [**构建说明**](https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md) · [项目源码](https://github.com/HarbourMasters/Shipwright)
 
-64. **索尼克世界冒险 · Unleashed Recompiled**
+66. **索尼克世界冒险 · Unleashed Recompiled**
 
     <a href="https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/hedge-dev-unleashedrecomp.jpg" width="760" alt="上游项目预览"></a>
 
@@ -958,7 +988,7 @@
 
     [**构建说明**](https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/hedge-dev/UnleashedRecomp)
 
-65. **塞尔达传说：众神的三角力量 · zelda3**
+67. **塞尔达传说：众神的三角力量 · zelda3**
 
     <a href="https://github.com/snesrev/zelda3/blob/master/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/snesrev-zelda3.jpg" width="760" alt="上游项目预览"></a>
 
@@ -974,7 +1004,7 @@
 
     [**构建说明**](https://github.com/snesrev/zelda3/blob/master/BUILDING.md) · [项目源码](https://github.com/snesrev/zelda3)
 
-66. **三维弹球：太空军校生**
+68. **三维弹球：太空军校生**
 
     <a href="https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/k4zmu2a-spacecadetpinball.jpg" width="760" alt="上游项目预览"></a>
 
@@ -990,7 +1020,7 @@
 
     [**构建说明**](https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md) · [项目源码](https://github.com/k4zmu2a/SpaceCadetPinball)
 
-67. **主题医院 · CorsixTH**
+69. **主题医院 · CorsixTH**
 
     <a href="https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/corsixth-corsixth.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1006,7 +1036,7 @@
 
     [**构建说明**](https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile) · [项目源码](https://github.com/CorsixTH/CorsixTH)
 
-68. **杰克与达斯特 · OpenGOAL**
+70. **杰克与达斯特 · OpenGOAL**
 
     <a href="https://github.com/open-goal/jak-project/blob/master/README.md"><img src="https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png" width="760" alt="作者提供的项目画面"></a>
 
@@ -1022,7 +1052,7 @@
 
     [**构建说明**](https://github.com/open-goal/jak-project/blob/master/README.md) · [项目介绍](https://github.com/open-goal/jak-project)
 
-69. **凯撒大帝III · Julius**
+71. **凯撒大帝III · Julius**
 
     <a href="https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/bvschaik/julius/master/res/vita/bg.png" width="760" alt="项目提供的画面预览"></a>
 
@@ -1038,7 +1068,7 @@
 
     [**构建说明**](https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md) · [项目介绍](https://github.com/bvschaik/julius)
 
-70. **马力欧卡丁车64 · SpaghettiKart**
+72. **马力欧卡丁车64 · SpaghettiKart**
 
     <a href="https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-spaghettikart.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1054,7 +1084,7 @@
 
     [**构建说明**](https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/HarbourMasters/SpaghettiKart)
 
-71. **凯撒大帝III · Augustus**
+73. **凯撒大帝III · Augustus**
 
     <a href="https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/Keriew/augustus/master/doc/main-image.png" width="760" alt="作者提供的项目画面"></a>
 
@@ -1070,7 +1100,7 @@
 
     [**构建说明**](https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md) · [项目介绍](https://github.com/Keriew/augustus)
 
-72. **星际火狐64 · Starship**
+74. **星际火狐64 · Starship**
 
     <a href="https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-starship.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1086,7 +1116,7 @@
 
     [**构建说明**](https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/HarbourMasters/Starship)
 
-73. **班卓熊大冒险 · Banjo Recompiled**
+75. **班卓熊大冒险 · Banjo Recompiled**
 
     <a href="https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/banjorecomp-banjorecomp.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1102,7 +1132,7 @@
 
     [**构建说明**](https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md) · [项目源码](https://github.com/BanjoRecomp/BanjoRecomp)
 
-74. **仙剑奇侠传 · SDLPal**
+76. **仙剑奇侠传 · SDLPal**
 
     <a href="https://github.com/sdlpal/sdlpal/blob/master/README.md"><img src="assets/screenshots/sdlpal-entry.jpg" width="760" alt="当前资源导入启动页"></a>
 
@@ -1118,7 +1148,7 @@
 
     [**构建说明**](https://github.com/sdlpal/sdlpal/blob/master/README.md) · [项目介绍](https://github.com/sdlpal/sdlpal) · [在线入口 · 查看文件要求](https://sdlpal.github.io/demo/sdlpal.html)
 
-75. **运输帝国 · OpenLoco**
+77. **运输帝国 · OpenLoco**
 
     <a href="https://github.com/OpenLoco/OpenLoco/blob/master/README.md"><img src="https://user-images.githubusercontent.com/604665/55420349-1a2aea00-5577-11e9-87da-78fe5cdb09e1.png" width="760" alt="作者README提供的游戏预览"></a>
 
@@ -1134,7 +1164,7 @@
 
     [**构建说明**](https://github.com/OpenLoco/OpenLoco/blob/master/README.md) · [项目介绍](https://github.com/OpenLoco/OpenLoco)
 
-76. **超级马力欧64 · sm64coopdx**
+78. **超级马力欧64 · sm64coopdx**
 
     <a href="https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/coop-deluxe-sm64coopdx.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1150,7 +1180,7 @@
 
     [**构建说明**](https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile) · [项目源码](https://github.com/coop-deluxe/sm64coopdx)
 
-77. **洞窟物语 · doukutsu-rs**
+79. **洞窟物语 · doukutsu-rs**
 
     <a href="https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml"><img src="https://user-images.githubusercontent.com/53099651/155924461-c63afc93-a41f-4cfd-ac9f-8f021cebcb04.png" width="760" alt="作者提供的免费版画面"></a>
 
@@ -1166,7 +1196,7 @@
 
     [**构建说明**](https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml) · [项目介绍](https://github.com/doukutsu-rs/doukutsu-rs)
 
-78. **卡马戈登 · Dethrace**
+80. **卡马戈登 · Dethrace**
 
     <a href="https://github.com/dethrace-labs/dethrace/blob/main/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/dethrace-labs-dethrace.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1182,7 +1212,7 @@
 
     [**构建说明**](https://github.com/dethrace-labs/dethrace/blob/main/README.md) · [项目源码](https://github.com/dethrace-labs/dethrace)
 
-79. **阿克斯之城 · Arx Libertatis**
+81. **阿克斯之城 · Arx Libertatis**
 
     <a href="https://github.com/arx/ArxLibertatis/blob/master/README.md"><img src="assets/screenshots/arx-libertatis-site.jpg" width="760" alt="项目官网与游戏画面预览"></a>
 
@@ -1198,7 +1228,7 @@
 
     [**构建说明**](https://github.com/arx/ArxLibertatis/blob/master/README.md) · [项目介绍](https://github.com/arx/ArxLibertatis)
 
-80. **乐高小岛 · isle-portable**
+82. **乐高小岛 · isle-portable**
 
     <a href="https://github.com/isledecomp/isle-portable/blob/master/README.md"><img src="assets/screenshots/isle-launcher.jpg" width="760" alt="网页启动器"></a>
 
@@ -1214,7 +1244,7 @@
 
     [**构建说明**](https://github.com/isledecomp/isle-portable/blob/master/README.md) · [项目源码](https://github.com/isledecomp/isle-portable) · [在线入口 · 查看文件要求](https://isle.pizza/)
 
-81. **索尼克狂欢 · Sonic Mania Decompilation**
+83. **索尼克狂欢 · Sonic Mania Decompilation**
 
     <a href="https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/rsdkmodding-sonic-mania-decompilation.jpg" width="760" alt="上游项目预览"></a>
 
@@ -1230,7 +1260,7 @@
 
     [**构建说明**](https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md) · [项目源码](https://github.com/RSDKModding/Sonic-Mania-Decompilation)
 
-82. **毁灭战士3 · D3Wasm**
+84. **毁灭战士3 · D3Wasm**
 
     <a href="https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md"><img src="https://www.continuation-labs.com/projects/d3wasm/img/SC2.jpg" width="760" alt="作者提供的D3Wasm游戏截图"></a>
 
@@ -1246,7 +1276,23 @@
 
     [**构建说明**](https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md) · [项目源码](https://github.com/gabrielcuvillier/d3wasm) · [资源获取](https://www.fileplanet.com/archive/p-15998/DOOM-3-Demo)
 
-83. **古惑狼赛车 · High Octane**
+85. **007：黄金眼 · Project Midas**
+
+    <a href="https://github.com/murkantor/Project-Midas/blob/main/README.md"><img src="https://raw.githubusercontent.com/murkantor/Project-Midas/main/port/include/presskit/PM%20thin%201%20-%20full.png" width="760" alt="上游项目标题图"></a>
+
+    <sub>上游项目标题图 <a href="https://github.com/murkantor/Project-Midas">图片来源</a></sub>
+
+    重访黄金眼的潜入射击任务。基于N64既有源码重建的Windows和Linux移植，部分扩展功能仍在开发。
+
+    **平台：** Windows / Linux
+
+    **运行：** 按Docker构建说明提取自有镜像并生成程序；将美版镜像放入Data目录后运行ProjectMidas。Windows构建步骤使用WSL。
+
+    **所需文件：** 自己的美版GoldenEye N64卡带镜像；Linux运行还需32位SDL2和OpenGL。
+
+    [**构建说明**](https://github.com/murkantor/Project-Midas/blob/main/README.md) · [项目源码](https://github.com/murkantor/Project-Midas)
+
+86. **古惑狼赛车 · High Octane**
 
     <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml"><img src="https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/vita/screenshots/game1.jpg" width="760" alt="作者提供的项目画面"></a>
 
@@ -1262,7 +1308,7 @@
 
     [**构建说明**](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml) · [项目介绍](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane) · [在线入口 · 查看文件要求](https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane)
 
-84. **塞尔达传说II：林克的冒险 · z2rs**
+87. **塞尔达传说II：林克的冒险 · z2rs**
 
     <a href="https://github.com/troyedwardsjr/z2rs/blob/main/README.md"><img src="assets/screenshots/z2rs-import.jpg" width="760" alt="ROM导入页"></a>
 
@@ -1278,7 +1324,7 @@
 
     [**构建说明**](https://github.com/troyedwardsjr/z2rs/blob/main/README.md) · [项目源码](https://github.com/troyedwardsjr/z2rs) · [在线入口 · 查看文件要求](https://z2rs.com/)
 
-85. **迪迪金刚赛车 · Golden Balloon**
+88. **迪迪金刚赛车 · Golden Balloon**
 
     <a href="https://github.com/akratch/goldenballoon/blob/main/README.md"><img src="assets/screenshots/goldenballoon-entry.jpg" width="760" alt="当前ROM导入页"></a>
 
@@ -1294,7 +1340,7 @@
 
     [**构建说明**](https://github.com/akratch/goldenballoon/blob/main/README.md) · [项目介绍](https://github.com/akratch/goldenballoon) · [在线入口 · 查看文件要求](https://akratch.github.io/golden-balloon/)
 
-86. **跑车浪漫旅2 · GT2 PC / Browser**
+89. **跑车浪漫旅2 · GT2 PC / Browser**
 
     <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/main/docs/images/cockpit-0.5.0.png" width="760" alt="作者提供的项目画面"></a>
 
@@ -1310,7 +1356,7 @@
 
     [**构建说明**](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md) · [项目介绍](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) · [在线入口 · 查看文件要求](https://ydubr-gt2.surge.sh)
 
-87. **东方永夜抄 TH08**
+90. **东方永夜抄 TH08**
 
     <a href="https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="760" alt="上游标题预览"></a>
 
@@ -1326,7 +1372,23 @@
 
     [**构建说明**](https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md) · [项目源码](https://github.com/N0zoM1z0/th08) · [在线入口 · 查看文件要求](https://th08-web.pages.dev/)
 
-88. **DX-Ball 1.07**
+91. **光环：战斗进化 · Chupathingy**
+
+    <a href="https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md"><img src="https://raw.githubusercontent.com/ChupathingyCE/chupathingyce/main/docs/screenshots/lobby.jpg" width="760" alt="上游多人大厅截图"></a>
+
+    <sub>上游多人大厅截图 <a href="https://github.com/ChupathingyCE/chupathingyce">图片来源</a></sub>
+
+    体验光环初代的战役和多人对战。这一社区移植基于已有反编译成果，支持桌面与Android。
+
+    **平台：** Windows / macOS / Linux（含Steam Deck）/ Android
+
+    **运行：** 准备Python3、clang和ninja，运行configure.py并构建对应平台目标；启动后选择自己的Halo数据。也可使用上游发布包。
+
+    **所需文件：** 自己的Halo Xbox、PC或Custom Edition地图及对应数据。
+
+    [**构建说明**](https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md) · [项目源码](https://github.com/ChupathingyCE/chupathingyce)
+
+92. **DX-Ball 1.07**
 
     <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="上游标题画面"></a>
 
@@ -1342,7 +1404,7 @@
 
     [**构建说明**](https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md) · [项目源码](https://github.com/N0zoM1z0/dx-ball)
 
-89. **王国之心：记忆之链 · ReKHCoM**
+93. **王国之心：记忆之链 · ReKHCoM**
 
     <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="作者提供的项目画面"></a>
 
@@ -1358,7 +1420,7 @@
 
     [**构建说明**](https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md) · [项目介绍](https://github.com/MatyMeatBoy/ReKHCoM) · [在线入口 · 查看文件要求](https://matymeatboy.github.io/ReKHCoM/)
 
-90. **特技赛车 · Stunts HD**
+94. **特技赛车 · Stunts HD**
 
     <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="项目标题预览"></a>
 
@@ -1374,7 +1436,7 @@
 
     [**构建说明**](https://github.com/mr-finster/stunts-hd/blob/main/README.md) · [项目介绍](https://github.com/mr-finster/stunts-hd) · [在线入口 · 查看文件要求](https://stunts-recomp.pages.dev)
 
-91. **东方文花帖 TH095**
+95. **东方文花帖 TH095**
 
     <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="上游标题画面"></a>
 
@@ -1390,7 +1452,7 @@
 
     [**构建说明**](https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md) · [项目源码](https://github.com/N0zoM1z0/th095)
 
-92. **命令与征服：将军绝命时刻 · NewShoes**
+96. **命令与征服：将军绝命时刻 · NewShoes**
 
     <a href="https://github.com/Agusx1211/NewShoes/blob/main/README.md"><img src="assets/screenshots/newshoes-entry.jpg" width="760" alt="当前游戏文件导入启动器"></a>
 
@@ -1406,7 +1468,7 @@
 
     [**构建说明**](https://github.com/Agusx1211/NewShoes/blob/main/README.md) · [项目介绍](https://github.com/Agusx1211/NewShoes) · [在线入口 · 查看文件要求](https://newshoes.gg)
 
-93. **乐雅传说 · Legend of Legaia**
+97. **乐雅传说 · Legend of Legaia**
 
     <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md"><img src="https://raw.githubusercontent.com/AndrewAltimit/legend-of-legaia-re/main/site/assets/hero-montage.webp" width="760" alt="作者提供的项目画面"></a>
 
@@ -1422,7 +1484,23 @@
 
     [**构建说明**](https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md) · [项目介绍](https://github.com/AndrewAltimit/legend-of-legaia-re) · [在线入口 · 查看文件要求](https://andrewaltimit.github.io/legend-of-legaia-re/play.html)
 
-94. **横扫千军：王国 · OpenKingdoms**
+98. **杰克与达斯特三部曲 · Precursor**
+
+    <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="上游游戏启动器截图"></a>
+
+    <sub>上游游戏启动器截图 <a href="https://github.com/thebardockgames/Precursor">图片来源</a></sub>
+
+    在Android上探索杰克与达斯特的平台跳跃冒险。基于OpenGOAL的实验移植，三部作品仍在开发。
+
+    **平台：** Android 9及以上 / ARM64
+
+    **运行：** 按上游说明准备Android SDK、NDK并构建APK；也可下载beta APK，导入自己的PS2光盘镜像后由应用提取和编译。
+
+    **所需文件：** 自己的对应PS2游戏ISO；设备需支持OpenGL ES 3.2。
+
+    [**构建说明**](https://github.com/thebardockgames/Precursor/blob/master/README.md) · [项目源码](https://github.com/thebardockgames/Precursor)
+
+99. **横扫千军：王国 · OpenKingdoms**
 
     <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="作者提供的项目画面"></a>
 
@@ -1438,87 +1516,87 @@
 
     [**构建说明**](https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md) · [项目介绍](https://github.com/OpenKingdoms/OpenKingdoms) · [在线入口 · 查看文件要求](https://openkingdoms.net)
 
-95. **旧金山狂飙2049 · Rush 2049 Recompiled**
+100. **旧金山狂飙2049 · Rush 2049 Recompiled**
 
-    <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
-    <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/rush-2049/">图片来源</a></sub>
+     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/rush-2049/">图片来源</a></sub>
 
-    在未来都市中竞速、抄近道并完成特技；N64静态重编译项目提供原生和WebGPU版本。
+     在未来都市中竞速、抄近道并完成特技；N64静态重编译项目提供原生和WebGPU版本。
 
-    **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
 
-    **运行：** 原生版按README提取ROM并用Ninja构建；网页版另准备Emscripten、naga与SPIRV-Tools，通过emcmake构建build-web。也可打开在线入口，在启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **运行：** 原生版按README提取ROM并用Ninja构建；网页版另准备Emscripten、naga与SPIRV-Tools，通过emcmake构建build-web。也可打开在线入口，在启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
 
-    **所需文件：** 自己的美版N64 ROM（.z64），SHA-1为3f99351d7bb61656614bdb2aa1a90cfe55d1922c。
+     **所需文件：** 自己的美版N64 ROM（.z64），SHA-1为3f99351d7bb61656614bdb2aa1a90cfe55d1922c。
 
-    [**构建说明**](https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser) · [项目源码](https://github.com/n64hub/rush-2049-recomp) · [在线入口 · 查看文件要求](https://n64hub.com/rush-2049/)
+     [**构建说明**](https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser) · [项目源码](https://github.com/n64hub/rush-2049-recomp) · [在线入口 · 查看文件要求](https://n64hub.com/rush-2049/)
 
-96. **Ultima VI：Amiga 版移植**
+101. **Ultima VI：Amiga 版移植**
 
-    <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="设置入口"></a>
+     <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="设置入口"></a>
 
-    <sub>设置入口 <a href="https://ultima6.2lab.ai/">图片来源</a></sub>
+     <sub>设置入口 <a href="https://ultima6.2lab.ai/">图片来源</a></sub>
 
-    探索世界、与角色交谈并进行战斗。这个 Rust 项目把 Amiga 版 Ultima VI 带到原生环境和浏览器。
+     探索世界、与角色交谈并进行战斗。这个 Rust 项目把 Amiga 版 Ultima VI 带到原生环境和浏览器。
 
-    **平台：** 浏览器（WebAssembly）/ Rust原生窗口版
+     **平台：** 浏览器（WebAssembly）/ Rust原生窗口版
 
-    **运行：** 安装Rust和Node.js 22+，按Build章节构建原生或网页版，再提供自己的Amiga游戏文件；语音等增强内容可选。
+     **运行：** 安装Rust和Node.js 22+，按Build章节构建原生或网页版，再提供自己的Amiga游戏文件；语音等增强内容可选。
 
-    **所需文件：** 自己的 Amiga 游戏文件；入口另有画面和可选语音设置。
+     **所需文件：** 自己的 Amiga 游戏文件；入口另有画面和可选语音设置。
 
-    [**构建说明**](https://github.com/2lab-ai/ultima6/blob/main/README.md) · [项目源码](https://github.com/2lab-ai/ultima6) · [在线入口 · 查看文件要求](https://ultima6.2lab.ai/)
+     [**构建说明**](https://github.com/2lab-ai/ultima6/blob/main/README.md) · [项目源码](https://github.com/2lab-ai/ultima6) · [在线入口 · 查看文件要求](https://ultima6.2lab.ai/)
 
-97. **GunZ：The Duel · GunZRs**
+102. **GunZ：The Duel · GunZRs**
 
-    <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="作者提供的项目画面"></a>
 
-    <sub>作者提供的项目画面 <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md">图片来源</a></sub>
+     <sub>作者提供的项目画面 <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md">图片来源</a></sub>
 
-    使用Rust与Bevy重建GunZ，提供近战、射击、墙面移动和多种比赛模式。
+     使用Rust与Bevy重建GunZ，提供近战、射击、墙面移动和多种比赛模式。
 
-    **平台：** Linux；Windows可构建
+     **平台：** Linux；Windows可构建
 
-    **运行：** 按README安装Rust和系统依赖，运行start.sh，或用cargo run --release --bin gunz-play并指定原作目录。
+     **运行：** 按README安装Rust和系统依赖，运行start.sh，或用cargo run --release --bin gunz-play并指定原作目录。
 
-    **所需文件：** 自己的Steam版GunZ安装目录。
+     **所需文件：** 自己的Steam版GunZ安装目录。
 
-    [**构建说明**](https://github.com/OpenRsG/GunZRs/blob/main/README.md) · [项目介绍](https://github.com/OpenRsG/GunZRs)
+     [**构建说明**](https://github.com/OpenRsG/GunZRs/blob/main/README.md) · [项目介绍](https://github.com/OpenRsG/GunZRs)
 
-98. **松鼠库克：倒霉的一天 · n64hub网页版**
+103. **松鼠库克：倒霉的一天 · n64hub网页版**
 
-    <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
-    <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/conker/">图片来源</a></sub>
+     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/conker/">图片来源</a></sub>
 
-    基于Conker重编译项目的独立网页移植，以成人幽默串联平台跳跃、探索和多种情境玩法。
+     基于Conker重编译项目的独立网页移植，以成人幽默串联平台跳跃、探索和多种情境玩法。
 
-    **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
 
-    **运行：** 按README先在Linux/macOS或WSL运行build.sh完成重编译，再用Emscripten、naga和CMake构建host/build-web；也可打开在线启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **运行：** 按README先在Linux/macOS或WSL运行build.sh完成重编译，再用Emscripten、naga和CMake构建host/build-web；也可打开在线启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
 
-    **所需文件：** 自己的美版N64 ROM（.z64），SHA-1为4cbadd3c4e0729dec46af64ad018050eada4f47a。
+     **所需文件：** 自己的美版N64 ROM（.z64），SHA-1为4cbadd3c4e0729dec46af64ad018050eada4f47a。
 
-    [**构建说明**](https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page) · [项目源码](https://github.com/n64hub/CBFD-Recompiled-web) · [在线入口 · 查看文件要求](https://n64hub.com/conker/)
+     [**构建说明**](https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page) · [项目源码](https://github.com/n64hub/CBFD-Recompiled-web) · [在线入口 · 查看文件要求](https://n64hub.com/conker/)
 
-99. **Open Dark Colony**
+104. **Open Dark Colony**
 
-    <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="文件导入页"></a>
+     <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="文件导入页"></a>
 
-    <sub>文件导入页 <a href="https://edulazaro.github.io/open-dark-colony/">图片来源</a></sub>
+     <sub>文件导入页 <a href="https://edulazaro.github.io/open-dark-colony/">图片来源</a></sub>
 
-    在浏览器中运行 Dark Colony 的即时战略重实现。项目使用原版文件提供的地图、单位与音效。
+     在浏览器中运行 Dark Colony 的即时战略重实现。项目使用原版文件提供的地图、单位与音效。
 
-    **平台：** 浏览器（本地Node.js服务）
+     **平台：** 浏览器（本地Node.js服务）
 
-    **运行：** 安装项目要求的Node.js及依赖，执行npm run build与npm start，再导入自己的游戏目录或ZIP。
+     **运行：** 安装项目要求的Node.js及依赖，执行npm run build与npm start，再导入自己的游戏目录或ZIP。
 
-    **所需文件：** 自己的 Dark Colony 安装目录或 ZIP；页面会要求导入。
+     **所需文件：** 自己的 Dark Colony 安装目录或 ZIP；页面会要求导入。
 
-    [**构建说明**](https://github.com/edulazaro/open-dark-colony/blob/main/README.md) · [项目源码](https://github.com/edulazaro/open-dark-colony) · [在线入口 · 查看文件要求](https://edulazaro.github.io/open-dark-colony/)
+     [**构建说明**](https://github.com/edulazaro/open-dark-colony/blob/main/README.md) · [项目源码](https://github.com/edulazaro/open-dark-colony) · [在线入口 · 查看文件要求](https://edulazaro.github.io/open-dark-colony/)
 
-100. **命令与征服：将军绝命时刻 · GeneralsX Web**
+105. **命令与征服：将军绝命时刻 · GeneralsX Web**
 
      <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -1534,7 +1612,7 @@
 
      [**构建说明**](https://github.com/origami-ltd/wasm-generals) · [项目介绍](https://github.com/origami-ltd/wasm-generals) · [在线入口 · 查看文件要求](https://generals.wasm.ltd)
 
-101. **微型法师 · Micro Mages Rust**
+106. **微型法师 · Micro Mages Rust**
 
      <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md"><img src="https://raw.githubusercontent.com/HungLo2020/MicroMages/main/packaging/artwork/cover.png" width="760" alt="项目提供的封面预览"></a>
 
@@ -1548,7 +1626,7 @@
 
      [**构建说明**](https://github.com/HungLo2020/MicroMages/blob/main/README.md) · [项目介绍](https://github.com/HungLo2020/MicroMages)
 
-102. **魔兽世界：影牙城堡 · 单机演示**
+107. **魔兽世界：影牙城堡 · 单机演示**
 
      <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="作者提供的单场景演示截图"></a>
 
@@ -1562,7 +1640,7 @@
 
      [**构建说明**](https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md) · [项目介绍](https://github.com/wubing733-prog/wow-mobile-ios)
 
-103. **班卓熊大冒险 · n64hub网页版**
+108. **班卓熊大冒险 · n64hub网页版**
 
      <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -1578,7 +1656,7 @@
 
      [**构建说明**](https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page) · [项目源码](https://github.com/n64hub/BanjoRecomp-web) · [在线入口 · 查看文件要求](https://n64hub.com/banjo-kazooie/)
 
-104. **塞尔达传说：姆吉拉的假面 · n64hub网页版**
+109. **塞尔达传说：姆吉拉的假面 · n64hub网页版**
 
      <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -1594,7 +1672,7 @@
 
      [**构建说明**](https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page) · [项目源码](https://github.com/n64hub/Zelda64Recomp-web) · [在线入口 · 查看文件要求](https://n64hub.com/majoras-mask/)
 
-105. **大金刚64 · n64hub网页版**
+110. **大金刚64 · n64hub网页版**
 
      <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -1609,6 +1687,38 @@
      **所需文件：** 自己的美版N64 ROM；运行时使用未解压的原始镜像。
 
      [**构建说明**](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page) · [项目源码](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web) · [在线入口 · 查看文件要求](https://n64hub.com/donkey-kong-64/)
+
+111. **暗黑破坏神2 · Rust/WASM原型**
+
+     <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="上游原型截图"></a>
+
+     <sub>上游原型截图 <a href="https://github.com/shpaw415/diablo2-wasm">图片来源</a></sub>
+
+     在罗格营地进行移动、战斗与物品收集的浏览器原型，提供野蛮人、法师和圣骑士；并非完整游戏。
+
+     **平台：** 桌面浏览器；本地构建需Rust与Python3
+
+     **运行：** 构建d2game的WASM并用wasm-bindgen生成网页模块，从自己的安装中提取MPQ数据；在demo目录启动本地HTTP服务后打开menu.html。
+
+     **所需文件：** 自己的Diablo II v1.12安装或安装MPQ数据；部分发行版的角色资源路径需要调整。
+
+     [**构建说明**](https://github.com/shpaw415/diablo2-wasm/blob/master/README.md) · [项目源码](https://github.com/shpaw415/diablo2-wasm)
+
+112. **国际象棋大师9000 · Chessmaster-Web**
+
+     <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="作者原帖项目预览"></a>
+
+     <sub>作者原帖项目预览 <a href="https://x.com/senguttuvang/status/2113518853649289638">图片来源</a></sub>
+
+     用3D棋盘重访Chessmaster 9000。公开工程提供引擎重建工具和浏览器界面，部分教学、音频及棋力等价仍不完整。
+
+     **平台：** 桌面浏览器；已说明的构建平台为macOS ARM64
+
+     **运行：** 准备Bun、uv、C编译器、Emscripten、Ghidra/JDK与Assimp，按README执行make setup、prepare-media和make dev；也可查看作者在线入口。
+
+     **所需文件：** 自己的Chessmaster 9000已安装数据，且The King 3.23引擎须匹配README指定哈希。
+
+     [**构建说明**](https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md) · [项目源码](https://github.com/senguttuvang/Chessmaster-Web) · [在线入口 · 查看文件要求](https://chessmaster9000.com/)
 
 本合集只提供项目与体验链接，不托管原版程序或游戏资源。
 
