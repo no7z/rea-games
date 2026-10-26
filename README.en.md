@@ -6,7 +6,7 @@ Discover decompiled, recompiled, reimplemented and ported games. See images, sup
 
 [Game data sources](RESOURCES.en.md) · [Contribute](CONTRIBUTING.md)
 
-117 showcase projects · 77 browser links.
+130 showcase projects · 84 browser links.
 
 Ready-to-run projects and source builds are listed separately. Build entries state the platforms, instructions and original files required; compiling may still require a ROM or game data.
 
@@ -530,9 +530,93 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://virtueelzoetermeer.bou.ke/) · [Project information](https://github.com/bouk/virtueel-zoetermeer)
 
+38. **Formula One 06 · Browser edition**
+
+    <a href="https://f12006.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-formula-one-06.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
+
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/f1-06-recompiled.jpg">Image source</a></sub>
+
+    Race through the 2006 Formula One season in a browser edition of the PS2 game using WebAssembly and WebGPU.
+
+    **Platforms:** Desktop Chrome / Edge with WebGPU
+
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
+
+    [**Open browser edition**](https://f12006.online/) · [Project information](https://f12006.online/)
+
+39. **NBA 2K12 · Browser edition**
+
+    <a href="https://nba2k12.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-nba-2k12.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
+
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/nba-2k12-recompiled.jpg">Image source</a></sub>
+
+    Choose an NBA team to dribble, pass and shoot in a browser port of the PS2 game.
+
+    **Platforms:** Desktop Chrome / Edge with WebGPU
+
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
+
+    [**Open browser edition**](https://nba2k12.online/) · [Project information](https://nba2k12.online/)
+
+40. **SSX 3 · Browser edition**
+
+    <a href="https://ssx3.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-ssx-3.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
+
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/ssx-3-recompiled.jpg">Image source</a></sub>
+
+    Race down snowy mountains and perform tricks on courses and jumps in a browser port of the PS2 game.
+
+    **Platforms:** Desktop Chrome / Edge with WebGPU
+
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
+
+    [**Open browser edition**](https://ssx3.online/) · [Project information](https://ssx3.online/)
+
+41. **Tekken 5 · Browser edition**
+
+    <a href="https://tekken5.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-tekken-5.jpg" width="760" alt="Title preview supplied by the upstream catalogue"></a>
+
+    <sub>Title preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/tekken-5-recompiled.jpg">Image source</a></sub>
+
+    Choose a fighter for the King of Iron Fist Tournament in a browser edition of the PS2 3D fighting game.
+
+    **Platforms:** Desktop Chrome / Edge with WebGPU
+
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
+
+    [**Open browser edition**](https://tekken5.online/) · [Project information](https://tekken5.online/)
+
+42. **WWE SmackDown! vs. RAW · Browser edition**
+
+    <a href="https://smackdownvsraw.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-wwe-smackdown-vs-raw.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
+
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/wwe-smackdown-vs-raw-recompiled.jpg">Image source</a></sub>
+
+    Choose a WWE wrestler and compete in the ring in a browser port of the PS2 game.
+
+    **Platforms:** Desktop Chrome / Edge with WebGPU
+
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
+
+    [**Open browser edition**](https://smackdownvsraw.online/) · [Project information](https://smackdownvsraw.online/)
+
+43. **Black Ops Zombies · Vel.gg**
+
+    <a href="https://vel.gg/bsz"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-call-of-duty-black-ops-zombies.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
+
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/black-ops-zombies-recompiled.jpg">Image source</a></sub>
+
+    Choose a map for round-based zombie survival, with solo and multiplayer setup.
+
+    **Platforms:** Desktop browser
+
+    **Run:** Set a nickname, solo or multiplayer mode and graphics quality, then choose a map; the page loads its resources.
+
+    [**Open browser edition**](https://vel.gg/bsz) · [Project information](https://vel.gg/bsz)
+
 ## Browser demos
 
-38. **Diablo Web · Shareware demo**
+44. **Diablo Web · Shareware demo**
 
     <a href="https://d07riv.github.io/diabloweb/"><img src="assets/screenshots/diabloweb-entry.jpg" width="760" alt="File selection and demo entry"></a>
 
@@ -548,7 +632,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://d07riv.github.io/diabloweb/) · [Project source](https://github.com/d07RiV/diabloweb) · [Get demo data](https://d07riv.github.io/diabloweb/)
 
-39. **Little Big Adventure 1/2 · Exploration demo**
+45. **Little Big Adventure 1/2 · Exploration demo**
 
     <a href="https://lba2remake.net/"><img src="https://raw.githubusercontent.com/LBALab/lba2remake/master/doc/images/screenshot_game.jpeg" width="760" alt="Project image supplied by the author"></a>
 
@@ -562,7 +646,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://lba2remake.net/) · [Project information](https://github.com/LBALab/lba2remake)
 
-40. **Total Annihilation · Nanolathe**
+46. **Total Annihilation · Nanolathe**
 
     <a href="https://nanolathe.gg/play/"><img src="https://nanolathe.gg/images/reel/poster.jpg" width="760" alt="Upstream engine footage preview"></a>
 
@@ -578,7 +662,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://nanolathe.gg/play/) · [Project source](https://github.com/nanolathe-gg/nanolathe)
 
-41. **Quake II · Qwasm2**
+47. **Quake II · Qwasm2**
 
     <a href="https://qwasm2.m-h.org.uk/"><img src="assets/screenshots/qwasm2-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
@@ -594,7 +678,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://qwasm2.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Qwasm2)
 
-42. **Quake · Qwasm**
+48. **Quake · Qwasm**
 
     <a href="https://qwasm.m-h.org.uk/"><img src="assets/screenshots/qwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
@@ -610,7 +694,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://qwasm.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Qwasm)
 
-43. **Arx Fatalis · Arxwasm demo**
+49. **Arx Fatalis · Arxwasm demo**
 
     <a href="https://wasm.continuation-labs.com/arxdemo/"><img src="assets/screenshots/arxwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
@@ -624,7 +708,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://wasm.continuation-labs.com/arxdemo/) · [Project information](https://github.com/gabrielcuvillier/arxwasm)
 
-44. **Doom · Dwasm**
+50. **Doom · Dwasm**
 
     <a href="https://dwasm.m-h.org.uk/"><img src="assets/screenshots/dwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
@@ -640,7 +724,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://dwasm.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Dwasm)
 
-45. **Return to Castle Wolfenstein · Wwasm**
+51. **Return to Castle Wolfenstein · Wwasm**
 
     <a href="https://wwasm.m-h.org.uk/"><img src="assets/screenshots/wwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
@@ -656,7 +740,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://wwasm.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Wwasm)
 
-46. **Diablo (diablo_web)**
+52. **Diablo (diablo_web)**
 
     <a href="https://johnimril.github.io/diablo_web/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-diablo.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -672,7 +756,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://johnimril.github.io/diablo_web/) · [Project information](https://github.com/JohnImril/diablo_web)
 
-47. **Half-Life and Counter-Strike 1.6 (WebXash)**
+53. **Half-Life and Counter-Strike 1.6 (WebXash)**
 
     <a href="https://x8bitrain.github.io/webXash/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -688,7 +772,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://x8bitrain.github.io/webXash/) · [Project information](https://github.com/x8BitRain/webXash)
 
-48. **NetQuake.io**
+54. **NetQuake.io**
 
     <a href="https://www.netquake.io/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-netquake-io.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -704,7 +788,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://www.netquake.io/) · [Project information](https://www.netquake.io/)
 
-49. **Quake III Arena (q3js)**
+55. **Quake III Arena (q3js)**
 
     <a href="https://q3js.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/quake-iii-arena.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -720,7 +804,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 ## Browser editions · game-data link provided
 
-50. **Command &amp; Conquer: Red Alert 2**
+56. **Command &amp; Conquer: Red Alert 2**
 
     <a href="https://game.chronodivide.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-red-alert-2.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -736,7 +820,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Open browser edition**](https://game.chronodivide.com/) · [Project information](https://chronodivide.com/) · [Get game data](https://archive.org/download/red-alert-2-multiplayer/Red-Alert-2-Multiplayer.exe)
 
-51. **Grand Theft Auto: Vice City**
+57. **Grand Theft Auto: Vice City**
 
     <a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-vice-city.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -754,7 +838,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 ## Install and run
 
-52. **OpenRA: Red Alert, Tiberian Dawn and Dune 2000**
+58. **OpenRA: Red Alert, Tiberian Dawn and Dune 2000**
 
     <a href="https://www.openra.net/download/"><img src="assets/screenshots/openra-official-preview.jpg" width="760" alt="Official-site game preview"></a>
 
@@ -768,7 +852,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Download and launch guide**](https://www.openra.net/download/) · [Project source](https://github.com/OpenRA/OpenRA) · [Get game data](https://www.openra.net/about/)
 
-53. **Transport Tycoon Deluxe · OpenTTD**
+59. **Transport Tycoon Deluxe · OpenTTD**
 
     <a href="https://www.openttd.org/downloads/openttd-releases/latest"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openttd-openttd.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -782,7 +866,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Download and launch guide**](https://www.openttd.org/downloads/openttd-releases/latest) · [Project source](https://github.com/OpenTTD/OpenTTD) · [Get game data](https://www.openttd.org/downloads/opengfx-releases/latest)
 
-54. **Warzone 2100**
+60. **Warzone 2100**
 
     <a href="https://wz2100.net/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/warzone2100-warzone2100.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -796,7 +880,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Download and launch guide**](https://wz2100.net/) · [Project source](https://github.com/Warzone2100/warzone2100)
 
-55. **Daggerfall Unity**
+61. **Daggerfall Unity**
 
     <a href="https://github.com/Interkarma/daggerfall-unity/blob/master/README.md"><img src="https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b" width="760" alt="Game preview supplied in the author README"></a>
 
@@ -812,7 +896,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Download and launch guide**](https://github.com/Interkarma/daggerfall-unity/blob/master/README.md) · [Project information](https://github.com/Interkarma/daggerfall-unity) · [Get game data](https://store.steampowered.com/app/1812390/The_Elder_Scrolls_II_Daggerfall/)
 
-56. **Heroes of Might and Magic II · fheroes2**
+62. **Heroes of Might and Magic II · fheroes2**
 
     <a href="https://github.com/ihhub/fheroes2/blob/master/README.md"><img src="https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_world_map.webp" width="760" alt="Project image supplied by the author"></a>
 
@@ -828,7 +912,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Download and launch guide**](https://github.com/ihhub/fheroes2/blob/master/README.md) · [Project information](https://github.com/ihhub/fheroes2) · [Get game data](https://github.com/ihhub/fheroes2/blob/master/docs/INSTALL.md)
 
-57. **Cube 2: Sauerbraten · Sour**
+63. **Cube 2: Sauerbraten · Sour**
 
     <a href="https://github.com/cfoust/sour/blob/main/README.md#installation"><img src="https://raw.githubusercontent.com/cfoust/sour/main/gh-assets/header.png" width="760" alt="Project cover supplied by the author"></a>
 
@@ -844,7 +928,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 ## Build from source
 
-58. **RollerCoaster Tycoon 2 · OpenRCT2**
+64. **RollerCoaster Tycoon 2 · OpenRCT2**
 
     <a href="https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openrct2-openrct2.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -860,7 +944,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game) · [Project source](https://github.com/OpenRCT2/OpenRCT2)
 
-59. **Diablo and Hellfire · DevilutionX**
+65. **Diablo and Hellfire · DevilutionX**
 
     <a href="https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/diasurgical-devilutionx.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -876,7 +960,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md) · [Project source](https://github.com/diasurgical/DevilutionX)
 
-60. **VVVVVV · Source release**
+66. **VVVVVV · Source release**
 
     <a href="https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md"><img src="https://raw.githubusercontent.com/TerryCavanagh/VVVVVV/master/logo.gif" width="760" alt="Original project title image"></a>
 
@@ -892,7 +976,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md) · [Project information](https://github.com/TerryCavanagh/VVVVVV)
 
-61. **The Legend of Zelda: Majora&#x27;s Mask · Zelda64Recomp**
+67. **The Legend of Zelda: Majora&#x27;s Mask · Zelda64Recomp**
 
     <a href="https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/zelda64recomp-zelda64recomp.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -908,7 +992,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md) · [Project source](https://github.com/Zelda64Recomp/Zelda64Recomp)
 
-62. **The Elder Scrolls III: Morrowind · OpenMW**
+68. **The Elder Scrolls III: Morrowind · OpenMW**
 
     <a href="https://wiki.openmw.org/index.php?title=Development_Environment_Setup"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openmw-openmw.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -924,7 +1008,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://wiki.openmw.org/index.php?title=Development_Environment_Setup) · [Project source](https://github.com/OpenMW/openmw)
 
-63. **The Legend of Zelda: Twilight Princess · Dusklight**
+69. **The Legend of Zelda: Twilight Princess · Dusklight**
 
     <a href="https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/twilitrealm-dusklight.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -940,7 +1024,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md) · [Project source](https://github.com/TwilitRealm/dusklight)
 
-64. **Heroes of Might and Magic III · VCMI**
+70. **Heroes of Might and Magic III · VCMI**
 
     <a href="https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/vcmi-vcmi.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -956,7 +1040,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers) · [Project source](https://github.com/vcmi/vcmi)
 
-65. **The Legend of Zelda: Ocarina of Time · Ship of Harkinian**
+71. **The Legend of Zelda: Ocarina of Time · Ship of Harkinian**
 
     <a href="https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-shipwright.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -972,7 +1056,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md) · [Project source](https://github.com/HarbourMasters/Shipwright)
 
-66. **Sonic Unleashed · Unleashed Recompiled**
+72. **Sonic Unleashed · Unleashed Recompiled**
 
     <a href="https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/hedge-dev-unleashedrecomp.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -988,7 +1072,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md) · [Project source](https://github.com/hedge-dev/UnleashedRecomp)
 
-67. **The Legend of Zelda: A Link to the Past · zelda3**
+73. **The Legend of Zelda: A Link to the Past · zelda3**
 
     <a href="https://github.com/snesrev/zelda3/blob/master/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/snesrev-zelda3.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1004,7 +1088,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/snesrev/zelda3/blob/master/BUILDING.md) · [Project source](https://github.com/snesrev/zelda3)
 
-68. **3D Pinball: Space Cadet**
+74. **3D Pinball: Space Cadet**
 
     <a href="https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/k4zmu2a-spacecadetpinball.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1020,7 +1104,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md) · [Project source](https://github.com/k4zmu2a/SpaceCadetPinball)
 
-69. **Theme Hospital · CorsixTH**
+75. **Theme Hospital · CorsixTH**
 
     <a href="https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/corsixth-corsixth.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1036,7 +1120,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile) · [Project source](https://github.com/CorsixTH/CorsixTH)
 
-70. **Jak and Daxter · OpenGOAL**
+76. **Jak and Daxter · OpenGOAL**
 
     <a href="https://github.com/open-goal/jak-project/blob/master/README.md"><img src="https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png" width="760" alt="Project image supplied by the author"></a>
 
@@ -1052,7 +1136,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/open-goal/jak-project/blob/master/README.md) · [Project information](https://github.com/open-goal/jak-project)
 
-71. **Caesar III · Julius**
+77. **Caesar III · Julius**
 
     <a href="https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/bvschaik/julius/master/res/vita/bg.png" width="760" alt="Preview supplied by the project"></a>
 
@@ -1068,7 +1152,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md) · [Project information](https://github.com/bvschaik/julius)
 
-72. **Mario Kart 64 · SpaghettiKart**
+78. **Mario Kart 64 · SpaghettiKart**
 
     <a href="https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-spaghettikart.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1084,7 +1168,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md) · [Project source](https://github.com/HarbourMasters/SpaghettiKart)
 
-73. **Caesar III · Augustus**
+79. **Caesar III · Augustus**
 
     <a href="https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/Keriew/augustus/master/doc/main-image.png" width="760" alt="Project image supplied by the author"></a>
 
@@ -1100,7 +1184,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md) · [Project information](https://github.com/Keriew/augustus)
 
-74. **Star Fox 64 · Starship**
+80. **Star Fox 64 · Starship**
 
     <a href="https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-starship.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1116,7 +1200,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md) · [Project source](https://github.com/HarbourMasters/Starship)
 
-75. **Banjo-Kazooie · Banjo Recompiled**
+81. **Banjo-Kazooie · Banjo Recompiled**
 
     <a href="https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/banjorecomp-banjorecomp.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1132,7 +1216,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md) · [Project source](https://github.com/BanjoRecomp/BanjoRecomp)
 
-76. **Sword and Fairy · SDLPal**
+82. **Sword and Fairy · SDLPal**
 
     <a href="https://github.com/sdlpal/sdlpal/blob/master/README.md"><img src="assets/screenshots/sdlpal-entry.jpg" width="760" alt="Current resource import launcher"></a>
 
@@ -1148,7 +1232,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/sdlpal/sdlpal/blob/master/README.md) · [Project information](https://github.com/sdlpal/sdlpal) · [Browser entry · check file requirements](https://sdlpal.github.io/demo/sdlpal.html)
 
-77. **Chris Sawyer’s Locomotion · OpenLoco**
+83. **Chris Sawyer’s Locomotion · OpenLoco**
 
     <a href="https://github.com/OpenLoco/OpenLoco/blob/master/README.md"><img src="https://user-images.githubusercontent.com/604665/55420349-1a2aea00-5577-11e9-87da-78fe5cdb09e1.png" width="760" alt="Game preview supplied in the author README"></a>
 
@@ -1164,7 +1248,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/OpenLoco/OpenLoco/blob/master/README.md) · [Project information](https://github.com/OpenLoco/OpenLoco)
 
-78. **Super Mario 64 · sm64coopdx**
+84. **Super Mario 64 · sm64coopdx**
 
     <a href="https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/coop-deluxe-sm64coopdx.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1180,7 +1264,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile) · [Project source](https://github.com/coop-deluxe/sm64coopdx)
 
-79. **Cave Story · doukutsu-rs**
+85. **Cave Story · doukutsu-rs**
 
     <a href="https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml"><img src="https://user-images.githubusercontent.com/53099651/155924461-c63afc93-a41f-4cfd-ac9f-8f021cebcb04.png" width="760" alt="Freeware-edition image supplied by the author"></a>
 
@@ -1196,7 +1280,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml) · [Project information](https://github.com/doukutsu-rs/doukutsu-rs)
 
-80. **Carmageddon · Dethrace**
+86. **Carmageddon · Dethrace**
 
     <a href="https://github.com/dethrace-labs/dethrace/blob/main/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/dethrace-labs-dethrace.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1212,7 +1296,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/dethrace-labs/dethrace/blob/main/README.md) · [Project source](https://github.com/dethrace-labs/dethrace)
 
-81. **Minecraft Java Edition · Horizon**
+87. **Minecraft Java Edition · Horizon**
 
     <a href="https://github.com/ludovic111/horizon/blob/main/README.md"><img src="https://raw.githubusercontent.com/ludovic111/horizon/main/docs/media/sunset.webp" width="760" alt="Upstream engine sunset screenshot"></a>
 
@@ -1228,7 +1312,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/ludovic111/horizon/blob/main/README.md) · [Project source](https://github.com/ludovic111/horizon)
 
-82. **Arx Fatalis · Arx Libertatis**
+88. **Arx Fatalis · Arx Libertatis**
 
     <a href="https://github.com/arx/ArxLibertatis/blob/master/README.md"><img src="assets/screenshots/arx-libertatis-site.jpg" width="760" alt="Project website and game preview"></a>
 
@@ -1244,7 +1328,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/arx/ArxLibertatis/blob/master/README.md) · [Project information](https://github.com/arx/ArxLibertatis)
 
-83. **LEGO Island · isle-portable**
+89. **LEGO Island · isle-portable**
 
     <a href="https://github.com/isledecomp/isle-portable/blob/master/README.md"><img src="assets/screenshots/isle-launcher.jpg" width="760" alt="Web launcher"></a>
 
@@ -1260,7 +1344,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/isledecomp/isle-portable/blob/master/README.md) · [Project source](https://github.com/isledecomp/isle-portable) · [Browser entry · check file requirements](https://isle.pizza/)
 
-84. **Sonic Mania Decompilation**
+90. **Sonic Mania Decompilation**
 
     <a href="https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/rsdkmodding-sonic-mania-decompilation.jpg" width="760" alt="Upstream project preview"></a>
 
@@ -1276,7 +1360,55 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md) · [Project source](https://github.com/RSDKModding/Sonic-Mania-Decompilation)
 
-85. **Doom 3 · D3Wasm**
+91. **Silent Hill · PsyCross port**
+
+    <a href="https://github.com/SlickAmogus/silent-hill-decomp/blob/pc-port/README.md"><img src="assets/screenshots/silent-hill-upstream.png" width="760" alt="Port screenshot from the author’s website"></a>
+
+    <sub>Port screenshot from the author’s website <a href="https://sh1pc.com/">Image source</a></sub>
+
+    Search a fogbound town for a missing daughter through a community port based on the PS1 decompilation, with a browser edition that reads your disc image.
+
+    **Platforms:** Windows / desktop browser; see upstream notes for Linux and macOS
+
+    **Run:** Use an upstream release with your BIN, or import it in the browser. Source builds use MSYS2/MinGW64, CMake/Ninja, SDL2 and OpenAL; initialize submodules and run pc_port\build.bat.
+
+    **Required files:** Your own Silent Hill PS1 BIN; the Windows build guide uses USA SLUS-00707, while the browser also accepts PAL and NTSC-J.
+
+    [**Build instructions**](https://github.com/SlickAmogus/silent-hill-decomp/blob/pc-port/README.md) · [Project source](https://github.com/SlickAmogus/silent-hill-decomp) · [Browser entry · check file requirements](https://sh1pc.com/play/)
+
+92. **Mario Kart Wii · KartPad**
+
+    <a href="https://github.com/chrissotraidis/kartpad/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/chrissotraidis/kartpad/main/docs/social/kartpad-0.4.23-banner.png" width="760" alt="Upstream 0.4.23 launcher promotional graphic"></a>
+
+    <sub>Upstream 0.4.23 launcher promotional graphic <a href="https://github.com/chrissotraidis/kartpad">Image source</a></sub>
+
+    Race karts for the lead, with optional Retro Rewind content, through a WiiCompiled-based port for phones, tablets and Apple Silicon Macs.
+
+    **Platforms:** Android ARM64 / iPhone / iPad / macOS 14+ (Apple Silicon)
+
+    **Run:** On Android, install the upstream APK and import the game folder. For Apple devices, build with PadMint on your Mac. Manual Apple builds use Xcode, CMake/Ninja, Python 3, .NET 8 and Rust; follow the self-build-macos.sh guide.
+
+    **Required files:** Your own PAL RMCP01 Rev 0 extracted DATA folder; direct ISO/WBFS import also requires your Wii common-key.bin. Android also accepts RVZ.
+
+    [**Build instructions**](https://github.com/chrissotraidis/kartpad/blob/main/docs/BUILDING.md) · [Project source](https://github.com/chrissotraidis/kartpad)
+
+93. **Super Smash Bros. Ultimate · OpenSmash**
+
+    <a href="https://github.com/OpenSmash-Ultimate/ssbu-recomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/OpenSmash-Ultimate/ssbu-recomp/main/media/og-image.png" width="760" alt="Upstream project title graphic"></a>
+
+    <sub>Upstream project title graphic <a href="https://github.com/OpenSmash-Ultimate/ssbu-recomp">Image source</a></sub>
+
+    Bring characters from different series into platform battles through a community static recompilation of your own Switch game for Windows.
+
+    **Platforms:** Windows 10 / 11, 64-bit, Vulkan graphics
+
+    **Run:** Download the source ZIP or clone the repository, run Install SSBU.bat, confirm your own files and build locally, then run Play SSBU.bat. The installer prepares the tools and runtime.
+
+    **Required files:** Your own Switch game data for 13.0.4 or 13.0.5 and matching prod.keys; follow upstream instructions for updates and DLC.
+
+    [**Build instructions**](https://github.com/OpenSmash-Ultimate/ssbu-recomp/blob/main/BUILDING.md) · [Project source](https://github.com/OpenSmash-Ultimate/ssbu-recomp)
+
+94. **Doom 3 · D3Wasm**
 
     <a href="https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md"><img src="https://www.continuation-labs.com/projects/d3wasm/img/SC2.jpg" width="760" alt="D3Wasm game screenshot supplied by the author"></a>
 
@@ -1292,7 +1424,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md) · [Project source](https://github.com/gabrielcuvillier/d3wasm) · [Get game data](https://www.fileplanet.com/archive/p-15998/DOOM-3-Demo)
 
-86. **GoldenEye 007 · Project Midas**
+95. **GoldenEye 007 · Project Midas**
 
     <a href="https://github.com/murkantor/Project-Midas/blob/main/README.md"><img src="https://raw.githubusercontent.com/murkantor/Project-Midas/main/port/include/presskit/PM%20thin%201%20-%20full.png" width="760" alt="Upstream project title graphic"></a>
 
@@ -1308,7 +1440,23 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/murkantor/Project-Midas/blob/main/README.md) · [Project source](https://github.com/murkantor/Project-Midas)
 
-87. **Crash Team Racing · High Octane**
+96. **GoldenEye 007 · jkdansereau port**
+
+    <a href="https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/jkdansereau/goldeneye-pc-port/main/docs/img/shots/feature-splitscreen.jpg" width="760" alt="Upstream split-screen screenshot"></a>
+
+    <sub>Upstream split-screen screenshot <a href="https://github.com/jkdansereau/goldeneye-pc-port">Image source</a></sub>
+
+    Revisit GoldenEye’s stealth-shooting campaign and split-screen multiplayer through a Windows/Linux port built from the existing N64 decompilation.
+
+    **Platforms:** Windows / Linux / Steam Deck
+
+    **Run:** Extract a release, place your US ROM in the data folder as ge007.ntsc-final.z64 and launch. Source builds need CMake, SDL2, zlib, Python 3 and MIPS tools; extract assets, then run build-pc.sh ntsc-final.
+
+    **Required files:** Your own US NTSC-U GoldenEye 007 ROM; OpenGL 3.0 graphics.
+
+    [**Build instructions**](https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/building.md) · [Project source](https://github.com/jkdansereau/goldeneye-pc-port)
+
+97. **Crash Team Racing · High Octane**
 
     <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml"><img src="https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/vita/screenshots/game1.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -1324,7 +1472,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml) · [Project information](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane) · [Browser entry · check file requirements](https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane)
 
-88. **Midtown Madness · Open1560**
+98. **Midtown Madness · Open1560**
 
     <a href="https://github.com/0x1F9F1/Open1560/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/0x1F9F1/Open1560/master/extra/preview.png" width="760" alt="Upstream city driving preview"></a>
 
@@ -1340,7 +1488,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/0x1F9F1/Open1560/blob/master/docs/building.md) · [Project source](https://github.com/0x1F9F1/Open1560)
 
-89. **Zelda II: The Adventure of Link · z2rs**
+99. **Zelda II: The Adventure of Link · z2rs**
 
     <a href="https://github.com/troyedwardsjr/z2rs/blob/main/README.md"><img src="assets/screenshots/z2rs-import.jpg" width="760" alt="ROM import screen"></a>
 
@@ -1356,167 +1504,167 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
     [**Build instructions**](https://github.com/troyedwardsjr/z2rs/blob/main/README.md) · [Project source](https://github.com/troyedwardsjr/z2rs) · [Browser entry · check file requirements](https://z2rs.com/)
 
-90. **Diddy Kong Racing · Golden Balloon**
+100. **Diddy Kong Racing · Golden Balloon**
 
-    <a href="https://github.com/akratch/goldenballoon/blob/main/README.md"><img src="assets/screenshots/goldenballoon-entry.jpg" width="760" alt="Current ROM import page"></a>
+     <a href="https://github.com/akratch/goldenballoon/blob/main/README.md"><img src="assets/screenshots/goldenballoon-entry.jpg" width="760" alt="Current ROM import page"></a>
 
-    <sub>Current ROM import page <a href="https://akratch.github.io/golden-balloon/">Image source</a></sub>
+     <sub>Current ROM import page <a href="https://akratch.github.io/golden-balloon/">Image source</a></sub>
 
-    A native and WebGPU port based on the game decompilation, with kart racing and local multiplayer.
+     A native and WebGPU port based on the game decompilation, with kart racing and local multiplayer.
 
-    **Platforms:** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-    **Run:** Prepare CMake, a C11 toolchain and SDL2, then configure and build; the browser target uses the pinned emsdk and tools/web/build_web.sh.
+     **Run:** Prepare CMake, a C11 toolchain and SDL2, then configure and build; the browser target uses the pinned emsdk and tools/web/build_web.sh.
 
-    **Required files:** Your own US or European v1.1 ROM (.z64 / .v64 / .n64); the browser target needs WebGPU.
+     **Required files:** Your own US or European v1.1 ROM (.z64 / .v64 / .n64); the browser target needs WebGPU.
 
-    [**Build instructions**](https://github.com/akratch/goldenballoon/blob/main/README.md) · [Project information](https://github.com/akratch/goldenballoon) · [Browser entry · check file requirements](https://akratch.github.io/golden-balloon/)
+     [**Build instructions**](https://github.com/akratch/goldenballoon/blob/main/README.md) · [Project information](https://github.com/akratch/goldenballoon) · [Browser entry · check file requirements](https://akratch.github.io/golden-balloon/)
 
-91. **Dune II · Dune Dynasty**
+101. **Dune II · Dune Dynasty**
 
-    <a href="https://github.com/gameflorist/dunedynasty/blob/master/README.md"><img src="https://raw.githubusercontent.com/gameflorist/dunedynasty/master/docs/screenshots.jpg" width="760" alt="Upstream gameplay and menu screenshot collage"></a>
+     <a href="https://github.com/gameflorist/dunedynasty/blob/master/README.md"><img src="https://raw.githubusercontent.com/gameflorist/dunedynasty/master/docs/screenshots.jpg" width="760" alt="Upstream gameplay and menu screenshot collage"></a>
 
-    <sub>Upstream gameplay and menu screenshot collage <a href="https://github.com/gameflorist/dunedynasty">Image source</a></sub>
+     <sub>Upstream gameplay and menu screenshot collage <a href="https://github.com/gameflorist/dunedynasty">Image source</a></sub>
 
-    Harvest spice, build a base and command armies on Arrakis through a modern port based on the reverse-engineered OpenDUNE engine.
+     Harvest spice, build a base and command armies on Arrakis through a modern port based on the reverse-engineered OpenDUNE engine.
 
-    **Platforms:** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-    **Run:** Download a platform release, place the PAK files in its documented data folder and launch it. Source builds use CMake, Allegro and the platform build script.
+     **Run:** Download a platform release, place the PAK files in its documented data folder and launch it. Source builds use CMake, Allegro and the platform build script.
 
-    **Required files:** Your own Dune II EU v1.07 PAK files, as listed in the upstream FILELIST.TXT.
+     **Required files:** Your own Dune II EU v1.07 PAK files, as listed in the upstream FILELIST.TXT.
 
-    [**Build instructions**](https://github.com/gameflorist/dunedynasty/blob/master/README.md) · [Project source](https://github.com/gameflorist/dunedynasty)
+     [**Build instructions**](https://github.com/gameflorist/dunedynasty/blob/master/README.md) · [Project source](https://github.com/gameflorist/dunedynasty)
 
-92. **Tekken Tag Tournament 2 · Shihab PC port**
+102. **Tekken Tag Tournament 2 · Shihab PC port**
 
-    <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/shihabal3amri/tekken-tag-tournament-2-pc/main/.github/assets/screens/00-hero-lei-china.jpg" width="760" alt="Upstream fight screenshot"></a>
+     <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/shihabal3amri/tekken-tag-tournament-2-pc/main/.github/assets/screens/00-hero-lei-china.jpg" width="760" alt="Upstream fight screenshot"></a>
 
-    <sub>Upstream fight screenshot <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc">Image source</a></sub>
+     <sub>Upstream fight screenshot <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc">Image source</a></sub>
 
-    Switch fighters and chain combos in tag-team 3D combat through a community static recompilation of the Xbox 360 game for Windows.
+     Switch fighters and chain combos in tag-team 3D combat through a community static recompilation of the Xbox 360 game for Windows.
 
-    **Platforms:** Windows 10 / 11, 64-bit, DirectX 11
+     **Platforms:** Windows 10 / 11, 64-bit, DirectX 11
 
-    **Run:** Run upstream ttt2_setup.exe and select your ISO and TU3 to build locally, then launch. Source builds require VS2022, Clang, CMake/Ninja, Python 3.10+ and XenonRecomp.
+     **Run:** Run upstream ttt2_setup.exe and select your ISO and TU3 to build locally, then launch. Source builds require VS2022, Clang, CMake/Ninja, Python 3.10+ and XenonRecomp.
 
-    **Required files:** Your own Xbox 360 USA/Europe ISO and Title Update 3, plus about 13 GB free space; online play also needs Steam.
+     **Required files:** Your own Xbox 360 USA/Europe ISO and Title Update 3, plus about 13 GB free space; online play also needs Steam.
 
-    [**Build instructions**](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md) · [Project source](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc)
+     [**Build instructions**](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md) · [Project source](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc)
 
-93. **Gran Turismo 2 · PC / Browser**
+103. **Gran Turismo 2 · PC / Browser**
 
-    <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/main/docs/images/cockpit-0.5.0.png" width="760" alt="Project image supplied by the author"></a>
+     <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/main/docs/images/cockpit-0.5.0.png" width="760" alt="Project image supplied by the author"></a>
 
-    <sub>Project image supplied by the author <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md">Image source</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md">Image source</a></sub>
 
-    A desktop and browser port of Gran Turismo 2 with Arcade and Simulation modes.
+     A desktop and browser port of Gran Turismo 2 with Arcade and Simulation modes.
 
-    **Platforms:** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-    **Run:** Use the platform build scripts in the README; docs/WEB.md covers the browser build. Select your full BIN at launch.
+     **Run:** Use the platform build scripts in the README; docs/WEB.md covers the browser build. Select your full BIN at launch.
 
-    **Required files:** Your own complete 2352-byte-sector BIN; browser VR and multiplayer are unavailable.
+     **Required files:** Your own complete 2352-byte-sector BIN; browser VR and multiplayer are unavailable.
 
-    [**Build instructions**](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md) · [Project information](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) · [Browser entry · check file requirements](https://ydubr-gt2.surge.sh)
+     [**Build instructions**](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md) · [Project information](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) · [Browser entry · check file requirements](https://ydubr-gt2.surge.sh)
 
-94. **Touhou 8: Imperishable Night**
+104. **Touhou 8: Imperishable Night**
 
-    <a href="https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="760" alt="Upstream title preview"></a>
+     <a href="https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="760" alt="Upstream title preview"></a>
 
-    <sub>Upstream title preview <a href="https://github.com/N0zoM1z0/th08-web">Image source</a></sub>
+     <sub>Upstream title preview <a href="https://github.com/N0zoM1z0/th08-web">Image source</a></sub>
 
-    Dodge dense bullet patterns in a shooting adventure. This browser edition builds on the existing source-reconstruction project.
+     Dodge dense bullet patterns in a shooting adventure. This browser edition builds on the existing source-reconstruction project.
 
-    **Platforms:** Windows 32-bit / Linux
+     **Platforms:** Windows 32-bit / Linux
 
-    **Run:** Prepare the TH08 data and required toolchain, then follow the original rebuild or Linux-port instructions.
+     **Run:** Prepare the TH08 data and required toolchain, then follow the original rebuild or Linux-port instructions.
 
-    **Required files:** Your TH08 v1.00d program and data, including th08.dat and thbgm.dat at runtime; toolchain requirements depend on the build target.
+     **Required files:** Your TH08 v1.00d program and data, including th08.dat and thbgm.dat at runtime; toolchain requirements depend on the build target.
 
-    [**Build instructions**](https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md) · [Project source](https://github.com/N0zoM1z0/th08) · [Browser entry · check file requirements](https://th08-web.pages.dev/)
+     [**Build instructions**](https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md) · [Project source](https://github.com/N0zoM1z0/th08) · [Browser entry · check file requirements](https://th08-web.pages.dev/)
 
-95. **Halo: Combat Evolved · Chupathingy**
+105. **Halo: Combat Evolved · Chupathingy**
 
-    <a href="https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md"><img src="https://raw.githubusercontent.com/ChupathingyCE/chupathingyce/main/docs/screenshots/lobby.jpg" width="760" alt="Upstream multiplayer lobby screenshot"></a>
+     <a href="https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md"><img src="https://raw.githubusercontent.com/ChupathingyCE/chupathingyce/main/docs/screenshots/lobby.jpg" width="760" alt="Upstream multiplayer lobby screenshot"></a>
 
-    <sub>Upstream multiplayer lobby screenshot <a href="https://github.com/ChupathingyCE/chupathingyce">Image source</a></sub>
+     <sub>Upstream multiplayer lobby screenshot <a href="https://github.com/ChupathingyCE/chupathingyce">Image source</a></sub>
 
-    Play the original Halo campaign and multiplayer through a community port based on existing decompilation work.
+     Play the original Halo campaign and multiplayer through a community port based on existing decompilation work.
 
-    **Platforms:** Windows / macOS / Linux (including Steam Deck) / Android
+     **Platforms:** Windows / macOS / Linux (including Steam Deck) / Android
 
-    **Run:** With Python 3, clang and ninja, run configure.py and build the platform target. Start the game and select your Halo data; upstream release packages are also available.
+     **Run:** With Python 3, clang and ninja, run configure.py and build the platform target. Start the game and select your Halo data; upstream release packages are also available.
 
-    **Required files:** Your own Halo Xbox, PC or Custom Edition maps and matching data.
+     **Required files:** Your own Halo Xbox, PC or Custom Edition maps and matching data.
 
-    [**Build instructions**](https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md) · [Project source](https://github.com/ChupathingyCE/chupathingyce)
+     [**Build instructions**](https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md) · [Project source](https://github.com/ChupathingyCE/chupathingyce)
 
-96. **DX-Ball 1.07**
+106. **DX-Ball 1.07**
 
-    <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="Upstream title screen"></a>
+     <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="Upstream title screen"></a>
 
-    <sub>Upstream title screen <a href="https://github.com/N0zoM1z0/dx-ball">Image source</a></sub>
+     <sub>Upstream title screen <a href="https://github.com/N0zoM1z0/dx-ball">Image source</a></sub>
 
-    Move the paddle, keep the ball in play and clear the bricks. This classic Windows game is being reconstructed in C/C++ through REA-assisted investigation.
+     Move the paddle, keep the ball in play and clear the bricks. This classic Windows game is being reconstructed in C/C++ through REA-assisted investigation.
 
-    **Platforms:** Windows 32-bit / Wine
+     **Platforms:** Windows 32-bit / Wine
 
-    **Run:** Follow the guide to prepare Python, the VC4 toolchain and v1.07 files, then build the Windows program. Linux build environments also need 32-bit Wine.
+     **Run:** Follow the guide to prepare Python, the VC4 toolchain and v1.07 files, then build the Windows program. Linux build environments also need 32-bit Wine.
 
-    **Required files:** Your own matching executable and resources, plus the upstream build toolchain.
+     **Required files:** Your own matching executable and resources, plus the upstream build toolchain.
 
-    [**Build instructions**](https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md) · [Project source](https://github.com/N0zoM1z0/dx-ball)
+     [**Build instructions**](https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md) · [Project source](https://github.com/N0zoM1z0/dx-ball)
 
-97. **Kingdom Hearts: Chain of Memories · ReKHCoM**
+107. **Kingdom Hearts: Chain of Memories · ReKHCoM**
 
-    <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="Project image supplied by the author"></a>
+     <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="Project image supplied by the author"></a>
 
-    <sub>Project image supplied by the author <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md">Image source</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md">Image source</a></sub>
 
-    A desktop and browser port of the reconstructed GBA game, combining action combat and card decks.
+     A desktop and browser port of the reconstructed GBA game, combining action combat and card decks.
 
-    **Platforms:** Windows build; Linux, Android and browser editions also available
+     **Platforms:** Windows build; Linux, Android and browser editions also available
 
-    **Run:** Follow the README with Python/PyYAML, llvm-mingw, SDL3 and Ninja; generate with configure_pc.py and build with Ninja.
+     **Run:** Follow the README with Python/PyYAML, llvm-mingw, SDL3 and Ninja; generate with configure_pc.py and build with Ninja.
 
-    **Required files:** Your own unpatched US, Japanese or European GBA ROM; language depends on the ROM.
+     **Required files:** Your own unpatched US, Japanese or European GBA ROM; language depends on the ROM.
 
-    [**Build instructions**](https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md) · [Project information](https://github.com/MatyMeatBoy/ReKHCoM) · [Browser entry · check file requirements](https://matymeatboy.github.io/ReKHCoM/)
+     [**Build instructions**](https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md) · [Project information](https://github.com/MatyMeatBoy/ReKHCoM) · [Browser entry · check file requirements](https://matymeatboy.github.io/ReKHCoM/)
 
-98. **Stunts HD**
+108. **Stunts HD**
 
-    <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="Project title preview"></a>
+     <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="Project title preview"></a>
 
-    <sub>Project title preview <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md">Image source</a></sub>
+     <sub>Project title preview <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md">Image source</a></sub>
 
-    A static recompilation of the DOS racer with widescreen, HD 3D and a browser entry.
+     A static recompilation of the DOS racer with widescreen, HD 3D and a browser entry.
 
-    **Platforms:** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-    **Run:** Follow the README to prepare Restunts and GAME.EXE, generate exedump/map.json, then serve the local stunts page.
+     **Run:** Follow the README to prepare Restunts and GAME.EXE, generate exedump/map.json, then serve the local stunts page.
 
-    **Required files:** Your own Stunts 1.1 folder or ZIP and original executable for the build.
+     **Required files:** Your own Stunts 1.1 folder or ZIP and original executable for the build.
 
-    [**Build instructions**](https://github.com/mr-finster/stunts-hd/blob/main/README.md) · [Project information](https://github.com/mr-finster/stunts-hd) · [Browser entry · check file requirements](https://stunts-recomp.pages.dev)
+     [**Build instructions**](https://github.com/mr-finster/stunts-hd/blob/main/README.md) · [Project information](https://github.com/mr-finster/stunts-hd) · [Browser entry · check file requirements](https://stunts-recomp.pages.dev)
 
-99. **Touhou 9.5: Shoot the Bullet**
+109. **Touhou 9.5: Shoot the Bullet**
 
-    <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="Upstream title screen"></a>
+     <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="Upstream title screen"></a>
 
-    <sub>Upstream title screen <a href="https://github.com/N0zoM1z0/th095">Image source</a></sub>
+     <sub>Upstream title screen <a href="https://github.com/N0zoM1z0/th095">Image source</a></sub>
 
-    Dodge bullet patterns while looking for the right moment to take a photograph. The project reconstructs the original Windows program and publishes runtime evidence.
+     Dodge bullet patterns while looking for the right moment to take a photograph. The project reconstructs the original Windows program and publishes runtime evidence.
 
-    **Platforms:** Windows 32-bit
+     **Platforms:** Windows 32-bit
 
-    **Run:** Prepare TH095 v1.02a files and the VC7.1 toolchain, follow the whole-program compile/link steps and run the resulting EXE.
+     **Run:** Prepare TH095 v1.02a files and the VC7.1 toolchain, follow the whole-program compile/link steps and run the resulting EXE.
 
-    **Required files:** Your own TH095 1.02a executable and game data, with the upstream build setup.
+     **Required files:** Your own TH095 1.02a executable and game data, with the upstream build setup.
 
-    [**Build instructions**](https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md) · [Project source](https://github.com/N0zoM1z0/th095)
+     [**Build instructions**](https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md) · [Project source](https://github.com/N0zoM1z0/th095)
 
-100. **Command &amp; Conquer: Zero Hour · NewShoes**
+110. **Command &amp; Conquer: Zero Hour · NewShoes**
 
      <a href="https://github.com/Agusx1211/NewShoes/blob/main/README.md"><img src="assets/screenshots/newshoes-entry.jpg" width="760" alt="Current game-data import launcher"></a>
 
@@ -1532,7 +1680,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/Agusx1211/NewShoes/blob/main/README.md) · [Project information](https://github.com/Agusx1211/NewShoes) · [Browser entry · check file requirements](https://newshoes.gg)
 
-101. **Legend of Legaia**
+111. **Legend of Legaia**
 
      <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md"><img src="https://raw.githubusercontent.com/AndrewAltimit/legend-of-legaia-re/main/site/assets/hero-montage.webp" width="760" alt="Project image supplied by the author"></a>
 
@@ -1548,7 +1696,23 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md) · [Project information](https://github.com/AndrewAltimit/legend-of-legaia-re) · [Browser entry · check file requirements](https://andrewaltimit.github.io/legend-of-legaia-re/play.html)
 
-102. **Jak and Daxter trilogy · Precursor**
+112. **Mirror’s Edge for iPad · Glassline**
+
+     <a href="https://github.com/MoonCellar-Team/Glassline/blob/main/README.md"><img src="https://raw.githubusercontent.com/MoonCellar-Team/Glassline/main/docs/screenshots/rooftop-jump.jpg" width="760" alt="Upstream rooftop jump screenshot"></a>
+
+     <sub>Upstream rooftop jump screenshot <a href="https://github.com/MoonCellar-Team/Glassline">Image source</a></sub>
+
+     Run, leap and slide across city rooftops in a desktop and Android port of the 2010 side-scrolling iPad game.
+
+     **Platforms:** Windows 10 / 11 x64 / Linux / Steam Deck / Android 9+
+
+     **Run:** Download a platform release, launch Glassline, select your IPA or unpacked APP and choose Play. Source builds use build.sh on Linux; Windows cross-builds need Clang, CMake and Python 3, while the Android script prepares SDK/NDK tools.
+
+     **Required files:** Your own iPad Mirror’s Edge 1.1.48 or newer IPA; PC also accepts an unpacked APP folder.
+
+     [**Build instructions**](https://github.com/MoonCellar-Team/Glassline/blob/main/README.md) · [Project source](https://github.com/MoonCellar-Team/Glassline)
+
+113. **Jak and Daxter trilogy · Precursor**
 
      <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="Upstream game launcher screenshot"></a>
 
@@ -1564,7 +1728,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/thebardockgames/Precursor/blob/master/README.md) · [Project source](https://github.com/thebardockgames/Precursor)
 
-103. **Total Annihilation: Kingdoms · OpenKingdoms**
+114. **Total Annihilation: Kingdoms · OpenKingdoms**
 
      <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -1580,7 +1744,39 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md) · [Project information](https://github.com/OpenKingdoms/OpenKingdoms) · [Browser entry · check file requirements](https://openkingdoms.net)
 
-104. **San Francisco Rush 2049 · Recompiled**
+115. **Ace Combat 04 · ProjectStonehenge**
+
+     <a href="https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md"><img src="https://raw.githubusercontent.com/Onaga00/ProjectStonehenge/main/docs/images/screenshot.png" width="760" alt="Upstream air-combat screenshot"></a>
+
+     <sub>Upstream air-combat screenshot <a href="https://github.com/Onaga00/ProjectStonehenge">Image source</a></sub>
+
+     Fly fighter aircraft on air-combat and ground-attack missions through a community Windows port reconstructed function by function from the US PS2 release.
+
+     **Platforms:** Windows 10 / 11, 64-bit, Vulkan 1.2
+
+     **Run:** Extract an upstream release, run ProjectStonehenge.exe and select your ISO. Source builds need VS2026 C++ and CMake 3.24+; run cmake --preset windows and cmake --build --preset release.
+
+     **Required files:** Your own US NTSC-U SLUS-20152 ISO with 2048-byte sectors; raw BIN/CUE is not accepted.
+
+     [**Build instructions**](https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md) · [Project source](https://github.com/Onaga00/ProjectStonehenge)
+
+116. **Civilization II Multiplayer Gold · OpenCiv2**
+
+     <a href="https://github.com/richardpenman/civ2/blob/main/README.md"><img src="https://raw.githubusercontent.com/richardpenman/civ2/main/docs/screenshots/city.png" width="760" alt="Upstream city management screenshot"></a>
+
+     <sub>Upstream city management screenshot <a href="https://github.com/richardpenman/civ2">Image source</a></sub>
+
+     Grow a city into a civilization through technology, diplomacy and armies in a cross-platform C++ reconstruction of Multiplayer Gold Edition.
+
+     **Platforms:** Windows / Linux x86-64 / macOS 11+ (Intel and Apple Silicon)
+
+     **Run:** Download the platform program and select your installation, CD or CUE/BIN on first launch. Source builds need C/C++, SDL2, Python 3 and pefile; run tools/build_port.py as documented.
+
+     **Required files:** Your own Civilization II Multiplayer Gold installation, CD or CUE/BIN image; music comes from the CD audio tracks.
+
+     [**Build instructions**](https://github.com/richardpenman/civ2/blob/main/README.md) · [Project source](https://github.com/richardpenman/civ2)
+
+117. **San Francisco Rush 2049 · Recompiled**
 
      <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -1596,7 +1792,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser) · [Project source](https://github.com/n64hub/rush-2049-recomp) · [Browser entry · check file requirements](https://n64hub.com/rush-2049/)
 
-105. **Mario Strikers Charged · PS Vita**
+118. **Mario Strikers Charged · PS Vita**
 
      <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/CBOC-Vita-Lab/strikers-charged-vita/main/store/screenshots/gameplay-vita.png" width="760" alt="Upstream PS Vita match screenshot"></a>
 
@@ -1612,7 +1808,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md) · [Project source](https://github.com/CBOC-Vita-Lab/strikers-charged-vita)
 
-106. **Ultima VI — Amiga port**
+119. **Ultima VI — Amiga port**
 
      <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="Setup screen"></a>
 
@@ -1628,7 +1824,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/2lab-ai/ultima6/blob/main/README.md) · [Project source](https://github.com/2lab-ai/ultima6) · [Browser entry · check file requirements](https://ultima6.2lab.ai/)
 
-107. **GunZ: The Duel · GunZRs**
+120. **GunZ: The Duel · GunZRs**
 
      <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -1644,7 +1840,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/OpenRsG/GunZRs/blob/main/README.md) · [Project information](https://github.com/OpenRsG/GunZRs)
 
-108. **Conker&#x27;s Bad Fur Day · n64hub web fork**
+121. **Conker&#x27;s Bad Fur Day · n64hub web fork**
 
      <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -1660,7 +1856,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page) · [Project source](https://github.com/n64hub/CBFD-Recompiled-web) · [Browser entry · check file requirements](https://n64hub.com/conker/)
 
-109. **Open Dark Colony**
+122. **Open Dark Colony**
 
      <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="File import screen"></a>
 
@@ -1676,7 +1872,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/edulazaro/open-dark-colony/blob/main/README.md) · [Project source](https://github.com/edulazaro/open-dark-colony) · [Browser entry · check file requirements](https://edulazaro.github.io/open-dark-colony/)
 
-110. **GeneralsX Web · Zero Hour**
+123. **GeneralsX Web · Zero Hour**
 
      <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -1692,7 +1888,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/origami-ltd/wasm-generals) · [Project information](https://github.com/origami-ltd/wasm-generals) · [Browser entry · check file requirements](https://generals.wasm.ltd)
 
-111. **Micro Mages · Rust reconstruction**
+124. **Micro Mages · Rust reconstruction**
 
      <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md"><img src="https://raw.githubusercontent.com/HungLo2020/MicroMages/main/packaging/artwork/cover.png" width="760" alt="Cover preview supplied by the project"></a>
 
@@ -1706,7 +1902,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/HungLo2020/MicroMages/blob/main/README.md) · [Project information](https://github.com/HungLo2020/MicroMages)
 
-112. **WoW: Shadowfang Keep · Standalone slice**
+125. **WoW: Shadowfang Keep · Standalone slice**
 
      <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="Author-supplied screenshot of the single-scene demo"></a>
 
@@ -1720,7 +1916,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md) · [Project information](https://github.com/wubing733-prog/wow-mobile-ios)
 
-113. **Banjo-Kazooie · n64hub web fork**
+126. **Banjo-Kazooie · n64hub web fork**
 
      <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -1736,7 +1932,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page) · [Project source](https://github.com/n64hub/BanjoRecomp-web) · [Browser entry · check file requirements](https://n64hub.com/banjo-kazooie/)
 
-114. **The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
+127. **The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
 
      <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -1752,7 +1948,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page) · [Project source](https://github.com/n64hub/Zelda64Recomp-web) · [Browser entry · check file requirements](https://n64hub.com/majoras-mask/)
 
-115. **Donkey Kong 64 · n64hub web fork**
+128. **Donkey Kong 64 · n64hub web fork**
 
      <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -1768,7 +1964,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page) · [Project source](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web) · [Browser entry · check file requirements](https://n64hub.com/donkey-kong-64/)
 
-116. **Diablo II · Rust/WASM prototype**
+129. **Diablo II · Rust/WASM prototype**
 
      <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="Upstream prototype screenshot"></a>
 
@@ -1784,7 +1980,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
      [**Build instructions**](https://github.com/shpaw415/diablo2-wasm/blob/master/README.md) · [Project source](https://github.com/shpaw415/diablo2-wasm)
 
-117. **Chessmaster 9000 · Chessmaster-Web**
+130. **Chessmaster 9000 · Chessmaster-Web**
 
      <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="Project preview from the author’s post"></a>
 

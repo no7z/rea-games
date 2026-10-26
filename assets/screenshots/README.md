@@ -34,6 +34,7 @@ Local images used by the homepage are listed below with their original pages. Ca
 | [qwasm2-entry.jpg](qwasm2-entry.jpg) | [原页面 / Original page](https://qwasm2.m-h.org.uk/) | 当前演示启动/加载页 / Current demo launcher/loading page |
 | [rush2049-entry.jpg](rush2049-entry.jpg) | [原页面 / Original page](https://n64hub.com/rush-2049/) | 当前网页ROM启动器，未载入游戏文件 / Current browser ROM launcher; no game file loaded |
 | [sdlpal-entry.jpg](sdlpal-entry.jpg) | [原页面 / Original page](https://sdlpal.github.io/demo/sdlpal.html) | 当前资源导入启动页 / Current resource import launcher |
+| [silent-hill-upstream.png](silent-hill-upstream.png) | [原页面 / Original page](https://sh1pc.com/) | 作者官网提供的移植截图 / Port screenshot from the author’s website |
 | [snail-mail-entry.jpg](snail-mail-entry.jpg) | [原页面 / Original page](https://snail.banteg.xyz) | 点击启动画面 / Click-to-play screen |
 | [ultima6-setup.jpg](ultima6-setup.jpg) | [原页面 / Original page](https://ultima6.2lab.ai/) | 设置入口 / Setup screen |
 | [untangle-entry.jpg](untangle-entry.jpg) | [原页面 / Original page](https://az9713.github.io/untangle-rebuild/rebuild/index.html) | 棋盘画面 / Puzzle board |
