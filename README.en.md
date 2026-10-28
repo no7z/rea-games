@@ -6,7 +6,7 @@ Discover decompiled, recompiled, reimplemented and ported games. See images, sup
 
 [Game data sources](RESOURCES.en.md) · [Contribute](CONTRIBUTING.md)
 
-149 showcase projects · 86 browser links.
+148 showcase projects · 86 browser links.
 
 Ready-to-run projects and source builds are listed separately. Build entries state the platforms, instructions and original files required; compiling may still require a ROM or game data.
 
@@ -16,7 +16,7 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 Groups and order follow the details below. Select a game to jump to its details.
 
-### Browser and downloads
+### Run in browser
 
 | Game | Access | Genre |
 | --- | --- | --- |
@@ -78,6 +78,11 @@ Groups and order follow the details below. Select a game to jump to its details.
 | [Quake III Arena (q3js)](#game-web-quake-iii-arena) | Browser demo | Shooters &amp; bullet hell |
 | [Command &amp; Conquer: Red Alert 2](#game-web-command-conquer-red-alert-2) | Browser · original files | Strategy &amp; tower defense |
 | [Grand Theft Auto: Vice City](#game-web-grand-theft-auto-vice-city) | Browser · original files | Action &amp; adventure |
+
+### Downloads and source builds
+
+| Game | Access | Genre |
+| --- | --- | --- |
 | [OpenRA: Red Alert, Tiberian Dawn and Dune 2000](#game-openra-openra) | Download | Strategy &amp; tower defense |
 | [Transport Tycoon Deluxe · OpenTTD](#game-openttd-openttd) | Download | Simulation, management &amp; building |
 | [Warzone 2100](#game-warzone2100-warzone2100) | Download | Strategy &amp; tower defense |
@@ -85,11 +90,6 @@ Groups and order follow the details below. Select a game to jump to its details.
 | [Daggerfall Unity](#game-daggerfall-unity) | Download | Role-playing |
 | [Cube 2: Sauerbraten · Sour](#game-sour) | Download | Shooters &amp; bullet hell |
 | [Crystal Caves · OpenCrystalCaves Episode 1](#game-open-crystal-caves) | Download | Platformers |
-
-### Build required
-
-| Game | Access | Genre |
-| --- | --- | --- |
 | [RollerCoaster Tycoon 2 · OpenRCT2](#game-openrct2-openrct2) | Source build | Simulation, management &amp; building |
 | [Diablo and Hellfire · DevilutionX](#game-diasurgical-devilutionx) | Source build | Role-playing |
 | [VVVVVV · Source release](#game-vvvvvv) | Source build | Platformers |
@@ -151,7 +151,6 @@ Groups and order follow the details below. Select a game to jump to its details.
 | [Legend of Legaia](#game-legaia) | Source build / browser | Role-playing |
 | [SegaSonic The Hedgehog · native port](#game-segasonic-native) | Source build | Platformers |
 | [Mirror’s Edge for iPad · Glassline](#game-glassline) | Source build | Platformers |
-| [Rock Band 3 · slopband3](#game-slopband3) | Source build | Rhythm |
 | [Jak and Daxter trilogy · Precursor](#game-precursor) | Source build | Platformers |
 | [Grandia III · PC recompilation](#game-grandia3-pc) | Source build | Role-playing |
 | [Total Annihilation: Kingdoms · OpenKingdoms](#game-openkingdoms) | Source build / browser | Strategy &amp; tower defense |
@@ -718,7 +717,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
     **Run:** Open the mirror and click TAP OR CLICK TO LOAD, then wait for its map; an alternative mirror is linked.
 
-    [**Open browser edition**](https://froydinger.github.io/claude-of-duty/) · [Project information](https://github.com/luckeyfaraday/claude-of-duty) · [Alternative mirror](https://goofyahhbro69420.github.io/Black-Ops-2)
+    [**Open browser edition**](https://froydinger.github.io/claude-of-duty/) · [Project information](https://github.com/Froydinger/claude-of-duty) · [Alternative mirror](https://goofyahhbro69420.github.io/Black-Ops-2)
 
     [↑ Back to directory](#game-index)
 
@@ -734,7 +733,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
     **Run:** Wait for the map and loadout to load, then choose ENTER THE THEATER.
 
-    [**Open browser edition**](https://goofyahhbro69420.github.io/COD-ZOMBIES/) · [Project information](https://github.com/luckeyfaraday/kino-der-toten)
+    [**Open browser edition**](https://goofyahhbro69420.github.io/COD-ZOMBIES/) · [Project information](https://github.com/GoofyAhhBro69420/COD-ZOMBIES)
 
     [↑ Back to directory](#game-index)
 
@@ -1128,7 +1127,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
     **Required files:** Requires game.tar.gz (about 668 MB) and extraction space; the page links the archive and the project requires ownership of the game.
 
-    [**Open browser edition**](https://joncodeofficial.github.io/gta-vice-city-wasm/) · [Project information](https://github.com/joncodeofficial/gta-vice-city-wasm) · [Get game data](https://gtavc-assets-proxy.joncode.workers.dev/)
+    [**Open browser edition**](https://joncodeofficial.github.io/gta-vice-city-wasm/) · [Project information](https://github.com/joncodeofficial/gta-vice-city-wasm) · [Get game data](https://joncodeofficial.github.io/gta-vice-city-wasm/)
 
     [↑ Back to directory](#game-index)
 
@@ -1686,9 +1685,9 @@ Groups and order follow the details below. Select a game to jump to its details.
 
 90. <a name="game-horizon"></a>**Minecraft Java Edition · Horizon**
 
-    <a href="https://github.com/ludovic111/horizon/blob/main/README.md"><img src="https://raw.githubusercontent.com/ludovic111/horizon/main/docs/media/sunset.webp" width="760" alt="Upstream engine sunset screenshot"></a>
+    <a href="https://github.com/horizon-rust/horizon/blob/main/README.md"><img src="https://raw.githubusercontent.com/horizon-rust/horizon/main/docs/media/sunset.webp" width="760" alt="Upstream engine sunset screenshot"></a>
 
-    <sub>Upstream engine sunset screenshot <a href="https://github.com/ludovic111/horizon">Image source</a></sub>
+    <sub>Upstream engine sunset screenshot <a href="https://github.com/horizon-rust/horizon">Image source</a></sub>
 
     Explore, gather resources and build in a block world with a Rust engine reimplementation using your own Java Edition files.
 
@@ -1698,7 +1697,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
     **Required files:** Your own Minecraft Java 26.3 installation, launched once, and matching server.jar; Microsoft account authentication is not yet supported.
 
-    [**Build instructions**](https://github.com/ludovic111/horizon/blob/main/README.md) · [Project source](https://github.com/ludovic111/horizon)
+    [**Build instructions**](https://github.com/horizon-rust/horizon/blob/main/README.md) · [Project source](https://github.com/horizon-rust/horizon)
 
     [↑ Back to directory](#game-index)
 
@@ -1848,7 +1847,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
 99. <a name="game-project-midas"></a>**GoldenEye 007 · Project Midas**
 
-    <a href="https://github.com/murkantor/Project-Midas/blob/main/README.md"><img src="https://raw.githubusercontent.com/murkantor/Project-Midas/main/port/include/presskit/PM%20thin%201%20-%20full.png" width="760" alt="Upstream project title graphic"></a>
+    <a href="https://github.com/murkantor/Project-Midas/blob/main/readme.md"><img src="https://raw.githubusercontent.com/murkantor/Project-Midas/main/port/include/presskit/PM%20thin%201%20-%20full.png" width="760" alt="Upstream project title graphic"></a>
 
     <sub>Upstream project title graphic <a href="https://github.com/murkantor/Project-Midas">Image source</a></sub>
 
@@ -1860,7 +1859,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
     **Required files:** Your own US GoldenEye N64 cartridge image; Linux also needs 32-bit SDL2 and OpenGL.
 
-    [**Build instructions**](https://github.com/murkantor/Project-Midas/blob/main/README.md) · [Project source](https://github.com/murkantor/Project-Midas)
+    [**Build instructions**](https://github.com/murkantor/Project-Midas/blob/main/readme.md) · [Project source](https://github.com/murkantor/Project-Midas)
 
     [↑ Back to directory](#game-index)
 
@@ -1938,7 +1937,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
 104. <a name="game-doaxvb-native"></a>**Dead or Alive Xtreme Beach Volleyball · native port**
 
-     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxbv-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="Native-port volleyball screenshot supplied by the upstream README"></a>
+     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="Native-port volleyball screenshot supplied by the upstream README"></a>
 
      <sub>Native-port volleyball screenshot supplied by the upstream README <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">Image source</a></sub>
 
@@ -2350,25 +2349,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-127. <a name="game-slopband3"></a>**Rock Band 3 · slopband3**
-
-     <a href="https://github.com/idio-sync/band3_recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/idio-sync/band3_recomp/main/docs/images/gameplay.jpg" width="760" alt="Gameplay image supplied by the upstream project"></a>
-
-     <sub>Gameplay image supplied by the upstream project <a href="https://github.com/idio-sync/band3_recomp/blob/main/docs/images/gameplay.jpg">Image source</a></sub>
-
-     Play guitar, drums, keys and vocals with other band members through a community recompilation of the Xbox 360 game.
-
-     **Platforms:** Windows / Linux / Steam Deck
-
-     **Run:** Prepare the pinned ReXGlue SDK, put your default.xex and gen folder in assets, run codegen and the CMake build, then launch band3. The upstream Building guide covers Linux.
-
-     **Required files:** Your own Rock Band 3 TU5 or compatible Deluxe data including main/patch ARKs; consult upstream for instrument compatibility.
-
-     [**Build instructions**](https://github.com/idio-sync/band3_recomp/blob/main/README.md) · [Project source](https://github.com/idio-sync/band3_recomp)
-
-     [↑ Back to directory](#game-index)
-
-128. <a name="game-precursor"></a>**Jak and Daxter trilogy · Precursor**
+127. <a name="game-precursor"></a>**Jak and Daxter trilogy · Precursor**
 
      <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="Upstream game launcher screenshot"></a>
 
@@ -2386,7 +2367,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-129. <a name="game-grandia3-pc"></a>**Grandia III · PC recompilation**
+128. <a name="game-grandia3-pc"></a>**Grandia III · PC recompilation**
 
      <a href="https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVjyGNBWgAAYi7L?format=jpg&amp;name=small" width="760" alt="Game preview supplied by the discovery post"></a>
 
@@ -2404,7 +2385,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-130. <a name="game-openkingdoms"></a>**Total Annihilation: Kingdoms · OpenKingdoms**
+129. <a name="game-openkingdoms"></a>**Total Annihilation: Kingdoms · OpenKingdoms**
 
      <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -2422,7 +2403,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-131. <a name="game-project-stonehenge"></a>**Ace Combat 04 · ProjectStonehenge**
+130. <a name="game-project-stonehenge"></a>**Ace Combat 04 · ProjectStonehenge**
 
      <a href="https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md"><img src="https://raw.githubusercontent.com/Onaga00/ProjectStonehenge/main/docs/images/screenshot.png" width="760" alt="Upstream air-combat screenshot"></a>
 
@@ -2440,7 +2421,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-132. <a name="game-openciv2"></a>**Civilization II Multiplayer Gold · OpenCiv2**
+131. <a name="game-openciv2"></a>**Civilization II Multiplayer Gold · OpenCiv2**
 
      <a href="https://github.com/richardpenman/civ2/blob/main/README.md"><img src="https://raw.githubusercontent.com/richardpenman/civ2/main/docs/screenshots/city.png" width="760" alt="Upstream city management screenshot"></a>
 
@@ -2458,7 +2439,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-133. <a name="game-igi-re"></a>**Project I.G.I. · IGI-RE**
+132. <a name="game-igi-re"></a>**Project I.G.I. · IGI-RE**
 
      <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/README.md"><img src="https://raw.githubusercontent.com/slickdaddyy/IGI-RE/main/docs/media/igi.jpg" width="760" alt="Game preview supplied by the upstream README"></a>
 
@@ -2476,7 +2457,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-134. <a name="game-rush2049"></a>**San Francisco Rush 2049 · Recompiled**
+133. <a name="game-rush2049"></a>**San Francisco Rush 2049 · Recompiled**
 
      <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -2494,7 +2475,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-135. <a name="game-strikers-charged-vita"></a>**Mario Strikers Charged · PS Vita**
+134. <a name="game-strikers-charged-vita"></a>**Mario Strikers Charged · PS Vita**
 
      <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/CBOC-Vita-Lab/strikers-charged-vita/main/store/screenshots/gameplay-vita.png" width="760" alt="Upstream PS Vita match screenshot"></a>
 
@@ -2512,7 +2493,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-136. <a name="game-stunt-race-fx-mabec"></a>**Stunt Race FX · Mabec enhanced port**
+135. <a name="game-stunt-race-fx-mabec"></a>**Stunt Race FX · Mabec enhanced port**
 
      <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md"><img src="https://raw.githubusercontent.com/Mabec-games/Stunt-Race-FX-DECOMP/main/docs/media/smooth-1.gif" width="760" alt="Racing animation supplied by the author’s README"></a>
 
@@ -2530,7 +2511,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-137. <a name="game-ultima6"></a>**Ultima VI — Amiga port**
+136. <a name="game-ultima6"></a>**Ultima VI — Amiga port**
 
      <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="Setup screen"></a>
 
@@ -2548,7 +2529,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-138. <a name="game-gunzrs"></a>**GunZ: The Duel · GunZRs**
+137. <a name="game-gunzrs"></a>**GunZ: The Duel · GunZRs**
 
      <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -2566,7 +2547,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-139. <a name="game-alice-web"></a>**American McGee’s Alice · Alice Web**
+138. <a name="game-alice-web"></a>**American McGee’s Alice · Alice Web**
 
      <a href="https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md"><img src="https://raw.githubusercontent.com/looking-glass-project/LookingGlass/main/docs/media/gameplay/story-poster.jpg" width="760" alt="Recorded-footage poster from the upstream Looking Glass engine"></a>
 
@@ -2584,7 +2565,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-140. <a name="game-conker-web"></a>**Conker&#x27;s Bad Fur Day · n64hub web fork**
+139. <a name="game-conker-web"></a>**Conker&#x27;s Bad Fur Day · n64hub web fork**
 
      <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -2602,7 +2583,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-141. <a name="game-dark-colony"></a>**Open Dark Colony**
+140. <a name="game-dark-colony"></a>**Open Dark Colony**
 
      <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="File import screen"></a>
 
@@ -2620,7 +2601,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-142. <a name="game-web-generalsx"></a>**GeneralsX Web · Zero Hour**
+141. <a name="game-web-generalsx"></a>**GeneralsX Web · Zero Hour**
 
      <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -2638,7 +2619,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-143. <a name="game-micro-mages"></a>**Micro Mages · Rust reconstruction**
+142. <a name="game-micro-mages"></a>**Micro Mages · Rust reconstruction**
 
      <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md"><img src="https://raw.githubusercontent.com/HungLo2020/MicroMages/main/packaging/artwork/cover.png" width="760" alt="Cover preview supplied by the project"></a>
 
@@ -2654,7 +2635,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-144. <a name="game-wow-shadowfang-slice"></a>**WoW: Shadowfang Keep · Standalone slice**
+143. <a name="game-wow-shadowfang-slice"></a>**WoW: Shadowfang Keep · Standalone slice**
 
      <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="Author-supplied screenshot of the single-scene demo"></a>
 
@@ -2670,7 +2651,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-145. <a name="game-banjo-web"></a>**Banjo-Kazooie · n64hub web fork**
+144. <a name="game-banjo-web"></a>**Banjo-Kazooie · n64hub web fork**
 
      <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -2688,7 +2669,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-146. <a name="game-zelda-web"></a>**The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
+145. <a name="game-zelda-web"></a>**The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
 
      <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -2706,7 +2687,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-147. <a name="game-dk64-web"></a>**Donkey Kong 64 · n64hub web fork**
+146. <a name="game-dk64-web"></a>**Donkey Kong 64 · n64hub web fork**
 
      <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -2724,7 +2705,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-148. <a name="game-diablo2-rust-wasm"></a>**Diablo II · Rust/WASM prototype**
+147. <a name="game-diablo2-rust-wasm"></a>**Diablo II · Rust/WASM prototype**
 
      <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="Upstream prototype screenshot"></a>
 
@@ -2742,7 +2723,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 
      [↑ Back to directory](#game-index)
 
-149. <a name="game-chessmaster-web"></a>**Chessmaster 9000 · Chessmaster-Web**
+148. <a name="game-chessmaster-web"></a>**Chessmaster 9000 · Chessmaster-Web**
 
      <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="Project preview from the author’s post"></a>
 
