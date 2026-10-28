@@ -14,159 +14,167 @@
 
 ## 游戏目录
 
-按玩法分类，点击游戏名称跳转到下方详情。
+分组和顺序与正文一致，点击游戏名称跳转到下方详情。
 
-| 分类 | 游戏 | 运行方式 |
+### 在线运行与下载安装
+
+| 游戏 | 运行方式 | 玩法说明 |
 | --- | --- | --- |
-| 动作与冒险 | [辛普森一家：横冲直撞 · Three.js重建](#game-hit-run-vheissu) | 在线 |
-| 动作与冒险 | [侠盗猎车手III · WASM Arcade](#game-web-grand-theft-auto-iii) | 在线 |
-| 动作与冒险 | [辛普森一家：横冲直撞 · WASM](#game-web-the-simpsons-hit-run) | 在线 |
-| 动作与冒险 | [小小大冒险1/2 · 探索演示](#game-lba2remake) | 在线演示 |
-| 动作与冒险 | [侠盗猎车手：罪恶都市 · Joncode WASM](#game-web-grand-theft-auto-vice-city) | 在线 · 需原版文件 |
-| 动作与冒险 | [塞尔达传说：姆吉拉的假面 · Zelda64Recomp](#game-zelda64recomp-zelda64recomp) | 自行构建 |
-| 动作与冒险 | [塞尔达传说：黄昏公主 · Dusklight](#game-twilitrealm-dusklight) | 自行构建 |
-| 动作与冒险 | [塞尔达传说：时之笛 · Ship of Harkinian](#game-harbourmasters-shipwright) | 自行构建 |
-| 动作与冒险 | [塞尔达传说：众神的三角力量 · zelda3](#game-snesrev-zelda3) | 自行构建 |
-| 动作与冒险 | [塞尔达传说：旷野之息 · Savage Wind](#game-savagewind) | 自行构建 |
-| 动作与冒险 | [乐高小岛 · isle-portable](#game-isledecomp-isle-portable) | 自行构建 / 在线 |
-| 动作与冒险 | [寂静岭1 · PsyCross移植](#game-silent-hill-pc) | 自行构建 / 在线 |
-| 动作与冒险 | [真人快打：少林武僧 · OpenShao](#game-openshao) | 自行构建 |
-| 动作与冒险 | [爱丽丝梦游魔境2000 · Alice Web](#game-alice-web) | 自行构建 / 在线 |
-| 动作与冒险 | [塞尔达传说：姆吉拉的假面 · n64hub网页版](#game-zelda-web) | 自行构建 / 在线 |
-| 平台跳跃 | [弹珠爆破：黄金版 · MBHaxe](#game-marbleblast-gold) | 在线 |
-| 平台跳跃 | [纸飞机冒险 · Aerofoil / Glider PRO](#game-aerofoil) | 在线 |
-| 平台跳跃 | [Little Runner：恐龙速度实验](#game-little-runner) | 在线 |
-| 平台跳跃 | [水晶洞穴 · OpenCrystalCaves 第一章](#game-open-crystal-caves) | 下载安装 |
-| 平台跳跃 | [VVVVVV · 公开源码版](#game-vvvvvv) | 自行构建 |
-| 平台跳跃 | [索尼克世界冒险 · Unleashed Recompiled](#game-hedge-dev-unleashedrecomp) | 自行构建 |
-| 平台跳跃 | [杰克与达斯特 · OpenGOAL](#game-opengoal) | 自行构建 |
-| 平台跳跃 | [班卓熊大冒险 · Banjo Recompiled](#game-banjorecomp-banjorecomp) | 自行构建 |
-| 平台跳跃 | [超级马力欧64 · sm64coopdx](#game-coop-deluxe-sm64coopdx) | 自行构建 |
-| 平台跳跃 | [洞窟物语 · doukutsu-rs](#game-doukutsu-rs) | 自行构建 |
-| 平台跳跃 | [索尼克狂欢 · Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | 自行构建 |
-| 平台跳跃 | [世嘉索尼克刺猬 · 原生移植](#game-segasonic-native) | 自行构建 |
-| 平台跳跃 | [镜之边缘 iPad版 · Glassline](#game-glassline) | 自行构建 |
-| 平台跳跃 | [杰克与达斯特三部曲 · Precursor](#game-precursor) | 自行构建 |
-| 平台跳跃 | [松鼠库克：倒霉的一天 · n64hub网页版](#game-conker-web) | 自行构建 / 在线 |
-| 平台跳跃 | [微型法师 · Micro Mages Rust](#game-micro-mages) | 自行构建 |
-| 平台跳跃 | [班卓熊大冒险 · n64hub网页版](#game-banjo-web) | 自行构建 / 在线 |
-| 平台跳跃 | [大金刚64 · n64hub网页版](#game-dk64-web) | 自行构建 / 在线 |
-| 射击与弹幕 | [Cube 2 · BananaBread](#game-bananabread) | 在线 |
-| 射击与弹幕 | [以撒的结合：忏悔+ · The Browsing of Isaac](#game-browsing-isaac) | 在线 |
-| 射击与弹幕 | [坦克大战 · Battle City](#game-battlecity) | 在线 |
-| 射击与弹幕 | [反恐精英1.6 · CSJS](#game-web-counter-strike-1-6) | 在线 |
-| 射击与弹幕 | [毁灭战士联机版 · Silent Space Marine](#game-web-doom-multiplayer-silent-space-marine) | 在线 |
-| 射击与弹幕 | [亡者之夜 · Zombies Browser Edition](#game-web-nacht-der-untoten) | 在线 |
-| 射击与弹幕 | [雷神之锤II · Pieter 浏览器版](#game-web-quake-ii) | 在线 |
-| 射击与弹幕 | [QuakeWorld · Pieter 浏览器版](#game-web-quakeworld) | 在线 |
-| 射击与弹幕 | [重返德军总部 · Pieter 多人版](#game-web-return-to-castle-wolfenstein) | 在线 |
-| 射击与弹幕 | [超级马力欧僵尸 · Super Mario Zombies](#game-web-super-mario-zombies) | 在线 |
-| 射击与弹幕 | [Urban Terror · Pieter 浏览器版](#game-web-urban-terror-listed-as-unreal-tournament) | 在线 |
-| 射击与弹幕 | [Claude of Duty：Vibe Slops II · 镜像](#game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror) | 在线 |
-| 射击与弹幕 | [Kino der Toten · 浏览器镜像](#game-web-kino-der-toten-goofyahhbro69420-mirror) | 在线 |
-| 射击与弹幕 | [黑色行动僵尸 · Vel.gg](#game-web-black-ops-zombies-vel) | 在线 |
-| 射击与弹幕 | [雷神之锤II · Qwasm2](#game-qwasm2) | 在线演示 |
-| 射击与弹幕 | [雷神之锤 · Qwasm](#game-qwasm) | 在线演示 |
-| 射击与弹幕 | [毁灭战士 · Dwasm](#game-dwasm) | 在线演示 |
-| 射击与弹幕 | [重返德军总部 · Wwasm](#game-wwasm) | 在线演示 |
-| 射击与弹幕 | [半条命 · WebXash 演示版](#game-web-half-life-and-counter-strike-1-6-webxash) | 在线演示 |
-| 射击与弹幕 | [雷神之锤 · NetQuake.io](#game-web-netquake-io) | 在线演示 |
-| 射击与弹幕 | [雷神之锤III竞技场 · Q3JS](#game-web-quake-iii-arena) | 在线演示 |
-| 射击与弹幕 | [Cube 2：Sauerbraten · Sour](#game-sour) | 下载安装 |
-| 射击与弹幕 | [星际火狐64 · Starship](#game-harbourmasters-starship) | 自行构建 |
-| 射击与弹幕 | [毁灭战士3 · D3Wasm](#game-d3wasm) | 自行构建 |
-| 射击与弹幕 | [007：黄金眼 · Project Midas](#game-project-midas) | 自行构建 |
-| 射击与弹幕 | [007：黄金眼 · jkdansereau移植](#game-goldeneye-jkdansereau) | 自行构建 |
-| 射击与弹幕 | [东方永夜抄 TH08](#game-th08) | 自行构建 / 在线 |
-| 射击与弹幕 | [光环：战斗进化 · Chupathingy](#game-chupathingy) | 自行构建 |
-| 射击与弹幕 | [东方文花帖 TH095](#game-th095) | 自行构建 |
-| 射击与弹幕 | [皇牌空战04 · ProjectStonehenge](#game-project-stonehenge) | 自行构建 |
-| 射击与弹幕 | [秘密潜入 · IGI-RE](#game-igi-re) | 自行构建 |
-| 射击与弹幕 | [GunZ：The Duel · GunZRs](#game-gunzrs) | 自行构建 |
-| 角色扮演 | [宝可梦：红 · Pokémon Claude Red](#game-pokemon-claude-red) | 在线 |
-| 角色扮演 | [RuneScape Classic · 社区浏览器服](#game-web-runescape-classic) | 在线 |
-| 角色扮演 | [暗黑破坏神 · Diablo Web演示版](#game-d07riv-diabloweb) | 在线演示 |
-| 角色扮演 | [阿克斯之城 · Arxwasm演示](#game-arxwasm) | 在线演示 |
-| 角色扮演 | [暗黑破坏神 · Diablo Web（JohnImril）](#game-web-diablo) | 在线演示 |
-| 角色扮演 | [上古卷轴II：匕首雨 · Daggerfall Unity](#game-daggerfall-unity) | 下载安装 |
-| 角色扮演 | [暗黑破坏神与地狱火 · DevilutionX](#game-diasurgical-devilutionx) | 自行构建 |
-| 角色扮演 | [上古卷轴III：晨风 · OpenMW](#game-openmw-openmw) | 自行构建 |
-| 角色扮演 | [仙剑奇侠传 · SDLPal](#game-sdlpal) | 自行构建 / 在线 |
-| 角色扮演 | [阿克斯之城 · Arx Libertatis](#game-arx-libertatis) | 自行构建 |
-| 角色扮演 | [失落的奥德赛 · Lost Odyssey Recomp](#game-lost-odyssey-recomp) | 自行构建 |
-| 角色扮演 | [塞尔达传说II：林克的冒险 · z2rs](#game-troyedwardsjr-z2rs) | 自行构建 / 在线 |
-| 角色扮演 | [王国之心：记忆之链 · ReKHCoM](#game-rekhcom) | 自行构建 / 在线 |
-| 角色扮演 | [火炬之光 · Rekindled](#game-torchlight-rekindled) | 自行构建 |
-| 角色扮演 | [乐雅传说 · Legend of Legaia](#game-legaia) | 自行构建 / 在线 |
-| 角色扮演 | [格兰蒂亚3 · PC重编译](#game-grandia3-pc) | 自行构建 |
-| 角色扮演 | [Ultima VI：Amiga 版移植](#game-ultima6) | 自行构建 / 在线 |
-| 角色扮演 | [魔兽世界：影牙城堡 · 单机演示](#game-wow-shadowfang-slice) | 自行构建 |
-| 角色扮演 | [暗黑破坏神2 · Rust/WASM原型](#game-diablo2-rust-wasm) | 自行构建 |
-| 策略与塔防 | [装甲元帅风格 · Panzer Marshal](#game-panzer-marshal) | 在线 |
-| 策略与塔防 | [世界黄昏 · Weltendämmerung](#game-weltendaemmerung) | 在线 |
-| 策略与塔防 | [王国保卫战：前线 · ATB HTML5](#game-atb-kingdomrush) | 在线 |
-| 策略与塔防 | [横扫千军 · Nanolathe](#game-nanolathe) | 在线演示 |
-| 策略与塔防 | [红色警戒2 · Chrono Divide](#game-web-command-conquer-red-alert-2) | 在线 · 需原版文件 |
-| 策略与塔防 | [OpenRA：红警、命令与征服、沙丘2000](#game-openra-openra) | 下载安装 |
-| 策略与塔防 | [战争地带2100 · Warzone 2100](#game-warzone2100-warzone2100) | 下载安装 |
-| 策略与塔防 | [英雄无敌II · fheroes2](#game-fheroes2) | 下载安装 |
-| 策略与塔防 | [英雄无敌III · VCMI](#game-vcmi-vcmi) | 自行构建 |
-| 策略与塔防 | [沙丘2 · Dune Dynasty](#game-dune-dynasty) | 自行构建 |
-| 策略与塔防 | [帝国时代 / 罗马复兴 · 基础玩法重实现](#game-aoe-free-remake) | 自行构建 |
-| 策略与塔防 | [命令与征服：将军绝命时刻 · NewShoes](#game-newshoes) | 自行构建 / 在线 |
-| 策略与塔防 | [横扫千军：王国 · OpenKingdoms](#game-openkingdoms) | 自行构建 / 在线 |
-| 策略与塔防 | [文明2多人黄金版 · OpenCiv2](#game-openciv2) | 自行构建 |
-| 策略与塔防 | [Open Dark Colony](#game-dark-colony) | 自行构建 / 在线 |
-| 策略与塔防 | [命令与征服：将军绝命时刻 · GeneralsX Web](#game-web-generalsx) | 自行构建 / 在线 |
-| 策略与塔防 | [国际象棋大师9000 · Chessmaster-Web](#game-chessmaster-web) | 自行构建 / 在线 |
-| 模拟、经营与建造 | [模拟城市 · micropolisJS](#game-micropolisjs) | 在线 |
-| 模拟、经营与建造 | [模拟高尔夫 · OpenSGolf](#game-opensgolf) | 在线 |
-| 模拟、经营与建造 | [我的世界1.8.8 · EaglercraftX](#game-web-minecraft-1-8-8-eaglercraftx) | 在线 |
-| 模拟、经营与建造 | [虚拟佐特尔梅尔 · Virtueel Zoetermeer](#game-virtueel-zoetermeer) | 在线 |
-| 模拟、经营与建造 | [运输大亨 · OpenTTD](#game-openttd-openttd) | 下载安装 |
-| 模拟、经营与建造 | [过山车大亨2 · OpenRCT2](#game-openrct2-openrct2) | 自行构建 |
-| 模拟、经营与建造 | [主题医院 · CorsixTH](#game-corsixth-corsixth) | 自行构建 |
-| 模拟、经营与建造 | [凯撒大帝III · Julius](#game-julius) | 自行构建 |
-| 模拟、经营与建造 | [凯撒大帝III · Augustus](#game-augustus) | 自行构建 |
-| 模拟、经营与建造 | [运输帝国 · OpenLoco](#game-openloco) | 自行构建 |
-| 模拟、经营与建造 | [我的世界 Java版 · Horizon](#game-horizon) | 自行构建 |
-| 赛车与驾驶 | [反重力赛车 · Wipeout Rewrite](#game-wipeout-rewrite) | 在线 |
-| 赛车与驾驶 | [蜗牛邮差 · Snail Mail](#game-snail-mail) | 在线 |
-| 赛车与驾驶 | [F1 06 · 网页版](#game-web-f1-06) | 在线 |
-| 赛车与驾驶 | [马力欧卡丁车64 · SpaghettiKart](#game-harbourmasters-spaghettikart) | 自行构建 |
-| 赛车与驾驶 | [卡马戈登 · Dethrace](#game-dethrace-labs-dethrace) | 自行构建 |
-| 赛车与驾驶 | [马力欧卡丁车Wii · KartPad](#game-kartpad) | 自行构建 |
-| 赛车与驾驶 | [极限竞速：地平线1 · ReImagined](#game-fh1-reimagined) | 自行构建 |
-| 赛车与驾驶 | [古惑狼赛车 · High Octane](#game-ctr-high-octane) | 自行构建 / 在线 |
-| 赛车与驾驶 | [疯狂都市 · Open1560](#game-open1560) | 自行构建 |
-| 赛车与驾驶 | [迪迪金刚赛车 · Golden Balloon](#game-goldenballoon) | 自行构建 / 在线 |
-| 赛车与驾驶 | [跑车浪漫旅2 · GT2 PC / Browser](#game-gt2-pc) | 自行构建 / 在线 |
-| 赛车与驾驶 | [反重力赛车：欧米伽合集 · PC移植](#game-wipeout-pc) | 自行构建 |
-| 赛车与驾驶 | [特技赛车 · Stunts HD](#game-stunts-hd) | 自行构建 / 在线 |
-| 赛车与驾驶 | [旧金山狂飙2049 · Rush 2049 Recompiled](#game-rush2049) | 自行构建 / 在线 |
-| 赛车与驾驶 | [特技赛车FX · Mabec增强移植](#game-stunt-race-fx-mabec) | 自行构建 |
-| 格斗 | [铁拳5 · 网页版](#game-web-tekken5) | 在线 |
-| 格斗 | [WWE SmackDown! vs. RAW · 网页版](#game-web-smackdown-vs-raw) | 在线 |
-| 格斗 | [任天堂明星大乱斗 特别版 · OpenSmash](#game-opensmash-ultimate) | 自行构建 |
-| 格斗 | [铁拳TT2 · Shihab PC移植](#game-tekken-tag2-shihab) | 自行构建 |
-| 格斗 | [任天堂明星大乱斗X · Brawl Recompiled](#game-brawl-recompiled) | 自行构建 |
-| 体育 | [实况足球6 · PES 6 Web Online](#game-web-pro-evolution-soccer-6) | 在线 |
-| 体育 | [NBA 2K12 · 网页版](#game-web-nba-2k12) | 在线 |
-| 体育 | [极限滑雪3 · SSX 3](#game-web-ssx3) | 在线 |
-| 体育 | [死或生：沙滩排球 · 原生移植](#game-doaxvb-native) | 自行构建 |
-| 体育 | [马力欧激战前锋 Charged · PS Vita](#game-strikers-charged-vita) | 自行构建 |
-| 音乐节奏 | [摇滚乐队3 · slopband3](#game-slopband3) | 自行构建 |
-| 益智与休闲 | [割绳子 · Cut the Rope DX](#game-cuttherope-dx) | 在线 |
-| 益智与休闲 | [Untangle：解开交叉线](#game-untangle) | 在线 |
-| 益智与休闲 | [祖玛 · ATB HTML5](#game-atb-zuma) | 在线 |
-| 益智与休闲 | [割绳子 · ATB HTML5](#game-atb-cutrope) | 在线 |
-| 益智与休闲 | [三维弹球：太空军校生](#game-k4zmu2a-spacecadetpinball) | 自行构建 |
-| 益智与休闲 | [DX-Ball 1.07](#game-dx-ball) | 自行构建 |
-| 街机合集与派对 | [古惑狼嘉年华 · Crash Bash Online](#game-web-crash-bash-online) | 在线 |
-| 街机合集与派对 | [南梦宫街机重建 · Namco 2x Systems](#game-namco-2x-systems) | 自行构建 |
-| 街机合集与派对 | [卡普空街机重编译 · CPS-2 Recomp](#game-cps2-recomp) | 自行构建 |
-| 连跳与滑翔 | [CS起源连跳 · bunnyhop.lol](#game-web-counter-strike-source-bunnyhop-bunnyhop-lol) | 在线 |
-| 连跳与滑翔 | [CS起源滑翔 · Surfd](#game-web-counter-strike-source-surf-surfd) | 在线 |
+| [反重力赛车 · Wipeout Rewrite](#game-wipeout-rewrite) | 在线 | 赛车与驾驶 |
+| [Cube 2 · BananaBread](#game-bananabread) | 在线 | 射击与弹幕 |
+| [模拟城市 · micropolisJS](#game-micropolisjs) | 在线 | 模拟、经营与建造 |
+| [弹珠爆破：黄金版 · MBHaxe](#game-marbleblast-gold) | 在线 | 平台跳跃 |
+| [装甲元帅风格 · Panzer Marshal](#game-panzer-marshal) | 在线 | 策略与塔防 |
+| [辛普森一家：横冲直撞 · Three.js重建](#game-hit-run-vheissu) | 在线 | 动作与冒险 |
+| [割绳子 · Cut the Rope DX](#game-cuttherope-dx) | 在线 | 益智与休闲 |
+| [纸飞机冒险 · Aerofoil / Glider PRO](#game-aerofoil) | 在线 | 平台跳跃 |
+| [宝可梦：红 · Pokémon Claude Red](#game-pokemon-claude-red) | 在线 | 角色扮演 |
+| [以撒的结合：忏悔+ · The Browsing of Isaac](#game-browsing-isaac) | 在线 | 射击与弹幕 |
+| [模拟高尔夫 · OpenSGolf](#game-opensgolf) | 在线 | 模拟、经营与建造 |
+| [世界黄昏 · Weltendämmerung](#game-weltendaemmerung) | 在线 | 策略与塔防 |
+| [坦克大战 · Battle City](#game-battlecity) | 在线 | 射击与弹幕 |
+| [蜗牛邮差 · Snail Mail](#game-snail-mail) | 在线 | 赛车与驾驶 |
+| [王国保卫战：前线 · ATB HTML5](#game-atb-kingdomrush) | 在线 | 策略与塔防 |
+| [Untangle：解开交叉线](#game-untangle) | 在线 | 益智与休闲 |
+| [Little Runner：恐龙速度实验](#game-little-runner) | 在线 | 平台跳跃 |
+| [反恐精英1.6 · CSJS](#game-web-counter-strike-1-6) | 在线 | 射击与弹幕 |
+| [CS起源连跳 · bunnyhop.lol](#game-web-counter-strike-source-bunnyhop-bunnyhop-lol) | 在线 | 连跳与滑翔 |
+| [CS起源滑翔 · Surfd](#game-web-counter-strike-source-surf-surfd) | 在线 | 连跳与滑翔 |
+| [古惑狼嘉年华 · Crash Bash Online](#game-web-crash-bash-online) | 在线 | 街机合集与派对 |
+| [毁灭战士联机版 · Silent Space Marine](#game-web-doom-multiplayer-silent-space-marine) | 在线 | 射击与弹幕 |
+| [侠盗猎车手III · WASM Arcade](#game-web-grand-theft-auto-iii) | 在线 | 动作与冒险 |
+| [我的世界1.8.8 · EaglercraftX](#game-web-minecraft-1-8-8-eaglercraftx) | 在线 | 模拟、经营与建造 |
+| [亡者之夜 · Zombies Browser Edition](#game-web-nacht-der-untoten) | 在线 | 射击与弹幕 |
+| [实况足球6 · PES 6 Web Online](#game-web-pro-evolution-soccer-6) | 在线 | 体育 |
+| [雷神之锤II · Pieter 浏览器版](#game-web-quake-ii) | 在线 | 射击与弹幕 |
+| [QuakeWorld · Pieter 浏览器版](#game-web-quakeworld) | 在线 | 射击与弹幕 |
+| [重返德军总部 · Pieter 多人版](#game-web-return-to-castle-wolfenstein) | 在线 | 射击与弹幕 |
+| [RuneScape Classic · 社区浏览器服](#game-web-runescape-classic) | 在线 | 角色扮演 |
+| [超级马力欧僵尸 · Super Mario Zombies](#game-web-super-mario-zombies) | 在线 | 射击与弹幕 |
+| [辛普森一家：横冲直撞 · WASM](#game-web-the-simpsons-hit-run) | 在线 | 动作与冒险 |
+| [Urban Terror · Pieter 浏览器版](#game-web-urban-terror-listed-as-unreal-tournament) | 在线 | 射击与弹幕 |
+| [Claude of Duty：Vibe Slops II · 镜像](#game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror) | 在线 | 射击与弹幕 |
+| [Kino der Toten · 浏览器镜像](#game-web-kino-der-toten-goofyahhbro69420-mirror) | 在线 | 射击与弹幕 |
+| [祖玛 · ATB HTML5](#game-atb-zuma) | 在线 | 益智与休闲 |
+| [割绳子 · ATB HTML5](#game-atb-cutrope) | 在线 | 益智与休闲 |
+| [虚拟佐特尔梅尔 · Virtueel Zoetermeer](#game-virtueel-zoetermeer) | 在线 | 模拟、经营与建造 |
+| [F1 06 · 网页版](#game-web-f1-06) | 在线 | 赛车与驾驶 |
+| [NBA 2K12 · 网页版](#game-web-nba-2k12) | 在线 | 体育 |
+| [极限滑雪3 · SSX 3](#game-web-ssx3) | 在线 | 体育 |
+| [铁拳5 · 网页版](#game-web-tekken5) | 在线 | 格斗 |
+| [WWE SmackDown! vs. RAW · 网页版](#game-web-smackdown-vs-raw) | 在线 | 格斗 |
+| [黑色行动僵尸 · Vel.gg](#game-web-black-ops-zombies-vel) | 在线 | 射击与弹幕 |
+| [暗黑破坏神 · Diablo Web演示版](#game-d07riv-diabloweb) | 在线演示 | 角色扮演 |
+| [小小大冒险1/2 · 探索演示](#game-lba2remake) | 在线演示 | 动作与冒险 |
+| [横扫千军 · Nanolathe](#game-nanolathe) | 在线演示 | 策略与塔防 |
+| [雷神之锤II · Qwasm2](#game-qwasm2) | 在线演示 | 射击与弹幕 |
+| [雷神之锤 · Qwasm](#game-qwasm) | 在线演示 | 射击与弹幕 |
+| [阿克斯之城 · Arxwasm演示](#game-arxwasm) | 在线演示 | 角色扮演 |
+| [毁灭战士 · Dwasm](#game-dwasm) | 在线演示 | 射击与弹幕 |
+| [重返德军总部 · Wwasm](#game-wwasm) | 在线演示 | 射击与弹幕 |
+| [暗黑破坏神 · Diablo Web（JohnImril）](#game-web-diablo) | 在线演示 | 角色扮演 |
+| [半条命 · WebXash 演示版](#game-web-half-life-and-counter-strike-1-6-webxash) | 在线演示 | 射击与弹幕 |
+| [雷神之锤 · NetQuake.io](#game-web-netquake-io) | 在线演示 | 射击与弹幕 |
+| [雷神之锤III竞技场 · Q3JS](#game-web-quake-iii-arena) | 在线演示 | 射击与弹幕 |
+| [红色警戒2 · Chrono Divide](#game-web-command-conquer-red-alert-2) | 在线 · 需原版文件 | 策略与塔防 |
+| [侠盗猎车手：罪恶都市 · Joncode WASM](#game-web-grand-theft-auto-vice-city) | 在线 · 需原版文件 | 动作与冒险 |
+| [OpenRA：红警、命令与征服、沙丘2000](#game-openra-openra) | 下载安装 | 策略与塔防 |
+| [运输大亨 · OpenTTD](#game-openttd-openttd) | 下载安装 | 模拟、经营与建造 |
+| [战争地带2100 · Warzone 2100](#game-warzone2100-warzone2100) | 下载安装 | 策略与塔防 |
+| [英雄无敌II · fheroes2](#game-fheroes2) | 下载安装 | 策略与塔防 |
+| [上古卷轴II：匕首雨 · Daggerfall Unity](#game-daggerfall-unity) | 下载安装 | 角色扮演 |
+| [Cube 2：Sauerbraten · Sour](#game-sour) | 下载安装 | 射击与弹幕 |
+| [水晶洞穴 · OpenCrystalCaves 第一章](#game-open-crystal-caves) | 下载安装 | 平台跳跃 |
+
+### 需要构建
+
+| 游戏 | 运行方式 | 玩法说明 |
+| --- | --- | --- |
+| [过山车大亨2 · OpenRCT2](#game-openrct2-openrct2) | 自行构建 | 模拟、经营与建造 |
+| [暗黑破坏神与地狱火 · DevilutionX](#game-diasurgical-devilutionx) | 自行构建 | 角色扮演 |
+| [VVVVVV · 公开源码版](#game-vvvvvv) | 自行构建 | 平台跳跃 |
+| [塞尔达传说：姆吉拉的假面 · Zelda64Recomp](#game-zelda64recomp-zelda64recomp) | 自行构建 | 动作与冒险 |
+| [上古卷轴III：晨风 · OpenMW](#game-openmw-openmw) | 自行构建 | 角色扮演 |
+| [塞尔达传说：黄昏公主 · Dusklight](#game-twilitrealm-dusklight) | 自行构建 | 动作与冒险 |
+| [英雄无敌III · VCMI](#game-vcmi-vcmi) | 自行构建 | 策略与塔防 |
+| [塞尔达传说：时之笛 · Ship of Harkinian](#game-harbourmasters-shipwright) | 自行构建 | 动作与冒险 |
+| [索尼克世界冒险 · Unleashed Recompiled](#game-hedge-dev-unleashedrecomp) | 自行构建 | 平台跳跃 |
+| [塞尔达传说：众神的三角力量 · zelda3](#game-snesrev-zelda3) | 自行构建 | 动作与冒险 |
+| [三维弹球：太空军校生](#game-k4zmu2a-spacecadetpinball) | 自行构建 | 益智与休闲 |
+| [主题医院 · CorsixTH](#game-corsixth-corsixth) | 自行构建 | 模拟、经营与建造 |
+| [杰克与达斯特 · OpenGOAL](#game-opengoal) | 自行构建 | 平台跳跃 |
+| [凯撒大帝III · Julius](#game-julius) | 自行构建 | 模拟、经营与建造 |
+| [马力欧卡丁车64 · SpaghettiKart](#game-harbourmasters-spaghettikart) | 自行构建 | 赛车与驾驶 |
+| [凯撒大帝III · Augustus](#game-augustus) | 自行构建 | 模拟、经营与建造 |
+| [星际火狐64 · Starship](#game-harbourmasters-starship) | 自行构建 | 射击与弹幕 |
+| [班卓熊大冒险 · Banjo Recompiled](#game-banjorecomp-banjorecomp) | 自行构建 | 平台跳跃 |
+| [仙剑奇侠传 · SDLPal](#game-sdlpal) | 自行构建 / 在线 | 角色扮演 |
+| [运输帝国 · OpenLoco](#game-openloco) | 自行构建 | 模拟、经营与建造 |
+| [塞尔达传说：旷野之息 · Savage Wind](#game-savagewind) | 自行构建 | 动作与冒险 |
+| [超级马力欧64 · sm64coopdx](#game-coop-deluxe-sm64coopdx) | 自行构建 | 平台跳跃 |
+| [洞窟物语 · doukutsu-rs](#game-doukutsu-rs) | 自行构建 | 平台跳跃 |
+| [卡马戈登 · Dethrace](#game-dethrace-labs-dethrace) | 自行构建 | 赛车与驾驶 |
+| [我的世界 Java版 · Horizon](#game-horizon) | 自行构建 | 模拟、经营与建造 |
+| [阿克斯之城 · Arx Libertatis](#game-arx-libertatis) | 自行构建 | 角色扮演 |
+| [乐高小岛 · isle-portable](#game-isledecomp-isle-portable) | 自行构建 / 在线 | 动作与冒险 |
+| [失落的奥德赛 · Lost Odyssey Recomp](#game-lost-odyssey-recomp) | 自行构建 | 角色扮演 |
+| [索尼克狂欢 · Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | 自行构建 | 平台跳跃 |
+| [寂静岭1 · PsyCross移植](#game-silent-hill-pc) | 自行构建 / 在线 | 动作与冒险 |
+| [马力欧卡丁车Wii · KartPad](#game-kartpad) | 自行构建 | 赛车与驾驶 |
+| [任天堂明星大乱斗 特别版 · OpenSmash](#game-opensmash-ultimate) | 自行构建 | 格斗 |
+| [毁灭战士3 · D3Wasm](#game-d3wasm) | 自行构建 | 射击与弹幕 |
+| [007：黄金眼 · Project Midas](#game-project-midas) | 自行构建 | 射击与弹幕 |
+| [极限竞速：地平线1 · ReImagined](#game-fh1-reimagined) | 自行构建 | 赛车与驾驶 |
+| [007：黄金眼 · jkdansereau移植](#game-goldeneye-jkdansereau) | 自行构建 | 射击与弹幕 |
+| [真人快打：少林武僧 · OpenShao](#game-openshao) | 自行构建 | 动作与冒险 |
+| [南梦宫街机重建 · Namco 2x Systems](#game-namco-2x-systems) | 自行构建 | 街机合集与派对 |
+| [死或生：沙滩排球 · 原生移植](#game-doaxvb-native) | 自行构建 | 体育 |
+| [古惑狼赛车 · High Octane](#game-ctr-high-octane) | 自行构建 / 在线 | 赛车与驾驶 |
+| [疯狂都市 · Open1560](#game-open1560) | 自行构建 | 赛车与驾驶 |
+| [塞尔达传说II：林克的冒险 · z2rs](#game-troyedwardsjr-z2rs) | 自行构建 / 在线 | 角色扮演 |
+| [迪迪金刚赛车 · Golden Balloon](#game-goldenballoon) | 自行构建 / 在线 | 赛车与驾驶 |
+| [沙丘2 · Dune Dynasty](#game-dune-dynasty) | 自行构建 | 策略与塔防 |
+| [铁拳TT2 · Shihab PC移植](#game-tekken-tag2-shihab) | 自行构建 | 格斗 |
+| [跑车浪漫旅2 · GT2 PC / Browser](#game-gt2-pc) | 自行构建 / 在线 | 赛车与驾驶 |
+| [反重力赛车：欧米伽合集 · PC移植](#game-wipeout-pc) | 自行构建 | 赛车与驾驶 |
+| [帝国时代 / 罗马复兴 · 基础玩法重实现](#game-aoe-free-remake) | 自行构建 | 策略与塔防 |
+| [东方永夜抄 TH08](#game-th08) | 自行构建 / 在线 | 射击与弹幕 |
+| [任天堂明星大乱斗X · Brawl Recompiled](#game-brawl-recompiled) | 自行构建 | 格斗 |
+| [光环：战斗进化 · Chupathingy](#game-chupathingy) | 自行构建 | 射击与弹幕 |
+| [卡普空街机重编译 · CPS-2 Recomp](#game-cps2-recomp) | 自行构建 | 街机合集与派对 |
+| [DX-Ball 1.07](#game-dx-ball) | 自行构建 | 益智与休闲 |
+| [王国之心：记忆之链 · ReKHCoM](#game-rekhcom) | 自行构建 / 在线 | 角色扮演 |
+| [火炬之光 · Rekindled](#game-torchlight-rekindled) | 自行构建 | 角色扮演 |
+| [特技赛车 · Stunts HD](#game-stunts-hd) | 自行构建 / 在线 | 赛车与驾驶 |
+| [东方文花帖 TH095](#game-th095) | 自行构建 | 射击与弹幕 |
+| [命令与征服：将军绝命时刻 · NewShoes](#game-newshoes) | 自行构建 / 在线 | 策略与塔防 |
+| [乐雅传说 · Legend of Legaia](#game-legaia) | 自行构建 / 在线 | 角色扮演 |
+| [世嘉索尼克刺猬 · 原生移植](#game-segasonic-native) | 自行构建 | 平台跳跃 |
+| [镜之边缘 iPad版 · Glassline](#game-glassline) | 自行构建 | 平台跳跃 |
+| [摇滚乐队3 · slopband3](#game-slopband3) | 自行构建 | 音乐节奏 |
+| [杰克与达斯特三部曲 · Precursor](#game-precursor) | 自行构建 | 平台跳跃 |
+| [格兰蒂亚3 · PC重编译](#game-grandia3-pc) | 自行构建 | 角色扮演 |
+| [横扫千军：王国 · OpenKingdoms](#game-openkingdoms) | 自行构建 / 在线 | 策略与塔防 |
+| [皇牌空战04 · ProjectStonehenge](#game-project-stonehenge) | 自行构建 | 射击与弹幕 |
+| [文明2多人黄金版 · OpenCiv2](#game-openciv2) | 自行构建 | 策略与塔防 |
+| [秘密潜入 · IGI-RE](#game-igi-re) | 自行构建 | 射击与弹幕 |
+| [旧金山狂飙2049 · Rush 2049 Recompiled](#game-rush2049) | 自行构建 / 在线 | 赛车与驾驶 |
+| [马力欧激战前锋 Charged · PS Vita](#game-strikers-charged-vita) | 自行构建 | 体育 |
+| [特技赛车FX · Mabec增强移植](#game-stunt-race-fx-mabec) | 自行构建 | 赛车与驾驶 |
+| [Ultima VI：Amiga 版移植](#game-ultima6) | 自行构建 / 在线 | 角色扮演 |
+| [GunZ：The Duel · GunZRs](#game-gunzrs) | 自行构建 | 射击与弹幕 |
+| [爱丽丝梦游魔境2000 · Alice Web](#game-alice-web) | 自行构建 / 在线 | 动作与冒险 |
+| [松鼠库克：倒霉的一天 · n64hub网页版](#game-conker-web) | 自行构建 / 在线 | 平台跳跃 |
+| [Open Dark Colony](#game-dark-colony) | 自行构建 / 在线 | 策略与塔防 |
+| [命令与征服：将军绝命时刻 · GeneralsX Web](#game-web-generalsx) | 自行构建 / 在线 | 策略与塔防 |
+| [微型法师 · Micro Mages Rust](#game-micro-mages) | 自行构建 | 平台跳跃 |
+| [魔兽世界：影牙城堡 · 单机演示](#game-wow-shadowfang-slice) | 自行构建 | 角色扮演 |
+| [班卓熊大冒险 · n64hub网页版](#game-banjo-web) | 自行构建 / 在线 | 平台跳跃 |
+| [塞尔达传说：姆吉拉的假面 · n64hub网页版](#game-zelda-web) | 自行构建 / 在线 | 动作与冒险 |
+| [大金刚64 · n64hub网页版](#game-dk64-web) | 自行构建 / 在线 | 平台跳跃 |
+| [暗黑破坏神2 · Rust/WASM原型](#game-diablo2-rust-wasm) | 自行构建 | 角色扮演 |
+| [国际象棋大师9000 · Chessmaster-Web](#game-chessmaster-web) | 自行构建 / 在线 | 策略与塔防 |
+
 
 ## 浏览器直接运行
 

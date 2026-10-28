@@ -14,159 +14,167 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 ## Game directory
 
-Grouped by genre. Select a game to jump to its details below.
+Groups and order follow the details below. Select a game to jump to its details.
 
-| Category | Game | Access |
+### Browser and downloads
+
+| Game | Access | Genre |
 | --- | --- | --- |
-| Action &amp; adventure | [The Simpsons: Hit &amp; Run · Three.js reconstruction](#game-hit-run-vheissu) | Browser |
-| Action &amp; adventure | [Grand Theft Auto III](#game-web-grand-theft-auto-iii) | Browser |
-| Action &amp; adventure | [The Simpsons: Hit &amp; Run](#game-web-the-simpsons-hit-run) | Browser |
-| Action &amp; adventure | [Little Big Adventure 1/2 · Exploration demo](#game-lba2remake) | Browser demo |
-| Action &amp; adventure | [Grand Theft Auto: Vice City](#game-web-grand-theft-auto-vice-city) | Browser · original files |
-| Action &amp; adventure | [The Legend of Zelda: Majora&#x27;s Mask · Zelda64Recomp](#game-zelda64recomp-zelda64recomp) | Source build |
-| Action &amp; adventure | [The Legend of Zelda: Twilight Princess · Dusklight](#game-twilitrealm-dusklight) | Source build |
-| Action &amp; adventure | [The Legend of Zelda: Ocarina of Time · Ship of Harkinian](#game-harbourmasters-shipwright) | Source build |
-| Action &amp; adventure | [The Legend of Zelda: A Link to the Past · zelda3](#game-snesrev-zelda3) | Source build |
-| Action &amp; adventure | [Breath of the Wild · Savage Wind](#game-savagewind) | Source build |
-| Action &amp; adventure | [LEGO Island · isle-portable](#game-isledecomp-isle-portable) | Source build / browser |
-| Action &amp; adventure | [Silent Hill · PsyCross port](#game-silent-hill-pc) | Source build / browser |
-| Action &amp; adventure | [Mortal Kombat: Shaolin Monks · OpenShao](#game-openshao) | Source build |
-| Action &amp; adventure | [American McGee’s Alice · Alice Web](#game-alice-web) | Source build / browser |
-| Action &amp; adventure | [The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork](#game-zelda-web) | Source build / browser |
-| Platformers | [Marble Blast Gold · MBHaxe](#game-marbleblast-gold) | Browser |
-| Platformers | [Aerofoil · Glider PRO](#game-aerofoil) | Browser |
-| Platformers | [Little Runner — Speed Lab](#game-little-runner) | Browser |
-| Platformers | [Crystal Caves · OpenCrystalCaves Episode 1](#game-open-crystal-caves) | Download |
-| Platformers | [VVVVVV · Source release](#game-vvvvvv) | Source build |
-| Platformers | [Sonic Unleashed · Unleashed Recompiled](#game-hedge-dev-unleashedrecomp) | Source build |
-| Platformers | [Jak and Daxter · OpenGOAL](#game-opengoal) | Source build |
-| Platformers | [Banjo-Kazooie · Banjo Recompiled](#game-banjorecomp-banjorecomp) | Source build |
-| Platformers | [Super Mario 64 · sm64coopdx](#game-coop-deluxe-sm64coopdx) | Source build |
-| Platformers | [Cave Story · doukutsu-rs](#game-doukutsu-rs) | Source build |
-| Platformers | [Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | Source build |
-| Platformers | [SegaSonic The Hedgehog · native port](#game-segasonic-native) | Source build |
-| Platformers | [Mirror’s Edge for iPad · Glassline](#game-glassline) | Source build |
-| Platformers | [Jak and Daxter trilogy · Precursor](#game-precursor) | Source build |
-| Platformers | [Conker&#x27;s Bad Fur Day · n64hub web fork](#game-conker-web) | Source build / browser |
-| Platformers | [Micro Mages · Rust reconstruction](#game-micro-mages) | Source build |
-| Platformers | [Banjo-Kazooie · n64hub web fork](#game-banjo-web) | Source build / browser |
-| Platformers | [Donkey Kong 64 · n64hub web fork](#game-dk64-web) | Source build / browser |
-| Shooters &amp; bullet hell | [Cube 2 · BananaBread](#game-bananabread) | Browser |
-| Shooters &amp; bullet hell | [The Binding of Isaac: Repentance+ · The Browsing of Isaac](#game-browsing-isaac) | Browser |
-| Shooters &amp; bullet hell | [Battle City](#game-battlecity) | Browser |
-| Shooters &amp; bullet hell | [Counter-Strike 1.6](#game-web-counter-strike-1-6) | Browser |
-| Shooters &amp; bullet hell | [Doom Multiplayer (Silent Space Marine)](#game-web-doom-multiplayer-silent-space-marine) | Browser |
-| Shooters &amp; bullet hell | [Nacht der Untoten](#game-web-nacht-der-untoten) | Browser |
-| Shooters &amp; bullet hell | [Quake II (q2.pieter.com)](#game-web-quake-ii) | Browser |
-| Shooters &amp; bullet hell | [QuakeWorld (q1.pieter.com)](#game-web-quakeworld) | Browser |
-| Shooters &amp; bullet hell | [Return to Castle Wolfenstein (rtcw.pieter.com)](#game-web-return-to-castle-wolfenstein) | Browser |
-| Shooters &amp; bullet hell | [Super Mario Zombies](#game-web-super-mario-zombies) | Browser |
-| Shooters &amp; bullet hell | [Urban Terror (ut.pieter.com)](#game-web-urban-terror-listed-as-unreal-tournament) | Browser |
-| Shooters &amp; bullet hell | [Claude of Duty: Vibe Slops II (froydinger mirror)](#game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror) | Browser |
-| Shooters &amp; bullet hell | [Kino der Toten (GoofyAhhBro69420 mirror)](#game-web-kino-der-toten-goofyahhbro69420-mirror) | Browser |
-| Shooters &amp; bullet hell | [Black Ops Zombies · Vel.gg](#game-web-black-ops-zombies-vel) | Browser |
-| Shooters &amp; bullet hell | [Quake II · Qwasm2](#game-qwasm2) | Browser demo |
-| Shooters &amp; bullet hell | [Quake · Qwasm](#game-qwasm) | Browser demo |
-| Shooters &amp; bullet hell | [Doom · Dwasm](#game-dwasm) | Browser demo |
-| Shooters &amp; bullet hell | [Return to Castle Wolfenstein · Wwasm](#game-wwasm) | Browser demo |
-| Shooters &amp; bullet hell | [Half-Life and Counter-Strike 1.6 (WebXash)](#game-web-half-life-and-counter-strike-1-6-webxash) | Browser demo |
-| Shooters &amp; bullet hell | [NetQuake.io](#game-web-netquake-io) | Browser demo |
-| Shooters &amp; bullet hell | [Quake III Arena (q3js)](#game-web-quake-iii-arena) | Browser demo |
-| Shooters &amp; bullet hell | [Cube 2: Sauerbraten · Sour](#game-sour) | Download |
-| Shooters &amp; bullet hell | [Star Fox 64 · Starship](#game-harbourmasters-starship) | Source build |
-| Shooters &amp; bullet hell | [Doom 3 · D3Wasm](#game-d3wasm) | Source build |
-| Shooters &amp; bullet hell | [GoldenEye 007 · Project Midas](#game-project-midas) | Source build |
-| Shooters &amp; bullet hell | [GoldenEye 007 · jkdansereau port](#game-goldeneye-jkdansereau) | Source build |
-| Shooters &amp; bullet hell | [Touhou 8: Imperishable Night](#game-th08) | Source build / browser |
-| Shooters &amp; bullet hell | [Halo: Combat Evolved · Chupathingy](#game-chupathingy) | Source build |
-| Shooters &amp; bullet hell | [Touhou 9.5: Shoot the Bullet](#game-th095) | Source build |
-| Shooters &amp; bullet hell | [Ace Combat 04 · ProjectStonehenge](#game-project-stonehenge) | Source build |
-| Shooters &amp; bullet hell | [Project I.G.I. · IGI-RE](#game-igi-re) | Source build |
-| Shooters &amp; bullet hell | [GunZ: The Duel · GunZRs](#game-gunzrs) | Source build |
-| Role-playing | [Pokémon Claude Red](#game-pokemon-claude-red) | Browser |
-| Role-playing | [RuneScape Classic](#game-web-runescape-classic) | Browser |
-| Role-playing | [Diablo Web · Shareware demo](#game-d07riv-diabloweb) | Browser demo |
-| Role-playing | [Arx Fatalis · Arxwasm demo](#game-arxwasm) | Browser demo |
-| Role-playing | [Diablo (diablo_web)](#game-web-diablo) | Browser demo |
-| Role-playing | [Daggerfall Unity](#game-daggerfall-unity) | Download |
-| Role-playing | [Diablo and Hellfire · DevilutionX](#game-diasurgical-devilutionx) | Source build |
-| Role-playing | [The Elder Scrolls III: Morrowind · OpenMW](#game-openmw-openmw) | Source build |
-| Role-playing | [Sword and Fairy · SDLPal](#game-sdlpal) | Source build / browser |
-| Role-playing | [Arx Fatalis · Arx Libertatis](#game-arx-libertatis) | Source build |
-| Role-playing | [Lost Odyssey · Recomp](#game-lost-odyssey-recomp) | Source build |
-| Role-playing | [Zelda II: The Adventure of Link · z2rs](#game-troyedwardsjr-z2rs) | Source build / browser |
-| Role-playing | [Kingdom Hearts: Chain of Memories · ReKHCoM](#game-rekhcom) | Source build / browser |
-| Role-playing | [Torchlight · Rekindled](#game-torchlight-rekindled) | Source build |
-| Role-playing | [Legend of Legaia](#game-legaia) | Source build / browser |
-| Role-playing | [Grandia III · PC recompilation](#game-grandia3-pc) | Source build |
-| Role-playing | [Ultima VI — Amiga port](#game-ultima6) | Source build / browser |
-| Role-playing | [WoW: Shadowfang Keep · Standalone slice](#game-wow-shadowfang-slice) | Source build |
-| Role-playing | [Diablo II · Rust/WASM prototype](#game-diablo2-rust-wasm) | Source build |
-| Strategy &amp; tower defense | [Panzer Marshal · Open Panzer](#game-panzer-marshal) | Browser |
-| Strategy &amp; tower defense | [Weltendämmerung](#game-weltendaemmerung) | Browser |
-| Strategy &amp; tower defense | [Kingdom Rush Frontiers · ATB HTML5](#game-atb-kingdomrush) | Browser |
-| Strategy &amp; tower defense | [Total Annihilation · Nanolathe](#game-nanolathe) | Browser demo |
-| Strategy &amp; tower defense | [Command &amp; Conquer: Red Alert 2](#game-web-command-conquer-red-alert-2) | Browser · original files |
-| Strategy &amp; tower defense | [OpenRA: Red Alert, Tiberian Dawn and Dune 2000](#game-openra-openra) | Download |
-| Strategy &amp; tower defense | [Warzone 2100](#game-warzone2100-warzone2100) | Download |
-| Strategy &amp; tower defense | [Heroes of Might and Magic II · fheroes2](#game-fheroes2) | Download |
-| Strategy &amp; tower defense | [Heroes of Might and Magic III · VCMI](#game-vcmi-vcmi) | Source build |
-| Strategy &amp; tower defense | [Dune II · Dune Dynasty](#game-dune-dynasty) | Source build |
-| Strategy &amp; tower defense | [Age of Empires / Rise of Rome · basic reimplementation](#game-aoe-free-remake) | Source build |
-| Strategy &amp; tower defense | [Command &amp; Conquer: Zero Hour · NewShoes](#game-newshoes) | Source build / browser |
-| Strategy &amp; tower defense | [Total Annihilation: Kingdoms · OpenKingdoms](#game-openkingdoms) | Source build / browser |
-| Strategy &amp; tower defense | [Civilization II Multiplayer Gold · OpenCiv2](#game-openciv2) | Source build |
-| Strategy &amp; tower defense | [Open Dark Colony](#game-dark-colony) | Source build / browser |
-| Strategy &amp; tower defense | [GeneralsX Web · Zero Hour](#game-web-generalsx) | Source build / browser |
-| Strategy &amp; tower defense | [Chessmaster 9000 · Chessmaster-Web](#game-chessmaster-web) | Source build / browser |
-| Simulation, management &amp; building | [MicropolisJS](#game-micropolisjs) | Browser |
-| Simulation, management &amp; building | [SimGolf · OpenSGolf](#game-opensgolf) | Browser |
-| Simulation, management &amp; building | [Minecraft 1.8.8 (EaglercraftX)](#game-web-minecraft-1-8-8-eaglercraftx) | Browser |
-| Simulation, management &amp; building | [Virtueel Zoetermeer](#game-virtueel-zoetermeer) | Browser |
-| Simulation, management &amp; building | [Transport Tycoon Deluxe · OpenTTD](#game-openttd-openttd) | Download |
-| Simulation, management &amp; building | [RollerCoaster Tycoon 2 · OpenRCT2](#game-openrct2-openrct2) | Source build |
-| Simulation, management &amp; building | [Theme Hospital · CorsixTH](#game-corsixth-corsixth) | Source build |
-| Simulation, management &amp; building | [Caesar III · Julius](#game-julius) | Source build |
-| Simulation, management &amp; building | [Caesar III · Augustus](#game-augustus) | Source build |
-| Simulation, management &amp; building | [Chris Sawyer’s Locomotion · OpenLoco](#game-openloco) | Source build |
-| Simulation, management &amp; building | [Minecraft Java Edition · Horizon](#game-horizon) | Source build |
-| Racing &amp; driving | [Wipeout Rewrite](#game-wipeout-rewrite) | Browser |
-| Racing &amp; driving | [Snail Mail](#game-snail-mail) | Browser |
-| Racing &amp; driving | [Formula One 06 · Browser edition](#game-web-f1-06) | Browser |
-| Racing &amp; driving | [Mario Kart 64 · SpaghettiKart](#game-harbourmasters-spaghettikart) | Source build |
-| Racing &amp; driving | [Carmageddon · Dethrace](#game-dethrace-labs-dethrace) | Source build |
-| Racing &amp; driving | [Mario Kart Wii · KartPad](#game-kartpad) | Source build |
-| Racing &amp; driving | [Forza Horizon 1 · ReImagined](#game-fh1-reimagined) | Source build |
-| Racing &amp; driving | [Crash Team Racing · High Octane](#game-ctr-high-octane) | Source build / browser |
-| Racing &amp; driving | [Midtown Madness · Open1560](#game-open1560) | Source build |
-| Racing &amp; driving | [Diddy Kong Racing · Golden Balloon](#game-goldenballoon) | Source build / browser |
-| Racing &amp; driving | [Gran Turismo 2 · PC / Browser](#game-gt2-pc) | Source build / browser |
-| Racing &amp; driving | [WipEout Omega Collection · PC port](#game-wipeout-pc) | Source build |
-| Racing &amp; driving | [Stunts HD](#game-stunts-hd) | Source build / browser |
-| Racing &amp; driving | [San Francisco Rush 2049 · Recompiled](#game-rush2049) | Source build / browser |
-| Racing &amp; driving | [Stunt Race FX · Mabec enhanced port](#game-stunt-race-fx-mabec) | Source build |
-| Fighting | [Tekken 5 · Browser edition](#game-web-tekken5) | Browser |
-| Fighting | [WWE SmackDown! vs. RAW · Browser edition](#game-web-smackdown-vs-raw) | Browser |
-| Fighting | [Super Smash Bros. Ultimate · OpenSmash](#game-opensmash-ultimate) | Source build |
-| Fighting | [Tekken Tag Tournament 2 · Shihab PC port](#game-tekken-tag2-shihab) | Source build |
-| Fighting | [Super Smash Bros. Brawl · Brawl Recompiled](#game-brawl-recompiled) | Source build |
-| Sports | [Pro Evolution Soccer 6](#game-web-pro-evolution-soccer-6) | Browser |
-| Sports | [NBA 2K12 · Browser edition](#game-web-nba-2k12) | Browser |
-| Sports | [SSX 3 · Browser edition](#game-web-ssx3) | Browser |
-| Sports | [Dead or Alive Xtreme Beach Volleyball · native port](#game-doaxvb-native) | Source build |
-| Sports | [Mario Strikers Charged · PS Vita](#game-strikers-charged-vita) | Source build |
-| Rhythm | [Rock Band 3 · slopband3](#game-slopband3) | Source build |
-| Puzzle &amp; casual | [Cut the Rope DX](#game-cuttherope-dx) | Browser |
-| Puzzle &amp; casual | [Untangle](#game-untangle) | Browser |
-| Puzzle &amp; casual | [Zuma · ATB HTML5](#game-atb-zuma) | Browser |
-| Puzzle &amp; casual | [Cut the Rope · ATB HTML5](#game-atb-cutrope) | Browser |
-| Puzzle &amp; casual | [3D Pinball: Space Cadet](#game-k4zmu2a-spacecadetpinball) | Source build |
-| Puzzle &amp; casual | [DX-Ball 1.07](#game-dx-ball) | Source build |
-| Arcade collections &amp; party | [Crash Bash Online](#game-web-crash-bash-online) | Browser |
-| Arcade collections &amp; party | [Namco 2x Systems · arcade reconstructions](#game-namco-2x-systems) | Source build |
-| Arcade collections &amp; party | [Capcom arcade recompilations · CPS-2 Recomp](#game-cps2-recomp) | Source build |
-| Bunny hopping &amp; surfing | [Counter-Strike: Source Bunnyhop (bunnyhop.lol)](#game-web-counter-strike-source-bunnyhop-bunnyhop-lol) | Browser |
-| Bunny hopping &amp; surfing | [Counter-Strike: Source Surf (Surfd)](#game-web-counter-strike-source-surf-surfd) | Browser |
+| [Wipeout Rewrite](#game-wipeout-rewrite) | Browser | Racing &amp; driving |
+| [Cube 2 · BananaBread](#game-bananabread) | Browser | Shooters &amp; bullet hell |
+| [MicropolisJS](#game-micropolisjs) | Browser | Simulation, management &amp; building |
+| [Marble Blast Gold · MBHaxe](#game-marbleblast-gold) | Browser | Platformers |
+| [Panzer Marshal · Open Panzer](#game-panzer-marshal) | Browser | Strategy &amp; tower defense |
+| [The Simpsons: Hit &amp; Run · Three.js reconstruction](#game-hit-run-vheissu) | Browser | Action &amp; adventure |
+| [Cut the Rope DX](#game-cuttherope-dx) | Browser | Puzzle &amp; casual |
+| [Aerofoil · Glider PRO](#game-aerofoil) | Browser | Platformers |
+| [Pokémon Claude Red](#game-pokemon-claude-red) | Browser | Role-playing |
+| [The Binding of Isaac: Repentance+ · The Browsing of Isaac](#game-browsing-isaac) | Browser | Shooters &amp; bullet hell |
+| [SimGolf · OpenSGolf](#game-opensgolf) | Browser | Simulation, management &amp; building |
+| [Weltendämmerung](#game-weltendaemmerung) | Browser | Strategy &amp; tower defense |
+| [Battle City](#game-battlecity) | Browser | Shooters &amp; bullet hell |
+| [Snail Mail](#game-snail-mail) | Browser | Racing &amp; driving |
+| [Kingdom Rush Frontiers · ATB HTML5](#game-atb-kingdomrush) | Browser | Strategy &amp; tower defense |
+| [Untangle](#game-untangle) | Browser | Puzzle &amp; casual |
+| [Little Runner — Speed Lab](#game-little-runner) | Browser | Platformers |
+| [Counter-Strike 1.6](#game-web-counter-strike-1-6) | Browser | Shooters &amp; bullet hell |
+| [Counter-Strike: Source Bunnyhop (bunnyhop.lol)](#game-web-counter-strike-source-bunnyhop-bunnyhop-lol) | Browser | Bunny hopping &amp; surfing |
+| [Counter-Strike: Source Surf (Surfd)](#game-web-counter-strike-source-surf-surfd) | Browser | Bunny hopping &amp; surfing |
+| [Crash Bash Online](#game-web-crash-bash-online) | Browser | Arcade collections &amp; party |
+| [Doom Multiplayer (Silent Space Marine)](#game-web-doom-multiplayer-silent-space-marine) | Browser | Shooters &amp; bullet hell |
+| [Grand Theft Auto III](#game-web-grand-theft-auto-iii) | Browser | Action &amp; adventure |
+| [Minecraft 1.8.8 (EaglercraftX)](#game-web-minecraft-1-8-8-eaglercraftx) | Browser | Simulation, management &amp; building |
+| [Nacht der Untoten](#game-web-nacht-der-untoten) | Browser | Shooters &amp; bullet hell |
+| [Pro Evolution Soccer 6](#game-web-pro-evolution-soccer-6) | Browser | Sports |
+| [Quake II (q2.pieter.com)](#game-web-quake-ii) | Browser | Shooters &amp; bullet hell |
+| [QuakeWorld (q1.pieter.com)](#game-web-quakeworld) | Browser | Shooters &amp; bullet hell |
+| [Return to Castle Wolfenstein (rtcw.pieter.com)](#game-web-return-to-castle-wolfenstein) | Browser | Shooters &amp; bullet hell |
+| [RuneScape Classic](#game-web-runescape-classic) | Browser | Role-playing |
+| [Super Mario Zombies](#game-web-super-mario-zombies) | Browser | Shooters &amp; bullet hell |
+| [The Simpsons: Hit &amp; Run](#game-web-the-simpsons-hit-run) | Browser | Action &amp; adventure |
+| [Urban Terror (ut.pieter.com)](#game-web-urban-terror-listed-as-unreal-tournament) | Browser | Shooters &amp; bullet hell |
+| [Claude of Duty: Vibe Slops II (froydinger mirror)](#game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror) | Browser | Shooters &amp; bullet hell |
+| [Kino der Toten (GoofyAhhBro69420 mirror)](#game-web-kino-der-toten-goofyahhbro69420-mirror) | Browser | Shooters &amp; bullet hell |
+| [Zuma · ATB HTML5](#game-atb-zuma) | Browser | Puzzle &amp; casual |
+| [Cut the Rope · ATB HTML5](#game-atb-cutrope) | Browser | Puzzle &amp; casual |
+| [Virtueel Zoetermeer](#game-virtueel-zoetermeer) | Browser | Simulation, management &amp; building |
+| [Formula One 06 · Browser edition](#game-web-f1-06) | Browser | Racing &amp; driving |
+| [NBA 2K12 · Browser edition](#game-web-nba-2k12) | Browser | Sports |
+| [SSX 3 · Browser edition](#game-web-ssx3) | Browser | Sports |
+| [Tekken 5 · Browser edition](#game-web-tekken5) | Browser | Fighting |
+| [WWE SmackDown! vs. RAW · Browser edition](#game-web-smackdown-vs-raw) | Browser | Fighting |
+| [Black Ops Zombies · Vel.gg](#game-web-black-ops-zombies-vel) | Browser | Shooters &amp; bullet hell |
+| [Diablo Web · Shareware demo](#game-d07riv-diabloweb) | Browser demo | Role-playing |
+| [Little Big Adventure 1/2 · Exploration demo](#game-lba2remake) | Browser demo | Action &amp; adventure |
+| [Total Annihilation · Nanolathe](#game-nanolathe) | Browser demo | Strategy &amp; tower defense |
+| [Quake II · Qwasm2](#game-qwasm2) | Browser demo | Shooters &amp; bullet hell |
+| [Quake · Qwasm](#game-qwasm) | Browser demo | Shooters &amp; bullet hell |
+| [Arx Fatalis · Arxwasm demo](#game-arxwasm) | Browser demo | Role-playing |
+| [Doom · Dwasm](#game-dwasm) | Browser demo | Shooters &amp; bullet hell |
+| [Return to Castle Wolfenstein · Wwasm](#game-wwasm) | Browser demo | Shooters &amp; bullet hell |
+| [Diablo (diablo_web)](#game-web-diablo) | Browser demo | Role-playing |
+| [Half-Life and Counter-Strike 1.6 (WebXash)](#game-web-half-life-and-counter-strike-1-6-webxash) | Browser demo | Shooters &amp; bullet hell |
+| [NetQuake.io](#game-web-netquake-io) | Browser demo | Shooters &amp; bullet hell |
+| [Quake III Arena (q3js)](#game-web-quake-iii-arena) | Browser demo | Shooters &amp; bullet hell |
+| [Command &amp; Conquer: Red Alert 2](#game-web-command-conquer-red-alert-2) | Browser · original files | Strategy &amp; tower defense |
+| [Grand Theft Auto: Vice City](#game-web-grand-theft-auto-vice-city) | Browser · original files | Action &amp; adventure |
+| [OpenRA: Red Alert, Tiberian Dawn and Dune 2000](#game-openra-openra) | Download | Strategy &amp; tower defense |
+| [Transport Tycoon Deluxe · OpenTTD](#game-openttd-openttd) | Download | Simulation, management &amp; building |
+| [Warzone 2100](#game-warzone2100-warzone2100) | Download | Strategy &amp; tower defense |
+| [Heroes of Might and Magic II · fheroes2](#game-fheroes2) | Download | Strategy &amp; tower defense |
+| [Daggerfall Unity](#game-daggerfall-unity) | Download | Role-playing |
+| [Cube 2: Sauerbraten · Sour](#game-sour) | Download | Shooters &amp; bullet hell |
+| [Crystal Caves · OpenCrystalCaves Episode 1](#game-open-crystal-caves) | Download | Platformers |
+
+### Build required
+
+| Game | Access | Genre |
+| --- | --- | --- |
+| [RollerCoaster Tycoon 2 · OpenRCT2](#game-openrct2-openrct2) | Source build | Simulation, management &amp; building |
+| [Diablo and Hellfire · DevilutionX](#game-diasurgical-devilutionx) | Source build | Role-playing |
+| [VVVVVV · Source release](#game-vvvvvv) | Source build | Platformers |
+| [The Legend of Zelda: Majora&#x27;s Mask · Zelda64Recomp](#game-zelda64recomp-zelda64recomp) | Source build | Action &amp; adventure |
+| [The Elder Scrolls III: Morrowind · OpenMW](#game-openmw-openmw) | Source build | Role-playing |
+| [The Legend of Zelda: Twilight Princess · Dusklight](#game-twilitrealm-dusklight) | Source build | Action &amp; adventure |
+| [Heroes of Might and Magic III · VCMI](#game-vcmi-vcmi) | Source build | Strategy &amp; tower defense |
+| [The Legend of Zelda: Ocarina of Time · Ship of Harkinian](#game-harbourmasters-shipwright) | Source build | Action &amp; adventure |
+| [Sonic Unleashed · Unleashed Recompiled](#game-hedge-dev-unleashedrecomp) | Source build | Platformers |
+| [The Legend of Zelda: A Link to the Past · zelda3](#game-snesrev-zelda3) | Source build | Action &amp; adventure |
+| [3D Pinball: Space Cadet](#game-k4zmu2a-spacecadetpinball) | Source build | Puzzle &amp; casual |
+| [Theme Hospital · CorsixTH](#game-corsixth-corsixth) | Source build | Simulation, management &amp; building |
+| [Jak and Daxter · OpenGOAL](#game-opengoal) | Source build | Platformers |
+| [Caesar III · Julius](#game-julius) | Source build | Simulation, management &amp; building |
+| [Mario Kart 64 · SpaghettiKart](#game-harbourmasters-spaghettikart) | Source build | Racing &amp; driving |
+| [Caesar III · Augustus](#game-augustus) | Source build | Simulation, management &amp; building |
+| [Star Fox 64 · Starship](#game-harbourmasters-starship) | Source build | Shooters &amp; bullet hell |
+| [Banjo-Kazooie · Banjo Recompiled](#game-banjorecomp-banjorecomp) | Source build | Platformers |
+| [Sword and Fairy · SDLPal](#game-sdlpal) | Source build / browser | Role-playing |
+| [Chris Sawyer’s Locomotion · OpenLoco](#game-openloco) | Source build | Simulation, management &amp; building |
+| [Breath of the Wild · Savage Wind](#game-savagewind) | Source build | Action &amp; adventure |
+| [Super Mario 64 · sm64coopdx](#game-coop-deluxe-sm64coopdx) | Source build | Platformers |
+| [Cave Story · doukutsu-rs](#game-doukutsu-rs) | Source build | Platformers |
+| [Carmageddon · Dethrace](#game-dethrace-labs-dethrace) | Source build | Racing &amp; driving |
+| [Minecraft Java Edition · Horizon](#game-horizon) | Source build | Simulation, management &amp; building |
+| [Arx Fatalis · Arx Libertatis](#game-arx-libertatis) | Source build | Role-playing |
+| [LEGO Island · isle-portable](#game-isledecomp-isle-portable) | Source build / browser | Action &amp; adventure |
+| [Lost Odyssey · Recomp](#game-lost-odyssey-recomp) | Source build | Role-playing |
+| [Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | Source build | Platformers |
+| [Silent Hill · PsyCross port](#game-silent-hill-pc) | Source build / browser | Action &amp; adventure |
+| [Mario Kart Wii · KartPad](#game-kartpad) | Source build | Racing &amp; driving |
+| [Super Smash Bros. Ultimate · OpenSmash](#game-opensmash-ultimate) | Source build | Fighting |
+| [Doom 3 · D3Wasm](#game-d3wasm) | Source build | Shooters &amp; bullet hell |
+| [GoldenEye 007 · Project Midas](#game-project-midas) | Source build | Shooters &amp; bullet hell |
+| [Forza Horizon 1 · ReImagined](#game-fh1-reimagined) | Source build | Racing &amp; driving |
+| [GoldenEye 007 · jkdansereau port](#game-goldeneye-jkdansereau) | Source build | Shooters &amp; bullet hell |
+| [Mortal Kombat: Shaolin Monks · OpenShao](#game-openshao) | Source build | Action &amp; adventure |
+| [Namco 2x Systems · arcade reconstructions](#game-namco-2x-systems) | Source build | Arcade collections &amp; party |
+| [Dead or Alive Xtreme Beach Volleyball · native port](#game-doaxvb-native) | Source build | Sports |
+| [Crash Team Racing · High Octane](#game-ctr-high-octane) | Source build / browser | Racing &amp; driving |
+| [Midtown Madness · Open1560](#game-open1560) | Source build | Racing &amp; driving |
+| [Zelda II: The Adventure of Link · z2rs](#game-troyedwardsjr-z2rs) | Source build / browser | Role-playing |
+| [Diddy Kong Racing · Golden Balloon](#game-goldenballoon) | Source build / browser | Racing &amp; driving |
+| [Dune II · Dune Dynasty](#game-dune-dynasty) | Source build | Strategy &amp; tower defense |
+| [Tekken Tag Tournament 2 · Shihab PC port](#game-tekken-tag2-shihab) | Source build | Fighting |
+| [Gran Turismo 2 · PC / Browser](#game-gt2-pc) | Source build / browser | Racing &amp; driving |
+| [WipEout Omega Collection · PC port](#game-wipeout-pc) | Source build | Racing &amp; driving |
+| [Age of Empires / Rise of Rome · basic reimplementation](#game-aoe-free-remake) | Source build | Strategy &amp; tower defense |
+| [Touhou 8: Imperishable Night](#game-th08) | Source build / browser | Shooters &amp; bullet hell |
+| [Super Smash Bros. Brawl · Brawl Recompiled](#game-brawl-recompiled) | Source build | Fighting |
+| [Halo: Combat Evolved · Chupathingy](#game-chupathingy) | Source build | Shooters &amp; bullet hell |
+| [Capcom arcade recompilations · CPS-2 Recomp](#game-cps2-recomp) | Source build | Arcade collections &amp; party |
+| [DX-Ball 1.07](#game-dx-ball) | Source build | Puzzle &amp; casual |
+| [Kingdom Hearts: Chain of Memories · ReKHCoM](#game-rekhcom) | Source build / browser | Role-playing |
+| [Torchlight · Rekindled](#game-torchlight-rekindled) | Source build | Role-playing |
+| [Stunts HD](#game-stunts-hd) | Source build / browser | Racing &amp; driving |
+| [Touhou 9.5: Shoot the Bullet](#game-th095) | Source build | Shooters &amp; bullet hell |
+| [Command &amp; Conquer: Zero Hour · NewShoes](#game-newshoes) | Source build / browser | Strategy &amp; tower defense |
+| [Legend of Legaia](#game-legaia) | Source build / browser | Role-playing |
+| [SegaSonic The Hedgehog · native port](#game-segasonic-native) | Source build | Platformers |
+| [Mirror’s Edge for iPad · Glassline](#game-glassline) | Source build | Platformers |
+| [Rock Band 3 · slopband3](#game-slopband3) | Source build | Rhythm |
+| [Jak and Daxter trilogy · Precursor](#game-precursor) | Source build | Platformers |
+| [Grandia III · PC recompilation](#game-grandia3-pc) | Source build | Role-playing |
+| [Total Annihilation: Kingdoms · OpenKingdoms](#game-openkingdoms) | Source build / browser | Strategy &amp; tower defense |
+| [Ace Combat 04 · ProjectStonehenge](#game-project-stonehenge) | Source build | Shooters &amp; bullet hell |
+| [Civilization II Multiplayer Gold · OpenCiv2](#game-openciv2) | Source build | Strategy &amp; tower defense |
+| [Project I.G.I. · IGI-RE](#game-igi-re) | Source build | Shooters &amp; bullet hell |
+| [San Francisco Rush 2049 · Recompiled](#game-rush2049) | Source build / browser | Racing &amp; driving |
+| [Mario Strikers Charged · PS Vita](#game-strikers-charged-vita) | Source build | Sports |
+| [Stunt Race FX · Mabec enhanced port](#game-stunt-race-fx-mabec) | Source build | Racing &amp; driving |
+| [Ultima VI — Amiga port](#game-ultima6) | Source build / browser | Role-playing |
+| [GunZ: The Duel · GunZRs](#game-gunzrs) | Source build | Shooters &amp; bullet hell |
+| [American McGee’s Alice · Alice Web](#game-alice-web) | Source build / browser | Action &amp; adventure |
+| [Conker&#x27;s Bad Fur Day · n64hub web fork](#game-conker-web) | Source build / browser | Platformers |
+| [Open Dark Colony](#game-dark-colony) | Source build / browser | Strategy &amp; tower defense |
+| [GeneralsX Web · Zero Hour](#game-web-generalsx) | Source build / browser | Strategy &amp; tower defense |
+| [Micro Mages · Rust reconstruction](#game-micro-mages) | Source build | Platformers |
+| [WoW: Shadowfang Keep · Standalone slice](#game-wow-shadowfang-slice) | Source build | Role-playing |
+| [Banjo-Kazooie · n64hub web fork](#game-banjo-web) | Source build / browser | Platformers |
+| [The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork](#game-zelda-web) | Source build / browser | Action &amp; adventure |
+| [Donkey Kong 64 · n64hub web fork](#game-dk64-web) | Source build / browser | Platformers |
+| [Diablo II · Rust/WASM prototype](#game-diablo2-rust-wasm) | Source build | Role-playing |
+| [Chessmaster 9000 · Chessmaster-Web](#game-chessmaster-web) | Source build / browser | Strategy &amp; tower defense |
+
 
 ## Run in browser
 
