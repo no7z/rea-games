@@ -14,7 +14,16 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 ## Game directory
 
-Groups and order follow the details below. Select a game to jump to its details.
+Today's additions are listed first; the remaining games follow the detail sections. Select a game to jump to its details.
+
+### Today's additions (2026-10-31)
+
+| Game | Access | Genre |
+| --- | --- | --- |
+| [Gears of War 2 · gow2-recomp](#game-gow2-santi) | Source build | Shooters &amp; bullet hell |
+| [Magic Carpet 2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | Source build | Action &amp; adventure |
+| [Metroid Prime Remastered · PrimeRecomp](#game-prime-remastered) | Source build | Action &amp; adventure |
+| [X-Men 2: Clone Wars · XMen2 PC](#game-xmen2-pc) | Source build | Action &amp; adventure |
 
 ### Run in browser
 
@@ -142,10 +151,7 @@ Groups and order follow the details below. Select a game to jump to its details.
 | [Gravity Rush 2 · native PC port](#game-gravity-rush2-pc) | Source build | Action &amp; adventure |
 | [WipEout Omega Collection · PC port](#game-wipeout-pc) | Source build | Racing &amp; driving |
 | [Age of Empires / Rise of Rome · basic reimplementation](#game-aoe-free-remake) | Source build | Strategy &amp; tower defense |
-| [Gears of War 2 · gow2-recomp](#game-gow2-santi) | Source build | Shooters &amp; bullet hell |
 | [Touhou 8: Imperishable Night](#game-th08) | Source build / browser | Shooters &amp; bullet hell |
-| [Magic Carpet 2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | Source build | Action &amp; adventure |
-| [Metroid Prime Remastered · PrimeRecomp](#game-prime-remastered) | Source build | Action &amp; adventure |
 | [007: From Russia with Love · Xbox recompilation](#game-007-frwl-xbe) | Source build | Shooters &amp; bullet hell |
 | [Super Smash Bros. Brawl · Brawl Recompiled](#game-brawl-recompiled) | Source build | Fighting |
 | [Halo: Combat Evolved · Chupathingy](#game-chupathingy) | Source build | Shooters &amp; bullet hell |
@@ -165,7 +171,6 @@ Groups and order follow the details below. Select a game to jump to its details.
 | [Touhou 9.5: Shoot the Bullet](#game-th095) | Source build | Shooters &amp; bullet hell |
 | [Command &amp; Conquer: Zero Hour · NewShoes](#game-newshoes) | Source build / browser | Strategy &amp; tower defense |
 | [SegaSonic The Hedgehog · native port](#game-segasonic-native) | Source build | Platformers |
-| [X-Men 2: Clone Wars · XMen2 PC](#game-xmen2-pc) | Source build | Action &amp; adventure |
 | [Mirror’s Edge for iPad · Glassline](#game-glassline) | Source build | Platformers |
 | [Jak and Daxter trilogy · Precursor](#game-precursor) | Source build | Platformers |
 | [Grandia III · PC recompilation](#game-grandia3-pc) | Source build | Role-playing |

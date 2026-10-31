@@ -14,7 +14,16 @@
 
 ## 游戏目录
 
-分组和顺序与正文一致，点击游戏名称跳转到下方详情。
+今日新增单列，其余按正文分类排列；点击游戏名称跳转到下方详情。
+
+### 今日更新（2026-10-31）
+
+| 游戏 | 运行方式 | 玩法说明 |
+| --- | --- | --- |
+| [战争机器2 · gow2-recomp](#game-gow2-santi) | 自行构建 | 射击与弹幕 |
+| [魔毯2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | 自行构建 | 动作与冒险 |
+| [密特罗德Prime复刻版 · PrimeRecomp](#game-prime-remastered) | 自行构建 | 动作与冒险 |
+| [X战警2：克隆人战争 · XMen2 PC](#game-xmen2-pc) | 自行构建 | 动作与冒险 |
 
 ### 在线运行
 
@@ -142,10 +151,7 @@
 | [重力异想世界2 · 原生PC移植](#game-gravity-rush2-pc) | 自行构建 | 动作与冒险 |
 | [反重力赛车：欧米伽合集 · PC移植](#game-wipeout-pc) | 自行构建 | 赛车与驾驶 |
 | [帝国时代 / 罗马复兴 · 基础玩法重实现](#game-aoe-free-remake) | 自行构建 | 策略与塔防 |
-| [战争机器2 · gow2-recomp](#game-gow2-santi) | 自行构建 | 射击与弹幕 |
 | [东方永夜抄 TH08](#game-th08) | 自行构建 / 在线 | 射击与弹幕 |
-| [魔毯2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | 自行构建 | 动作与冒险 |
-| [密特罗德Prime复刻版 · PrimeRecomp](#game-prime-remastered) | 自行构建 | 动作与冒险 |
 | [007：来自俄罗斯的爱情 · Xbox重编译](#game-007-frwl-xbe) | 自行构建 | 射击与弹幕 |
 | [任天堂明星大乱斗X · Brawl Recompiled](#game-brawl-recompiled) | 自行构建 | 格斗 |
 | [光环：战斗进化 · Chupathingy](#game-chupathingy) | 自行构建 | 射击与弹幕 |
@@ -165,7 +171,6 @@
 | [东方文花帖 TH095](#game-th095) | 自行构建 | 射击与弹幕 |
 | [命令与征服：将军绝命时刻 · NewShoes](#game-newshoes) | 自行构建 / 在线 | 策略与塔防 |
 | [世嘉索尼克刺猬 · 原生移植](#game-segasonic-native) | 自行构建 | 平台跳跃 |
-| [X战警2：克隆人战争 · XMen2 PC](#game-xmen2-pc) | 自行构建 | 动作与冒险 |
 | [镜之边缘 iPad版 · Glassline](#game-glassline) | 自行构建 | 平台跳跃 |
 | [杰克与达斯特三部曲 · Precursor](#game-precursor) | 自行构建 | 平台跳跃 |
 | [格兰蒂亚3 · PC重编译](#game-grandia3-pc) | 自行构建 | 角色扮演 |
