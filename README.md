@@ -6,7 +6,7 @@
 
 [游戏资源获取](RESOURCES.md) · [贡献项目](CONTRIBUTING.md)
 
-181 个展示项目 · 88 个浏览器入口。
+183 个展示项目 · 88 个浏览器入口。
 
 可直接体验的项目与需要自行构建的项目分别展示。构建条目写明平台、构建入口和原版文件要求；自行构建仍可能需要ROM或游戏数据。
 
@@ -16,17 +16,13 @@
 
 今日新增单列，其余按正文分类排列；点击游戏名称跳转到下方详情。
 
-### 今日更新（2026-11-03）
+### 今日更新（2026-11-04）
 
 | 游戏 | 运行方式 | 玩法说明 |
 | --- | --- | --- |
-| [战地1942 · 浏览器演示版](#game-bf1942-web) | 在线演示 | 射击与弹幕 |
-| [血源诅咒 · bbhost](#game-bbhost) | 自行构建 | 动作与冒险 |
-| [Nox · OpenNox](#game-opennox) | 自行构建 | 角色扮演 |
-| [时空分裂者：未来完美 · Recomp](#game-timesplitters-fp) | 自行构建 | 射击与弹幕 |
-| [异度装甲 · Weltall](#game-weltall) | 自行构建 | 角色扮演 |
-| [梦境成真 · Dreams to Reality Recompiled](#game-dreams-recomp) | 自行构建 | 动作与冒险 |
-| [骰子骑士 · Dicing Knight原生重编译](#game-dicing-knight) | 自行构建 | 角色扮演 |
+| [杀戮地带 2 · Project Pyrrhus](#game-pyrrhus) | 自行构建 | 射击与弹幕 |
+| [007：一切或一无所有 · PC 重编译](#game-007-eon) | 自行构建 | 动作与冒险 |
+| [烈火战车：黑暗 · The Bozos](#game-tmb-bozos) | 自行构建 | 赛车与驾驶 |
 
 ### 在线运行
 
@@ -88,6 +84,7 @@
 | [半条命 · WebXash 演示版](#game-web-half-life-and-counter-strike-1-6-webxash) | 在线演示 | 射击与弹幕 |
 | [雷神之锤 · NetQuake.io](#game-web-netquake-io) | 在线演示 | 射击与弹幕 |
 | [雷神之锤III竞技场 · Q3JS](#game-web-quake-iii-arena) | 在线演示 | 射击与弹幕 |
+| [战地1942 · 浏览器演示版](#game-bf1942-web) | 在线演示 | 射击与弹幕 |
 | [红色警戒2 · Chrono Divide](#game-web-command-conquer-red-alert-2) | 在线 · 需原版文件 | 策略与塔防 |
 | [侠盗猎车手：罪恶都市 · Joncode WASM](#game-web-grand-theft-auto-vice-city) | 在线 · 需原版文件 | 动作与冒险 |
 
@@ -132,7 +129,9 @@
 | [失落的奥德赛 · Lost Odyssey Recomp](#game-lost-odyssey-recomp) | 自行构建 | 角色扮演 |
 | [索尼克狂欢 · Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | 自行构建 | 平台跳跃 |
 | [寂静岭1 · PsyCross移植](#game-silent-hill-pc) | 自行构建 / 在线 | 动作与冒险 |
+| [血源诅咒 · bbhost](#game-bbhost) | 自行构建 | 动作与冒险 |
 | [马力欧卡丁车Wii · KartPad](#game-kartpad) | 自行构建 | 赛车与驾驶 |
+| [Nox · OpenNox](#game-opennox) | 自行构建 | 角色扮演 |
 | [塞尔达传说：王国之泪 · TotK Recomp](#game-totk-recomp) | 自行构建 | 动作与冒险 |
 | [任天堂明星大乱斗 特别版 · OpenSmash](#game-opensmash-ultimate) | 自行构建 | 格斗 |
 | [毁灭战士3 · D3Wasm](#game-d3wasm) | 自行构建 / 在线 | 射击与弹幕 |
@@ -145,8 +144,8 @@
 | [怪物猎人XX · MHGU Recomp](#game-mhgu-recomp) | 自行构建 | 角色扮演 |
 | [真人快打：少林武僧 · OpenShao](#game-openshao) | 自行构建 | 动作与冒险 |
 | [南梦宫街机重建 · Namco 2x Systems](#game-namco-2x-systems) | 自行构建 | 街机合集与派对 |
-| [死或生：沙滩排球 · 原生移植](#game-doaxvb-native) | 自行构建 | 体育 |
 | [古惑狼赛车 · High Octane](#game-ctr-high-octane) | 自行构建 / 在线 | 赛车与驾驶 |
+| [死或生：沙滩排球 · 原生移植](#game-doaxvb-native) | 自行构建 | 体育 |
 | [疯狂都市 · Open1560](#game-open1560) | 自行构建 | 赛车与驾驶 |
 | [迪迪金刚赛车 · Golden Balloon](#game-goldenballoon) | 自行构建 / 在线 | 赛车与驾驶 |
 | [塞尔达传说II：林克的冒险 · z2rs](#game-troyedwardsjr-z2rs) | 自行构建 / 在线 | 角色扮演 |
@@ -165,8 +164,10 @@
 | [魔毯2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | 自行构建 | 动作与冒险 |
 | [密特罗德Prime复刻版 · PrimeRecomp](#game-prime-remastered) | 自行构建 | 动作与冒险 |
 | [007：来自俄罗斯的爱情 · Xbox重编译](#game-007-frwl-xbe) | 自行构建 | 射击与弹幕 |
+| [时空分裂者：未来完美 · Recomp](#game-timesplitters-fp) | 自行构建 | 射击与弹幕 |
 | [任天堂明星大乱斗X · Brawl Recompiled](#game-brawl-recompiled) | 自行构建 | 格斗 |
 | [光环：战斗进化 · Chupathingy](#game-chupathingy) | 自行构建 | 射击与弹幕 |
+| [异度装甲 · Weltall](#game-weltall) | 自行构建 | 角色扮演 |
 | [密特罗德Prime 2：回声 · Echoes Unbound](#game-echoes-unbound) | 自行构建 | 动作与冒险 |
 | [生化危机：代号维罗妮卡X · PS3重编译](#game-code-veronica-ps3-recomp) | 自行构建 | 动作与冒险 |
 | [卡普空街机重编译 · CPS-2 Recomp](#game-cps2-recomp) | 自行构建 | 街机合集与派对 |
@@ -193,6 +194,7 @@
 | [皇牌空战04 · ProjectStonehenge](#game-project-stonehenge) | 自行构建 | 射击与弹幕 |
 | [文明2多人黄金版 · OpenCiv2](#game-openciv2) | 自行构建 | 策略与塔防 |
 | [秘密潜入 · IGI-RE](#game-igi-re) | 自行构建 | 射击与弹幕 |
+| [梦境成真 · Dreams to Reality Recompiled](#game-dreams-recomp) | 自行构建 | 动作与冒险 |
 | [旧金山狂飙2049 · Rush 2049 Recompiled](#game-rush2049) | 自行构建 / 在线 | 赛车与驾驶 |
 | [星之卡比：飞天赛车 · 重编译](#game-kirby-air-ride) | 自行构建 | 赛车与驾驶 |
 | [布偶赛车 · Muppet RaceMania Recompiled](#game-muppet-racemania) | 自行构建 | 赛车与驾驶 |
@@ -205,12 +207,12 @@
 | [暗黑破坏神2 · Rust/WASM原型](#game-diablo2-rust-wasm) | 自行构建 | 角色扮演 |
 | [Open Dark Colony](#game-dark-colony) | 自行构建 / 在线 | 策略与塔防 |
 | [命令与征服：将军绝命时刻 · GeneralsX Web](#game-web-generalsx) | 自行构建 / 在线 | 策略与塔防 |
-| [微型法师 · Micro Mages Rust](#game-micro-mages) | 自行构建 | 平台跳跃 |
 | [魔兽世界：影牙城堡 · 单机演示](#game-wow-shadowfang-slice) | 自行构建 | 角色扮演 |
 | [班卓熊大冒险 · n64hub网页版](#game-banjo-web) | 自行构建 / 在线 | 平台跳跃 |
 | [塞尔达传说：姆吉拉的假面 · n64hub网页版](#game-zelda-web) | 自行构建 / 在线 | 动作与冒险 |
 | [大金刚64 · n64hub网页版](#game-dk64-web) | 自行构建 / 在线 | 平台跳跃 |
 | [国际象棋大师9000 · Chessmaster-Web](#game-chessmaster-web) | 自行构建 / 在线 | 策略与塔防 |
+| [骰子骑士 · Dicing Knight原生重编译](#game-dicing-knight) | 自行构建 | 角色扮演 |
 
 
 ## 浏览器直接运行
@@ -2115,25 +2117,7 @@
 
      [↑ 返回目录](#game-index)
 
-112. <a name="game-doaxvb-native"></a>**死或生：沙滩排球 · 原生移植**
-
-     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="上游README提供的原生移植排球比赛画面"></a>
-
-     <sub>上游README提供的原生移植排球比赛画面 <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">图片来源</a></sub>
-
-     在海岛度假中进行沙滩排球比赛、小游戏与角色互动。初代Xbox作品的原生重编译。
-
-     **平台：** Windows10/11 x64 / macOS（Intel、Apple Silicon）/ Linux / Steam Deck
-
-     **运行：** Windows解压发布ZIP，在Launcher中选择ISO并Build game，本机构建后Play。源码需Python3.12、Capstone5.0.9、Git、CMake和extract-xiso；macOS/Linux按构建指南准备SDL3、编译器等并运行build_game.sh。
-
-     **所需文件：** 自己的支持的USA Xbox游戏ISO；Windows构建首次需要联网获取llvm-mingw等工具。
-
-     [**构建说明**](https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md) · [项目源码](https://github.com/NoRain211/doaxvb-re)
-
-     [↑ 返回目录](#game-index)
-
-113. <a name="game-ctr-high-octane"></a>**古惑狼赛车 · High Octane**
+112. <a name="game-ctr-high-octane"></a>**古惑狼赛车 · High Octane**
 
      <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml"><img src="https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/vita/screenshots/game1.jpg" width="760" alt="作者提供的项目画面"></a>
 
@@ -2148,6 +2132,24 @@
      **所需文件：** 自己的受支持CTR美版PS1光盘BIN；联机另有密钥文件输入。
 
      [**构建说明**](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml) · [项目介绍](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane) · [在线入口 · 查看文件要求](https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane)
+
+     [↑ 返回目录](#game-index)
+
+113. <a name="game-doaxvb-native"></a>**死或生：沙滩排球 · 原生移植**
+
+     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="上游README提供的原生移植排球比赛画面"></a>
+
+     <sub>上游README提供的原生移植排球比赛画面 <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">图片来源</a></sub>
+
+     在海岛度假中进行沙滩排球比赛、小游戏与角色互动。初代Xbox作品的原生重编译。
+
+     **平台：** Windows10/11 x64 / macOS（Intel、Apple Silicon）/ Linux / Steam Deck
+
+     **运行：** Windows解压发布ZIP，在Launcher中选择ISO并Build game，本机构建后Play。源码需Python3.12、Capstone5.0.9、Git、CMake和extract-xiso；macOS/Linux按构建指南准备SDL3、编译器等并运行build_game.sh。
+
+     **所需文件：** 自己的支持的USA Xbox游戏ISO；Windows构建首次需要联网获取llvm-mingw等工具。
+
+     [**构建说明**](https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md) · [项目源码](https://github.com/NoRain211/doaxvb-re)
 
      [↑ 返回目录](#game-index)
 
@@ -2529,7 +2531,25 @@
 
      [↑ 返回目录](#game-index)
 
-135. <a name="game-weltall"></a>**异度装甲 · Weltall**
+135. <a name="game-pyrrhus"></a>**杀戮地带 2 · Project Pyrrhus**
+
+     <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md"><img src="assets/screenshots/pyrrhus.png" width="760" alt="上游在 Proton 下运行首关科林斯河的画面"></a>
+
+     <sub>上游在 Proton 下运行首关科林斯河的画面 <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/SCREENSHOTS.md">图片来源</a></sub>
+
+     在科林斯河登陆并进行第一人称战斗。PS3 版的早期 PC 重编译，已有首关玩法，战役尚未通关验证。
+
+     **平台：** Windows 10/11 x64、Direct3D 12；上游主要在 Linux 的 Proton 下测试
+
+     **运行：** 运行 Windows 预发行安装器，选择光盘数据、更新和解密后的 EBOOT，待本机生成程序后从启动器进入。也可用 Nix 和指定版本 ps3recomp 按指南构建。
+
+     **所需文件：** 自己的美国版 PS3 光盘（BCUS98116，解密 ISO 或解包目录）、1.29 更新及解密后的 EBOOT.elf。
+
+     [**构建说明**](https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/undecuple/project-pyrrhus)
+
+     [↑ 返回目录](#game-index)
+
+136. <a name="game-weltall"></a>**异度装甲 · Weltall**
 
      <a href="https://github.com/Roman215/Weltall/blob/main/README.md"><img src="https://github.com/user-attachments/assets/e55e7862-49ae-46b5-ba14-9b5ad9727418" width="760" alt="上游用户颜色问题报告中的机甲对话画面"></a>
 
@@ -2547,7 +2567,7 @@
 
      [↑ 返回目录](#game-index)
 
-136. <a name="game-echoes-unbound"></a>**密特罗德Prime 2：回声 · Echoes Unbound**
+137. <a name="game-echoes-unbound"></a>**密特罗德Prime 2：回声 · Echoes Unbound**
 
      <a href="https://github.com/Odrannnn/MetroidPrime2Port/blob/port/README.md"><img src="https://github.com/user-attachments/assets/efe38067-cc57-4ac1-b78c-dc155d4c3978" width="760" alt="上游用户反馈中的游戏画面"></a>
 
@@ -2565,7 +2585,7 @@
 
      [↑ 返回目录](#game-index)
 
-137. <a name="game-code-veronica-ps3-recomp"></a>**生化危机：代号维罗妮卡X · PS3重编译**
+138. <a name="game-code-veronica-ps3-recomp"></a>**生化危机：代号维罗妮卡X · PS3重编译**
 
      <a href="https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md"><img src="https://raw.githubusercontent.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/code-veronica/docs/images/gameplay-claire-red-room.jpg" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -2583,7 +2603,7 @@
 
      [↑ 返回目录](#game-index)
 
-138. <a name="game-cps2-recomp"></a>**卡普空街机重编译 · CPS-2 Recomp**
+139. <a name="game-cps2-recomp"></a>**卡普空街机重编译 · CPS-2 Recomp**
 
      <a href="https://github.com/tmcleroy/cps2recomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/tmcleroy/cps2recomp/main/docs/screenshots/sfa2/training.png" width="760" alt="上游项目提供的Street Fighter Alpha2训练画面"></a>
 
@@ -2601,7 +2621,7 @@
 
      [↑ 返回目录](#game-index)
 
-139. <a name="game-smash4pc"></a>**任天堂明星大乱斗 for Wii U · Smash 4 PC**
+140. <a name="game-smash4pc"></a>**任天堂明星大乱斗 for Wii U · Smash 4 PC**
 
      <a href="https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md"><img src="https://raw.githubusercontent.com/josiahg2502-glitch/Smash4PC/main/screenshots/match.jpg" width="760" alt="上游项目的路易吉洋馆训练场景"></a>
 
@@ -2619,7 +2639,7 @@
 
      [↑ 返回目录](#game-index)
 
-140. <a name="game-nfsu2-mac"></a>**极品飞车：地下狂飙2 · Apple Silicon移植**
+141. <a name="game-nfsu2-mac"></a>**极品飞车：地下狂飙2 · Apple Silicon移植**
 
      <a href="https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/TalhaMudo/NFSU2Recomp/main/screenshots/selected/27_20260924_current-race.jpg" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -2637,7 +2657,7 @@
 
      [↑ 返回目录](#game-index)
 
-141. <a name="game-fzero-forever"></a>**F-Zero · F-Zero Forever**
+142. <a name="game-fzero-forever"></a>**F-Zero · F-Zero Forever**
 
      <a href="https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/RetroPortingToolKit/FZeroSNESRecomp/main/docs/screenshots/bs-forest-iii-race-21x9.png" width="760" alt="上游展示的BS F-Zero扩展赛道画面"></a>
 
@@ -2655,7 +2675,7 @@
 
      [↑ 返回目录](#game-index)
 
-142. <a name="game-rekhcom"></a>**王国之心：记忆之链 · ReKHCoM**
+143. <a name="game-rekhcom"></a>**王国之心：记忆之链 · ReKHCoM**
 
      <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="作者提供的项目画面"></a>
 
@@ -2673,7 +2693,7 @@
 
      [↑ 返回目录](#game-index)
 
-143. <a name="game-dx-ball"></a>**DX-Ball 1.07**
+144. <a name="game-dx-ball"></a>**DX-Ball 1.07**
 
      <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="上游标题画面"></a>
 
@@ -2691,7 +2711,25 @@
 
      [↑ 返回目录](#game-index)
 
-144. <a name="game-odin-sphere-pc"></a>**奥丁领域：里普特拉西尔 · PC移植**
+145. <a name="game-007-eon"></a>**007：一切或一无所有 · PC 重编译**
+
+     <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers"><img src="assets/screenshots/007-eon.jpg" width="760" alt="上游 README 的 PC 移植标题图"></a>
+
+     <sub>上游 README 的 PC 移植标题图 <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md">图片来源</a></sub>
+
+     以詹姆斯·邦德的身份完成第三人称潜入、枪战与载具任务。原 Xbox 版的 PC 重编译，加入宽屏和画面选项。
+
+     **平台：** Windows 10/11 x64，Direct3D 11 或 12
+
+     **运行：** 从发布页取得 EoNLauncher.exe，选择光盘镜像或解包目录，本地构建后启动。自行构建需 Visual Studio 2022 C++，把原盘文件放入 assets 并运行 build.bat。
+
+     **所需文件：** 自己的欧洲版或美国版原 Xbox 光盘，ISO 或包含 default.xbe、driving.xbe 和数据目录的解包文件。
+
+     [**构建说明**](https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers) · [项目源码](https://github.com/hk21x/007eon-recomp)
+
+     [↑ 返回目录](#game-index)
+
+146. <a name="game-odin-sphere-pc"></a>**奥丁领域：里普特拉西尔 · PC移植**
 
      <a href="https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/5a94903d-2680-4679-9098-6cb0cb305b8b" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -2709,7 +2747,7 @@
 
      [↑ 返回目录](#game-index)
 
-145. <a name="game-torchlight-rekindled"></a>**火炬之光 · Rekindled**
+147. <a name="game-torchlight-rekindled"></a>**火炬之光 · Rekindled**
 
      <a href="https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md"><img src="https://raw.githubusercontent.com/GreenSwampDweller/torchlight-rekindled/main/android.jpg" width="760" alt="上游项目提供的Android矿洞画面"></a>
 
@@ -2727,7 +2765,7 @@
 
      [↑ 返回目录](#game-index)
 
-146. <a name="game-killzone3-helghast"></a>**杀戮地带3 · Project Helghast 早期移植**
+148. <a name="game-killzone3-helghast"></a>**杀戮地带3 · Project Helghast 早期移植**
 
      <a href="https://github.com/undecuple/project-helghast/blob/main/README.md"><img src="https://raw.githubusercontent.com/undecuple/project-helghast/main/docs/screenshots/20261027-191315Z_kz3-frozen-shores-firefight.webp" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -2745,7 +2783,7 @@
 
      [↑ 返回目录](#game-index)
 
-147. <a name="game-stunts-hd"></a>**特技赛车 · Stunts HD**
+149. <a name="game-stunts-hd"></a>**特技赛车 · Stunts HD**
 
      <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="项目标题预览"></a>
 
@@ -2763,7 +2801,7 @@
 
      [↑ 返回目录](#game-index)
 
-148. <a name="game-speedbreaker-carbon"></a>**极品飞车：卡本峡谷 · SpeedBreaker Carbon**
+150. <a name="game-speedbreaker-carbon"></a>**极品飞车：卡本峡谷 · SpeedBreaker Carbon**
 
      <a href="https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md"><img src="https://raw.githubusercontent.com/SpeedBreakerProject/speedbreaker-carbon/main/assets/screenshots/speedbreaker-carbon-20-16x10-canyon-duel.jpg" width="760" alt="作者Mac版峡谷对决截图，车牌已由上游模糊处理"></a>
 
@@ -2781,7 +2819,7 @@
 
      [↑ 返回目录](#game-index)
 
-149. <a name="game-legaia"></a>**乐雅传说 · Legend of Legaia**
+151. <a name="game-legaia"></a>**乐雅传说 · Legend of Legaia**
 
      <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md"><img src="https://raw.githubusercontent.com/AndrewAltimit/legend-of-legaia-re/main/site/assets/hero-montage.webp" width="760" alt="作者提供的项目画面"></a>
 
@@ -2799,7 +2837,7 @@
 
      [↑ 返回目录](#game-index)
 
-150. <a name="game-th095"></a>**东方文花帖 TH095**
+152. <a name="game-th095"></a>**东方文花帖 TH095**
 
      <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="上游标题画面"></a>
 
@@ -2817,7 +2855,7 @@
 
      [↑ 返回目录](#game-index)
 
-151. <a name="game-newshoes"></a>**命令与征服：将军绝命时刻 · NewShoes**
+153. <a name="game-newshoes"></a>**命令与征服：将军绝命时刻 · NewShoes**
 
      <a href="https://github.com/Agusx1211/NewShoes/blob/main/README.md"><img src="assets/screenshots/newshoes-entry.jpg" width="760" alt="当前游戏文件导入启动器"></a>
 
@@ -2835,7 +2873,25 @@
 
      [↑ 返回目录](#game-index)
 
-152. <a name="game-segasonic-native"></a>**世嘉索尼克刺猬 · 原生移植**
+154. <a name="game-tmb-bozos"></a>**烈火战车：黑暗 · The Bozos**
+
+     <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run"><img src="assets/screenshots/tmb-bozos.jpg" width="760" alt="上游移植版垃圾场战斗画面"></a>
+
+     <sub>上游移植版垃圾场战斗画面 <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md">图片来源</a></sub>
+
+     在竞技场驾驶武装车辆，用火箭和其他武器对战。PS2 版静态重编译到 PC，支持故事和挑战模式；后续故事关卡尚未完整验证。
+
+     **平台：** Windows 64 位；Linux 可从源码构建，近期版本尚未在 Linux 复测
+
+     **运行：** Windows 解压发布包，打开 TMB Launcher，选择光盘镜像，点 Prepare the game，再点 Play。自行构建见上游说明，Windows 使用 Python、MSYS2 UCRT64 工具链和 CMake/Ninja。
+
+     **所需文件：** 自己的美国 PS2 版（SCUS-97101），ISO 或配套的 BIN/CUE。
+
+     [**构建说明**](https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run) · [项目源码](https://github.com/TheBozos/TMB_Recomp)
+
+     [↑ 返回目录](#game-index)
+
+155. <a name="game-segasonic-native"></a>**世嘉索尼克刺猬 · 原生移植**
 
      <a href="https://github.com/cheviman/segasonic-port/blob/main/README.md"><img src="https://raw.githubusercontent.com/cheviman/segasonic-port/main/docs/screenshots/volcanic_vault.png" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -2853,7 +2909,7 @@
 
      [↑ 返回目录](#game-index)
 
-153. <a name="game-xmen2-pc"></a>**X战警2：克隆人战争 · XMen2 PC**
+156. <a name="game-xmen2-pc"></a>**X战警2：克隆人战争 · XMen2 PC**
 
      <a href="https://github.com/crabsmack/xmen2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/crabsmack/xmen2-pc/main/docs/media/magneto.png" width="760" alt="上游项目的万磁王关卡游戏画面"></a>
 
@@ -2871,7 +2927,7 @@
 
      [↑ 返回目录](#game-index)
 
-154. <a name="game-glassline"></a>**镜之边缘 iPad版 · Glassline**
+157. <a name="game-glassline"></a>**镜之边缘 iPad版 · Glassline**
 
      <a href="https://github.com/MoonCellar-Team/Glassline/blob/main/README.md"><img src="https://raw.githubusercontent.com/MoonCellar-Team/Glassline/main/docs/screenshots/rooftop-jump.jpg" width="760" alt="上游屋顶跳跃截图"></a>
 
@@ -2889,7 +2945,7 @@
 
      [↑ 返回目录](#game-index)
 
-155. <a name="game-precursor"></a>**杰克与达斯特三部曲 · Precursor**
+158. <a name="game-precursor"></a>**杰克与达斯特三部曲 · Precursor**
 
      <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="上游游戏启动器截图"></a>
 
@@ -2907,7 +2963,7 @@
 
      [↑ 返回目录](#game-index)
 
-156. <a name="game-grandia3-pc"></a>**格兰蒂亚3 · PC重编译**
+159. <a name="game-grandia3-pc"></a>**格兰蒂亚3 · PC重编译**
 
      <a href="https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVjyGNBWgAAYi7L?format=jpg&amp;name=small" width="760" alt="原帖提供的游戏预览"></a>
 
@@ -2925,7 +2981,7 @@
 
      [↑ 返回目录](#game-index)
 
-157. <a name="game-openkingdoms"></a>**横扫千军：王国 · OpenKingdoms**
+160. <a name="game-openkingdoms"></a>**横扫千军：王国 · OpenKingdoms**
 
      <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="作者提供的项目画面"></a>
 
@@ -2943,7 +2999,7 @@
 
      [↑ 返回目录](#game-index)
 
-158. <a name="game-nhl2k8"></a>**NHL 2K8 · Windows重编译**
+161. <a name="game-nhl2k8"></a>**NHL 2K8 · Windows重编译**
 
      <a href="https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md"><img src="https://raw.githubusercontent.com/anishchandra24/NHL2K8-Recompiled/main/docs/screenshots/03-in-game.png" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -2961,7 +3017,7 @@
 
      [↑ 返回目录](#game-index)
 
-159. <a name="game-project-stonehenge"></a>**皇牌空战04 · ProjectStonehenge**
+162. <a name="game-project-stonehenge"></a>**皇牌空战04 · ProjectStonehenge**
 
      <a href="https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md"><img src="https://raw.githubusercontent.com/Onaga00/ProjectStonehenge/main/docs/images/screenshot.png" width="760" alt="上游空战截图"></a>
 
@@ -2979,7 +3035,7 @@
 
      [↑ 返回目录](#game-index)
 
-160. <a name="game-openciv2"></a>**文明2多人黄金版 · OpenCiv2**
+163. <a name="game-openciv2"></a>**文明2多人黄金版 · OpenCiv2**
 
      <a href="https://github.com/richardpenman/civ2/blob/main/README.md"><img src="https://raw.githubusercontent.com/richardpenman/civ2/main/docs/screenshots/city.png" width="760" alt="上游城市管理画面截图"></a>
 
@@ -2997,7 +3053,7 @@
 
      [↑ 返回目录](#game-index)
 
-161. <a name="game-igi-re"></a>**秘密潜入 · IGI-RE**
+164. <a name="game-igi-re"></a>**秘密潜入 · IGI-RE**
 
      <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/README.md"><img src="https://raw.githubusercontent.com/slickdaddyy/IGI-RE/main/docs/media/igi.jpg" width="760" alt="上游README提供的游戏预览"></a>
 
@@ -3015,7 +3071,7 @@
 
      [↑ 返回目录](#game-index)
 
-162. <a name="game-dreams-recomp"></a>**梦境成真 · Dreams to Reality Recompiled**
+165. <a name="game-dreams-recomp"></a>**梦境成真 · Dreams to Reality Recompiled**
 
      <a href="https://github.com/jlagedo/dreams-to-reality-re/blob/main/recomp/README.md"><img src="https://raw.githubusercontent.com/jlagedo/dreams-to-reality-re/main/docs/demo.jpg" width="760" alt="作者重编译版第一关游戏画面"></a>
 
@@ -3033,7 +3089,7 @@
 
      [↑ 返回目录](#game-index)
 
-163. <a name="game-rush2049"></a>**旧金山狂飙2049 · Rush 2049 Recompiled**
+166. <a name="game-rush2049"></a>**旧金山狂飙2049 · Rush 2049 Recompiled**
 
      <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -3051,7 +3107,7 @@
 
      [↑ 返回目录](#game-index)
 
-164. <a name="game-kirby-air-ride"></a>**星之卡比：飞天赛车 · 重编译**
+167. <a name="game-kirby-air-ride"></a>**星之卡比：飞天赛车 · 重编译**
 
      <a href="https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md"><img src="https://raw.githubusercontent.com/sonsegajp/Kirby-Air-Ride-Recompiled/master/docs/images/16x9_city1.jpg" width="760" alt="上游项目提供的16:9 City Trial游戏画面"></a>
 
@@ -3069,7 +3125,7 @@
 
      [↑ 返回目录](#game-index)
 
-165. <a name="game-muppet-racemania"></a>**布偶赛车 · Muppet RaceMania Recompiled**
+168. <a name="game-muppet-racemania"></a>**布偶赛车 · Muppet RaceMania Recompiled**
 
      <a href="https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/TekRantGaming/muppet-racemania-recompiled/main/docs/images/race-1.jpg" width="760" alt="上游项目提供的游戏画面"></a>
 
@@ -3087,7 +3143,7 @@
 
      [↑ 返回目录](#game-index)
 
-166. <a name="game-strikers-charged-vita"></a>**马力欧激战前锋 Charged · PS Vita**
+169. <a name="game-strikers-charged-vita"></a>**马力欧激战前锋 Charged · PS Vita**
 
      <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/CBOC-Vita-Lab/strikers-charged-vita/main/store/screenshots/gameplay-vita.png" width="760" alt="上游PS Vita比赛截图"></a>
 
@@ -3105,7 +3161,7 @@
 
      [↑ 返回目录](#game-index)
 
-167. <a name="game-stunt-race-fx-mabec"></a>**特技赛车FX · Mabec增强移植**
+170. <a name="game-stunt-race-fx-mabec"></a>**特技赛车FX · Mabec增强移植**
 
      <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md"><img src="https://raw.githubusercontent.com/Mabec-games/Stunt-Race-FX-DECOMP/main/docs/media/smooth-1.gif" width="760" alt="作者README提供的竞速动图"></a>
 
@@ -3123,7 +3179,7 @@
 
      [↑ 返回目录](#game-index)
 
-168. <a name="game-ultima6"></a>**Ultima VI：Amiga 版移植**
+171. <a name="game-ultima6"></a>**Ultima VI：Amiga 版移植**
 
      <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="设置入口"></a>
 
@@ -3141,7 +3197,7 @@
 
      [↑ 返回目录](#game-index)
 
-169. <a name="game-gunzrs"></a>**GunZ：The Duel · GunZRs**
+172. <a name="game-gunzrs"></a>**GunZ：The Duel · GunZRs**
 
      <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="作者提供的项目画面"></a>
 
@@ -3159,7 +3215,7 @@
 
      [↑ 返回目录](#game-index)
 
-170. <a name="game-alice-web"></a>**爱丽丝梦游魔境2000 · Alice Web**
+173. <a name="game-alice-web"></a>**爱丽丝梦游魔境2000 · Alice Web**
 
      <a href="https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md"><img src="https://raw.githubusercontent.com/looking-glass-project/LookingGlass/main/docs/media/gameplay/story-poster.jpg" width="760" alt="上游Looking Glass引擎的实录封面"></a>
 
@@ -3177,7 +3233,7 @@
 
      [↑ 返回目录](#game-index)
 
-171. <a name="game-conker-web"></a>**松鼠库克：倒霉的一天 · n64hub网页版**
+174. <a name="game-conker-web"></a>**松鼠库克：倒霉的一天 · n64hub网页版**
 
      <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -3195,7 +3251,7 @@
 
      [↑ 返回目录](#game-index)
 
-172. <a name="game-diablo2-rust-wasm"></a>**暗黑破坏神2 · Rust/WASM原型**
+175. <a name="game-diablo2-rust-wasm"></a>**暗黑破坏神2 · Rust/WASM原型**
 
      <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="上游原型截图"></a>
 
@@ -3213,7 +3269,7 @@
 
      [↑ 返回目录](#game-index)
 
-173. <a name="game-dark-colony"></a>**Open Dark Colony**
+176. <a name="game-dark-colony"></a>**Open Dark Colony**
 
      <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="文件导入页"></a>
 
@@ -3231,7 +3287,7 @@
 
      [↑ 返回目录](#game-index)
 
-174. <a name="game-web-generalsx"></a>**命令与征服：将军绝命时刻 · GeneralsX Web**
+177. <a name="game-web-generalsx"></a>**命令与征服：将军绝命时刻 · GeneralsX Web**
 
      <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="上游提供的在线入口预览"></a>
 
@@ -3249,23 +3305,7 @@
 
      [↑ 返回目录](#game-index)
 
-175. <a name="game-micro-mages"></a>**微型法师 · Micro Mages Rust**
-
-     <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md"><img src="https://raw.githubusercontent.com/HungLo2020/MicroMages/main/packaging/artwork/cover.png" width="760" alt="项目提供的封面预览"></a>
-
-     <sub>项目提供的封面预览 <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md">图片来源</a></sub>
-
-     原生Rust玩法重建，操纵法师跳跃、射击并攀登关卡，可选择一至四名玩家。
-
-     **平台：** Linux
-
-     **运行：** 准备Rust、SDL2以及README列出的ALSA/udev和图形开发库，在项目目录运行cargo run。
-
-     [**构建说明**](https://github.com/HungLo2020/MicroMages/blob/main/README.md) · [项目介绍](https://github.com/HungLo2020/MicroMages)
-
-     [↑ 返回目录](#game-index)
-
-176. <a name="game-wow-shadowfang-slice"></a>**魔兽世界：影牙城堡 · 单机演示**
+178. <a name="game-wow-shadowfang-slice"></a>**魔兽世界：影牙城堡 · 单机演示**
 
      <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="作者提供的单场景演示截图"></a>
 
@@ -3281,7 +3321,7 @@
 
      [↑ 返回目录](#game-index)
 
-177. <a name="game-banjo-web"></a>**班卓熊大冒险 · n64hub网页版**
+179. <a name="game-banjo-web"></a>**班卓熊大冒险 · n64hub网页版**
 
      <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -3299,7 +3339,7 @@
 
      [↑ 返回目录](#game-index)
 
-178. <a name="game-zelda-web"></a>**塞尔达传说：姆吉拉的假面 · n64hub网页版**
+180. <a name="game-zelda-web"></a>**塞尔达传说：姆吉拉的假面 · n64hub网页版**
 
      <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -3317,7 +3357,7 @@
 
      [↑ 返回目录](#game-index)
 
-179. <a name="game-dk64-web"></a>**大金刚64 · n64hub网页版**
+181. <a name="game-dk64-web"></a>**大金刚64 · n64hub网页版**
 
      <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
 
@@ -3335,7 +3375,7 @@
 
      [↑ 返回目录](#game-index)
 
-180. <a name="game-chessmaster-web"></a>**国际象棋大师9000 · Chessmaster-Web**
+182. <a name="game-chessmaster-web"></a>**国际象棋大师9000 · Chessmaster-Web**
 
      <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="作者原帖项目预览"></a>
 
@@ -3353,7 +3393,7 @@
 
      [↑ 返回目录](#game-index)
 
-181. <a name="game-dicing-knight"></a>**骰子骑士 · Dicing Knight原生重编译**
+183. <a name="game-dicing-knight"></a>**骰子骑士 · Dicing Knight原生重编译**
 
      <a href="https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/aoxzh/dicing-knight-static-recomp/main/docs/screenshots/tower-interior.png" width="760" alt="作者Windows原生构建的塔内画面"></a>
 

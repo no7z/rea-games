@@ -6,6 +6,7 @@ Local images used by the homepage are listed below with their original pages. Ca
 
 | 图片 / Image | 来源 / Source | 内容 / Caption |
 | --- | --- | --- |
+| [007-eon.jpg](007-eon.jpg) | [原页面 / Original page](https://github.com/hk21x/007eon-recomp/blob/main/README.md) | 上游 README 的 PC 移植标题图 / PC port title preview from the upstream README |
 | [aerofoil-entry.jpg](aerofoil-entry.jpg) | [原页面 / Original page](https://galeforcegames.itch.io/aerofoil) | 浏览器窗口中的启动介绍 / Introduction inside the browser game window |
 | [arx-libertatis-site.jpg](arx-libertatis-site.jpg) | [原页面 / Original page](https://arx-libertatis.org/) | 项目官网与游戏画面预览 / Project website and game preview |
 | [arxwasm-entry.jpg](arxwasm-entry.jpg) | [原页面 / Original page](https://wasm.continuation-labs.com/arxdemo/) | 当前演示启动/加载页 / Current demo launcher/loading page |
@@ -30,12 +31,14 @@ Local images used by the homepage are listed below with their original pages. Ca
 | [newshoes-entry.jpg](newshoes-entry.jpg) | [原页面 / Original page](https://newshoes.gg) | 当前游戏文件导入启动器 / Current game-data import launcher |
 | [openra-official-preview.jpg](openra-official-preview.jpg) | [原页面 / Original page](https://www.openra.net/) | 官网游戏预览 / Official-site game preview |
 | [panzer-marshal-entry.jpg](panzer-marshal-entry.jpg) | [原页面 / Original page](https://panzermarshal.com/) | 游戏主菜单 / Game main menu |
+| [pyrrhus.png](pyrrhus.png) | [原页面 / Original page](https://github.com/undecuple/project-pyrrhus/blob/main/docs/SCREENSHOTS.md) | 上游在 Proton 下运行首关科林斯河的画面 / Upstream screenshot of the first level, Corinth River, under Proton |
 | [qwasm-entry.jpg](qwasm-entry.jpg) | [原页面 / Original page](https://qwasm.m-h.org.uk/) | 当前演示启动/加载页 / Current demo launcher/loading page |
 | [qwasm2-entry.jpg](qwasm2-entry.jpg) | [原页面 / Original page](https://qwasm2.m-h.org.uk/) | 当前演示启动/加载页 / Current demo launcher/loading page |
 | [rush2049-entry.jpg](rush2049-entry.jpg) | [原页面 / Original page](https://n64hub.com/rush-2049/) | 当前网页ROM启动器，未载入游戏文件 / Current browser ROM launcher; no game file loaded |
 | [sdlpal-entry.jpg](sdlpal-entry.jpg) | [原页面 / Original page](https://sdlpal.github.io/demo/sdlpal.html) | 当前资源导入启动页 / Current resource import launcher |
 | [silent-hill-upstream.png](silent-hill-upstream.png) | [原页面 / Original page](https://sh1pc.com/) | 作者官网提供的移植截图 / Port screenshot from the author’s website |
 | [snail-mail-entry.jpg](snail-mail-entry.jpg) | [原页面 / Original page](https://snail.banteg.xyz) | 点击启动画面 / Click-to-play screen |
+| [tmb-bozos.jpg](tmb-bozos.jpg) | [原页面 / Original page](https://github.com/TheBozos/TMB_Recomp/blob/main/README.md) | 上游移植版垃圾场战斗画面 / Junkyard match screenshot from the upstream port |
 | [ultima6-setup.jpg](ultima6-setup.jpg) | [原页面 / Original page](https://ultima6.2lab.ai/) | 设置入口 / Setup screen |
 | [untangle-entry.jpg](untangle-entry.jpg) | [原页面 / Original page](https://az9713.github.io/untangle-rebuild/rebuild/index.html) | 棋盘画面 / Puzzle board |
 | [weltendaemmerung-entry.jpg](weltendaemmerung-entry.jpg) | [原页面 / Original page](https://s-macke.github.io/weltendaemmerung/) | 当前标题页 / Current title screen |

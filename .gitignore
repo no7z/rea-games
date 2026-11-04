@@ -25,6 +25,7 @@ tmp/
 /assets/screenshots/*
 !/assets/screenshots/README.md
 # Homepage screenshots (maintained by the local renderer).
+!/assets/screenshots/007-eon.jpg
 !/assets/screenshots/aerofoil-entry.jpg
 !/assets/screenshots/arx-libertatis-site.jpg
 !/assets/screenshots/arxwasm-entry.jpg
@@ -49,12 +50,14 @@ tmp/
 !/assets/screenshots/newshoes-entry.jpg
 !/assets/screenshots/openra-official-preview.jpg
 !/assets/screenshots/panzer-marshal-entry.jpg
+!/assets/screenshots/pyrrhus.png
 !/assets/screenshots/qwasm-entry.jpg
 !/assets/screenshots/qwasm2-entry.jpg
 !/assets/screenshots/rush2049-entry.jpg
 !/assets/screenshots/sdlpal-entry.jpg
 !/assets/screenshots/silent-hill-upstream.png
 !/assets/screenshots/snail-mail-entry.jpg
+!/assets/screenshots/tmb-bozos.jpg
 !/assets/screenshots/ultima6-setup.jpg
 !/assets/screenshots/untangle-entry.jpg
 !/assets/screenshots/weltendaemmerung-entry.jpg

@@ -6,7 +6,7 @@ Discover decompiled, recompiled, reimplemented and ported games. See images, sup
 
 [Game data sources](RESOURCES.en.md) · [Contribute](CONTRIBUTING.md)
 
-181 showcase projects · 88 browser links.
+183 showcase projects · 88 browser links.
 
 Ready-to-run projects and source builds are listed separately. Build entries state the platforms, instructions and original files required; compiling may still require a ROM or game data.
 
@@ -16,17 +16,13 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 Today's additions are listed first; the remaining games follow the detail sections. Select a game to jump to its details.
 
-### Today's additions (2026-11-03)
+### Today's additions (2026-11-04)
 
 | Game | Access | Genre |
 | --- | --- | --- |
-| [Battlefield 1942 · Browser demo](#game-bf1942-web) | Browser demo | Shooters &amp; bullet hell |
-| [Bloodborne · bbhost](#game-bbhost) | Source build | Action &amp; adventure |
-| [Nox · OpenNox](#game-opennox) | Source build | Role-playing |
-| [TimeSplitters: Future Perfect · Recomp](#game-timesplitters-fp) | Source build | Shooters &amp; bullet hell |
-| [Xenogears · Weltall](#game-weltall) | Source build | Role-playing |
-| [Dreams to Reality · Recompiled](#game-dreams-recomp) | Source build | Action &amp; adventure |
-| [Dicing Knight. · Native recompilation](#game-dicing-knight) | Source build | Role-playing |
+| [Killzone 2 · Project Pyrrhus](#game-pyrrhus) | Source build | Shooters &amp; bullet hell |
+| [007: Everything or Nothing · PC Recompilation](#game-007-eon) | Source build | Action &amp; adventure |
+| [Twisted Metal: Black · The Bozos](#game-tmb-bozos) | Source build | Racing &amp; driving |
 
 ### Run in browser
 
@@ -88,6 +84,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Half-Life and Counter-Strike 1.6 (WebXash)](#game-web-half-life-and-counter-strike-1-6-webxash) | Browser demo | Shooters &amp; bullet hell |
 | [NetQuake.io](#game-web-netquake-io) | Browser demo | Shooters &amp; bullet hell |
 | [Quake III Arena (q3js)](#game-web-quake-iii-arena) | Browser demo | Shooters &amp; bullet hell |
+| [Battlefield 1942 · Browser demo](#game-bf1942-web) | Browser demo | Shooters &amp; bullet hell |
 | [Command &amp; Conquer: Red Alert 2](#game-web-command-conquer-red-alert-2) | Browser · original files | Strategy &amp; tower defense |
 | [Grand Theft Auto: Vice City](#game-web-grand-theft-auto-vice-city) | Browser · original files | Action &amp; adventure |
 
@@ -132,7 +129,9 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Lost Odyssey · Recomp](#game-lost-odyssey-recomp) | Source build | Role-playing |
 | [Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | Source build | Platformers |
 | [Silent Hill · PsyCross port](#game-silent-hill-pc) | Source build / browser | Action &amp; adventure |
+| [Bloodborne · bbhost](#game-bbhost) | Source build | Action &amp; adventure |
 | [Mario Kart Wii · KartPad](#game-kartpad) | Source build | Racing &amp; driving |
+| [Nox · OpenNox](#game-opennox) | Source build | Role-playing |
 | [The Legend of Zelda: Tears of the Kingdom · TotK Recomp](#game-totk-recomp) | Source build | Action &amp; adventure |
 | [Super Smash Bros. Ultimate · OpenSmash](#game-opensmash-ultimate) | Source build | Fighting |
 | [Doom 3 · D3Wasm](#game-d3wasm) | Source build / browser | Shooters &amp; bullet hell |
@@ -145,8 +144,8 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Monster Hunter Generations Ultimate · MHGU Recomp](#game-mhgu-recomp) | Source build | Role-playing |
 | [Mortal Kombat: Shaolin Monks · OpenShao](#game-openshao) | Source build | Action &amp; adventure |
 | [Namco 2x Systems · arcade reconstructions](#game-namco-2x-systems) | Source build | Arcade collections &amp; party |
-| [Dead or Alive Xtreme Beach Volleyball · native port](#game-doaxvb-native) | Source build | Sports |
 | [Crash Team Racing · High Octane](#game-ctr-high-octane) | Source build / browser | Racing &amp; driving |
+| [Dead or Alive Xtreme Beach Volleyball · native port](#game-doaxvb-native) | Source build | Sports |
 | [Midtown Madness · Open1560](#game-open1560) | Source build | Racing &amp; driving |
 | [Diddy Kong Racing · Golden Balloon](#game-goldenballoon) | Source build / browser | Racing &amp; driving |
 | [Zelda II: The Adventure of Link · z2rs](#game-troyedwardsjr-z2rs) | Source build / browser | Role-playing |
@@ -165,8 +164,10 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Magic Carpet 2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | Source build | Action &amp; adventure |
 | [Metroid Prime Remastered · PrimeRecomp](#game-prime-remastered) | Source build | Action &amp; adventure |
 | [007: From Russia with Love · Xbox recompilation](#game-007-frwl-xbe) | Source build | Shooters &amp; bullet hell |
+| [TimeSplitters: Future Perfect · Recomp](#game-timesplitters-fp) | Source build | Shooters &amp; bullet hell |
 | [Super Smash Bros. Brawl · Brawl Recompiled](#game-brawl-recompiled) | Source build | Fighting |
 | [Halo: Combat Evolved · Chupathingy](#game-chupathingy) | Source build | Shooters &amp; bullet hell |
+| [Xenogears · Weltall](#game-weltall) | Source build | Role-playing |
 | [Metroid Prime 2: Echoes · Echoes Unbound](#game-echoes-unbound) | Source build | Action &amp; adventure |
 | [Resident Evil Code: Veronica X · PS3 recompilation](#game-code-veronica-ps3-recomp) | Source build | Action &amp; adventure |
 | [Capcom arcade recompilations · CPS-2 Recomp](#game-cps2-recomp) | Source build | Arcade collections &amp; party |
@@ -193,6 +194,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Ace Combat 04 · ProjectStonehenge](#game-project-stonehenge) | Source build | Shooters &amp; bullet hell |
 | [Civilization II Multiplayer Gold · OpenCiv2](#game-openciv2) | Source build | Strategy &amp; tower defense |
 | [Project I.G.I. · IGI-RE](#game-igi-re) | Source build | Shooters &amp; bullet hell |
+| [Dreams to Reality · Recompiled](#game-dreams-recomp) | Source build | Action &amp; adventure |
 | [San Francisco Rush 2049 · Recompiled](#game-rush2049) | Source build / browser | Racing &amp; driving |
 | [Kirby Air Ride · Recompiled](#game-kirby-air-ride) | Source build | Racing &amp; driving |
 | [Muppet RaceMania · Recompiled](#game-muppet-racemania) | Source build | Racing &amp; driving |
@@ -205,12 +207,12 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Diablo II · Rust/WASM prototype](#game-diablo2-rust-wasm) | Source build | Role-playing |
 | [Open Dark Colony](#game-dark-colony) | Source build / browser | Strategy &amp; tower defense |
 | [GeneralsX Web · Zero Hour](#game-web-generalsx) | Source build / browser | Strategy &amp; tower defense |
-| [Micro Mages · Rust reconstruction](#game-micro-mages) | Source build | Platformers |
 | [WoW: Shadowfang Keep · Standalone slice](#game-wow-shadowfang-slice) | Source build | Role-playing |
 | [Banjo-Kazooie · n64hub web fork](#game-banjo-web) | Source build / browser | Platformers |
 | [The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork](#game-zelda-web) | Source build / browser | Action &amp; adventure |
 | [Donkey Kong 64 · n64hub web fork](#game-dk64-web) | Source build / browser | Platformers |
 | [Chessmaster 9000 · Chessmaster-Web](#game-chessmaster-web) | Source build / browser | Strategy &amp; tower defense |
+| [Dicing Knight. · Native recompilation](#game-dicing-knight) | Source build | Role-playing |
 
 
 ## Run in browser
@@ -2115,25 +2117,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-112. <a name="game-doaxvb-native"></a>**Dead or Alive Xtreme Beach Volleyball · native port**
-
-     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="Native-port volleyball screenshot supplied by the upstream README"></a>
-
-     <sub>Native-port volleyball screenshot supplied by the upstream README <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">Image source</a></sub>
-
-     Play beach volleyball, minigames and island-vacation activities through a native recompilation of the original Xbox game.
-
-     **Platforms:** Windows 10/11 x64 / macOS (Intel, Apple Silicon) / Linux / Steam Deck
-
-     **Run:** On Windows, extract a release ZIP, choose your ISO in Launcher, select Build game and then Play. Source builds need Python 3.12, Capstone 5.0.9, Git, CMake and extract-xiso; on macOS/Linux follow the SDL3/compiler prerequisites and build_game.sh guide.
-
-     **Required files:** Your own supported US Xbox game ISO; Windows setup needs internet access to obtain llvm-mingw and other build tools on first use.
-
-     [**Build instructions**](https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md) · [Project source](https://github.com/NoRain211/doaxvb-re)
-
-     [↑ Back to directory](#game-index)
-
-113. <a name="game-ctr-high-octane"></a>**Crash Team Racing · High Octane**
+112. <a name="game-ctr-high-octane"></a>**Crash Team Racing · High Octane**
 
      <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml"><img src="https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/vita/screenshots/game1.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -2148,6 +2132,24 @@ Today's additions are listed first; the remaining games follow the detail sectio
      **Required files:** Your own supported US CTR PS1 BIN; online play has a separate key-file input.
 
      [**Build instructions**](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml) · [Project information](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane) · [Browser entry · check file requirements](https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane)
+
+     [↑ Back to directory](#game-index)
+
+113. <a name="game-doaxvb-native"></a>**Dead or Alive Xtreme Beach Volleyball · native port**
+
+     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="Native-port volleyball screenshot supplied by the upstream README"></a>
+
+     <sub>Native-port volleyball screenshot supplied by the upstream README <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">Image source</a></sub>
+
+     Play beach volleyball, minigames and island-vacation activities through a native recompilation of the original Xbox game.
+
+     **Platforms:** Windows 10/11 x64 / macOS (Intel, Apple Silicon) / Linux / Steam Deck
+
+     **Run:** On Windows, extract a release ZIP, choose your ISO in Launcher, select Build game and then Play. Source builds need Python 3.12, Capstone 5.0.9, Git, CMake and extract-xiso; on macOS/Linux follow the SDL3/compiler prerequisites and build_game.sh guide.
+
+     **Required files:** Your own supported US Xbox game ISO; Windows setup needs internet access to obtain llvm-mingw and other build tools on first use.
+
+     [**Build instructions**](https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md) · [Project source](https://github.com/NoRain211/doaxvb-re)
 
      [↑ Back to directory](#game-index)
 
@@ -2529,7 +2531,25 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-135. <a name="game-weltall"></a>**Xenogears · Weltall**
+135. <a name="game-pyrrhus"></a>**Killzone 2 · Project Pyrrhus**
+
+     <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md"><img src="assets/screenshots/pyrrhus.png" width="760" alt="Upstream screenshot of the first level, Corinth River, under Proton"></a>
+
+     <sub>Upstream screenshot of the first level, Corinth River, under Proton <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/SCREENSHOTS.md">Image source</a></sub>
+
+     Land at Corinth River and fight in first person. This early PS3 recompilation has first-level gameplay; a full campaign playthrough is unverified.
+
+     **Platforms:** Windows 10/11 x64 with Direct3D 12; upstream mainly tests under Proton on Linux
+
+     **Run:** Run the Windows prerelease installer, supply the disc data, update and decrypted EBOOT, and let it build locally before launching. The source guide uses Nix and a pinned ps3recomp version.
+
+     **Required files:** Your own USA PS3 disc (BCUS98116, decrypted ISO or extracted folder), the 1.29 update and decrypted EBOOT.elf.
+
+     [**Build instructions**](https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md) · [Project source](https://github.com/undecuple/project-pyrrhus)
+
+     [↑ Back to directory](#game-index)
+
+136. <a name="game-weltall"></a>**Xenogears · Weltall**
 
      <a href="https://github.com/Roman215/Weltall/blob/main/README.md"><img src="https://github.com/user-attachments/assets/e55e7862-49ae-46b5-ba14-9b5ad9727418" width="760" alt="Gear dialogue screenshot from an upstream color-defect report"></a>
 
@@ -2547,7 +2567,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-136. <a name="game-echoes-unbound"></a>**Metroid Prime 2: Echoes · Echoes Unbound**
+137. <a name="game-echoes-unbound"></a>**Metroid Prime 2: Echoes · Echoes Unbound**
 
      <a href="https://github.com/Odrannnn/MetroidPrime2Port/blob/port/README.md"><img src="https://github.com/user-attachments/assets/efe38067-cc57-4ac1-b78c-dc155d4c3978" width="760" alt="Game screenshot from an upstream user report"></a>
 
@@ -2565,7 +2585,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-137. <a name="game-code-veronica-ps3-recomp"></a>**Resident Evil Code: Veronica X · PS3 recompilation**
+138. <a name="game-code-veronica-ps3-recomp"></a>**Resident Evil Code: Veronica X · PS3 recompilation**
 
      <a href="https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md"><img src="https://raw.githubusercontent.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/code-veronica/docs/images/gameplay-claire-red-room.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
@@ -2583,7 +2603,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-138. <a name="game-cps2-recomp"></a>**Capcom arcade recompilations · CPS-2 Recomp**
+139. <a name="game-cps2-recomp"></a>**Capcom arcade recompilations · CPS-2 Recomp**
 
      <a href="https://github.com/tmcleroy/cps2recomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/tmcleroy/cps2recomp/main/docs/screenshots/sfa2/training.png" width="760" alt="Street Fighter Alpha 2 training screenshot supplied by the upstream project"></a>
 
@@ -2601,7 +2621,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-139. <a name="game-smash4pc"></a>**Super Smash Bros. for Wii U · Smash 4 PC**
+140. <a name="game-smash4pc"></a>**Super Smash Bros. for Wii U · Smash 4 PC**
 
      <a href="https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md"><img src="https://raw.githubusercontent.com/josiahg2502-glitch/Smash4PC/main/screenshots/match.jpg" width="760" alt="Upstream training scene on Luigi’s Mansion"></a>
 
@@ -2619,7 +2639,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-140. <a name="game-nfsu2-mac"></a>**Need for Speed: Underground 2 · Apple Silicon port**
+141. <a name="game-nfsu2-mac"></a>**Need for Speed: Underground 2 · Apple Silicon port**
 
      <a href="https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/TalhaMudo/NFSU2Recomp/main/screenshots/selected/27_20260924_current-race.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
@@ -2637,7 +2657,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-141. <a name="game-fzero-forever"></a>**F-Zero · F-Zero Forever**
+142. <a name="game-fzero-forever"></a>**F-Zero · F-Zero Forever**
 
      <a href="https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/RetroPortingToolKit/FZeroSNESRecomp/main/docs/screenshots/bs-forest-iii-race-21x9.png" width="760" alt="Upstream screenshot of a BS F-Zero expansion course"></a>
 
@@ -2655,7 +2675,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-142. <a name="game-rekhcom"></a>**Kingdom Hearts: Chain of Memories · ReKHCoM**
+143. <a name="game-rekhcom"></a>**Kingdom Hearts: Chain of Memories · ReKHCoM**
 
      <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="Project image supplied by the author"></a>
 
@@ -2673,7 +2693,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-143. <a name="game-dx-ball"></a>**DX-Ball 1.07**
+144. <a name="game-dx-ball"></a>**DX-Ball 1.07**
 
      <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="Upstream title screen"></a>
 
@@ -2691,7 +2711,25 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-144. <a name="game-odin-sphere-pc"></a>**Odin Sphere Leifthrasir · PC port**
+145. <a name="game-007-eon"></a>**007: Everything or Nothing · PC Recompilation**
+
+     <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers"><img src="assets/screenshots/007-eon.jpg" width="760" alt="PC port title preview from the upstream README"></a>
+
+     <sub>PC port title preview from the upstream README <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md">Image source</a></sub>
+
+     Play as James Bond in third-person stealth, shootouts and driving missions. This original Xbox recompilation adds widescreen and display options.
+
+     **Platforms:** Windows 10/11 x64 with Direct3D 11 or 12
+
+     **Run:** Get EoNLauncher.exe from Releases, choose a disc image or extracted folder, and launch after it builds locally. For a source build, use Visual Studio 2022 C++, put the disc files in assets and run build.bat.
+
+     **Required files:** Your own European or USA original Xbox disc as an ISO or an extracted folder with default.xbe, driving.xbe and the data directories.
+
+     [**Build instructions**](https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers) · [Project source](https://github.com/hk21x/007eon-recomp)
+
+     [↑ Back to directory](#game-index)
+
+146. <a name="game-odin-sphere-pc"></a>**Odin Sphere Leifthrasir · PC port**
 
      <a href="https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/5a94903d-2680-4679-9098-6cb0cb305b8b" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
@@ -2709,7 +2747,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-145. <a name="game-torchlight-rekindled"></a>**Torchlight · Rekindled**
+147. <a name="game-torchlight-rekindled"></a>**Torchlight · Rekindled**
 
      <a href="https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md"><img src="https://raw.githubusercontent.com/GreenSwampDweller/torchlight-rekindled/main/android.jpg" width="760" alt="Android mine screenshot supplied by the upstream project"></a>
 
@@ -2727,7 +2765,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-146. <a name="game-killzone3-helghast"></a>**Killzone 3 · Project Helghast early port**
+148. <a name="game-killzone3-helghast"></a>**Killzone 3 · Project Helghast early port**
 
      <a href="https://github.com/undecuple/project-helghast/blob/main/README.md"><img src="https://raw.githubusercontent.com/undecuple/project-helghast/main/docs/screenshots/20261027-191315Z_kz3-frozen-shores-firefight.webp" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
@@ -2745,7 +2783,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-147. <a name="game-stunts-hd"></a>**Stunts HD**
+149. <a name="game-stunts-hd"></a>**Stunts HD**
 
      <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="Project title preview"></a>
 
@@ -2763,7 +2801,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-148. <a name="game-speedbreaker-carbon"></a>**Need for Speed: Carbon · SpeedBreaker Carbon**
+150. <a name="game-speedbreaker-carbon"></a>**Need for Speed: Carbon · SpeedBreaker Carbon**
 
      <a href="https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md"><img src="https://raw.githubusercontent.com/SpeedBreakerProject/speedbreaker-carbon/main/assets/screenshots/speedbreaker-carbon-20-16x10-canyon-duel.jpg" width="760" alt="Author’s Mac Canyon Duel screenshot; the upstream image has a blurred licence plate"></a>
 
@@ -2781,7 +2819,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-149. <a name="game-legaia"></a>**Legend of Legaia**
+151. <a name="game-legaia"></a>**Legend of Legaia**
 
      <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md"><img src="https://raw.githubusercontent.com/AndrewAltimit/legend-of-legaia-re/main/site/assets/hero-montage.webp" width="760" alt="Project image supplied by the author"></a>
 
@@ -2799,7 +2837,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-150. <a name="game-th095"></a>**Touhou 9.5: Shoot the Bullet**
+152. <a name="game-th095"></a>**Touhou 9.5: Shoot the Bullet**
 
      <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="Upstream title screen"></a>
 
@@ -2817,7 +2855,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-151. <a name="game-newshoes"></a>**Command &amp; Conquer: Zero Hour · NewShoes**
+153. <a name="game-newshoes"></a>**Command &amp; Conquer: Zero Hour · NewShoes**
 
      <a href="https://github.com/Agusx1211/NewShoes/blob/main/README.md"><img src="assets/screenshots/newshoes-entry.jpg" width="760" alt="Current game-data import launcher"></a>
 
@@ -2835,7 +2873,25 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-152. <a name="game-segasonic-native"></a>**SegaSonic The Hedgehog · native port**
+154. <a name="game-tmb-bozos"></a>**Twisted Metal: Black · The Bozos**
+
+     <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run"><img src="assets/screenshots/tmb-bozos.jpg" width="760" alt="Junkyard match screenshot from the upstream port"></a>
+
+     <sub>Junkyard match screenshot from the upstream port <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md">Image source</a></sub>
+
+     Drive armed vehicles and fight with rockets and other weapons in arenas. This PS2 recompilation has Story and Challenge modes; later Story stages have limited testing.
+
+     **Platforms:** 64-bit Windows; Linux source builds are documented but recent changes have not been retested there
+
+     **Run:** On Windows, extract the release, open TMB Launcher, select your disc image, then choose Prepare the game and Play. Windows source builds use Python, MSYS2 UCRT64 tools and CMake/Ninja.
+
+     **Required files:** Your own USA PS2 disc (SCUS-97101), as an ISO or matching BIN/CUE.
+
+     [**Build instructions**](https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run) · [Project source](https://github.com/TheBozos/TMB_Recomp)
+
+     [↑ Back to directory](#game-index)
+
+155. <a name="game-segasonic-native"></a>**SegaSonic The Hedgehog · native port**
 
      <a href="https://github.com/cheviman/segasonic-port/blob/main/README.md"><img src="https://raw.githubusercontent.com/cheviman/segasonic-port/main/docs/screenshots/volcanic_vault.png" width="760" alt="Gameplay image supplied by the upstream project"></a>
 
@@ -2853,7 +2909,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-153. <a name="game-xmen2-pc"></a>**X-Men 2: Clone Wars · XMen2 PC**
+156. <a name="game-xmen2-pc"></a>**X-Men 2: Clone Wars · XMen2 PC**
 
      <a href="https://github.com/crabsmack/xmen2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/crabsmack/xmen2-pc/main/docs/media/magneto.png" width="760" alt="Upstream gameplay screenshot featuring Magneto"></a>
 
@@ -2871,7 +2927,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-154. <a name="game-glassline"></a>**Mirror’s Edge for iPad · Glassline**
+157. <a name="game-glassline"></a>**Mirror’s Edge for iPad · Glassline**
 
      <a href="https://github.com/MoonCellar-Team/Glassline/blob/main/README.md"><img src="https://raw.githubusercontent.com/MoonCellar-Team/Glassline/main/docs/screenshots/rooftop-jump.jpg" width="760" alt="Upstream rooftop jump screenshot"></a>
 
@@ -2889,7 +2945,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-155. <a name="game-precursor"></a>**Jak and Daxter trilogy · Precursor**
+158. <a name="game-precursor"></a>**Jak and Daxter trilogy · Precursor**
 
      <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="Upstream game launcher screenshot"></a>
 
@@ -2907,7 +2963,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-156. <a name="game-grandia3-pc"></a>**Grandia III · PC recompilation**
+159. <a name="game-grandia3-pc"></a>**Grandia III · PC recompilation**
 
      <a href="https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVjyGNBWgAAYi7L?format=jpg&amp;name=small" width="760" alt="Game preview supplied by the discovery post"></a>
 
@@ -2925,7 +2981,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-157. <a name="game-openkingdoms"></a>**Total Annihilation: Kingdoms · OpenKingdoms**
+160. <a name="game-openkingdoms"></a>**Total Annihilation: Kingdoms · OpenKingdoms**
 
      <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -2943,7 +2999,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-158. <a name="game-nhl2k8"></a>**NHL 2K8 · Windows recompilation**
+161. <a name="game-nhl2k8"></a>**NHL 2K8 · Windows recompilation**
 
      <a href="https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md"><img src="https://raw.githubusercontent.com/anishchandra24/NHL2K8-Recompiled/main/docs/screenshots/03-in-game.png" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
@@ -2961,7 +3017,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-159. <a name="game-project-stonehenge"></a>**Ace Combat 04 · ProjectStonehenge**
+162. <a name="game-project-stonehenge"></a>**Ace Combat 04 · ProjectStonehenge**
 
      <a href="https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md"><img src="https://raw.githubusercontent.com/Onaga00/ProjectStonehenge/main/docs/images/screenshot.png" width="760" alt="Upstream air-combat screenshot"></a>
 
@@ -2979,7 +3035,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-160. <a name="game-openciv2"></a>**Civilization II Multiplayer Gold · OpenCiv2**
+163. <a name="game-openciv2"></a>**Civilization II Multiplayer Gold · OpenCiv2**
 
      <a href="https://github.com/richardpenman/civ2/blob/main/README.md"><img src="https://raw.githubusercontent.com/richardpenman/civ2/main/docs/screenshots/city.png" width="760" alt="Upstream city management screenshot"></a>
 
@@ -2997,7 +3053,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-161. <a name="game-igi-re"></a>**Project I.G.I. · IGI-RE**
+164. <a name="game-igi-re"></a>**Project I.G.I. · IGI-RE**
 
      <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/README.md"><img src="https://raw.githubusercontent.com/slickdaddyy/IGI-RE/main/docs/media/igi.jpg" width="760" alt="Game preview supplied by the upstream README"></a>
 
@@ -3015,7 +3071,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-162. <a name="game-dreams-recomp"></a>**Dreams to Reality · Recompiled**
+165. <a name="game-dreams-recomp"></a>**Dreams to Reality · Recompiled**
 
      <a href="https://github.com/jlagedo/dreams-to-reality-re/blob/main/recomp/README.md"><img src="https://raw.githubusercontent.com/jlagedo/dreams-to-reality-re/main/docs/demo.jpg" width="760" alt="First-level screenshot from the author’s recompilation"></a>
 
@@ -3033,7 +3089,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-163. <a name="game-rush2049"></a>**San Francisco Rush 2049 · Recompiled**
+166. <a name="game-rush2049"></a>**San Francisco Rush 2049 · Recompiled**
 
      <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -3051,7 +3107,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-164. <a name="game-kirby-air-ride"></a>**Kirby Air Ride · Recompiled**
+167. <a name="game-kirby-air-ride"></a>**Kirby Air Ride · Recompiled**
 
      <a href="https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md"><img src="https://raw.githubusercontent.com/sonsegajp/Kirby-Air-Ride-Recompiled/master/docs/images/16x9_city1.jpg" width="760" alt="Upstream 16:9 City Trial gameplay screenshot"></a>
 
@@ -3069,7 +3125,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-165. <a name="game-muppet-racemania"></a>**Muppet RaceMania · Recompiled**
+168. <a name="game-muppet-racemania"></a>**Muppet RaceMania · Recompiled**
 
      <a href="https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/TekRantGaming/muppet-racemania-recompiled/main/docs/images/race-1.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
@@ -3087,7 +3143,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-166. <a name="game-strikers-charged-vita"></a>**Mario Strikers Charged · PS Vita**
+169. <a name="game-strikers-charged-vita"></a>**Mario Strikers Charged · PS Vita**
 
      <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/CBOC-Vita-Lab/strikers-charged-vita/main/store/screenshots/gameplay-vita.png" width="760" alt="Upstream PS Vita match screenshot"></a>
 
@@ -3105,7 +3161,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-167. <a name="game-stunt-race-fx-mabec"></a>**Stunt Race FX · Mabec enhanced port**
+170. <a name="game-stunt-race-fx-mabec"></a>**Stunt Race FX · Mabec enhanced port**
 
      <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md"><img src="https://raw.githubusercontent.com/Mabec-games/Stunt-Race-FX-DECOMP/main/docs/media/smooth-1.gif" width="760" alt="Racing animation supplied by the author’s README"></a>
 
@@ -3123,7 +3179,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-168. <a name="game-ultima6"></a>**Ultima VI — Amiga port**
+171. <a name="game-ultima6"></a>**Ultima VI — Amiga port**
 
      <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="Setup screen"></a>
 
@@ -3141,7 +3197,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-169. <a name="game-gunzrs"></a>**GunZ: The Duel · GunZRs**
+172. <a name="game-gunzrs"></a>**GunZ: The Duel · GunZRs**
 
      <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="Project image supplied by the author"></a>
 
@@ -3159,7 +3215,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-170. <a name="game-alice-web"></a>**American McGee’s Alice · Alice Web**
+173. <a name="game-alice-web"></a>**American McGee’s Alice · Alice Web**
 
      <a href="https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md"><img src="https://raw.githubusercontent.com/looking-glass-project/LookingGlass/main/docs/media/gameplay/story-poster.jpg" width="760" alt="Recorded-footage poster from the upstream Looking Glass engine"></a>
 
@@ -3177,7 +3233,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-171. <a name="game-conker-web"></a>**Conker&#x27;s Bad Fur Day · n64hub web fork**
+174. <a name="game-conker-web"></a>**Conker&#x27;s Bad Fur Day · n64hub web fork**
 
      <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -3195,7 +3251,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-172. <a name="game-diablo2-rust-wasm"></a>**Diablo II · Rust/WASM prototype**
+175. <a name="game-diablo2-rust-wasm"></a>**Diablo II · Rust/WASM prototype**
 
      <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="Upstream prototype screenshot"></a>
 
@@ -3213,7 +3269,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-173. <a name="game-dark-colony"></a>**Open Dark Colony**
+176. <a name="game-dark-colony"></a>**Open Dark Colony**
 
      <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="File import screen"></a>
 
@@ -3231,7 +3287,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-174. <a name="game-web-generalsx"></a>**GeneralsX Web · Zero Hour**
+177. <a name="game-web-generalsx"></a>**GeneralsX Web · Zero Hour**
 
      <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
@@ -3249,23 +3305,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-175. <a name="game-micro-mages"></a>**Micro Mages · Rust reconstruction**
-
-     <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md"><img src="https://raw.githubusercontent.com/HungLo2020/MicroMages/main/packaging/artwork/cover.png" width="760" alt="Cover preview supplied by the project"></a>
-
-     <sub>Cover preview supplied by the project <a href="https://github.com/HungLo2020/MicroMages/blob/main/README.md">Image source</a></sub>
-
-     A native Rust gameplay reconstruction for jumping, shooting and climbing stages with one to four players.
-
-     **Platforms:** Linux
-
-     **Run:** Prepare Rust, SDL2 and the documented ALSA/udev and graphics development libraries, then run cargo run.
-
-     [**Build instructions**](https://github.com/HungLo2020/MicroMages/blob/main/README.md) · [Project information](https://github.com/HungLo2020/MicroMages)
-
-     [↑ Back to directory](#game-index)
-
-176. <a name="game-wow-shadowfang-slice"></a>**WoW: Shadowfang Keep · Standalone slice**
+178. <a name="game-wow-shadowfang-slice"></a>**WoW: Shadowfang Keep · Standalone slice**
 
      <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="Author-supplied screenshot of the single-scene demo"></a>
 
@@ -3281,7 +3321,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-177. <a name="game-banjo-web"></a>**Banjo-Kazooie · n64hub web fork**
+179. <a name="game-banjo-web"></a>**Banjo-Kazooie · n64hub web fork**
 
      <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -3299,7 +3339,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-178. <a name="game-zelda-web"></a>**The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
+180. <a name="game-zelda-web"></a>**The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
 
      <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -3317,7 +3357,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-179. <a name="game-dk64-web"></a>**Donkey Kong 64 · n64hub web fork**
+181. <a name="game-dk64-web"></a>**Donkey Kong 64 · n64hub web fork**
 
      <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
@@ -3335,7 +3375,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-180. <a name="game-chessmaster-web"></a>**Chessmaster 9000 · Chessmaster-Web**
+182. <a name="game-chessmaster-web"></a>**Chessmaster 9000 · Chessmaster-Web**
 
      <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="Project preview from the author’s post"></a>
 
@@ -3353,7 +3393,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
      [↑ Back to directory](#game-index)
 
-181. <a name="game-dicing-knight"></a>**Dicing Knight. · Native recompilation**
+183. <a name="game-dicing-knight"></a>**Dicing Knight. · Native recompilation**
 
      <a href="https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/aoxzh/dicing-knight-static-recomp/main/docs/screenshots/tower-interior.png" width="760" alt="Tower-interior screenshot from the author’s native Windows build"></a>
 
