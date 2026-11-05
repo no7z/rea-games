@@ -1,6 +1,6 @@
 # 游戏资源获取
 
-[首页](README.md) · [English](RESOURCES.en.md)
+[首页](README.zh-CN.md) · [English](RESOURCES.en.md)
 
 先查看游戏条目的运行方式。浏览器版、下载安装版和自行构建版的资源要求可能不同；需要原版文件的条目会注明具体要求。
 

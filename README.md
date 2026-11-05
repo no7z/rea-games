@@ -1,3416 +1,3416 @@
-# 游戏重建与移植 · Rebuilt Games
+# Awesome Rebuilt Games [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**简体中文** · [English](README.en.md)
+**English** · [简体中文](README.zh-CN.md)
 
-发现反编译、重编译、引擎重实现与移植游戏。查看图片、运行平台和启动方式。
+Discover decompiled, recompiled, reimplemented and ported games. See images, supported platforms and how to run them.
 
-[游戏资源获取](RESOURCES.md) · [贡献项目](CONTRIBUTING.md)
+[Game data sources](RESOURCES.en.md) · [Contribute](CONTRIBUTING.md)
 
-183 个展示项目 · 88 个浏览器入口。
+183 showcase projects · 88 browser links.
 
-可直接体验的项目与需要自行构建的项目分别展示。构建条目写明平台、构建入口和原版文件要求；自行构建仍可能需要ROM或游戏数据。
+Ready-to-run projects and source builds are listed separately. Build entries state the platforms, instructions and original files required; compiling may still require a ROM or game data.
 
 <a name="game-index"></a>
 
-## 游戏目录
+## Game directory
 
-今日新增单列，其余按正文分类排列；点击游戏名称跳转到下方详情。
+Today's additions are listed first; the remaining games follow the detail sections. Select a game to jump to its details.
 
-### 今日更新（2026-11-05）
+### Today's additions (2026-11-05)
 
-| 游戏 | 运行方式 | 玩法说明 |
+| Game | Access | Genre |
 | --- | --- | --- |
 
-### 在线运行
+### Run in browser
 
-| 游戏 | 运行方式 | 玩法说明 |
+| Game | Access | Genre |
 | --- | --- | --- |
-| [反重力赛车 · Wipeout Rewrite](#game-wipeout-rewrite) | 在线 | 赛车与驾驶 |
-| [Cube 2 · BananaBread](#game-bananabread) | 在线 | 射击与弹幕 |
-| [模拟城市 · micropolisJS](#game-micropolisjs) | 在线 | 模拟、经营与建造 |
-| [弹珠爆破：黄金版 · MBHaxe](#game-marbleblast-gold) | 在线 | 平台跳跃 |
-| [装甲元帅风格 · Panzer Marshal](#game-panzer-marshal) | 在线 | 策略与塔防 |
-| [辛普森一家：横冲直撞 · Three.js重建](#game-hit-run-vheissu) | 在线 | 动作与冒险 |
-| [割绳子 · Cut the Rope DX](#game-cuttherope-dx) | 在线 | 益智与休闲 |
-| [纸飞机冒险 · Aerofoil / Glider PRO](#game-aerofoil) | 在线 | 平台跳跃 |
-| [宝可梦：红 · Pokémon Claude Red](#game-pokemon-claude-red) | 在线 | 角色扮演 |
-| [以撒的结合：忏悔+ · The Browsing of Isaac](#game-browsing-isaac) | 在线 | 射击与弹幕 |
-| [模拟高尔夫 · OpenSGolf](#game-opensgolf) | 在线 | 模拟、经营与建造 |
-| [世界黄昏 · Weltendämmerung](#game-weltendaemmerung) | 在线 | 策略与塔防 |
-| [坦克大战 · Battle City](#game-battlecity) | 在线 | 射击与弹幕 |
-| [蜗牛邮差 · Snail Mail](#game-snail-mail) | 在线 | 赛车与驾驶 |
-| [王国保卫战：前线 · ATB HTML5](#game-atb-kingdomrush) | 在线 | 策略与塔防 |
-| [Untangle：解开交叉线](#game-untangle) | 在线 | 益智与休闲 |
-| [Little Runner：恐龙速度实验](#game-little-runner) | 在线 | 平台跳跃 |
-| [反恐精英1.6 · CSJS](#game-web-counter-strike-1-6) | 在线 | 射击与弹幕 |
-| [CS起源连跳 · bunnyhop.lol](#game-web-counter-strike-source-bunnyhop-bunnyhop-lol) | 在线 | 连跳与滑翔 |
-| [CS起源滑翔 · Surfd](#game-web-counter-strike-source-surf-surfd) | 在线 | 连跳与滑翔 |
-| [古惑狼嘉年华 · Crash Bash Online](#game-web-crash-bash-online) | 在线 | 街机合集与派对 |
-| [毁灭战士联机版 · Silent Space Marine](#game-web-doom-multiplayer-silent-space-marine) | 在线 | 射击与弹幕 |
-| [侠盗猎车手III · WASM Arcade](#game-web-grand-theft-auto-iii) | 在线 | 动作与冒险 |
-| [我的世界1.8.8 · EaglercraftX](#game-web-minecraft-1-8-8-eaglercraftx) | 在线 | 模拟、经营与建造 |
-| [亡者之夜 · Zombies Browser Edition](#game-web-nacht-der-untoten) | 在线 | 射击与弹幕 |
-| [实况足球6 · PES 6 Web Online](#game-web-pro-evolution-soccer-6) | 在线 | 体育 |
-| [雷神之锤II · Pieter 浏览器版](#game-web-quake-ii) | 在线 | 射击与弹幕 |
-| [QuakeWorld · Pieter 浏览器版](#game-web-quakeworld) | 在线 | 射击与弹幕 |
-| [重返德军总部 · Pieter 多人版](#game-web-return-to-castle-wolfenstein) | 在线 | 射击与弹幕 |
-| [RuneScape Classic · 社区浏览器服](#game-web-runescape-classic) | 在线 | 角色扮演 |
-| [超级马力欧僵尸 · Super Mario Zombies](#game-web-super-mario-zombies) | 在线 | 射击与弹幕 |
-| [辛普森一家：横冲直撞 · WASM](#game-web-the-simpsons-hit-run) | 在线 | 动作与冒险 |
-| [Urban Terror · Pieter 浏览器版](#game-web-urban-terror-listed-as-unreal-tournament) | 在线 | 射击与弹幕 |
-| [Claude of Duty：Vibe Slops II · 镜像](#game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror) | 在线 | 射击与弹幕 |
-| [Kino der Toten · 浏览器镜像](#game-web-kino-der-toten-goofyahhbro69420-mirror) | 在线 | 射击与弹幕 |
-| [祖玛 · ATB HTML5](#game-atb-zuma) | 在线 | 益智与休闲 |
-| [割绳子 · ATB HTML5](#game-atb-cutrope) | 在线 | 益智与休闲 |
-| [虚拟佐特尔梅尔 · Virtueel Zoetermeer](#game-virtueel-zoetermeer) | 在线 | 模拟、经营与建造 |
-| [F1 06 · 网页版](#game-web-f1-06) | 在线 | 赛车与驾驶 |
-| [极限滑雪3 · SSX 3](#game-web-ssx3) | 在线 | 体育 |
-| [铁拳5 · 网页版](#game-web-tekken5) | 在线 | 格斗 |
-| [WWE SmackDown! vs. RAW · 网页版](#game-web-smackdown-vs-raw) | 在线 | 格斗 |
-| [黑色行动僵尸 · Vel.gg](#game-web-black-ops-zombies-vel) | 在线 | 射击与弹幕 |
-| [暗黑破坏神 · Diablo Web演示版](#game-d07riv-diabloweb) | 在线演示 | 角色扮演 |
-| [星球大战 绝地武士：黑暗力量II · OpenJKDF2演示](#game-openjkdf2) | 在线演示 | 动作与冒险 |
-| [小小大冒险1/2 · 探索演示](#game-lba2remake) | 在线演示 | 动作与冒险 |
-| [横扫千军 · Nanolathe](#game-nanolathe) | 在线演示 | 策略与塔防 |
-| [雷神之锤II · Qwasm2](#game-qwasm2) | 在线演示 | 射击与弹幕 |
-| [雷神之锤 · Qwasm](#game-qwasm) | 在线演示 | 射击与弹幕 |
-| [阿克斯之城 · Arxwasm演示](#game-arxwasm) | 在线演示 | 角色扮演 |
-| [毁灭战士 · Dwasm](#game-dwasm) | 在线演示 | 射击与弹幕 |
-| [重返德军总部 · Wwasm](#game-wwasm) | 在线演示 | 射击与弹幕 |
-| [暗黑破坏神 · Diablo Web（JohnImril）](#game-web-diablo) | 在线演示 | 角色扮演 |
-| [半条命 · WebXash 演示版](#game-web-half-life-and-counter-strike-1-6-webxash) | 在线演示 | 射击与弹幕 |
-| [雷神之锤 · NetQuake.io](#game-web-netquake-io) | 在线演示 | 射击与弹幕 |
-| [雷神之锤III竞技场 · Q3JS](#game-web-quake-iii-arena) | 在线演示 | 射击与弹幕 |
-| [战地1942 · 浏览器演示版](#game-bf1942-web) | 在线演示 | 射击与弹幕 |
-| [红色警戒2 · Chrono Divide](#game-web-command-conquer-red-alert-2) | 在线 · 需原版文件 | 策略与塔防 |
-| [侠盗猎车手：罪恶都市 · Joncode WASM](#game-web-grand-theft-auto-vice-city) | 在线 · 需原版文件 | 动作与冒险 |
+| [Wipeout Rewrite](#game-wipeout-rewrite) | Browser | Racing &amp; driving |
+| [Cube 2 · BananaBread](#game-bananabread) | Browser | Shooters &amp; bullet hell |
+| [MicropolisJS](#game-micropolisjs) | Browser | Simulation, management &amp; building |
+| [Marble Blast Gold · MBHaxe](#game-marbleblast-gold) | Browser | Platformers |
+| [Panzer Marshal · Open Panzer](#game-panzer-marshal) | Browser | Strategy &amp; tower defense |
+| [The Simpsons: Hit &amp; Run · Three.js reconstruction](#game-hit-run-vheissu) | Browser | Action &amp; adventure |
+| [Cut the Rope DX](#game-cuttherope-dx) | Browser | Puzzle &amp; casual |
+| [Aerofoil · Glider PRO](#game-aerofoil) | Browser | Platformers |
+| [Pokémon Claude Red](#game-pokemon-claude-red) | Browser | Role-playing |
+| [The Binding of Isaac: Repentance+ · The Browsing of Isaac](#game-browsing-isaac) | Browser | Shooters &amp; bullet hell |
+| [SimGolf · OpenSGolf](#game-opensgolf) | Browser | Simulation, management &amp; building |
+| [Weltendämmerung](#game-weltendaemmerung) | Browser | Strategy &amp; tower defense |
+| [Battle City](#game-battlecity) | Browser | Shooters &amp; bullet hell |
+| [Snail Mail](#game-snail-mail) | Browser | Racing &amp; driving |
+| [Kingdom Rush Frontiers · ATB HTML5](#game-atb-kingdomrush) | Browser | Strategy &amp; tower defense |
+| [Untangle](#game-untangle) | Browser | Puzzle &amp; casual |
+| [Little Runner — Speed Lab](#game-little-runner) | Browser | Platformers |
+| [Counter-Strike 1.6](#game-web-counter-strike-1-6) | Browser | Shooters &amp; bullet hell |
+| [Counter-Strike: Source Bunnyhop (bunnyhop.lol)](#game-web-counter-strike-source-bunnyhop-bunnyhop-lol) | Browser | Bunny hopping &amp; surfing |
+| [Counter-Strike: Source Surf (Surfd)](#game-web-counter-strike-source-surf-surfd) | Browser | Bunny hopping &amp; surfing |
+| [Crash Bash Online](#game-web-crash-bash-online) | Browser | Arcade collections &amp; party |
+| [Doom Multiplayer (Silent Space Marine)](#game-web-doom-multiplayer-silent-space-marine) | Browser | Shooters &amp; bullet hell |
+| [Grand Theft Auto III](#game-web-grand-theft-auto-iii) | Browser | Action &amp; adventure |
+| [Minecraft 1.8.8 (EaglercraftX)](#game-web-minecraft-1-8-8-eaglercraftx) | Browser | Simulation, management &amp; building |
+| [Nacht der Untoten](#game-web-nacht-der-untoten) | Browser | Shooters &amp; bullet hell |
+| [Pro Evolution Soccer 6](#game-web-pro-evolution-soccer-6) | Browser | Sports |
+| [Quake II (q2.pieter.com)](#game-web-quake-ii) | Browser | Shooters &amp; bullet hell |
+| [QuakeWorld (q1.pieter.com)](#game-web-quakeworld) | Browser | Shooters &amp; bullet hell |
+| [Return to Castle Wolfenstein (rtcw.pieter.com)](#game-web-return-to-castle-wolfenstein) | Browser | Shooters &amp; bullet hell |
+| [RuneScape Classic](#game-web-runescape-classic) | Browser | Role-playing |
+| [Super Mario Zombies](#game-web-super-mario-zombies) | Browser | Shooters &amp; bullet hell |
+| [The Simpsons: Hit &amp; Run](#game-web-the-simpsons-hit-run) | Browser | Action &amp; adventure |
+| [Urban Terror (ut.pieter.com)](#game-web-urban-terror-listed-as-unreal-tournament) | Browser | Shooters &amp; bullet hell |
+| [Claude of Duty: Vibe Slops II (froydinger mirror)](#game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror) | Browser | Shooters &amp; bullet hell |
+| [Kino der Toten (GoofyAhhBro69420 mirror)](#game-web-kino-der-toten-goofyahhbro69420-mirror) | Browser | Shooters &amp; bullet hell |
+| [Zuma · ATB HTML5](#game-atb-zuma) | Browser | Puzzle &amp; casual |
+| [Cut the Rope · ATB HTML5](#game-atb-cutrope) | Browser | Puzzle &amp; casual |
+| [Virtueel Zoetermeer](#game-virtueel-zoetermeer) | Browser | Simulation, management &amp; building |
+| [Formula One 06 · Browser edition](#game-web-f1-06) | Browser | Racing &amp; driving |
+| [SSX 3 · Browser edition](#game-web-ssx3) | Browser | Sports |
+| [Tekken 5 · Browser edition](#game-web-tekken5) | Browser | Fighting |
+| [WWE SmackDown! vs. RAW · Browser edition](#game-web-smackdown-vs-raw) | Browser | Fighting |
+| [Black Ops Zombies · Vel.gg](#game-web-black-ops-zombies-vel) | Browser | Shooters &amp; bullet hell |
+| [Diablo Web · Shareware demo](#game-d07riv-diabloweb) | Browser demo | Role-playing |
+| [Star Wars Jedi Knight: Dark Forces II · OpenJKDF2 demo](#game-openjkdf2) | Browser demo | Action &amp; adventure |
+| [Little Big Adventure 1/2 · Exploration demo](#game-lba2remake) | Browser demo | Action &amp; adventure |
+| [Total Annihilation · Nanolathe](#game-nanolathe) | Browser demo | Strategy &amp; tower defense |
+| [Quake II · Qwasm2](#game-qwasm2) | Browser demo | Shooters &amp; bullet hell |
+| [Quake · Qwasm](#game-qwasm) | Browser demo | Shooters &amp; bullet hell |
+| [Arx Fatalis · Arxwasm demo](#game-arxwasm) | Browser demo | Role-playing |
+| [Doom · Dwasm](#game-dwasm) | Browser demo | Shooters &amp; bullet hell |
+| [Return to Castle Wolfenstein · Wwasm](#game-wwasm) | Browser demo | Shooters &amp; bullet hell |
+| [Diablo (diablo_web)](#game-web-diablo) | Browser demo | Role-playing |
+| [Half-Life and Counter-Strike 1.6 (WebXash)](#game-web-half-life-and-counter-strike-1-6-webxash) | Browser demo | Shooters &amp; bullet hell |
+| [NetQuake.io](#game-web-netquake-io) | Browser demo | Shooters &amp; bullet hell |
+| [Quake III Arena (q3js)](#game-web-quake-iii-arena) | Browser demo | Shooters &amp; bullet hell |
+| [Battlefield 1942 · Browser demo](#game-bf1942-web) | Browser demo | Shooters &amp; bullet hell |
+| [Command &amp; Conquer: Red Alert 2](#game-web-command-conquer-red-alert-2) | Browser · original files | Strategy &amp; tower defense |
+| [Grand Theft Auto: Vice City](#game-web-grand-theft-auto-vice-city) | Browser · original files | Action &amp; adventure |
 
-### 下载安装与构建
+### Downloads and source builds
 
-| 游戏 | 运行方式 | 玩法说明 |
+| Game | Access | Genre |
 | --- | --- | --- |
-| [OpenRA：红警、命令与征服、沙丘2000](#game-openra-openra) | 下载安装 | 策略与塔防 |
-| [运输大亨 · OpenTTD](#game-openttd-openttd) | 下载安装 | 模拟、经营与建造 |
-| [战争地带2100 · Warzone 2100](#game-warzone2100-warzone2100) | 下载安装 | 策略与塔防 |
-| [英雄无敌II · fheroes2](#game-fheroes2) | 下载安装 | 策略与塔防 |
-| [上古卷轴II：匕首雨 · Daggerfall Unity](#game-daggerfall-unity) | 下载安装 | 角色扮演 |
-| [Cube 2：Sauerbraten · Sour](#game-sour) | 下载安装 | 射击与弹幕 |
-| [水晶洞穴 · OpenCrystalCaves 第一章](#game-open-crystal-caves) | 下载安装 | 平台跳跃 |
-| [过山车大亨2 · OpenRCT2](#game-openrct2-openrct2) | 自行构建 | 模拟、经营与建造 |
-| [暗黑破坏神与地狱火 · DevilutionX](#game-diasurgical-devilutionx) | 自行构建 | 角色扮演 |
-| [VVVVVV · 公开源码版](#game-vvvvvv) | 自行构建 | 平台跳跃 |
-| [塞尔达传说：姆吉拉的假面 · Zelda64Recomp](#game-zelda64recomp-zelda64recomp) | 自行构建 | 动作与冒险 |
-| [上古卷轴III：晨风 · OpenMW](#game-openmw-openmw) | 自行构建 | 角色扮演 |
-| [塞尔达传说：黄昏公主 · Dusklight](#game-twilitrealm-dusklight) | 自行构建 | 动作与冒险 |
-| [英雄无敌III · VCMI](#game-vcmi-vcmi) | 自行构建 | 策略与塔防 |
-| [塞尔达传说：时之笛 · Ship of Harkinian](#game-harbourmasters-shipwright) | 自行构建 | 动作与冒险 |
-| [索尼克世界冒险 · Unleashed Recompiled](#game-hedge-dev-unleashedrecomp) | 自行构建 | 平台跳跃 |
-| [塞尔达传说：众神的三角力量 · zelda3](#game-snesrev-zelda3) | 自行构建 | 动作与冒险 |
-| [三维弹球：太空军校生](#game-k4zmu2a-spacecadetpinball) | 自行构建 | 益智与休闲 |
-| [主题医院 · CorsixTH](#game-corsixth-corsixth) | 自行构建 | 模拟、经营与建造 |
-| [杰克与达斯特 · OpenGOAL](#game-opengoal) | 自行构建 | 平台跳跃 |
-| [凯撒大帝III · Julius](#game-julius) | 自行构建 | 模拟、经营与建造 |
-| [马力欧卡丁车64 · SpaghettiKart](#game-harbourmasters-spaghettikart) | 自行构建 | 赛车与驾驶 |
-| [凯撒大帝III · Augustus](#game-augustus) | 自行构建 | 模拟、经营与建造 |
-| [星际火狐64 · Starship](#game-harbourmasters-starship) | 自行构建 | 射击与弹幕 |
-| [班卓熊大冒险 · Banjo Recompiled](#game-banjorecomp-banjorecomp) | 自行构建 | 平台跳跃 |
-| [仙剑奇侠传 · SDLPal](#game-sdlpal) | 自行构建 / 在线 | 角色扮演 |
-| [运输帝国 · OpenLoco](#game-openloco) | 自行构建 | 模拟、经营与建造 |
-| [塞尔达传说：旷野之息 · Savage Wind](#game-savagewind) | 自行构建 | 动作与冒险 |
-| [超级马力欧64 · sm64coopdx](#game-coop-deluxe-sm64coopdx) | 自行构建 | 平台跳跃 |
-| [洞窟物语 · doukutsu-rs](#game-doukutsu-rs) | 自行构建 | 平台跳跃 |
-| [卡马戈登 · Dethrace](#game-dethrace-labs-dethrace) | 自行构建 | 赛车与驾驶 |
-| [我的世界 Java版 · Horizon](#game-horizon) | 自行构建 | 模拟、经营与建造 |
-| [阿克斯之城 · Arx Libertatis](#game-arx-libertatis) | 自行构建 | 角色扮演 |
-| [乐高小岛 · isle-portable](#game-isledecomp-isle-portable) | 自行构建 / 在线 | 动作与冒险 |
-| [失落的奥德赛 · Lost Odyssey Recomp](#game-lost-odyssey-recomp) | 自行构建 | 角色扮演 |
-| [索尼克狂欢 · Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | 自行构建 | 平台跳跃 |
-| [寂静岭1 · PsyCross移植](#game-silent-hill-pc) | 自行构建 / 在线 | 动作与冒险 |
-| [血源诅咒 · bbhost](#game-bbhost) | 自行构建 | 动作与冒险 |
-| [马力欧卡丁车Wii · KartPad](#game-kartpad) | 自行构建 | 赛车与驾驶 |
-| [Nox · OpenNox](#game-opennox) | 自行构建 | 角色扮演 |
-| [塞尔达传说：王国之泪 · TotK Recomp](#game-totk-recomp) | 自行构建 | 动作与冒险 |
-| [任天堂明星大乱斗 特别版 · OpenSmash](#game-opensmash-ultimate) | 自行构建 | 格斗 |
-| [毁灭战士3 · D3Wasm](#game-d3wasm) | 自行构建 / 在线 | 射击与弹幕 |
-| [侠盗猎车手：罪恶都市传奇 · PS2重编译](#game-gta-vcs) | 自行构建 | 动作与冒险 |
-| [细胞分裂：双重间谍 · Xbox重编译](#game-scda-xbe) | 自行构建 | 动作与冒险 |
-| [007：黄金眼 · Project Midas](#game-project-midas) | 自行构建 | 射击与弹幕 |
-| [极限竞速：地平线1 · ReImagined](#game-fh1-reimagined) | 自行构建 | 赛车与驾驶 |
-| [007：黄金眼 · jkdansereau移植](#game-goldeneye-jkdansereau) | 自行构建 | 射击与弹幕 |
-| [密特罗德：生存恐惧 · PC重编译预览](#game-metroid-dread-recomp) | 自行构建 | 平台跳跃 |
-| [怪物猎人XX · MHGU Recomp](#game-mhgu-recomp) | 自行构建 | 角色扮演 |
-| [真人快打：少林武僧 · OpenShao](#game-openshao) | 自行构建 | 动作与冒险 |
-| [南梦宫街机重建 · Namco 2x Systems](#game-namco-2x-systems) | 自行构建 | 街机合集与派对 |
-| [古惑狼赛车 · High Octane](#game-ctr-high-octane) | 自行构建 / 在线 | 赛车与驾驶 |
-| [死或生：沙滩排球 · 原生移植](#game-doaxvb-native) | 自行构建 | 体育 |
-| [疯狂都市 · Open1560](#game-open1560) | 自行构建 | 赛车与驾驶 |
-| [迪迪金刚赛车 · Golden Balloon](#game-goldenballoon) | 自行构建 / 在线 | 赛车与驾驶 |
-| [塞尔达传说II：林克的冒险 · z2rs](#game-troyedwardsjr-z2rs) | 自行构建 / 在线 | 角色扮演 |
-| [跑车浪漫旅2 · GT2 PC / Browser](#game-gt2-pc) | 自行构建 / 在线 | 赛车与驾驶 |
-| [沙丘2 · Dune Dynasty](#game-dune-dynasty) | 自行构建 | 策略与塔防 |
-| [铁拳TT2 · Shihab PC移植](#game-tekken-tag2-shihab) | 自行构建 | 格斗 |
-| [重力异想世界2 · 原生PC移植](#game-gravity-rush2-pc) | 自行构建 | 动作与冒险 |
-| [猎天使魔女3 · Witch Time](#game-witch-time) | 自行构建 | 动作与冒险 |
-| [战神 · Native PC](#game-gow-native-pc) | 自行构建 | 动作与冒险 |
-| [反重力赛车：欧米伽合集 · PC移植](#game-wipeout-pc) | 自行构建 | 赛车与驾驶 |
-| [帝国时代 / 罗马复兴 · 基础玩法重实现](#game-aoe-free-remake) | 自行构建 | 策略与塔防 |
-| [塞尔达传说：王国之泪 · Weeping of the Empire](#game-weeping-empire) | 自行构建 | 动作与冒险 |
-| [战争机器2 · gow2-recomp](#game-gow2-santi) | 自行构建 | 射击与弹幕 |
-| [湾岸午夜俱乐部：洛杉矶完整版 · Renan分支](#game-mcla-renan) | 自行构建 | 赛车与驾驶 |
-| [东方永夜抄 TH08](#game-th08) | 自行构建 / 在线 | 射击与弹幕 |
-| [魔毯2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | 自行构建 | 动作与冒险 |
-| [密特罗德Prime复刻版 · PrimeRecomp](#game-prime-remastered) | 自行构建 | 动作与冒险 |
-| [007：来自俄罗斯的爱情 · Xbox重编译](#game-007-frwl-xbe) | 自行构建 | 射击与弹幕 |
-| [时空分裂者：未来完美 · Recomp](#game-timesplitters-fp) | 自行构建 | 射击与弹幕 |
-| [任天堂明星大乱斗X · Brawl Recompiled](#game-brawl-recompiled) | 自行构建 | 格斗 |
-| [光环：战斗进化 · Chupathingy](#game-chupathingy) | 自行构建 | 射击与弹幕 |
-| [杀戮地带 2 · Project Pyrrhus](#game-pyrrhus) | 自行构建 | 射击与弹幕 |
-| [异度装甲 · Weltall](#game-weltall) | 自行构建 | 角色扮演 |
-| [密特罗德Prime 2：回声 · Echoes Unbound](#game-echoes-unbound) | 自行构建 | 动作与冒险 |
-| [生化危机：代号维罗妮卡X · PS3重编译](#game-code-veronica-ps3-recomp) | 自行构建 | 动作与冒险 |
-| [卡普空街机重编译 · CPS-2 Recomp](#game-cps2-recomp) | 自行构建 | 街机合集与派对 |
-| [任天堂明星大乱斗 for Wii U · Smash 4 PC](#game-smash4pc) | 自行构建 | 格斗 |
-| [极品飞车：地下狂飙2 · Apple Silicon移植](#game-nfsu2-mac) | 自行构建 | 赛车与驾驶 |
-| [F-Zero · F-Zero Forever](#game-fzero-forever) | 自行构建 | 赛车与驾驶 |
-| [王国之心：记忆之链 · ReKHCoM](#game-rekhcom) | 自行构建 / 在线 | 角色扮演 |
-| [DX-Ball 1.07](#game-dx-ball) | 自行构建 | 益智与休闲 |
-| [007：一切或一无所有 · PC 重编译](#game-007-eon) | 自行构建 | 动作与冒险 |
-| [奥丁领域：里普特拉西尔 · PC移植](#game-odin-sphere-pc) | 自行构建 | 角色扮演 |
-| [火炬之光 · Rekindled](#game-torchlight-rekindled) | 自行构建 | 角色扮演 |
-| [杀戮地带3 · Project Helghast 早期移植](#game-killzone3-helghast) | 自行构建 | 射击与弹幕 |
-| [特技赛车 · Stunts HD](#game-stunts-hd) | 自行构建 / 在线 | 赛车与驾驶 |
-| [极品飞车：卡本峡谷 · SpeedBreaker Carbon](#game-speedbreaker-carbon) | 自行构建 | 赛车与驾驶 |
-| [乐雅传说 · Legend of Legaia](#game-legaia) | 自行构建 / 在线 | 角色扮演 |
-| [东方文花帖 TH095](#game-th095) | 自行构建 | 射击与弹幕 |
-| [命令与征服：将军绝命时刻 · NewShoes](#game-newshoes) | 自行构建 / 在线 | 策略与塔防 |
-| [烈火战车：黑暗 · The Bozos](#game-tmb-bozos) | 自行构建 | 赛车与驾驶 |
-| [世嘉索尼克刺猬 · 原生移植](#game-segasonic-native) | 自行构建 | 平台跳跃 |
-| [X战警2：克隆人战争 · XMen2 PC](#game-xmen2-pc) | 自行构建 | 动作与冒险 |
-| [镜之边缘 iPad版 · Glassline](#game-glassline) | 自行构建 | 平台跳跃 |
-| [杰克与达斯特三部曲 · Precursor](#game-precursor) | 自行构建 | 平台跳跃 |
-| [格兰蒂亚3 · PC重编译](#game-grandia3-pc) | 自行构建 | 角色扮演 |
-| [横扫千军：王国 · OpenKingdoms](#game-openkingdoms) | 自行构建 / 在线 | 策略与塔防 |
-| [NHL 2K8 · Windows重编译](#game-nhl2k8) | 自行构建 | 体育 |
-| [皇牌空战04 · ProjectStonehenge](#game-project-stonehenge) | 自行构建 | 射击与弹幕 |
-| [文明2多人黄金版 · OpenCiv2](#game-openciv2) | 自行构建 | 策略与塔防 |
-| [秘密潜入 · IGI-RE](#game-igi-re) | 自行构建 | 射击与弹幕 |
-| [梦境成真 · Dreams to Reality Recompiled](#game-dreams-recomp) | 自行构建 | 动作与冒险 |
-| [旧金山狂飙2049 · Rush 2049 Recompiled](#game-rush2049) | 自行构建 / 在线 | 赛车与驾驶 |
-| [星之卡比：飞天赛车 · 重编译](#game-kirby-air-ride) | 自行构建 | 赛车与驾驶 |
-| [布偶赛车 · Muppet RaceMania Recompiled](#game-muppet-racemania) | 自行构建 | 赛车与驾驶 |
-| [马力欧激战前锋 Charged · PS Vita](#game-strikers-charged-vita) | 自行构建 | 体育 |
-| [特技赛车FX · Mabec增强移植](#game-stunt-race-fx-mabec) | 自行构建 | 赛车与驾驶 |
-| [Ultima VI：Amiga 版移植](#game-ultima6) | 自行构建 / 在线 | 角色扮演 |
-| [GunZ：The Duel · GunZRs](#game-gunzrs) | 自行构建 | 射击与弹幕 |
-| [爱丽丝梦游魔境2000 · Alice Web](#game-alice-web) | 自行构建 / 在线 | 动作与冒险 |
-| [松鼠库克：倒霉的一天 · n64hub网页版](#game-conker-web) | 自行构建 / 在线 | 平台跳跃 |
-| [暗黑破坏神2 · Rust/WASM原型](#game-diablo2-rust-wasm) | 自行构建 | 角色扮演 |
-| [Open Dark Colony](#game-dark-colony) | 自行构建 / 在线 | 策略与塔防 |
-| [命令与征服：将军绝命时刻 · GeneralsX Web](#game-web-generalsx) | 自行构建 / 在线 | 策略与塔防 |
-| [魔兽世界：影牙城堡 · 单机演示](#game-wow-shadowfang-slice) | 自行构建 | 角色扮演 |
-| [班卓熊大冒险 · n64hub网页版](#game-banjo-web) | 自行构建 / 在线 | 平台跳跃 |
-| [塞尔达传说：姆吉拉的假面 · n64hub网页版](#game-zelda-web) | 自行构建 / 在线 | 动作与冒险 |
-| [大金刚64 · n64hub网页版](#game-dk64-web) | 自行构建 / 在线 | 平台跳跃 |
-| [国际象棋大师9000 · Chessmaster-Web](#game-chessmaster-web) | 自行构建 / 在线 | 策略与塔防 |
-| [骰子骑士 · Dicing Knight原生重编译](#game-dicing-knight) | 自行构建 | 角色扮演 |
+| [OpenRA: Red Alert, Tiberian Dawn and Dune 2000](#game-openra-openra) | Download | Strategy &amp; tower defense |
+| [Transport Tycoon Deluxe · OpenTTD](#game-openttd-openttd) | Download | Simulation, management &amp; building |
+| [Warzone 2100](#game-warzone2100-warzone2100) | Download | Strategy &amp; tower defense |
+| [Heroes of Might and Magic II · fheroes2](#game-fheroes2) | Download | Strategy &amp; tower defense |
+| [Daggerfall Unity](#game-daggerfall-unity) | Download | Role-playing |
+| [Cube 2: Sauerbraten · Sour](#game-sour) | Download | Shooters &amp; bullet hell |
+| [Crystal Caves · OpenCrystalCaves Episode 1](#game-open-crystal-caves) | Download | Platformers |
+| [RollerCoaster Tycoon 2 · OpenRCT2](#game-openrct2-openrct2) | Source build | Simulation, management &amp; building |
+| [Diablo and Hellfire · DevilutionX](#game-diasurgical-devilutionx) | Source build | Role-playing |
+| [VVVVVV · Source release](#game-vvvvvv) | Source build | Platformers |
+| [The Legend of Zelda: Majora&#x27;s Mask · Zelda64Recomp](#game-zelda64recomp-zelda64recomp) | Source build | Action &amp; adventure |
+| [The Elder Scrolls III: Morrowind · OpenMW](#game-openmw-openmw) | Source build | Role-playing |
+| [The Legend of Zelda: Twilight Princess · Dusklight](#game-twilitrealm-dusklight) | Source build | Action &amp; adventure |
+| [Heroes of Might and Magic III · VCMI](#game-vcmi-vcmi) | Source build | Strategy &amp; tower defense |
+| [The Legend of Zelda: Ocarina of Time · Ship of Harkinian](#game-harbourmasters-shipwright) | Source build | Action &amp; adventure |
+| [Sonic Unleashed · Unleashed Recompiled](#game-hedge-dev-unleashedrecomp) | Source build | Platformers |
+| [The Legend of Zelda: A Link to the Past · zelda3](#game-snesrev-zelda3) | Source build | Action &amp; adventure |
+| [3D Pinball: Space Cadet](#game-k4zmu2a-spacecadetpinball) | Source build | Puzzle &amp; casual |
+| [Theme Hospital · CorsixTH](#game-corsixth-corsixth) | Source build | Simulation, management &amp; building |
+| [Jak and Daxter · OpenGOAL](#game-opengoal) | Source build | Platformers |
+| [Caesar III · Julius](#game-julius) | Source build | Simulation, management &amp; building |
+| [Mario Kart 64 · SpaghettiKart](#game-harbourmasters-spaghettikart) | Source build | Racing &amp; driving |
+| [Caesar III · Augustus](#game-augustus) | Source build | Simulation, management &amp; building |
+| [Star Fox 64 · Starship](#game-harbourmasters-starship) | Source build | Shooters &amp; bullet hell |
+| [Banjo-Kazooie · Banjo Recompiled](#game-banjorecomp-banjorecomp) | Source build | Platformers |
+| [Sword and Fairy · SDLPal](#game-sdlpal) | Source build / browser | Role-playing |
+| [Chris Sawyer’s Locomotion · OpenLoco](#game-openloco) | Source build | Simulation, management &amp; building |
+| [Breath of the Wild · Savage Wind](#game-savagewind) | Source build | Action &amp; adventure |
+| [Super Mario 64 · sm64coopdx](#game-coop-deluxe-sm64coopdx) | Source build | Platformers |
+| [Cave Story · doukutsu-rs](#game-doukutsu-rs) | Source build | Platformers |
+| [Carmageddon · Dethrace](#game-dethrace-labs-dethrace) | Source build | Racing &amp; driving |
+| [Minecraft Java Edition · Horizon](#game-horizon) | Source build | Simulation, management &amp; building |
+| [Arx Fatalis · Arx Libertatis](#game-arx-libertatis) | Source build | Role-playing |
+| [LEGO Island · isle-portable](#game-isledecomp-isle-portable) | Source build / browser | Action &amp; adventure |
+| [Lost Odyssey · Recomp](#game-lost-odyssey-recomp) | Source build | Role-playing |
+| [Sonic Mania Decompilation](#game-rsdkmodding-sonic-mania-decompilation) | Source build | Platformers |
+| [Silent Hill · PsyCross port](#game-silent-hill-pc) | Source build / browser | Action &amp; adventure |
+| [Bloodborne · bbhost](#game-bbhost) | Source build | Action &amp; adventure |
+| [Mario Kart Wii · KartPad](#game-kartpad) | Source build | Racing &amp; driving |
+| [Nox · OpenNox](#game-opennox) | Source build | Role-playing |
+| [The Legend of Zelda: Tears of the Kingdom · TotK Recomp](#game-totk-recomp) | Source build | Action &amp; adventure |
+| [Super Smash Bros. Ultimate · OpenSmash](#game-opensmash-ultimate) | Source build | Fighting |
+| [Doom 3 · D3Wasm](#game-d3wasm) | Source build / browser | Shooters &amp; bullet hell |
+| [Grand Theft Auto: Vice City Stories · PS2 recompilation](#game-gta-vcs) | Source build | Action &amp; adventure |
+| [Splinter Cell: Double Agent · Xbox recompilation](#game-scda-xbe) | Source build | Action &amp; adventure |
+| [GoldenEye 007 · Project Midas](#game-project-midas) | Source build | Shooters &amp; bullet hell |
+| [Forza Horizon 1 · ReImagined](#game-fh1-reimagined) | Source build | Racing &amp; driving |
+| [GoldenEye 007 · jkdansereau port](#game-goldeneye-jkdansereau) | Source build | Shooters &amp; bullet hell |
+| [Metroid Dread · PC recompilation preview](#game-metroid-dread-recomp) | Source build | Platformers |
+| [Monster Hunter Generations Ultimate · MHGU Recomp](#game-mhgu-recomp) | Source build | Role-playing |
+| [Mortal Kombat: Shaolin Monks · OpenShao](#game-openshao) | Source build | Action &amp; adventure |
+| [Namco 2x Systems · arcade reconstructions](#game-namco-2x-systems) | Source build | Arcade collections &amp; party |
+| [Crash Team Racing · High Octane](#game-ctr-high-octane) | Source build / browser | Racing &amp; driving |
+| [Dead or Alive Xtreme Beach Volleyball · native port](#game-doaxvb-native) | Source build | Sports |
+| [Midtown Madness · Open1560](#game-open1560) | Source build | Racing &amp; driving |
+| [Diddy Kong Racing · Golden Balloon](#game-goldenballoon) | Source build / browser | Racing &amp; driving |
+| [Zelda II: The Adventure of Link · z2rs](#game-troyedwardsjr-z2rs) | Source build / browser | Role-playing |
+| [Gran Turismo 2 · PC / Browser](#game-gt2-pc) | Source build / browser | Racing &amp; driving |
+| [Dune II · Dune Dynasty](#game-dune-dynasty) | Source build | Strategy &amp; tower defense |
+| [Tekken Tag Tournament 2 · Shihab PC port](#game-tekken-tag2-shihab) | Source build | Fighting |
+| [Gravity Rush 2 · native PC port](#game-gravity-rush2-pc) | Source build | Action &amp; adventure |
+| [Bayonetta 3 · Witch Time](#game-witch-time) | Source build | Action &amp; adventure |
+| [God of War · Native PC](#game-gow-native-pc) | Source build | Action &amp; adventure |
+| [WipEout Omega Collection · PC port](#game-wipeout-pc) | Source build | Racing &amp; driving |
+| [Age of Empires / Rise of Rome · basic reimplementation](#game-aoe-free-remake) | Source build | Strategy &amp; tower defense |
+| [The Legend of Zelda: Tears of the Kingdom · Weeping of the Empire](#game-weeping-empire) | Source build | Action &amp; adventure |
+| [Gears of War 2 · gow2-recomp](#game-gow2-santi) | Source build | Shooters &amp; bullet hell |
+| [Midnight Club: Los Angeles Complete Edition · Renan fork](#game-mcla-renan) | Source build | Racing &amp; driving |
+| [Touhou 8: Imperishable Night](#game-th08) | Source build / browser | Shooters &amp; bullet hell |
+| [Magic Carpet 2 · Magic Carpet 2 HD](#game-magic-carpet2-hd) | Source build | Action &amp; adventure |
+| [Metroid Prime Remastered · PrimeRecomp](#game-prime-remastered) | Source build | Action &amp; adventure |
+| [007: From Russia with Love · Xbox recompilation](#game-007-frwl-xbe) | Source build | Shooters &amp; bullet hell |
+| [TimeSplitters: Future Perfect · Recomp](#game-timesplitters-fp) | Source build | Shooters &amp; bullet hell |
+| [Super Smash Bros. Brawl · Brawl Recompiled](#game-brawl-recompiled) | Source build | Fighting |
+| [Halo: Combat Evolved · Chupathingy](#game-chupathingy) | Source build | Shooters &amp; bullet hell |
+| [Killzone 2 · Project Pyrrhus](#game-pyrrhus) | Source build | Shooters &amp; bullet hell |
+| [Xenogears · Weltall](#game-weltall) | Source build | Role-playing |
+| [Metroid Prime 2: Echoes · Echoes Unbound](#game-echoes-unbound) | Source build | Action &amp; adventure |
+| [Resident Evil Code: Veronica X · PS3 recompilation](#game-code-veronica-ps3-recomp) | Source build | Action &amp; adventure |
+| [Capcom arcade recompilations · CPS-2 Recomp](#game-cps2-recomp) | Source build | Arcade collections &amp; party |
+| [Super Smash Bros. for Wii U · Smash 4 PC](#game-smash4pc) | Source build | Fighting |
+| [Need for Speed: Underground 2 · Apple Silicon port](#game-nfsu2-mac) | Source build | Racing &amp; driving |
+| [F-Zero · F-Zero Forever](#game-fzero-forever) | Source build | Racing &amp; driving |
+| [Kingdom Hearts: Chain of Memories · ReKHCoM](#game-rekhcom) | Source build / browser | Role-playing |
+| [DX-Ball 1.07](#game-dx-ball) | Source build | Puzzle &amp; casual |
+| [007: Everything or Nothing · PC Recompilation](#game-007-eon) | Source build | Action &amp; adventure |
+| [Odin Sphere Leifthrasir · PC port](#game-odin-sphere-pc) | Source build | Role-playing |
+| [Torchlight · Rekindled](#game-torchlight-rekindled) | Source build | Role-playing |
+| [Killzone 3 · Project Helghast early port](#game-killzone3-helghast) | Source build | Shooters &amp; bullet hell |
+| [Stunts HD](#game-stunts-hd) | Source build / browser | Racing &amp; driving |
+| [Need for Speed: Carbon · SpeedBreaker Carbon](#game-speedbreaker-carbon) | Source build | Racing &amp; driving |
+| [Legend of Legaia](#game-legaia) | Source build / browser | Role-playing |
+| [Touhou 9.5: Shoot the Bullet](#game-th095) | Source build | Shooters &amp; bullet hell |
+| [Command &amp; Conquer: Zero Hour · NewShoes](#game-newshoes) | Source build / browser | Strategy &amp; tower defense |
+| [Twisted Metal: Black · The Bozos](#game-tmb-bozos) | Source build | Racing &amp; driving |
+| [SegaSonic The Hedgehog · native port](#game-segasonic-native) | Source build | Platformers |
+| [X-Men 2: Clone Wars · XMen2 PC](#game-xmen2-pc) | Source build | Action &amp; adventure |
+| [Mirror’s Edge for iPad · Glassline](#game-glassline) | Source build | Platformers |
+| [Jak and Daxter trilogy · Precursor](#game-precursor) | Source build | Platformers |
+| [Grandia III · PC recompilation](#game-grandia3-pc) | Source build | Role-playing |
+| [Total Annihilation: Kingdoms · OpenKingdoms](#game-openkingdoms) | Source build / browser | Strategy &amp; tower defense |
+| [NHL 2K8 · Windows recompilation](#game-nhl2k8) | Source build | Sports |
+| [Ace Combat 04 · ProjectStonehenge](#game-project-stonehenge) | Source build | Shooters &amp; bullet hell |
+| [Civilization II Multiplayer Gold · OpenCiv2](#game-openciv2) | Source build | Strategy &amp; tower defense |
+| [Project I.G.I. · IGI-RE](#game-igi-re) | Source build | Shooters &amp; bullet hell |
+| [Dreams to Reality · Recompiled](#game-dreams-recomp) | Source build | Action &amp; adventure |
+| [San Francisco Rush 2049 · Recompiled](#game-rush2049) | Source build / browser | Racing &amp; driving |
+| [Kirby Air Ride · Recompiled](#game-kirby-air-ride) | Source build | Racing &amp; driving |
+| [Muppet RaceMania · Recompiled](#game-muppet-racemania) | Source build | Racing &amp; driving |
+| [Mario Strikers Charged · PS Vita](#game-strikers-charged-vita) | Source build | Sports |
+| [Stunt Race FX · Mabec enhanced port](#game-stunt-race-fx-mabec) | Source build | Racing &amp; driving |
+| [Ultima VI — Amiga port](#game-ultima6) | Source build / browser | Role-playing |
+| [GunZ: The Duel · GunZRs](#game-gunzrs) | Source build | Shooters &amp; bullet hell |
+| [American McGee’s Alice · Alice Web](#game-alice-web) | Source build / browser | Action &amp; adventure |
+| [Conker&#x27;s Bad Fur Day · n64hub web fork](#game-conker-web) | Source build / browser | Platformers |
+| [Diablo II · Rust/WASM prototype](#game-diablo2-rust-wasm) | Source build | Role-playing |
+| [Open Dark Colony](#game-dark-colony) | Source build / browser | Strategy &amp; tower defense |
+| [GeneralsX Web · Zero Hour](#game-web-generalsx) | Source build / browser | Strategy &amp; tower defense |
+| [WoW: Shadowfang Keep · Standalone slice](#game-wow-shadowfang-slice) | Source build | Role-playing |
+| [Banjo-Kazooie · n64hub web fork](#game-banjo-web) | Source build / browser | Platformers |
+| [The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork](#game-zelda-web) | Source build / browser | Action &amp; adventure |
+| [Donkey Kong 64 · n64hub web fork](#game-dk64-web) | Source build / browser | Platformers |
+| [Chessmaster 9000 · Chessmaster-Web](#game-chessmaster-web) | Source build / browser | Strategy &amp; tower defense |
+| [Dicing Knight. · Native recompilation](#game-dicing-knight) | Source build | Role-playing |
 
 
-## 浏览器直接运行
+## Run in browser
 
-1. <a name="game-wipeout-rewrite"></a>**反重力赛车 · Wipeout Rewrite**
+1. <a name="game-wipeout-rewrite"></a>**Wipeout Rewrite**
 
-   <a href="https://phoboslab.org/wipegame/"><img src="assets/screenshots/wipeout-entry.jpg" width="760" alt="网页版本选择页"></a>
+   <a href="https://phoboslab.org/wipegame/"><img src="assets/screenshots/wipeout-entry.jpg" width="760" alt="Browser edition selection page"></a>
 
-   <sub>网页版本选择页 <a href="https://phoboslab.org/wipegame/">图片来源</a></sub>
+   <sub>Browser edition selection page <a href="https://phoboslab.org/wipegame/">Image source</a></sub>
 
-   Wipeout的C语言重写与浏览器移植，驾驶反重力赛车在未来赛道竞速。
+   A C rewrite and browser port of Wipeout, racing anti-gravity craft on futuristic tracks.
 
-   **平台：** 桌面浏览器
+   **Platforms:** Desktop browser
 
-   **运行：** 打开页面，选择 FULL VERSION 或 MINIMAL VERSION；后者省略开场和音乐，约11MB。
+   **Run:** Open the page and choose FULL VERSION or MINIMAL VERSION; the latter omits the intro and music and is about 11 MB.
 
-   [**打开在线入口**](https://phoboslab.org/wipegame/) · [项目介绍](https://github.com/phoboslab/wipeout-rewrite)
+   [**Open browser edition**](https://phoboslab.org/wipegame/) · [Project information](https://github.com/phoboslab/wipeout-rewrite)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
 2. <a name="game-bananabread"></a>**Cube 2 · BananaBread**
 
-   <a href="https://kripken.github.io/BananaBread/cube2/bb.html"><img src="assets/screenshots/bananabread-entry.jpg" width="760" alt="页面自动加载出的3D场景"></a>
+   <a href="https://kripken.github.io/BananaBread/cube2/bb.html"><img src="assets/screenshots/bananabread-entry.jpg" width="760" alt="3D scene automatically loaded by the page"></a>
 
-   <sub>页面自动加载出的3D场景 <a href="https://kripken.github.io/BananaBread/cube2/bb.html">图片来源</a></sub>
+   <sub>3D scene automatically loaded by the page <a href="https://kripken.github.io/BananaBread/cube2/bb.html">Image source</a></sub>
 
-   基于Sauerbraten的浏览器第一人称射击演示，提供机器人对战、3D场景和地图编辑能力。
+   A Sauerbraten-based browser FPS demonstration with bot matches, 3D environments and map-editing capabilities.
 
-   **平台：** 桌面浏览器
+   **Platforms:** Desktop browser
 
-   **运行：** 打开网页，等待加载完成；页面会直接显示地图和机器人对战场景。
+   **Run:** Open the page and wait for loading; the map and bot-match scene appear automatically.
 
-   [**打开在线入口**](https://kripken.github.io/BananaBread/cube2/bb.html) · [项目介绍](https://github.com/kripken/BananaBread)
+   [**Open browser edition**](https://kripken.github.io/BananaBread/cube2/bb.html) · [Project information](https://github.com/kripken/BananaBread)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-3. <a name="game-micropolisjs"></a>**模拟城市 · micropolisJS**
+3. <a name="game-micropolisjs"></a>**MicropolisJS**
 
-   <a href="https://www.graememcc.co.uk/micropolisJS"><img src="assets/screenshots/micropolisjs-entry.jpg" width="760" alt="欢迎页与地图预览"></a>
+   <a href="https://www.graememcc.co.uk/micropolisJS"><img src="assets/screenshots/micropolisjs-entry.jpg" width="760" alt="Welcome screen and map preview"></a>
 
-   <sub>欢迎页与地图预览 <a href="https://www.graememcc.co.uk/micropolisJS">图片来源</a></sub>
+   <sub>Welcome screen and map preview <a href="https://www.graememcc.co.uk/micropolisJS">Image source</a></sub>
 
-   规划住宅、商业和工业区，铺设道路与电网，平衡预算与市民需求。基于开源Micropolis的JavaScript城市模拟游戏。
+   Zone homes, shops and factories, connect roads and power, and balance the budget and city needs in this JavaScript port of the open-source Micropolis simulator.
 
-   **平台：** 桌面浏览器
+   **Platforms:** Desktop browser
 
-   **运行：** 打开网页，选择Play this map；也可先用Generate another生成另一张地图。
+   **Run:** Open the site and choose Play this map, or generate a different map first.
 
-   [**打开在线入口**](https://www.graememcc.co.uk/micropolisJS) · [项目源码](https://github.com/graememcc/micropolisJS)
+   [**Open browser edition**](https://www.graememcc.co.uk/micropolisJS) · [Project source](https://github.com/graememcc/micropolisJS)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-4. <a name="game-marbleblast-gold"></a>**弹珠爆破：黄金版 · MBHaxe**
+4. <a name="game-marbleblast-gold"></a>**Marble Blast Gold · MBHaxe**
 
-   <a href="https://marbleblastgold.randomityguy.me"><img src="assets/screenshots/marbleblast-gold-entry.jpg" width="760" alt="Gold主菜单"></a>
+   <a href="https://marbleblastgold.randomityguy.me"><img src="assets/screenshots/marbleblast-gold-entry.jpg" width="760" alt="Gold main menu"></a>
 
-   <sub>Gold主菜单 <a href="https://marbleblastgold.randomityguy.me">图片来源</a></sub>
+   <sub>Gold main menu <a href="https://marbleblastgold.randomityguy.me">Image source</a></sub>
 
-   操控弹珠在立体赛道上收集宝石，避开机关并赶到终点。该Haxe项目还提供Platinum、Ultra和PlatinumQuest的独立网页版。
+   Roll a marble around 3D courses, collect gems and reach the finish. This Haxe project also offers separate browser editions of Platinum, Ultra and PlatinumQuest.
 
-   **平台：** 桌面与移动浏览器
+   **Platforms:** Desktop and mobile browsers
 
-   **运行：** 打开Gold在线入口，等待主菜单加载后选择Play；其他版本的入口列在下方。
+   **Run:** Open the Gold link, wait for the main menu and choose Play. Links to the other editions are listed below.
 
-   [**打开在线入口**](https://marbleblastgold.randomityguy.me) · [项目源码](https://github.com/RandomityGuy/MBHaxe) · [原版系列入口](https://marbleblast.randomityguy.me) · [Ultra版本](https://marbleblastultra.randomityguy.me) · [PlatinumQuest版本](https://platinumquest.randomityguy.me)
+   [**Open browser edition**](https://marbleblastgold.randomityguy.me) · [Project source](https://github.com/RandomityGuy/MBHaxe) · [Original-series entry](https://marbleblast.randomityguy.me) · [Ultra edition](https://marbleblastultra.randomityguy.me) · [PlatinumQuest edition](https://platinumquest.randomityguy.me)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-5. <a name="game-panzer-marshal"></a>**装甲元帅风格 · Panzer Marshal**
+5. <a name="game-panzer-marshal"></a>**Panzer Marshal · Open Panzer**
 
-   <a href="https://panzermarshal.com/"><img src="assets/screenshots/panzer-marshal-entry.jpg" width="760" alt="游戏主菜单"></a>
+   <a href="https://panzermarshal.com/"><img src="assets/screenshots/panzer-marshal-entry.jpg" width="760" alt="Game main menu"></a>
 
-   <sub>游戏主菜单 <a href="https://panzermarshal.com/">图片来源</a></sub>
+   <sub>Game main menu <a href="https://panzermarshal.com/">Image source</a></sub>
 
-   在六角格战场上指挥步兵、坦克和飞机，争夺目标并管理补给。这是受《装甲元帅2》启发的HTML5回合制战争游戏。
+   Command infantry, tanks and aircraft across hex-grid battlefields, capture objectives and manage supply in an HTML5 strategy game inspired by Panzer General II.
 
-   **平台：** 桌面与移动浏览器
+   **Platforms:** Desktop and mobile browsers
 
-   **运行：** 打开网页，等待Panzer Marshal主菜单出现后选择New Game。
+   **Run:** Open the site, wait for the Panzer Marshal menu and choose New Game.
 
-   [**打开在线入口**](https://panzermarshal.com/) · [项目源码](https://github.com/nicupavel/openpanzer)
+   [**Open browser edition**](https://panzermarshal.com/) · [Project source](https://github.com/nicupavel/openpanzer)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-6. <a name="game-hit-run-vheissu"></a>**辛普森一家：横冲直撞 · Three.js重建**
+6. <a name="game-hit-run-vheissu"></a>**The Simpsons: Hit &amp; Run · Three.js reconstruction**
 
-   <a href="https://vheissu.github.io/hit-and-run-web/"><img src="https://raw.githubusercontent.com/Vheissu/hit-and-run-web/main/docs/media/homer-and-marge.jpg" width="760" alt="作者提供的项目画面"></a>
+   <a href="https://vheissu.github.io/hit-and-run-web/"><img src="https://raw.githubusercontent.com/Vheissu/hit-and-run-web/main/docs/media/homer-and-marge.jpg" width="760" alt="Project image supplied by the author"></a>
 
-   <sub>作者提供的项目画面 <a href="https://github.com/Vheissu/hit-and-run-web/blob/main/README.md">图片来源</a></sub>
+   <sub>Project image supplied by the author <a href="https://github.com/Vheissu/hit-and-run-web/blob/main/README.md">Image source</a></sub>
 
-   基于原版地图与任务数据的Three.js重建，在春田镇驾驶、探索并推进任务；物理与部分交互仍采用重建实现。
+   A Three.js reconstruction using original map and mission data for driving and exploration in Springfield; physics and some interactions remain reconstructed systems.
 
-   **平台：** 桌面浏览器
+   **Platforms:** Desktop browser
 
-   **运行：** 打开页面，等待载入，选择 Start 和 New Game。
+   **Run:** Open the page, wait for loading and select Start followed by New Game.
 
-   [**打开在线入口**](https://vheissu.github.io/hit-and-run-web/) · [项目介绍](https://github.com/Vheissu/hit-and-run-web)
+   [**Open browser edition**](https://vheissu.github.io/hit-and-run-web/) · [Project information](https://github.com/Vheissu/hit-and-run-web)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-7. <a name="game-cuttherope-dx"></a>**割绳子 · Cut the Rope DX**
+7. <a name="game-cuttherope-dx"></a>**Cut the Rope DX**
 
-   <a href="https://yell0wsuit.github.io/cuttherope-dx/"><img src="assets/screenshots/cuttherope-dx-entry.jpg" width="760" alt="网页版启动页"></a>
+   <a href="https://yell0wsuit.github.io/cuttherope-dx/"><img src="assets/screenshots/cuttherope-dx-entry.jpg" width="760" alt="Web edition launch screen"></a>
 
-   <sub>网页版启动页 <a href="https://yell0wsuit.github.io/cuttherope-dx/">图片来源</a></sub>
+   <sub>Web edition launch screen <a href="https://yell0wsuit.github.io/cuttherope-dx/">Image source</a></sub>
 
-   剪断绳子，让糖果穿过机关、收集星星，最后送到Om Nom嘴里。基于PC版反编译代码的增强版，增加关卡盒子并提供网页版。
+   Cut ropes to guide candy through obstacles, collect stars and feed Om Nom. An enhanced edition based on the decompiled PC game, with additional boxes and a browser build.
 
-   **平台：** 浏览器（WebAssembly）/ Windows / macOS（Apple Silicon）/ Linux
+   **Platforms:** Browser (WebAssembly) / Windows / macOS (Apple Silicon) / Linux
 
-   **运行：** 打开在线链接，等待资源加载完成后点击Play；桌面版可在项目Releases下载对应系统版本。
+   **Run:** Open the browser link, wait for resources to load, then select Play. Desktop builds are available from the project Releases page.
 
-   [**打开在线入口**](https://yell0wsuit.github.io/cuttherope-dx/) · [项目源码](https://github.com/yell0wsuit/cuttherope-dx)
+   [**Open browser edition**](https://yell0wsuit.github.io/cuttherope-dx/) · [Project source](https://github.com/yell0wsuit/cuttherope-dx)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-8. <a name="game-aerofoil"></a>**纸飞机冒险 · Aerofoil / Glider PRO**
+8. <a name="game-aerofoil"></a>**Aerofoil · Glider PRO**
 
-   <a href="https://galeforcegames.itch.io/aerofoil"><img src="assets/screenshots/aerofoil-entry.jpg" width="760" alt="浏览器窗口中的启动介绍"></a>
+   <a href="https://galeforcegames.itch.io/aerofoil"><img src="assets/screenshots/aerofoil-entry.jpg" width="760" alt="Introduction inside the browser game window"></a>
 
-   <sub>浏览器窗口中的启动介绍 <a href="https://galeforcegames.itch.io/aerofoil">图片来源</a></sub>
+   <sub>Introduction inside the browser game window <a href="https://galeforcegames.itch.io/aerofoil">Image source</a></sub>
 
-   基于作者公开源码与素材的Glider PRO移植，操纵纸飞机穿过房间、利用气流并避开障碍。
+   A port of Glider PRO based on its author-released code and assets; guide a paper plane through rooms, air currents and obstacles.
 
-   **平台：** 桌面浏览器
+   **Platforms:** Desktop browser
 
-   **运行：** 在itch.io页面点击 Run game，阅读启动介绍后进入游戏窗口。
+   **Run:** Click Run game on itch.io, then proceed through the introduction to the game window.
 
-   [**打开在线入口**](https://galeforcegames.itch.io/aerofoil) · [项目介绍](https://github.com/elasota/Aerofoil)
+   [**Open browser edition**](https://galeforcegames.itch.io/aerofoil) · [Project information](https://github.com/elasota/Aerofoil)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-9. <a name="game-pokemon-claude-red"></a>**宝可梦：红 · Pokémon Claude Red**
+9. <a name="game-pokemon-claude-red"></a>**Pokémon Claude Red**
 
-   <a href="https://claudered.dev"><img src="https://raw.githubusercontent.com/levy-street/pokemon-claude-red/media/screens/title.png" width="760" alt="上游标题画面"></a>
+   <a href="https://claudered.dev"><img src="https://raw.githubusercontent.com/levy-street/pokemon-claude-red/media/screens/title.png" width="760" alt="Upstream title screen"></a>
 
-   <sub>上游标题画面 <a href="https://raw.githubusercontent.com/levy-street/pokemon-claude-red/media/screens/title.png">图片来源</a></sub>
+   <sub>Upstream title screen <a href="https://raw.githubusercontent.com/levy-street/pokemon-claude-red/media/screens/title.png">Image source</a></sub>
 
-   从真新镇出发，捕捉宝可梦、挑战道馆并探索关都地区。作者使用Claude重建的JavaScript版本，提供电脑与手机网页入口。
+   Travel from Pallet Town across Kanto, catch Pokémon and challenge Gym Leaders in an author-reported Claude-built JavaScript reconstruction with desktop and mobile browser support.
 
-   **平台：** 桌面与移动浏览器
+   **Platforms:** Desktop and mobile browsers
 
-   **运行：** 打开在线入口，按页面提示按键启用声音并开始；无需先注册账号。
+   **Run:** Open the link and follow the on-screen prompt to enable sound and start; registration is optional.
 
-   [**打开在线入口**](https://claudered.dev) · [项目源码](https://github.com/levy-street/pokemon-claude-red)
+   [**Open browser edition**](https://claudered.dev) · [Project source](https://github.com/levy-street/pokemon-claude-red)
 
-   [↑ 返回目录](#game-index)
+   [↑ Back to directory](#game-index)
 
-10. <a name="game-browsing-isaac"></a>**以撒的结合：忏悔+ · The Browsing of Isaac**
+10. <a name="game-browsing-isaac"></a>**The Binding of Isaac: Repentance+ · The Browsing of Isaac**
 
-    <a href="https://tboi.online"><img src="assets/screenshots/browsing-isaac-entry.jpg" width="760" alt="当前页面的开场画面"></a>
+    <a href="https://tboi.online"><img src="assets/screenshots/browsing-isaac-entry.jpg" width="760" alt="Opening sequence displayed by the current page"></a>
 
-    <sub>当前页面的开场画面 <a href="https://tboi.online">图片来源</a></sub>
+    <sub>Opening sequence displayed by the current page <a href="https://tboi.online">Image source</a></sub>
 
-    将Windows程序静态重编译为WASM的浏览器版本，提供随机地牢探索、射击与道具组合。
+    A browser edition statically recompiled from the Windows executable to WASM, with randomized dungeons, shooting and item combinations.
 
-    **平台：** 桌面或手机浏览器
+    **Platforms:** Desktop or mobile browser
 
-    **运行：** 打开tboi.online，等待首次载入和开场结束，再使用游戏菜单开始。
+    **Run:** Open tboi.online, wait for the initial load and introduction, then start from the game menu.
 
-    [**打开在线入口**](https://tboi.online) · [项目介绍](https://github.com/chiikabu/the-browsing-of-isaac)
+    [**Open browser edition**](https://tboi.online) · [Project information](https://github.com/chiikabu/the-browsing-of-isaac)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-11. <a name="game-opensgolf"></a>**模拟高尔夫 · OpenSGolf**
+11. <a name="game-opensgolf"></a>**SimGolf · OpenSGolf**
 
-    <a href="https://crspytopgn.github.io/opensgolf/"><img src="https://raw.githubusercontent.com/crspytopgn/opensgolf/main/docs/images/golfers.jpg" width="760" alt="上游游戏截图，使用原版SimGolf素材"></a>
+    <a href="https://crspytopgn.github.io/opensgolf/"><img src="https://raw.githubusercontent.com/crspytopgn/opensgolf/main/docs/images/golfers.jpg" width="760" alt="Upstream gameplay screenshot using original SimGolf assets"></a>
 
-    <sub>上游游戏截图，使用原版SimGolf素材 <a href="https://github.com/crspytopgn/opensgolf/blob/main/README.md">图片来源</a></sub>
+    <sub>Upstream gameplay screenshot using original SimGolf assets <a href="https://github.com/crspytopgn/opensgolf/blob/main/README.md">Image source</a></sub>
 
-    设计球道、经营度假村，也可亲自下场挥杆。提供免费替代素材游玩路径，可选导入自有SimGolf原版素材。
+    Design golf holes, manage a resort and play rounds, with free replacement graphics or optional files from your own SimGolf copy.
 
-    **平台：** 桌面与移动浏览器；另有Windows / macOS / Linux / Android版本
+    **Platforms:** Desktop and mobile browsers; Windows / macOS / Linux / Android apps also available
 
-    **运行：** 打开页面选择Play with free graphics。也可选择自己的SimGolf目录、ZIP或CD镜像；读者自行继续，原版文件仅在本机读取。
+    **Run:** Open the page and choose Play with free graphics. Alternatively select your own SimGolf folder, ZIP or CD image; original files are read locally.
 
-    [**打开在线入口**](https://crspytopgn.github.io/opensgolf/) · [项目源码](https://github.com/crspytopgn/opensgolf)
+    [**Open browser edition**](https://crspytopgn.github.io/opensgolf/) · [Project source](https://github.com/crspytopgn/opensgolf)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-12. <a name="game-weltendaemmerung"></a>**世界黄昏 · Weltendämmerung**
+12. <a name="game-weltendaemmerung"></a>**Weltendämmerung**
 
-    <a href="https://s-macke.github.io/weltendaemmerung/"><img src="assets/screenshots/weltendaemmerung-entry.jpg" width="760" alt="当前标题页"></a>
+    <a href="https://s-macke.github.io/weltendaemmerung/"><img src="assets/screenshots/weltendaemmerung-entry.jpg" width="760" alt="Current title screen"></a>
 
-    <sub>当前标题页 <a href="https://s-macke.github.io/weltendaemmerung/">图片来源</a></sub>
+    <sub>Current title screen <a href="https://s-macke.github.io/weltendaemmerung/">Image source</a></sub>
 
-    C64双人回合制策略游戏的浏览器重实现，双方指挥不同兵种，在移动、进攻和筑防阶段争夺地图。
+    A browser reimplementation of a two-player C64 strategy game, with asymmetric armies, movement, attacks and fortification.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开网页，点击 START GAME 进入回合制对局。
+    **Run:** Open the page and click START GAME to enter the turn-based game.
 
-    [**打开在线入口**](https://s-macke.github.io/weltendaemmerung/) · [项目介绍](https://github.com/s-macke/weltendaemmerung)
+    [**Open browser edition**](https://s-macke.github.io/weltendaemmerung/) · [Project information](https://github.com/s-macke/weltendaemmerung)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-13. <a name="game-battlecity"></a>**坦克大战 · Battle City**
+13. <a name="game-battlecity"></a>**Battle City**
 
-    <a href="https://battle-city.berrry.app"><img src="assets/screenshots/battlecity-entry.jpg" width="760" alt="标题菜单"></a>
+    <a href="https://battle-city.berrry.app"><img src="assets/screenshots/battlecity-entry.jpg" width="760" alt="Title menu"></a>
 
-    <sub>标题菜单 <a href="https://battle-city.berrry.app">图片来源</a></sub>
+    <sub>Title menu <a href="https://battle-city.berrry.app">Image source</a></sub>
 
-    驾驶坦克守住鹰形基地，击毁敌军并利用地形周旋。基于红白机版逆向记录重实现，标题菜单提供单人、双人和关卡编辑。
+    Defend the eagle base and destroy enemy tanks while using the terrain for cover. Rebuilt from Famicom reverse-engineering notes, with one-player, two-player and construction menu options.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开网页，在标题菜单选择模式后按Enter开始。
+    **Run:** Open the site, select a mode on the title screen and press Enter.
 
-    [**打开在线入口**](https://battle-city.berrry.app) · [项目源码](https://github.com/vgrichina/battlecity)
+    [**Open browser edition**](https://battle-city.berrry.app) · [Project source](https://github.com/vgrichina/battlecity)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-14. <a name="game-snail-mail"></a>**蜗牛邮差 · Snail Mail**
+14. <a name="game-snail-mail"></a>**Snail Mail**
 
-    <a href="https://snail.banteg.xyz"><img src="assets/screenshots/snail-mail-entry.jpg" width="760" alt="点击启动画面"></a>
+    <a href="https://snail.banteg.xyz"><img src="assets/screenshots/snail-mail-entry.jpg" width="760" alt="Click-to-play screen"></a>
 
-    <sub>点击启动画面 <a href="https://snail.banteg.xyz">图片来源</a></sub>
+    <sub>Click-to-play screen <a href="https://snail.banteg.xyz">Image source</a></sub>
 
-    让蜗牛Turbo沿着太空高速路送邮件，拾取包裹、躲避盐堆并消灭蛞蝓。将Windows游戏逻辑反编译后移植到WebAssembly。
+    Deliver mail as Turbo the snail along highways in space, collect packages, avoid salt and blast slugs in a WebAssembly port built from recovered Windows game logic.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开网页，等待出现CLICK TO PLAY后点击画面启动。
+    **Run:** Open the page, wait for CLICK TO PLAY and click the screen to start.
 
-    [**打开在线入口**](https://snail.banteg.xyz) · [项目源码](https://github.com/banteg/snail)
+    [**Open browser edition**](https://snail.banteg.xyz) · [Project source](https://github.com/banteg/snail)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-15. <a name="game-atb-kingdomrush"></a>**王国保卫战：前线 · ATB HTML5**
+15. <a name="game-atb-kingdomrush"></a>**Kingdom Rush Frontiers · ATB HTML5**
 
-    <a href="https://atbfun.github.io/kingdomrush/"><img src="assets/screenshots/atb-kingdomrush-menu.jpg" width="760" alt="当前在线页面的启动界面"></a>
+    <a href="https://atbfun.github.io/kingdomrush/"><img src="assets/screenshots/atb-kingdomrush-menu.jpg" width="760" alt="Start screen of the current browser edition"></a>
 
-    <sub>当前在线页面的启动界面 <a href="https://atbfun.github.io/kingdomrush/">图片来源</a></sub>
+    <sub>Start screen of the current browser edition <a href="https://atbfun.github.io/kingdomrush/">Image source</a></sub>
 
-    建造弓箭、兵营、法师和炮兵塔，调配英雄与技能守住道路。项目以HTML5重建原作的地图、战役与塔防机制。
+    Build archer towers, barracks, mage towers and artillery, and use heroes and abilities to defend the road. An HTML5 reconstruction of the original maps, campaign and tower-defense mechanics.
 
-    **平台：** 桌面或手机浏览器，支持鼠标与触屏
+    **Platforms:** Desktop or mobile browser, with mouse and touch support
 
-    **运行：** 打开页面后点击“开始守卫”，在空地建塔，再召唤第一波；可从“战役地图”切换关卡。
+    **Run:** Open the page and click Start Defending, build towers on empty sites, then summon the first wave. Use Campaign Map to select a level.
 
-    [**打开在线入口**](https://atbfun.github.io/kingdomrush/) · [项目源码](https://github.com/atbfun/kingdomrush)
+    [**Open browser edition**](https://atbfun.github.io/kingdomrush/) · [Project source](https://github.com/atbfun/kingdomrush)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-16. <a name="game-untangle"></a>**Untangle：解开交叉线**
+16. <a name="game-untangle"></a>**Untangle**
 
-    <a href="https://az9713.github.io/untangle-rebuild/rebuild/index.html"><img src="assets/screenshots/untangle-entry.jpg" width="760" alt="棋盘画面"></a>
+    <a href="https://az9713.github.io/untangle-rebuild/rebuild/index.html"><img src="assets/screenshots/untangle-entry.jpg" width="760" alt="Puzzle board"></a>
 
-    <sub>棋盘画面 <a href="https://az9713.github.io/untangle-rebuild/rebuild/index.html">图片来源</a></sub>
+    <sub>Puzzle board <a href="https://az9713.github.io/untangle-rebuild/rebuild/index.html">Image source</a></sub>
 
-    把一团交叉的连线整理成互不相交的网络。适合打开网页后快速体验的益智小游戏。
+    Untangle a network by moving its dots until the connecting lines no longer cross. A small puzzle you can open directly in your browser.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开在线链接即可。
+    **Run:** Open the browser link.
 
-    [**打开在线入口**](https://az9713.github.io/untangle-rebuild/rebuild/index.html) · [项目源码](https://github.com/az9713/untangle-rebuild)
+    [**Open browser edition**](https://az9713.github.io/untangle-rebuild/rebuild/index.html) · [Project source](https://github.com/az9713/untangle-rebuild)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-17. <a name="game-little-runner"></a>**Little Runner：恐龙速度实验**
+17. <a name="game-little-runner"></a>**Little Runner — Speed Lab**
 
-    <a href="https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html"><img src="assets/screenshots/dino-entry.jpg" width="760" alt="演示准备画面"></a>
+    <a href="https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html"><img src="assets/screenshots/dino-entry.jpg" width="760" alt="Demo start screen"></a>
 
-    <sub>演示准备画面 <a href="https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html">图片来源</a></sub>
+    <sub>Demo start screen <a href="https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html">Image source</a></sub>
 
-    越过沙漠植物，观察速度如何逐步增加。这个独立小演示根据 REA 调查恢复速度规则，画面与部分玩法作了简化。
+    Jump over desert plants and watch the speed increase. This independent demo reconstructs a speed rule investigated with REA, with simplified art and gameplay.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开在线链接后开始演示。
+    **Run:** Open the link and start the demo.
 
-    [**打开在线入口**](https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html) · [项目源码](https://github.com/zhxunzh84/rea-dino-reverse-engineering)
+    [**Open browser edition**](https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html) · [Project source](https://github.com/zhxunzh84/rea-dino-reverse-engineering)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-18. <a name="game-web-counter-strike-1-6"></a>**反恐精英1.6 · CSJS**
+18. <a name="game-web-counter-strike-1-6"></a>**Counter-Strike 1.6**
 
-    <a href="https://csjs.live"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-1-6.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://csjs.live"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-1-6.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-1-6.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-1-6.jpg">Image source</a></sub>
 
-    基于Xash3D的浏览器移植，提供经典团队射击与在线服务器。
+    A Xash3D-based browser port offering classic Counter-Strike team matches and online servers.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开网页，关闭可选投票弹窗，在 SERVERS 中选择服务器后等待资源加载。
+    **Run:** Open the site, dismiss any optional poll and choose a server under SERVERS; wait for its assets to load.
 
-    [**打开在线入口**](https://csjs.live) · [项目介绍](https://csjs.live/)
+    [**Open browser edition**](https://csjs.live) · [Project information](https://csjs.live/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-19. <a name="game-web-counter-strike-source-bunnyhop-bunnyhop-lol"></a>**CS起源连跳 · bunnyhop.lol**
+19. <a name="game-web-counter-strike-source-bunnyhop-bunnyhop-lol"></a>**Counter-Strike: Source Bunnyhop (bunnyhop.lol)**
 
-    <a href="https://bunnyhop.lol"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://bunnyhop.lol"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg">Image source</a></sub>
 
-    重现CS起源连跳移动与计时闯关的浏览器玩法项目。
+    A browser project recreating Counter-Strike: Source bunnyhop movement and timed courses.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开页面，按提示选择显示名，再选 PLAY 或 PLAY ONLINE。
+    **Run:** Open the page, choose a display name if prompted, then select PLAY or PLAY ONLINE.
 
-    [**打开在线入口**](https://bunnyhop.lol) · [项目介绍](https://bunnyhop.lol/)
+    [**Open browser edition**](https://bunnyhop.lol) · [Project information](https://bunnyhop.lol/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-20. <a name="game-web-counter-strike-source-surf-surfd"></a>**CS起源滑翔 · Surfd**
+20. <a name="game-web-counter-strike-source-surf-surfd"></a>**Counter-Strike: Source Surf (Surfd)**
 
-    <a href="https://surfd.net"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-surf-surfd.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://surfd.net"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-surf-surfd.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-surf-surfd.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-counter-strike-source-surf-surfd.jpg">Image source</a></sub>
 
-    沿斜坡保持速度、完成计时赛道的浏览器Surf玩法项目。
+    A browser surf game about preserving momentum along ramps and finishing timed courses.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开页面，选择 Play now 加入服务器，或使用 Solo &amp; practice。
+    **Run:** Open the page and choose Play now for a server, or Solo &amp; practice.
 
-    [**打开在线入口**](https://surfd.net) · [项目介绍](https://surfd.net/)
+    [**Open browser edition**](https://surfd.net) · [Project information](https://surfd.net/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-21. <a name="game-web-crash-bash-online"></a>**古惑狼嘉年华 · Crash Bash Online**
+21. <a name="game-web-crash-bash-online"></a>**Crash Bash Online**
 
-    <a href="https://crashbash.app/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-crash-bash-online.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://crashbash.app/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-crash-bash-online.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-crash-bash-online.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-crash-bash-online.jpg">Image source</a></sub>
 
-    以搬箱子、冰面推挤和坦克对战等小游戏为主的非官方浏览器移植。
+    An unofficial browser port of the Crash Bash party minigames, including crates, polar pushing and tank battles.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开页面，等待菜单加载，选择 SOLO VS CPU 或多人对战；私人房间可分享代码。
+    **Run:** Open the page, wait for the menu and select SOLO VS CPU or a multiplayer battle; private rooms use shareable codes.
 
-    [**打开在线入口**](https://crashbash.app/) · [项目介绍](https://crashbash.app/)
+    [**Open browser edition**](https://crashbash.app/) · [Project information](https://crashbash.app/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-22. <a name="game-web-doom-multiplayer-silent-space-marine"></a>**毁灭战士联机版 · Silent Space Marine**
+22. <a name="game-web-doom-multiplayer-silent-space-marine"></a>**Doom Multiplayer (Silent Space Marine)**
 
-    <a href="https://silentspacemarine.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-doom-multiplayer-silent-space-marine.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://silentspacemarine.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-doom-multiplayer-silent-space-marine.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-doom-multiplayer-silent-space-marine.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-doom-multiplayer-silent-space-marine.jpg">Image source</a></sub>
 
-    将Doom移植到WebAssembly，并通过Cloudflare网络提供单人和联机入口。
+    A WebAssembly Doom port with solo and multiplayer entry points over Cloudflare’s network.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开页面，选择 PLAY SOLO 或 START MULTIPLAYER，等待页面加载数据。
+    **Run:** Open the page and select PLAY SOLO or START MULTIPLAYER; wait for the hosted data.
 
-    [**打开在线入口**](https://silentspacemarine.com/) · [项目介绍](https://silentspacemarine.com/)
+    [**Open browser edition**](https://silentspacemarine.com/) · [Project information](https://silentspacemarine.com/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-23. <a name="game-web-grand-theft-auto-iii"></a>**侠盗猎车手III · WASM Arcade**
+23. <a name="game-web-grand-theft-auto-iii"></a>**Grand Theft Auto III**
 
-    <a href="https://wasmarcade.com/gta3"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-iii.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://wasmarcade.com/gta3"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-iii.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-iii.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-iii.jpg">Image source</a></sub>
 
-    基于re3的浏览器移植，在自由城驾驶、探索并执行任务。
+    A re3-based browser port for driving, exploring Liberty City and completing missions.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开网页，点击 PLAY GTA III；页面按需加载并缓存数据，需要支持WebGL 2.0的浏览器。
+    **Run:** Open the page and click PLAY GTA III; it streams and caches data and requires a WebGL 2.0 browser.
 
-    [**打开在线入口**](https://wasmarcade.com/gta3) · [项目介绍](https://wasmarcade.com/gta3)
+    [**Open browser edition**](https://wasmarcade.com/gta3) · [Project information](https://wasmarcade.com/gta3)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-24. <a name="game-web-minecraft-1-8-8-eaglercraftx"></a>**我的世界1.8.8 · EaglercraftX**
+24. <a name="game-web-minecraft-1-8-8-eaglercraftx"></a>**Minecraft 1.8.8 (EaglercraftX)**
 
-    <a href="https://wasmarcade.com/minecraft"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://wasmarcade.com/minecraft"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg">Image source</a></sub>
 
-    通过EaglercraftX运行的浏览器沙盒移植，采矿、建造与生存。
+    A browser sandbox port through EaglercraftX, for mining, building and survival.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 点击 PLAY MINECRAFT，等待WebAssembly加载；存档保存在当前浏览器。
+    **Run:** Click PLAY MINECRAFT and wait for WebAssembly to load; worlds are saved in this browser.
 
-    [**打开在线入口**](https://wasmarcade.com/minecraft) · [项目介绍](https://wasmarcade.com/minecraft)
+    [**Open browser edition**](https://wasmarcade.com/minecraft) · [Project information](https://wasmarcade.com/minecraft)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-25. <a name="game-web-nacht-der-untoten"></a>**亡者之夜 · Zombies Browser Edition**
+25. <a name="game-web-nacht-der-untoten"></a>**Nacht der Untoten**
 
-    <a href="https://zombies.concentric.live/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-nacht-der-untoten.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://zombies.concentric.live/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-nacht-der-untoten.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-nacht-der-untoten.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-nacht-der-untoten.jpg">Image source</a></sub>
 
-    以Nacht der Untoten为背景的非官方僵尸生存浏览器项目。
+    An unofficial browser zombie-survival project based on Nacht der Untoten.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 原链接会跳转到 zombies.concentric.live，跳过介绍后按页面菜单进入。
+    **Run:** The original link redirects to zombies.concentric.live; skip the intro and follow the game menu.
 
-    [**打开在线入口**](https://zombies.concentric.live/) · [项目介绍](https://zombies.bitcoinsapi.com)
+    [**Open browser edition**](https://zombies.concentric.live/) · [Project information](https://zombies.bitcoinsapi.com)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-26. <a name="game-web-pro-evolution-soccer-6"></a>**实况足球6 · PES 6 Web Online**
+26. <a name="game-web-pro-evolution-soccer-6"></a>**Pro Evolution Soccer 6**
 
-    <a href="https://pes6.optijuegos.net"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-pro-evolution-soccer-6.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://pes6.optijuegos.net"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-pro-evolution-soccer-6.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-pro-evolution-soccer-6.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-pro-evolution-soccer-6.jpg">Image source</a></sub>
 
-    项目页面标明为PSP版PES6的浏览器重编译移植，提供足球比赛与联机入口。
+    The project describes this as a browser recompilation of the PSP edition of PES 6, with football matches and online options.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开页面等待数据加载，在游戏内选择比赛；支持触屏界面，桌面浏览器也可运行。
+    **Run:** Open the page and wait for its data, then select a match in-game; touch and desktop interfaces are available.
 
-    [**打开在线入口**](https://pes6.optijuegos.net) · [项目介绍](https://pes6.optijuegos.net)
+    [**Open browser edition**](https://pes6.optijuegos.net) · [Project information](https://pes6.optijuegos.net)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-27. <a name="game-web-quake-ii"></a>**雷神之锤II · Pieter 浏览器版**
+27. <a name="game-web-quake-ii"></a>**Quake II (q2.pieter.com)**
 
-    <a href="https://q2.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quake-ii.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://q2.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quake-ii.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quake-ii.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quake-ii.jpg">Image source</a></sub>
 
-    基于FTE引擎的非官方浏览器多人竞技移植。
+    An unofficial FTE-based browser edition for Quake II multiplayer matches.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 填写昵称并点击 PLAY，等待数据加载后进入多人游戏。
+    **Run:** Enter a nickname and click PLAY; wait for its assets to load before joining multiplayer.
 
-    [**打开在线入口**](https://q2.pieter.com) · [项目介绍](https://q2.pieter.com)
+    [**Open browser edition**](https://q2.pieter.com) · [Project information](https://q2.pieter.com)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-28. <a name="game-web-quakeworld"></a>**QuakeWorld · Pieter 浏览器版**
+28. <a name="game-web-quakeworld"></a>**QuakeWorld (q1.pieter.com)**
 
-    <a href="https://q1.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quakeworld.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://q1.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quakeworld.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quakeworld.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-quakeworld.jpg">Image source</a></sub>
 
-    通过FTE QuakeWorld提供低延迟多人竞技的浏览器移植。
+    An FTE QuakeWorld browser port for low-latency multiplayer arena combat.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 输入昵称并点击 PLAY，等待浏览器加载游戏数据。
+    **Run:** Enter a nickname and click PLAY, then wait for the browser to load the game data.
 
-    [**打开在线入口**](https://q1.pieter.com) · [项目介绍](https://q1.pieter.com)
+    [**Open browser edition**](https://q1.pieter.com) · [Project information](https://q1.pieter.com)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-29. <a name="game-web-return-to-castle-wolfenstein"></a>**重返德军总部 · Pieter 多人版**
+29. <a name="game-web-return-to-castle-wolfenstein"></a>**Return to Castle Wolfenstein (rtcw.pieter.com)**
 
-    <a href="https://rtcw.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-return-to-castle-wolfenstein.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://rtcw.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-return-to-castle-wolfenstein.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-return-to-castle-wolfenstein.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-return-to-castle-wolfenstein.jpg">Image source</a></sub>
 
-    基于iortcw与Wwasm的浏览器多人移植，提供团队对战。
+    A multiplayer browser port built on iortcw and Wwasm for team-based combat.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 输入昵称后点击 PLAY；页面建议桌面Chrome，首次加载约380MB并缓存。
+    **Run:** Enter a nickname and click PLAY; the site recommends desktop Chrome and caches about 380 MB on first load.
 
-    [**打开在线入口**](https://rtcw.pieter.com) · [项目介绍](https://rtcw.pieter.com)
+    [**Open browser edition**](https://rtcw.pieter.com) · [Project information](https://rtcw.pieter.com)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-30. <a name="game-web-runescape-classic"></a>**RuneScape Classic · 社区浏览器服**
+30. <a name="game-web-runescape-classic"></a>**RuneScape Classic**
 
-    <a href="https://runescapeclassic.gold/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-runescape-classic.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://runescapeclassic.gold/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-runescape-classic.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-runescape-classic.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-runescape-classic.jpg">Image source</a></sub>
 
-    提供经典地图、任务与技能的非官方社区浏览器版本。
+    An unofficial community browser edition featuring the classic map, quests and skills.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 等待首页加载，选择世界并按 Pick a username 设置账号进入；第三方登录和钱包选项为可选。
+    **Run:** Wait for the page, choose a world and use Pick a username to set up an account; third-party and wallet sign-in are optional.
 
-    [**打开在线入口**](https://runescapeclassic.gold/) · [项目介绍](https://runescapeclassic.gold)
+    [**Open browser edition**](https://runescapeclassic.gold/) · [Project information](https://runescapeclassic.gold)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-31. <a name="game-web-super-mario-zombies"></a>**超级马力欧僵尸 · Super Mario Zombies**
+31. <a name="game-web-super-mario-zombies"></a>**Super Mario Zombies**
 
-    <a href="https://smz.fun/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-super-mario-zombies.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://smz.fun/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-super-mario-zombies.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-super-mario-zombies.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-super-mario-zombies.jpg">Image source</a></sub>
 
-    结合马力欧主题与Black Ops僵尸生存玩法的粉丝浏览器项目。
+    A fan browser project combining Mario themes with Black Ops-style zombie survival.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 页面先要求确认拥有 Call of Duty: Black Ops，符合条件后由读者继续并选择地图。
+    **Run:** The page first asks you to confirm ownership of Call of Duty: Black Ops; eligible players can then continue to map selection.
 
-    [**打开在线入口**](https://smz.fun/) · [项目介绍](https://smz.fun)
+    [**Open browser edition**](https://smz.fun/) · [Project information](https://smz.fun)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-32. <a name="game-web-the-simpsons-hit-run"></a>**辛普森一家：横冲直撞 · WASM**
+32. <a name="game-web-the-simpsons-hit-run"></a>**The Simpsons: Hit &amp; Run**
 
-    <a href="https://shar-wasm.cjoseph.workers.dev/?skipmovie"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-the-simpsons-hit-run.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://shar-wasm.cjoseph.workers.dev/?skipmovie"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-the-simpsons-hit-run.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-the-simpsons-hit-run.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-the-simpsons-hit-run.jpg">Image source</a></sub>
 
-    The Simpsons: Hit &amp; Run的浏览器WASM入口，以驾驶和任务探索为主。
+    A WebAssembly browser entry for The Simpsons: Hit &amp; Run, focused on driving and mission-based exploration.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开页面，按 Play 启动加载；使用支持WebAssembly的桌面浏览器。
+    **Run:** Open the page and press Play to begin loading, using a WebAssembly-capable desktop browser.
 
-    [**打开在线入口**](https://shar-wasm.cjoseph.workers.dev/?skipmovie) · [项目介绍](https://shar-wasm.cjoseph.workers.dev/?skipmovie)
+    [**Open browser edition**](https://shar-wasm.cjoseph.workers.dev/?skipmovie) · [Project information](https://shar-wasm.cjoseph.workers.dev/?skipmovie)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-33. <a name="game-web-urban-terror-listed-as-unreal-tournament"></a>**Urban Terror · Pieter 浏览器版**
+33. <a name="game-web-urban-terror-listed-as-unreal-tournament"></a>**Urban Terror (ut.pieter.com)**
 
-    <a href="https://ut.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://ut.pieter.com"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg">Image source</a></sub>
 
-    将ioUrbanTerror移植到WebAssembly的团队射击入口；不是Unreal Tournament。
+    A WebAssembly port of ioUrbanTerror for team-based shooting.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 填写昵称点击 PLAY；页面建议桌面Chrome，首次按需加载并缓存游戏数据。
+    **Run:** Enter a nickname and click PLAY; the site recommends desktop Chrome and caches game data on first load.
 
-    [**打开在线入口**](https://ut.pieter.com) · [项目介绍](https://ut.pieter.com)
+    [**Open browser edition**](https://ut.pieter.com) · [Project information](https://ut.pieter.com)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-34. <a name="game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror"></a>**Claude of Duty：Vibe Slops II · 镜像**
+34. <a name="game-web-claude-of-duty-vibe-slops-ii-froydinger-mirror"></a>**Claude of Duty: Vibe Slops II (froydinger mirror)**
 
-    <a href="https://froydinger.github.io/claude-of-duty/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://froydinger.github.io/claude-of-duty/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg">Image source</a></sub>
 
-    基于Three.js重建Black Ops II的Hijacked地图射击玩法，原作者为Luckey Faraday。
+    A Three.js reconstruction of shooting on Black Ops II’s Hijacked map, originally by Luckey Faraday.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开镜像，点击 TAP OR CLICK TO LOAD，等待地图加载；另附备用镜像。
+    **Run:** Open the mirror and click TAP OR CLICK TO LOAD, then wait for its map; an alternative mirror is linked.
 
-    [**打开在线入口**](https://froydinger.github.io/claude-of-duty/) · [项目介绍](https://github.com/Froydinger/claude-of-duty) · [备用镜像](https://goofyahhbro69420.github.io/Black-Ops-2)
+    [**Open browser edition**](https://froydinger.github.io/claude-of-duty/) · [Project information](https://github.com/Froydinger/claude-of-duty) · [Alternative mirror](https://goofyahhbro69420.github.io/Black-Ops-2)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-35. <a name="game-web-kino-der-toten-goofyahhbro69420-mirror"></a>**Kino der Toten · 浏览器镜像**
+35. <a name="game-web-kino-der-toten-goofyahhbro69420-mirror"></a>**Kino der Toten (GoofyAhhBro69420 mirror)**
 
-    <a href="https://goofyahhbro69420.github.io/COD-ZOMBIES/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://goofyahhbro69420.github.io/COD-ZOMBIES/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg">Image source</a></sub>
 
-    由Luckey Faraday重建的Black Ops僵尸剧院单人生存玩法；保留可访问的镜像入口。
+    A solo Black Ops theater zombie-survival reconstruction by Luckey Faraday, available through a browser mirror.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 等待地图与装备加载后选择 ENTER THE THEATER。
+    **Run:** Wait for the map and loadout to load, then choose ENTER THE THEATER.
 
-    [**打开在线入口**](https://goofyahhbro69420.github.io/COD-ZOMBIES/) · [项目介绍](https://github.com/GoofyAhhBro69420/COD-ZOMBIES)
+    [**Open browser edition**](https://goofyahhbro69420.github.io/COD-ZOMBIES/) · [Project information](https://github.com/GoofyAhhBro69420/COD-ZOMBIES)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-36. <a name="game-atb-zuma"></a>**祖玛 · ATB HTML5**
+36. <a name="game-atb-zuma"></a>**Zuma · ATB HTML5**
 
-    <a href="https://atbfun.github.io/zuma/"><img src="assets/screenshots/atb-zuma-menu.jpg" width="760" alt="当前在线页面的启动界面"></a>
+    <a href="https://atbfun.github.io/zuma/"><img src="assets/screenshots/atb-zuma-menu.jpg" width="760" alt="Start screen of the current browser edition"></a>
 
-    <sub>当前在线页面的启动界面 <a href="https://atbfun.github.io/zuma/">图片来源</a></sub>
+    <sub>Start screen of the current browser edition <a href="https://atbfun.github.io/zuma/">Image source</a></sub>
 
-    发射彩色球，凑齐同色球消除珠链，阻止它们滚入终点。页面标示为《祖玛：豪华版》的HTML5粉丝移植。
+    Shoot colored balls to match and clear the chain before it reaches the end. The page describes this as a fan-made HTML5 port of Zuma Deluxe.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开页面后点击“开始游戏”；也可在“选择关卡”中挑选关卡。
+    **Run:** Open the page and click Start Game, or choose a level from the menu.
 
-    [**打开在线入口**](https://atbfun.github.io/zuma/) · [项目源码](https://github.com/atbfun/zuma)
+    [**Open browser edition**](https://atbfun.github.io/zuma/) · [Project source](https://github.com/atbfun/zuma)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-37. <a name="game-atb-cutrope"></a>**割绳子 · ATB HTML5**
+37. <a name="game-atb-cutrope"></a>**Cut the Rope · ATB HTML5**
 
-    <a href="https://atbfun.github.io/cutrope/"><img src="assets/screenshots/atb-cutrope-menu.jpg" width="760" alt="当前在线页面的启动界面"></a>
+    <a href="https://atbfun.github.io/cutrope/"><img src="assets/screenshots/atb-cutrope-menu.jpg" width="760" alt="Start screen of the current browser edition"></a>
 
-    <sub>当前在线页面的启动界面 <a href="https://atbfun.github.io/cutrope/">图片来源</a></sub>
+    <sub>Start screen of the current browser edition <a href="https://atbfun.github.io/cutrope/">Image source</a></sub>
 
-    划断绳索，让糖果收集星星并落入Om Nom嘴里。项目将原Flash版的50个关卡迁移到HTML5，提供两章关卡与本地进度保存。
+    Cut ropes so the candy collects stars and reaches Om Nom. This HTML5 port brings over 50 levels from the Flash version, with two chapters and locally saved progress.
 
-    **平台：** 桌面或手机浏览器，支持鼠标与触屏
+    **Platforms:** Desktop or mobile browser, with mouse and touch support
 
-    **运行：** 打开页面后点击“开始喂食”，也可通过“选择关卡”切换章节与关卡。
+    **Run:** Open the page and click Start Feeding, or use Select Level to choose a chapter and level.
 
-    [**打开在线入口**](https://atbfun.github.io/cutrope/) · [项目源码](https://github.com/atbfun/cutrope)
+    [**Open browser edition**](https://atbfun.github.io/cutrope/) · [Project source](https://github.com/atbfun/cutrope)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-38. <a name="game-virtueel-zoetermeer"></a>**虚拟佐特尔梅尔 · Virtueel Zoetermeer**
+38. <a name="game-virtueel-zoetermeer"></a>**Virtueel Zoetermeer**
 
-    <a href="https://virtueelzoetermeer.bou.ke/"><img src="https://pbs.twimg.com/media/HVUFoFNXYAACIZG?format=jpg&amp;name=small" width="760" alt="作者原帖项目预览"></a>
+    <a href="https://virtueelzoetermeer.bou.ke/"><img src="https://pbs.twimg.com/media/HVUFoFNXYAACIZG?format=jpg&amp;name=small" width="760" alt="Project preview from the author’s post"></a>
 
-    <sub>作者原帖项目预览 <a href="https://x.com/BvdBijl/status/2113601796438737023">图片来源</a></sub>
+    <sub>Project preview from the author’s post <a href="https://x.com/BvdBijl/status/2113601796438737023">Image source</a></sub>
 
-    重建荷兰佐特尔梅尔的城市建设游戏。作者将2000年代初的旧作品重建为浏览器WASM版本。
+    Rebuild the Dutch city of Zoetermeer in a city-building game reconstructed from an early-2000s title and ported to browser WebAssembly.
 
-    **平台：** 桌面浏览器 / WebAssembly
+    **Platforms:** Desktop browser / WebAssembly
 
-    **运行：** 打开作者在线入口；页面会加载游戏数据。
+    **Run:** Open the author’s online edition; the page loads its game data.
 
-    [**打开在线入口**](https://virtueelzoetermeer.bou.ke/) · [项目介绍](https://github.com/bouk/virtueel-zoetermeer)
+    [**Open browser edition**](https://virtueelzoetermeer.bou.ke/) · [Project information](https://github.com/bouk/virtueel-zoetermeer)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-39. <a name="game-web-f1-06"></a>**F1 06 · 网页版**
+39. <a name="game-web-f1-06"></a>**Formula One 06 · Browser edition**
 
-    <a href="https://f12006.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-formula-one-06.jpg" width="760" alt="上游目录提供的游戏预览"></a>
+    <a href="https://f12006.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-formula-one-06.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
 
-    <sub>上游目录提供的游戏预览 <a href="https://recompiledgames.com/img/games/f1-06-recompiled.jpg">图片来源</a></sub>
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/f1-06-recompiled.jpg">Image source</a></sub>
 
-    参加2006赛季的一级方程式赛车比赛。以WebAssembly和WebGPU在浏览器中运行PS2作品。
+    Race through the 2006 Formula One season in a browser edition of the PS2 game using WebAssembly and WebGPU.
 
-    **平台：** 支持WebGPU的桌面Chrome / Edge
+    **Platforms:** Desktop Chrome / Edge with WebGPU
 
-    **运行：** 打开页面，等待Ready to play后选择Play；首次会按需加载游戏数据。
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
 
-    [**打开在线入口**](https://f12006.online/) · [项目介绍](https://f12006.online/)
+    [**Open browser edition**](https://f12006.online/) · [Project information](https://f12006.online/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-40. <a name="game-web-ssx3"></a>**极限滑雪3 · SSX 3**
+40. <a name="game-web-ssx3"></a>**SSX 3 · Browser edition**
 
-    <a href="https://ssx3.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-ssx-3.jpg" width="760" alt="上游目录提供的游戏预览"></a>
+    <a href="https://ssx3.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-ssx-3.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
 
-    <sub>上游目录提供的游戏预览 <a href="https://recompiledgames.com/img/games/ssx-3-recompiled.jpg">图片来源</a></sub>
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/ssx-3-recompiled.jpg">Image source</a></sub>
 
-    从雪山高速滑下，在赛道与跳台上完成花式动作。PS2作品的浏览器移植入口。
+    Race down snowy mountains and perform tricks on courses and jumps in a browser port of the PS2 game.
 
-    **平台：** 支持WebGPU的桌面Chrome / Edge
+    **Platforms:** Desktop Chrome / Edge with WebGPU
 
-    **运行：** 打开页面，等待Ready to play后选择Play；首次会按需加载游戏数据。
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
 
-    [**打开在线入口**](https://ssx3.online/) · [项目介绍](https://ssx3.online/)
+    [**Open browser edition**](https://ssx3.online/) · [Project information](https://ssx3.online/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-41. <a name="game-web-tekken5"></a>**铁拳5 · 网页版**
+41. <a name="game-web-tekken5"></a>**Tekken 5 · Browser edition**
 
-    <a href="https://tekken5.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-tekken-5.jpg" width="760" alt="上游目录提供的标题预览"></a>
+    <a href="https://tekken5.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-tekken-5.jpg" width="760" alt="Title preview supplied by the upstream catalogue"></a>
 
-    <sub>上游目录提供的标题预览 <a href="https://recompiledgames.com/img/games/tekken-5-recompiled.jpg">图片来源</a></sub>
+    <sub>Title preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/tekken-5-recompiled.jpg">Image source</a></sub>
 
-    参加铁拳格斗大赛，选择角色进行3D对战。PS2版本通过浏览器运行。
+    Choose a fighter for the King of Iron Fist Tournament in a browser edition of the PS2 3D fighting game.
 
-    **平台：** 支持WebGPU的桌面Chrome / Edge
+    **Platforms:** Desktop Chrome / Edge with WebGPU
 
-    **运行：** 打开页面，等待Ready to play后选择Play；首次会按需加载游戏数据。
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
 
-    [**打开在线入口**](https://tekken5.online/) · [项目介绍](https://tekken5.online/)
+    [**Open browser edition**](https://tekken5.online/) · [Project information](https://tekken5.online/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-42. <a name="game-web-smackdown-vs-raw"></a>**WWE SmackDown! vs. RAW · 网页版**
+42. <a name="game-web-smackdown-vs-raw"></a>**WWE SmackDown! vs. RAW · Browser edition**
 
-    <a href="https://smackdownvsraw.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-wwe-smackdown-vs-raw.jpg" width="760" alt="上游目录提供的游戏预览"></a>
+    <a href="https://smackdownvsraw.online/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-wwe-smackdown-vs-raw.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
 
-    <sub>上游目录提供的游戏预览 <a href="https://recompiledgames.com/img/games/wwe-smackdown-vs-raw-recompiled.jpg">图片来源</a></sub>
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/wwe-smackdown-vs-raw-recompiled.jpg">Image source</a></sub>
 
-    选择WWE选手，在摔角擂台中展开对抗。PS2作品的浏览器移植入口。
+    Choose a WWE wrestler and compete in the ring in a browser port of the PS2 game.
 
-    **平台：** 支持WebGPU的桌面Chrome / Edge
+    **Platforms:** Desktop Chrome / Edge with WebGPU
 
-    **运行：** 打开页面，等待Ready to play后选择Play；首次会按需加载游戏数据。
+    **Run:** Open the page, wait for Ready to play and choose Play; game data loads on demand.
 
-    [**打开在线入口**](https://smackdownvsraw.online/) · [项目介绍](https://smackdownvsraw.online/)
+    [**Open browser edition**](https://smackdownvsraw.online/) · [Project information](https://smackdownvsraw.online/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-43. <a name="game-web-black-ops-zombies-vel"></a>**黑色行动僵尸 · Vel.gg**
+43. <a name="game-web-black-ops-zombies-vel"></a>**Black Ops Zombies · Vel.gg**
 
-    <a href="https://vel.gg/bsz"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-call-of-duty-black-ops-zombies.jpg" width="760" alt="上游目录提供的游戏预览"></a>
+    <a href="https://vel.gg/bsz"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/browser-call-of-duty-black-ops-zombies.jpg" width="760" alt="Game preview supplied by the upstream catalogue"></a>
 
-    <sub>上游目录提供的游戏预览 <a href="https://recompiledgames.com/img/games/black-ops-zombies-recompiled.jpg">图片来源</a></sub>
+    <sub>Game preview supplied by the upstream catalogue <a href="https://recompiledgames.com/img/games/black-ops-zombies-recompiled.jpg">Image source</a></sub>
 
-    选择地图进行僵尸波次生存，提供单人和多人设置。
+    Choose a map for round-based zombie survival, with solo and multiplayer setup.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 设置昵称、单人/多人和画质，再选择地图；网页会加载对应资源。
+    **Run:** Set a nickname, solo or multiplayer mode and graphics quality, then choose a map; the page loads its resources.
 
-    [**打开在线入口**](https://vel.gg/bsz) · [项目介绍](https://vel.gg/bsz)
+    [**Open browser edition**](https://vel.gg/bsz) · [Project information](https://vel.gg/bsz)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-## 浏览器演示
+## Browser demos
 
-44. <a name="game-d07riv-diabloweb"></a>**暗黑破坏神 · Diablo Web演示版**
+44. <a name="game-d07riv-diabloweb"></a>**Diablo Web · Shareware demo**
 
-    <a href="https://d07riv.github.io/diabloweb/"><img src="assets/screenshots/diabloweb-entry.jpg" width="760" alt="文件选择与演示入口"></a>
+    <a href="https://d07riv.github.io/diabloweb/"><img src="assets/screenshots/diabloweb-entry.jpg" width="760" alt="File selection and demo entry"></a>
 
-    <sub>文件选择与演示入口 <a href="https://d07riv.github.io/diabloweb/">图片来源</a></sub>
+    <sub>File selection and demo entry <a href="https://d07riv.github.io/diabloweb/">Image source</a></sub>
 
-    在浏览器体验初代暗黑的Shareware演示内容。页面提供演示数据下载；完整游戏另需原版文件。
+    Try the original Diablo shareware content in your browser. The page downloads demo data; full play requires original game files.
 
-    **平台：** 浏览器
+    **Platforms:** Web browser
 
-    **运行：** 打开网页，选择Play shareware并等待约50MB演示数据加载。
+    **Run:** Open the page, choose Play shareware and wait for about 50 MB of demo data to load.
 
-    **所需文件：** 完整版需自己的 DIABDAT.MPQ。
+    **Required files:** The full game requires your own DIABDAT.MPQ.
 
-    [**打开在线入口**](https://d07riv.github.io/diabloweb/) · [项目源码](https://github.com/d07RiV/diabloweb) · [演示版资源入口](https://d07riv.github.io/diabloweb/)
+    [**Open browser edition**](https://d07riv.github.io/diabloweb/) · [Project source](https://github.com/d07RiV/diabloweb) · [Get demo data](https://d07riv.github.io/diabloweb/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-45. <a name="game-openjkdf2"></a>**星球大战 绝地武士：黑暗力量II · OpenJKDF2演示**
+45. <a name="game-openjkdf2"></a>**Star Wars Jedi Knight: Dark Forces II · OpenJKDF2 demo**
 
-    <a href="https://maxthomas.dev/openjkdf2/"><img src="https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/master/docs/images/screenshot.png" width="760" alt="上游macOS版游戏画面；在线入口为演示版"></a>
+    <a href="https://maxthomas.dev/openjkdf2/"><img src="https://raw.githubusercontent.com/shinyquagsire23/OpenJKDF2/master/docs/images/screenshot.png" width="760" alt="Upstream macOS gameplay screenshot; the browser entry is a demo"></a>
 
-    <sub>上游macOS版游戏画面；在线入口为演示版 <a href="https://github.com/shinyquagsire23/OpenJKDF2/blob/master/README.md">图片来源</a></sub>
+    <sub>Upstream macOS gameplay screenshot; the browser entry is a demo <a href="https://github.com/shinyquagsire23/OpenJKDF2/blob/master/README.md">Image source</a></sub>
 
-    使用光剑、原力和枪械探索关卡。经典作品的逐函数重实现；在线入口为WebAssembly演示版。
+    Explore levels with a lightsaber, Force powers and blasters in a function-by-function reimplementation of the classic. The browser entry is a WebAssembly demo.
 
-    **平台：** 支持WebAssembly与WebGL2的桌面浏览器
+    **Platforms:** Desktop browser with WebAssembly and WebGL 2
 
-    **运行：** 打开在线演示入口，等待页面加载。完整版的桌面运行与源码构建说明见项目仓库。
+    **Run:** Open the browser demo and wait for it to load. Desktop full-game launch and source-build instructions are in the project repository.
 
-    [**打开在线入口**](https://maxthomas.dev/openjkdf2/) · [项目源码](https://github.com/shinyquagsire23/OpenJKDF2)
+    [**Open browser edition**](https://maxthomas.dev/openjkdf2/) · [Project source](https://github.com/shinyquagsire23/OpenJKDF2)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-46. <a name="game-lba2remake"></a>**小小大冒险1/2 · 探索演示**
+46. <a name="game-lba2remake"></a>**Little Big Adventure 1/2 · Exploration demo**
 
-    <a href="https://lba2remake.net/"><img src="https://raw.githubusercontent.com/LBALab/lba2remake/master/doc/images/screenshot_game.jpeg" width="760" alt="作者提供的项目画面"></a>
+    <a href="https://lba2remake.net/"><img src="https://raw.githubusercontent.com/LBALab/lba2remake/master/doc/images/screenshot_game.jpeg" width="760" alt="Project image supplied by the author"></a>
 
-    <sub>作者提供的项目画面 <a href="https://github.com/LBALab/lba2remake/blob/master/README.md">图片来源</a></sub>
+    <sub>Project image supplied by the author <a href="https://github.com/LBALab/lba2remake/blob/master/README.md">Image source</a></sub>
 
-    使用TypeScript与Three.js重实现冒险游戏，可探索岛屿和建筑；这是尚不能完整通关的演示。
+    A TypeScript/Three.js reimplementation for exploring islands and buildings; this demonstration cannot yet be completed end to end.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开演示页，阅读说明后进入；本地运行可按README导入自己的原版目录。
+    **Run:** Open the demo page and read its notice before continuing; local runs can import your original game folder as described in the README.
 
-    [**打开在线入口**](https://lba2remake.net/) · [项目介绍](https://github.com/LBALab/lba2remake)
+    [**Open browser edition**](https://lba2remake.net/) · [Project information](https://github.com/LBALab/lba2remake)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-47. <a name="game-nanolathe"></a>**横扫千军 · Nanolathe**
+47. <a name="game-nanolathe"></a>**Total Annihilation · Nanolathe**
 
-    <a href="https://nanolathe.gg/play/"><img src="https://nanolathe.gg/images/reel/poster.jpg" width="760" alt="上游引擎演示画面"></a>
+    <a href="https://nanolathe.gg/play/"><img src="https://nanolathe.gg/images/reel/poster.jpg" width="760" alt="Upstream engine footage preview"></a>
 
-    <sub>上游引擎演示画面 <a href="https://github.com/nanolathe-gg/nanolathe">图片来源</a></sub>
+    <sub>Upstream engine footage preview <a href="https://github.com/nanolathe-gg/nanolathe">Image source</a></sub>
 
-    指挥机器人军团建造基地、争夺资源。浏览器演示包含原版演示的三关，完整游戏还可使用自有数据运行。
+    Command robot armies, build a base and fight for resources. The browser demo contains three original demo missions; the full engine loads your own game data.
 
-    **平台：** 桌面Chrome / Edge / Safari；原生Windows / macOS / Linux
+    **Platforms:** Desktop Chrome / Edge / Safari; native Windows / macOS / Linux
 
-    **运行：** 打开三关演示；首次启动会获取演示数据。原生版按官网安装说明构建并选择游戏目录。
+    **Run:** Open the three-mission demo; it downloads demo data on first launch. For native play, follow the installer guide and select your game folder.
 
-    **所需文件：** 完整游戏需要自己的Total Annihilation安装目录及HPI数据。
+    **Required files:** For the full game, supply your own installed Total Annihilation folder and HPI archives.
 
-    [**打开在线入口**](https://nanolathe.gg/play/) · [项目源码](https://github.com/nanolathe-gg/nanolathe)
+    [**Open browser edition**](https://nanolathe.gg/play/) · [Project source](https://github.com/nanolathe-gg/nanolathe)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-48. <a name="game-qwasm2"></a>**雷神之锤II · Qwasm2**
+48. <a name="game-qwasm2"></a>**Quake II · Qwasm2**
 
-    <a href="https://qwasm2.m-h.org.uk/"><img src="assets/screenshots/qwasm2-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
+    <a href="https://qwasm2.m-h.org.uk/"><img src="assets/screenshots/qwasm2-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
-    <sub>当前演示启动/加载页 <a href="https://qwasm2.m-h.org.uk/">图片来源</a></sub>
+    <sub>Current demo launcher/loading page <a href="https://qwasm2.m-h.org.uk/">Image source</a></sub>
 
-    基于Yamagi Quake II的浏览器移植，在线演示覆盖前三关。
+    A Yamagi Quake II browser port with a demo covering the first three levels.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 符合页面年龄要求后点击 Start Qwasm2，等待演示资源加载。
+    **Run:** Eligible players can click Start Qwasm2 after the age confirmation and wait for demo assets.
 
-    **所需文件：** 完整版需自己的 PAK0.PAK，其他PAK与扩展按项目说明准备。
+    **Required files:** The full game requires your own PAK0.PAK; additional PAK files and expansions follow the project instructions.
 
-    [**打开在线入口**](https://qwasm2.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Qwasm2)
+    [**Open browser edition**](https://qwasm2.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Qwasm2)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-49. <a name="game-qwasm"></a>**雷神之锤 · Qwasm**
+49. <a name="game-qwasm"></a>**Quake · Qwasm**
 
-    <a href="https://qwasm.m-h.org.uk/"><img src="assets/screenshots/qwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
+    <a href="https://qwasm.m-h.org.uk/"><img src="assets/screenshots/qwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
-    <sub>当前演示启动/加载页 <a href="https://qwasm.m-h.org.uk/">图片来源</a></sub>
+    <sub>Current demo launcher/loading page <a href="https://qwasm.m-h.org.uk/">Image source</a></sub>
 
-    Quake的浏览器移植，Shareware可体验第一章，也提供LibreQuake入口。
+    A Quake browser port offering episode-one shareware and a LibreQuake entry.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 符合页面年龄要求后按 Start Qwasm；页面会获取Shareware。
+    **Run:** Eligible players can press Start Qwasm after the age confirmation; the page obtains shareware data.
 
-    **所需文件：** 完整版需要自己的 PAK1.PAK；资料片需要相应PAK文件。
+    **Required files:** The full game requires your own PAK1.PAK; mission packs need their matching PAK files.
 
-    [**打开在线入口**](https://qwasm.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Qwasm)
+    [**Open browser edition**](https://qwasm.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Qwasm)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-50. <a name="game-arxwasm"></a>**阿克斯之城 · Arxwasm演示**
+50. <a name="game-arxwasm"></a>**Arx Fatalis · Arxwasm demo**
 
-    <a href="https://wasm.continuation-labs.com/arxdemo/"><img src="assets/screenshots/arxwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
+    <a href="https://wasm.continuation-labs.com/arxdemo/"><img src="assets/screenshots/arxwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
-    <sub>当前演示启动/加载页 <a href="https://wasm.continuation-labs.com/arxdemo/">图片来源</a></sub>
+    <sub>Current demo launcher/loading page <a href="https://wasm.continuation-labs.com/arxdemo/">Image source</a></sub>
 
-    Arx Libertatis的实验性WASM移植，使用Arx Fatalis演示版，体验地下城探索、战斗和施法。
+    An experimental WASM port of Arx Libertatis using the Arx Fatalis demo for dungeon exploration, combat and spellcasting.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 打开演示页等待载入；作者说明首次资源约150MB，推荐桌面浏览器。
+    **Run:** Open the demo page and wait for loading; the author states about 150 MB on first load and recommends desktop browsers.
 
-    [**打开在线入口**](https://wasm.continuation-labs.com/arxdemo/) · [项目介绍](https://github.com/gabrielcuvillier/arxwasm)
+    [**Open browser edition**](https://wasm.continuation-labs.com/arxdemo/) · [Project information](https://github.com/gabrielcuvillier/arxwasm)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-51. <a name="game-dwasm"></a>**毁灭战士 · Dwasm**
+51. <a name="game-dwasm"></a>**Doom · Dwasm**
 
-    <a href="https://dwasm.m-h.org.uk/"><img src="assets/screenshots/dwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
+    <a href="https://dwasm.m-h.org.uk/"><img src="assets/screenshots/dwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
-    <sub>当前演示启动/加载页 <a href="https://dwasm.m-h.org.uk/">图片来源</a></sub>
+    <sub>Current demo launcher/loading page <a href="https://dwasm.m-h.org.uk/">Image source</a></sub>
 
-    基于PrBoom+ / PrBoomX的浏览器移植，可选择Doom Shareware、Freedoom及其他受支持作品。
+    A PrBoom+/PrBoomX browser port offering Doom shareware, Freedoom and other supported games.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 选择Shareware DOOM或Freedoom，符合页面年龄要求的读者确认后按 Start Dwasm。
+    **Run:** Select Shareware DOOM or Freedoom; eligible players can confirm the age requirement and press Start Dwasm.
 
-    **所需文件：** 运行自己的完整版或模组时，需准备对应IWAD及补丁文件。
+    **Required files:** Running your own retail game or mods requires the corresponding IWAD and patch files.
 
-    [**打开在线入口**](https://dwasm.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Dwasm)
+    [**Open browser edition**](https://dwasm.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Dwasm)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-52. <a name="game-wwasm"></a>**重返德军总部 · Wwasm**
+52. <a name="game-wwasm"></a>**Return to Castle Wolfenstein · Wwasm**
 
-    <a href="https://wwasm.m-h.org.uk/"><img src="assets/screenshots/wwasm-entry.jpg" width="760" alt="当前演示启动/加载页"></a>
+    <a href="https://wwasm.m-h.org.uk/"><img src="assets/screenshots/wwasm-entry.jpg" width="760" alt="Current demo launcher/loading page"></a>
 
-    <sub>当前演示启动/加载页 <a href="https://wwasm.m-h.org.uk/">图片来源</a></sub>
+    <sub>Current demo launcher/loading page <a href="https://wwasm.m-h.org.uk/">Image source</a></sub>
 
-    基于iortcw的浏览器移植，提供单人演示版启动入口。
+    An iortcw browser port providing a single-player demo launcher.
 
-    **平台：** 桌面浏览器
+    **Platforms:** Desktop browser
 
-    **运行：** 符合页面年龄要求后按 Start Wwasm，页面自动取得演示数据。
+    **Run:** Eligible players can press Start Wwasm after the age confirmation; the page obtains demo data.
 
-    **所需文件：** 完整版需自己的 pak0.pk3、sp_pak1.pk3、sp_pak2.pk3及所需更新包。
+    **Required files:** The full game needs your own pak0.pk3, sp_pak1.pk3, sp_pak2.pk3 and required updates.
 
-    [**打开在线入口**](https://wwasm.m-h.org.uk/) · [项目介绍](https://github.com/GMH-Code/Wwasm)
+    [**Open browser edition**](https://wwasm.m-h.org.uk/) · [Project information](https://github.com/GMH-Code/Wwasm)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-53. <a name="game-web-diablo"></a>**暗黑破坏神 · Diablo Web（JohnImril）**
+53. <a name="game-web-diablo"></a>**Diablo (diablo_web)**
 
-    <a href="https://johnimril.github.io/diablo_web/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-diablo.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://johnimril.github.io/diablo_web/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-diablo.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-diablo.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-diablo.jpg">Image source</a></sub>
 
-    基于已有WASM引擎的现代浏览器客户端，探索地牢、战斗并收集装备；提供限量Shareware演示。
+    A modern browser client around an existing WASM Diablo engine, with dungeon combat, loot and a limited shareware demo.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 选择 Play Free Demo，等待演示数据加载；完整版使用 Load Your MPQ。
+    **Run:** Choose Play Free Demo and wait for its data; use Load Your MPQ for the retail game.
 
-    **所需文件：** 完整版需要自己的 DIABDAT.MPQ。
+    **Required files:** The retail game requires your own DIABDAT.MPQ.
 
-    [**打开在线入口**](https://johnimril.github.io/diablo_web/) · [项目介绍](https://github.com/JohnImril/diablo_web)
+    [**Open browser edition**](https://johnimril.github.io/diablo_web/) · [Project information](https://github.com/JohnImril/diablo_web)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-54. <a name="game-web-half-life-and-counter-strike-1-6-webxash"></a>**半条命 · WebXash 演示版**
+54. <a name="game-web-half-life-and-counter-strike-1-6-webxash"></a>**Half-Life and Counter-Strike 1.6 (WebXash)**
 
-    <a href="https://x8bitrain.github.io/webXash/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://x8bitrain.github.io/webXash/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg">Image source</a></sub>
 
-    通过Xash3D运行半条命；提供Uplink、Day One等演示入口，也支持自己的半条命与CS文件。
+    Runs Half-Life through Xash3D, with Uplink and Day One demo entries and support for your own Half-Life or Counter-Strike files.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 在 HALF-LIFE DEMOS 选择一个演示，再按 Start Demo；完整版用 Open game Folder 或 Open ZIP。
+    **Run:** Choose a demo under HALF-LIFE DEMOS and press Start Demo; use Open game Folder or Open ZIP for your retail data.
 
-    **所需文件：** 完整版需自己的 valve / cstrike 等游戏目录。
+    **Required files:** Retail games require your own valve / cstrike game folders.
 
-    [**打开在线入口**](https://x8bitrain.github.io/webXash/) · [项目介绍](https://github.com/x8BitRain/webXash)
+    [**Open browser edition**](https://x8bitrain.github.io/webXash/) · [Project information](https://github.com/x8BitRain/webXash)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-55. <a name="game-web-netquake-io"></a>**雷神之锤 · NetQuake.io**
+55. <a name="game-web-netquake-io"></a>**NetQuake.io**
 
-    <a href="https://www.netquake.io/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-netquake-io.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://www.netquake.io/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-netquake-io.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-netquake-io.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-netquake-io.jpg">Image source</a></sub>
 
-    在浏览器中探索关卡并射击敌人；第一章可免费体验，其他章节需原版数据。
+    Explore levels and fight enemies in browser Quake; episode one is free and the remaining episodes require retail data.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 选择 PLAY NOW 或 SINGLEPLAYER 体验第一章；多人模式使用 MULTIPLAYER。
+    **Run:** Choose PLAY NOW or SINGLEPLAYER for episode one, or MULTIPLAYER for online play.
 
-    **所需文件：** 解锁全部四章需自己的 pak1.pak。
+    **Required files:** Unlocking all four episodes requires your own pak1.pak.
 
-    [**打开在线入口**](https://www.netquake.io/) · [项目介绍](https://www.netquake.io/)
+    [**Open browser edition**](https://www.netquake.io/) · [Project information](https://www.netquake.io/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-56. <a name="game-web-quake-iii-arena"></a>**雷神之锤III竞技场 · Q3JS**
+56. <a name="game-web-quake-iii-arena"></a>**Quake III Arena (q3js)**
 
-    <a href="https://q3js.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/quake-iii-arena.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://q3js.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/quake-iii-arena.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/quake-iii-arena.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/quake-iii-arena.jpg">Image source</a></sub>
 
-    将ioquake3移植到浏览器，使用站点说明中的官方演示数据进行竞技对战；另附Pieter部署入口。
+    An ioquake3 browser port for arena matches using the official demo data described by the hosted site; a Pieter deployment is also linked.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 在 SERVERS 选择服务器并等待加载；Pieter入口可填写昵称后点击 PLAY。
+    **Run:** Select a server under SERVERS and wait for loading; at the Pieter deployment enter a nickname and click PLAY.
 
-    [**打开在线入口**](https://q3js.com/) · [项目介绍](https://q3js.com/) · [Pieter 部署](https://q3.pieter.com)
+    [**Open browser edition**](https://q3js.com/) · [Project information](https://q3js.com/) · [Pieter deployment](https://q3.pieter.com)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-57. <a name="game-bf1942-web"></a>**战地1942 · 浏览器演示版**
+57. <a name="game-bf1942-web"></a>**Battlefield 1942 · Browser demo**
 
-    <a href="https://bf1942.pieter.com/"><img src="https://bf1942.pieter.com/assets/og.jpg?v=2" width="760" alt="项目页面标题预览，非本合集试玩截图"></a>
+    <a href="https://bf1942.pieter.com/"><img src="https://bf1942.pieter.com/assets/og.jpg?v=2" width="760" alt="Project site title preview; not a gameplay capture by this directory"></a>
 
-    <sub>项目页面标题预览，非本合集试玩截图 <a href="https://bf1942.pieter.com/">图片来源</a></sub>
+    <sub>Project site title preview; not a gameplay capture by this directory <a href="https://bf1942.pieter.com/">Image source</a></sub>
 
-    在托布鲁克战场进行第一人称射击与载具作战。作者托管的2002年演示版网页移植，提供多人联机入口。
+    Fight on foot and in vehicles on Tobruk in an author-hosted browser port of the 2002 demo, with a multiplayer entry.
 
-    **平台：** 桌面或 Android 的 Chrome / Edge 137+，WebAssembly / WebGL2
+    **Platforms:** Chrome or Edge 137+ on desktop or Android, WebAssembly / WebGL 2
 
-    **运行：** 打开入口后点击Play进入演示版；网站会加载游戏数据并连接作者提供的服务器。
+    **Run:** Open the entry and click Play. The site loads demo data and connects to the author’s server.
 
-    [**打开在线入口**](https://bf1942.pieter.com/) · [项目介绍](https://x.com/levelsio/status/2117374984192512391)
+    [**Open browser edition**](https://bf1942.pieter.com/) · [Project information](https://x.com/levelsio/status/2117374984192512391)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-## 浏览器运行 · 已提供游戏资源入口
+## Browser editions · game-data link provided
 
-58. <a name="game-web-command-conquer-red-alert-2"></a>**红色警戒2 · Chrono Divide**
+58. <a name="game-web-command-conquer-red-alert-2"></a>**Command &amp; Conquer: Red Alert 2**
 
-    <a href="https://game.chronodivide.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-red-alert-2.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://game.chronodivide.com/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-red-alert-2.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-red-alert-2.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-red-alert-2.jpg">Image source</a></sub>
 
-    建造基地、采集矿石并指挥军队对战的浏览器引擎重实现，以多人模式为主。
+    A browser engine reimplementation of Red Alert 2, focused on base-building multiplayer RTS battles.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 打开入口，按资源导入页的 Download 获取其预填的数据包，或导入自己的 .mix 文件，再进入游戏。
+    **Run:** Open the client and use Download with its prefilled data URL, or import your own .mix files, then enter the game.
 
-    **所需文件：** 需要红警2资源；页面提供具体下载地址，也支持自己的安装目录或压缩包。
+    **Required files:** Red Alert 2 assets are required; the client supplies a specific download URL and accepts your own installation or archive.
 
-    [**打开在线入口**](https://game.chronodivide.com/) · [项目介绍](https://chronodivide.com/) · [资源获取](https://archive.org/download/red-alert-2-multiplayer/Red-Alert-2-Multiplayer.exe)
+    [**Open browser edition**](https://game.chronodivide.com/) · [Project information](https://chronodivide.com/) · [Get game data](https://archive.org/download/red-alert-2-multiplayer/Red-Alert-2-Multiplayer.exe)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-59. <a name="game-web-grand-theft-auto-vice-city"></a>**侠盗猎车手：罪恶都市 · Joncode WASM**
+59. <a name="game-web-grand-theft-auto-vice-city"></a>**Grand Theft Auto: Vice City**
 
-    <a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-vice-city.jpg" width="760" alt="上游提供的在线入口预览"></a>
+    <a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-vice-city.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-    <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-vice-city.jpg">图片来源</a></sub>
+    <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-grand-theft-auto-vice-city.jpg">Image source</a></sub>
 
-    基于reVC的浏览器移植，提供罪恶都市的开放世界驾驶与动作玩法。
+    A reVC-based browser port of Vice City’s open-world driving and action gameplay.
 
-    **平台：** Windows / macOS / Linux 的桌面浏览器
+    **Platforms:** Desktop browser on Windows / macOS / Linux
 
-    **运行：** 按页面链接取得 game.tar.gz，选择压缩包导入，完成后点击开始游戏；数据保存在当前浏览器。
+    **Run:** Obtain game.tar.gz using the page’s link, import the archive and press Start; data stays in this browser.
 
-    **所需文件：** 需要约668MB的 game.tar.gz 及解压存储空间；页面有具体下载链接，项目要求拥有正版游戏。
+    **Required files:** Requires game.tar.gz (about 668 MB) and extraction space; the page links the archive and the project requires ownership of the game.
 
-    [**打开在线入口**](https://joncodeofficial.github.io/gta-vice-city-wasm/) · [项目介绍](https://github.com/joncodeofficial/gta-vice-city-wasm) · [资源获取](https://joncodeofficial.github.io/gta-vice-city-wasm/)
+    [**Open browser edition**](https://joncodeofficial.github.io/gta-vice-city-wasm/) · [Project information](https://github.com/joncodeofficial/gta-vice-city-wasm) · [Get game data](https://joncodeofficial.github.io/gta-vice-city-wasm/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-## 下载安装后运行
+## Install and run
 
-60. <a name="game-openra-openra"></a>**OpenRA：红警、命令与征服、沙丘2000**
+60. <a name="game-openra-openra"></a>**OpenRA: Red Alert, Tiberian Dawn and Dune 2000**
 
-    <a href="https://www.openra.net/download/"><img src="assets/screenshots/openra-official-preview.jpg" width="760" alt="官网游戏预览"></a>
+    <a href="https://www.openra.net/download/"><img src="assets/screenshots/openra-official-preview.jpg" width="760" alt="Official-site game preview"></a>
 
-    <sub>官网游戏预览 <a href="https://www.openra.net/">图片来源</a></sub>
+    <sub>Official-site game preview <a href="https://www.openra.net/">Image source</a></sub>
 
-    重建经典即时战略游戏的引擎，提供现代操作、战役与联机。
+    An engine rebuilding classic real-time strategy games with modern controls, campaigns and multiplayer.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 从官网下载对应系统安装包，首次运行选择游戏，并按提示下载所需基础素材。
+    **Run:** Install the package from the official site, choose a game and let the first-run setup download its basic assets.
 
-    [**下载与运行说明**](https://www.openra.net/download/) · [项目源码](https://github.com/OpenRA/OpenRA) · [资源获取](https://www.openra.net/about/)
+    [**Download and launch guide**](https://www.openra.net/download/) · [Project source](https://github.com/OpenRA/OpenRA) · [Get game data](https://www.openra.net/about/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-61. <a name="game-openttd-openttd"></a>**运输大亨 · OpenTTD**
+61. <a name="game-openttd-openttd"></a>**Transport Tycoon Deluxe · OpenTTD**
 
-    <a href="https://www.openttd.org/downloads/openttd-releases/latest"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openttd-openttd.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://www.openttd.org/downloads/openttd-releases/latest"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openttd-openttd.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/ZBzRh6lD9J8/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/ZBzRh6lD9J8/maxresdefault.jpg">Image source</a></sub>
 
-    铺设铁路与公路，经营运输网络；可使用免费的替代图像、音乐和音效。
+    Build railways and roads and manage a transport network using free replacement graphics and audio.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 从官网下载并安装，首次运行下载OpenGFX；音效和音乐可在游戏内下载OpenSFX、OpenMSX。
+    **Run:** Install the official build and download OpenGFX on first run; OpenSFX and OpenMSX are available through the in-game content manager.
 
-    [**下载与运行说明**](https://www.openttd.org/downloads/openttd-releases/latest) · [项目源码](https://github.com/OpenTTD/OpenTTD) · [资源获取](https://www.openttd.org/downloads/opengfx-releases/latest)
+    [**Download and launch guide**](https://www.openttd.org/downloads/openttd-releases/latest) · [Project source](https://github.com/OpenTTD/OpenTTD) · [Get game data](https://www.openttd.org/downloads/opengfx-releases/latest)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-62. <a name="game-warzone2100-warzone2100"></a>**战争地带2100 · Warzone 2100**
+62. <a name="game-warzone2100-warzone2100"></a>**Warzone 2100**
 
-    <a href="https://wz2100.net/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/warzone2100-warzone2100.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://wz2100.net/"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/warzone2100-warzone2100.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://repository-images.githubusercontent.com/1084181/ad379400-913f-11eb-8e30-85f3134ab00e">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://repository-images.githubusercontent.com/1084181/ad379400-913f-11eb-8e30-85f3134ab00e">Image source</a></sub>
 
-    研究科技、设计战车并建设基地，提供战役、遭遇战与多人模式。
+    Research technology, design vehicles and build bases in campaign, skirmish and multiplayer modes.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 从官方发布页下载并安装对应系统版本，安装完成后直接启动。
+    **Run:** Download and install the official build for your system, then launch it.
 
-    [**下载与运行说明**](https://wz2100.net/) · [项目源码](https://github.com/Warzone2100/warzone2100)
+    [**Download and launch guide**](https://wz2100.net/) · [Project source](https://github.com/Warzone2100/warzone2100)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-63. <a name="game-fheroes2"></a>**英雄无敌II · fheroes2**
+63. <a name="game-fheroes2"></a>**Heroes of Might and Magic II · fheroes2**
 
-    <a href="https://github.com/ihhub/fheroes2/blob/master/README.md"><img src="https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_world_map.webp" width="760" alt="作者提供的项目画面"></a>
+    <a href="https://github.com/ihhub/fheroes2/blob/master/README.md"><img src="https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_world_map.webp" width="760" alt="Project image supplied by the author"></a>
 
-    <sub>作者提供的项目画面 <a href="https://github.com/ihhub/fheroes2/blob/master/README.md">图片来源</a></sub>
+    <sub>Project image supplied by the author <a href="https://github.com/ihhub/fheroes2/blob/master/README.md">Image source</a></sub>
 
-    英雄无敌II引擎重实现，进行回合制地图探索、城堡经营与战术战斗；安装器可取得英文演示版。
+    A Heroes II engine reimplementation for turn-based exploration, castle management and tactical combat; setup can obtain the English demo.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按安装指南下载系统对应版本；选择下载演示数据，或导入自己的完整版资源后运行。
+    **Run:** Follow the installation guide for your system; choose the demo-data download or import your retail assets.
 
-    **所需文件：** 运行完整版需自己的Heroes II Data、Maps等目录。
+    **Required files:** The full game requires your own Heroes II Data, Maps and related folders.
 
-    [**下载与运行说明**](https://github.com/ihhub/fheroes2/blob/master/README.md) · [项目介绍](https://github.com/ihhub/fheroes2) · [资源获取](https://github.com/ihhub/fheroes2/blob/master/docs/INSTALL.md)
+    [**Download and launch guide**](https://github.com/ihhub/fheroes2/blob/master/README.md) · [Project information](https://github.com/ihhub/fheroes2) · [Get game data](https://github.com/ihhub/fheroes2/blob/master/docs/INSTALL.md)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-64. <a name="game-daggerfall-unity"></a>**上古卷轴II：匕首雨 · Daggerfall Unity**
+64. <a name="game-daggerfall-unity"></a>**Daggerfall Unity**
 
-    <a href="https://github.com/Interkarma/daggerfall-unity/blob/master/README.md"><img src="https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b" width="760" alt="作者README提供的游戏预览"></a>
+    <a href="https://github.com/Interkarma/daggerfall-unity/blob/master/README.md"><img src="https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b" width="760" alt="Game preview supplied in the author README"></a>
 
-    <sub>作者README提供的游戏预览 <a href="https://github.com/Interkarma/daggerfall-unity/blob/master/README.md">图片来源</a></sub>
+    <sub>Game preview supplied in the author README <a href="https://github.com/Interkarma/daggerfall-unity/blob/master/README.md">Image source</a></sub>
 
-    使用Unity重实现匕首雨，探索城镇与地下城、完成任务并发展角色。
+    A Unity recreation of Daggerfall for exploring towns and dungeons, completing quests and developing your character.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 从Releases下载对应系统版本并解压，启动后指定免费DOS版Daggerfall的安装目录。
+    **Run:** Download and extract the build for your system, then point it at the free DOS Daggerfall installation.
 
-    **所需文件：** 需要DOS版Daggerfall数据；作者给出Steam免费版获取入口。
+    **Required files:** DOS Daggerfall data is required; the author links the free Steam edition.
 
-    [**下载与运行说明**](https://github.com/Interkarma/daggerfall-unity/blob/master/README.md) · [项目介绍](https://github.com/Interkarma/daggerfall-unity) · [资源获取](https://store.steampowered.com/app/1812390/The_Elder_Scrolls_II_Daggerfall/)
+    [**Download and launch guide**](https://github.com/Interkarma/daggerfall-unity/blob/master/README.md) · [Project information](https://github.com/Interkarma/daggerfall-unity) · [Get game data](https://store.steampowered.com/app/1812390/The_Elder_Scrolls_II_Daggerfall/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-65. <a name="game-sour"></a>**Cube 2：Sauerbraten · Sour**
+65. <a name="game-sour"></a>**Cube 2: Sauerbraten · Sour**
 
-    <a href="https://github.com/cfoust/sour/blob/main/README.md#installation"><img src="https://raw.githubusercontent.com/cfoust/sour/main/gh-assets/header.png" width="760" alt="作者提供的项目封面"></a>
+    <a href="https://github.com/cfoust/sour/blob/main/README.md#installation"><img src="https://raw.githubusercontent.com/cfoust/sour/main/gh-assets/header.png" width="760" alt="Project cover supplied by the author"></a>
 
-    <sub>作者提供的项目封面 <a href="https://github.com/cfoust/sour/blob/main/README.md">图片来源</a></sub>
+    <sub>Project cover supplied by the author <a href="https://github.com/cfoust/sour/blob/main/README.md">Image source</a></sub>
 
-    Sauerbraten的网页客户端与服务端移植，可在局域网中通过桌面或手机浏览器参加第一人称射击对战。
+    A Sauerbraten web client and server port for FPS matches through desktop and mobile browsers on a local network.
 
-    **平台：** Linux x86_64 / macOS Apple Silicon安装服务端；桌面与手机浏览器运行
+    **Platforms:** Server archives for Linux x86_64 / macOS Apple Silicon; desktop and mobile browser clients
 
-    **运行：** 下载发布包并解压，运行./sour，然后在浏览器打开http://localhost:1337；也可通过Homebrew安装。随包提供三张地图。
+    **Run:** Extract a release archive, run ./sour and open http://localhost:1337; Homebrew installation is also documented. Three maps are included.
 
-    [**下载与运行说明**](https://github.com/cfoust/sour/blob/main/README.md#installation) · [项目源码](https://github.com/cfoust/sour)
+    [**Download and launch guide**](https://github.com/cfoust/sour/blob/main/README.md#installation) · [Project source](https://github.com/cfoust/sour)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-66. <a name="game-open-crystal-caves"></a>**水晶洞穴 · OpenCrystalCaves 第一章**
+66. <a name="game-open-crystal-caves"></a>**Crystal Caves · OpenCrystalCaves Episode 1**
 
-    <a href="https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/latest"><img src="https://raw.githubusercontent.com/OpenCrystalCaves/OpenCrystalCaves/master/screenshots/screenshot2.png" width="760" alt="上游项目提供的游戏画面"></a>
+    <a href="https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/latest"><img src="https://raw.githubusercontent.com/OpenCrystalCaves/OpenCrystalCaves/master/screenshots/screenshot2.png" width="760" alt="Gameplay image supplied by the upstream project"></a>
 
-    <sub>上游项目提供的游戏画面 <a href="https://github.com/OpenCrystalCaves/OpenCrystalCaves/blob/master/screenshots/screenshot2.png">图片来源</a></sub>
+    <sub>Gameplay image supplied by the upstream project <a href="https://github.com/OpenCrystalCaves/OpenCrystalCaves/blob/master/screenshots/screenshot2.png">Image source</a></sub>
 
-    在矿洞中跳跃、躲避机关并收集水晶。引擎重实现自带第一章共享版，第二、三章尚未实现。
+    Jump through mines, avoid traps and collect crystals in an engine reimplementation bundled with shareware Episode 1. Episodes 2 and 3 are not implemented.
 
-    **平台：** Windows / Linux；macOS可源码构建
+    **Platforms:** Windows / Linux; macOS via source build
 
-    **运行：** 从发布页下载对应包并启动occ。自行构建需C++20、CMake、SDL2和SDL_mixer，按README生成工程并编译。
+    **Run:** Download a platform package and start occ. Source builds use C++20, CMake, SDL2 and SDL_mixer; follow the README to configure and compile.
 
-    [**下载与运行说明**](https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/latest) · [项目源码](https://github.com/OpenCrystalCaves/OpenCrystalCaves)
+    [**Download and launch guide**](https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/latest) · [Project source](https://github.com/OpenCrystalCaves/OpenCrystalCaves)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-## 自行构建
+## Build from source
 
-67. <a name="game-openrct2-openrct2"></a>**过山车大亨2 · OpenRCT2**
+67. <a name="game-openrct2-openrct2"></a>**RollerCoaster Tycoon 2 · OpenRCT2**
 
-    <a href="https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openrct2-openrct2.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openrct2-openrct2.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9">Image source</a></sub>
 
-    建造过山车、规划乐园并管理游客；重实现支持现代系统与合作联机。
+    Build rides and manage a theme park with a modern reimplementation and cooperative multiplayer.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按README中对应系统的构建指南安装依赖并编译；首次运行指定原版RCT2数据目录。
+    **Run:** Follow the platform build guide linked in the README, compile the project and point first-run setup to your RCT2 data.
 
-    **所需文件：** 自行准备 RollerCoaster Tycoon 2 原版文件。
+    **Required files:** Your own RollerCoaster Tycoon 2 game files.
 
-    [**构建说明**](https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game) · [项目源码](https://github.com/OpenRCT2/OpenRCT2)
+    [**Build instructions**](https://github.com/OpenRCT2/OpenRCT2/blob/develop/readme.md#3-building-the-game) · [Project source](https://github.com/OpenRCT2/OpenRCT2)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-68. <a name="game-diasurgical-devilutionx"></a>**暗黑破坏神与地狱火 · DevilutionX**
+68. <a name="game-diasurgical-devilutionx"></a>**Diablo and Hellfire · DevilutionX**
 
-    <a href="https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/diasurgical-devilutionx.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/diasurgical-devilutionx.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://github.com/user-attachments/assets/ee902926-6382-4ee5-b1c2-7947e8b434e9">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://github.com/user-attachments/assets/ee902926-6382-4ee5-b1c2-7947e8b434e9">Image source</a></sub>
 
-    探索地牢、收集装备，体验面向现代系统改进的暗黑破坏神引擎。
+    Explore dungeons and collect loot in a modern port of Diablo and Hellfire.
 
-    **平台：** Windows / macOS / Linux / Android / iOS
+    **Platforms:** Windows / macOS / Linux / Android / iOS
 
-    **运行：** 按构建指南安装依赖并用CMake编译，再按说明放入MPQ游戏数据；也可使用支持的Shareware演示数据。
+    **Run:** Install the documented dependencies and build with CMake, then add the required MPQ files or supported shareware data.
 
-    **所需文件：** 完整版需 DIABDAT.MPQ；地狱火另需扩展数据，也支持 shareware 数据。
+    **Required files:** DIABDAT.MPQ for the full game; additional Hellfire data for the expansion. Shareware data is also supported.
 
-    [**构建说明**](https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md) · [项目源码](https://github.com/diasurgical/DevilutionX)
+    [**Build instructions**](https://github.com/diasurgical/DevilutionX/blob/master/docs/building.md) · [Project source](https://github.com/diasurgical/DevilutionX)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-69. <a name="game-vvvvvv"></a>**VVVVVV · 公开源码版**
+69. <a name="game-vvvvvv"></a>**VVVVVV · Source release**
 
-    <a href="https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md"><img src="https://raw.githubusercontent.com/TerryCavanagh/VVVVVV/master/logo.gif" width="760" alt="原项目标题图"></a>
+    <a href="https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md"><img src="https://raw.githubusercontent.com/TerryCavanagh/VVVVVV/master/logo.gif" width="760" alt="Original project title image"></a>
 
-    <sub>原项目标题图 <a href="https://github.com/TerryCavanagh/VVVVVV/blob/master/README.md">图片来源</a></sub>
+    <sub>Original project title image <a href="https://github.com/TerryCavanagh/VVVVVV/blob/master/README.md">Image source</a></sub>
 
-    作者公开源码的重力翻转平台游戏，通过改变重力方向穿越机关并营救船员。
+    The author-released source of the gravity-flipping platform game, navigating hazards and rescuing crew.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 初始化Git子模块，按desktop_version指南准备SDL2，用CMake生成后编译；把data.zip放到程序旁。
+    **Run:** Initialize Git submodules, prepare SDL2, configure with CMake and build following desktop_version; place data.zip beside the executable.
 
-    **所需文件：** 需要data.zip；作者提供Make and Play版本的免费获取页面。
+    **Required files:** Requires data.zip; the author provides a free Make and Play acquisition page.
 
-    [**构建说明**](https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md) · [项目介绍](https://github.com/TerryCavanagh/VVVVVV)
+    [**Build instructions**](https://github.com/TerryCavanagh/VVVVVV/blob/master/desktop_version/README.md) · [Project information](https://github.com/TerryCavanagh/VVVVVV)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-70. <a name="game-zelda64recomp-zelda64recomp"></a>**塞尔达传说：姆吉拉的假面 · Zelda64Recomp**
+70. <a name="game-zelda64recomp-zelda64recomp"></a>**The Legend of Zelda: Majora&#x27;s Mask · Zelda64Recomp**
 
-    <a href="https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/zelda64recomp-zelda64recomp.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/zelda64recomp-zelda64recomp.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/GIp7C2ro2T8/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/GIp7C2ro2T8/maxresdefault.jpg">Image source</a></sub>
 
-    通过静态重编译提供原生运行、高帧率、宽屏与模组支持。
+    A static recompilation with native execution, high frame rates, widescreen and mod support.
 
-    **平台：** Windows / Linux（源码构建指南）
+    **Platforms:** Windows / Linux (source build guide)
 
-    **运行：** 按BUILDING.md准备工具链与美版ROM，完成ROM解压、代码生成和CMake/Ninja构建。
+    **Run:** Follow BUILDING.md to prepare the toolchain and US ROM, decompress the ROM, generate code and build with CMake/Ninja.
 
-    **所需文件：** 自己的受支持北美版 ROM，以及符合项目要求的 GPU。
+    **Required files:** Your own supported North American ROM and a GPU meeting the project requirements.
 
-    [**构建说明**](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md) · [项目源码](https://github.com/Zelda64Recomp/Zelda64Recomp)
+    [**Build instructions**](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md) · [Project source](https://github.com/Zelda64Recomp/Zelda64Recomp)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-71. <a name="game-openmw-openmw"></a>**上古卷轴III：晨风 · OpenMW**
+71. <a name="game-openmw-openmw"></a>**The Elder Scrolls III: Morrowind · OpenMW**
 
-    <a href="https://wiki.openmw.org/index.php?title=Development_Environment_Setup"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openmw-openmw.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://wiki.openmw.org/index.php?title=Development_Environment_Setup"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/openmw-openmw.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://openmw.org/wp-content/uploads/2025/11/image.png">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://openmw.org/wp-content/uploads/2025/11/image.png">Image source</a></sub>
 
-    用现代开源引擎探索晨风世界，另附场景编辑工具。
+    Explore Morrowind with a modern open-source engine and an accompanying construction tool.
 
-    **平台：** Windows 10+（64位）/ macOS 14.8+ / Linux（64位）
+    **Platforms:** Windows 10+ (64-bit) / macOS 14.8+ / Linux (64-bit)
 
-    **运行：** 按官方开发环境指南配置工具链并构建，运行配置向导选择自己的Morrowind数据目录。
+    **Run:** Follow the official development-environment guide to build the engine, then select your Morrowind data in the setup wizard.
 
-    **所需文件：** 自己的 Morrowind 安装数据；扩展内容需对应数据。
+    **Required files:** Your own Morrowind installation data; expansion content needs the matching files.
 
-    [**构建说明**](https://wiki.openmw.org/index.php?title=Development_Environment_Setup) · [项目源码](https://github.com/OpenMW/openmw)
+    [**Build instructions**](https://wiki.openmw.org/index.php?title=Development_Environment_Setup) · [Project source](https://github.com/OpenMW/openmw)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-72. <a name="game-twilitrealm-dusklight"></a>**塞尔达传说：黄昏公主 · Dusklight**
+72. <a name="game-twilitrealm-dusklight"></a>**The Legend of Zelda: Twilight Princess · Dusklight**
 
-    <a href="https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/twilitrealm-dusklight.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/twilitrealm-dusklight.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://twilitrealm.dev/_astro/shot-platform.Cp2I0l-W_1nEglP.webp">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://twilitrealm.dev/_astro/shot-platform.Cp2I0l-W_1nEglP.webp">Image source</a></sub>
 
-    以林克与狼形态探索海拉鲁、解开迷宫机关；基于原版源码重建的现代移植。
+    Explore Hyrule as Link and a wolf, solve dungeon puzzles, and use a modern port built on the original decompilation.
 
-    **平台：** Windows / macOS / Linux（源码构建）
+    **Platforms:** Windows / macOS / Linux (source build)
 
-    **运行：** 准备CMake 3.25+、Python 3及编译工具，初始化子模块后按平台preset构建；启动时选择自己的受支持光盘镜像。
+    **Run:** Prepare CMake 3.25+, Python 3 and a compiler, initialize submodules and build the platform preset, then select your supported disc image.
 
-    **所需文件：** 自行准备受支持的GameCube或Wii光盘镜像；不支持Wii韩版，并需兼容的GPU。
+    **Required files:** Your own supported GameCube or Wii disc image and a compatible GPU; Korean Wii release unsupported.
 
-    [**构建说明**](https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md) · [项目源码](https://github.com/TwilitRealm/dusklight)
+    [**Build instructions**](https://github.com/TwilitRealm/dusklight/blob/main/docs/building.md) · [Project source](https://github.com/TwilitRealm/dusklight)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-73. <a name="game-vcmi-vcmi"></a>**英雄无敌III · VCMI**
+73. <a name="game-vcmi-vcmi"></a>**Heroes of Might and Magic III · VCMI**
 
-    <a href="https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/vcmi-vcmi.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/vcmi-vcmi.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://raw.githubusercontent.com/vcmi/VCMI.eu/master/static/img/screenshots/1.4.0/Antagarich%20Burning%20Battle.jpg?raw=true">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://raw.githubusercontent.com/vcmi/VCMI.eu/master/static/img/screenshots/1.4.0/Antagarich%20Burning%20Battle.jpg?raw=true">Image source</a></sub>
 
-    带领英雄探索地图、建设城镇并进行回合制战斗，支持扩展模组。
+    Explore maps, build towns and fight turn-based battles with support for extended mods.
 
-    **平台：** Windows / macOS / Linux / Android / iOS
+    **Platforms:** Windows / macOS / Linux / Android / iOS
 
-    **运行：** 按开发文档选择对应平台构建流程；Windows可用Visual Studio、Conan与CMake。运行时导入英雄无敌III数据。
+    **Run:** Use the platform build guide in the developer documentation; Windows supports Visual Studio, Conan and CMake. Import your Heroes III data to play.
 
-    **所需文件：** 自己的英雄无敌III原版数据；按官网选择兼容版本。
+    **Required files:** Your own Heroes III game data; follow the official compatibility instructions.
 
-    [**构建说明**](https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers) · [项目源码](https://github.com/vcmi/vcmi)
+    [**Build instructions**](https://github.com/vcmi/vcmi/blob/develop/docs/Readme.md#documentation-and-guidelines-for-developers) · [Project source](https://github.com/vcmi/vcmi)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-74. <a name="game-harbourmasters-shipwright"></a>**塞尔达传说：时之笛 · Ship of Harkinian**
+74. <a name="game-harbourmasters-shipwright"></a>**The Legend of Zelda: Ocarina of Time · Ship of Harkinian**
 
-    <a href="https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-shipwright.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-shipwright.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/u-EhRErOpHE/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/u-EhRErOpHE/maxresdefault.jpg">Image source</a></sub>
 
-    基于已有源码重建的原生移植，在现代电脑上体验时之笛。
+    A native port built on the existing Ocarina of Time source reconstruction.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按官方构建指南初始化子模块和依赖，从受支持ROM提取资源，再用CMake构建运行。
+    **Run:** Initialize submodules and dependencies using the official guide, extract assets from a supported ROM and build with CMake.
 
-    **所需文件：** 自己的受支持版本 ROM，先按项目提供的哈希兼容表核对。
+    **Required files:** Your own supported ROM; check the project&#x27;s compatibility hashes.
 
-    [**构建说明**](https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md) · [项目源码](https://github.com/HarbourMasters/Shipwright)
+    [**Build instructions**](https://github.com/HarbourMasters/Shipwright/blob/develop/docs/BUILDING.md) · [Project source](https://github.com/HarbourMasters/Shipwright)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-75. <a name="game-hedge-dev-unleashedrecomp"></a>**索尼克世界冒险 · Unleashed Recompiled**
+75. <a name="game-hedge-dev-unleashedrecomp"></a>**Sonic Unleashed · Unleashed Recompiled**
 
-    <a href="https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/hedge-dev-unleashedrecomp.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/hedge-dev-unleashedrecomp.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/yDlVr1Jv-WU/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/yDlVr1Jv-WU/maxresdefault.jpg">Image source</a></sub>
 
-    将 Xbox 360 版静态重编译为 Windows/Linux 原生游戏，支持宽屏与高帧率。
+    A static recompilation of the Xbox 360 game for Windows and Linux with widescreen and high frame rates.
 
-    **平台：** Windows / Linux / macOS（源码构建）
+    **Platforms:** Windows / Linux / macOS (source build)
 
-    **运行：** 递归克隆源码、准备受支持的Xbox 360游戏文件及更新，按对应系统指南配置依赖并用CMake构建。
+    **Run:** Clone recursively, prepare supported Xbox 360 files and updates, then use the platform dependency and CMake instructions.
 
-    **所需文件：** 自己的 Xbox 360 美版或欧版数据及要求的更新；日版不支持。
+    **Required files:** Your own US or EU Xbox 360 game files and the required update; Japanese data is unsupported.
 
-    [**构建说明**](https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/hedge-dev/UnleashedRecomp)
+    [**Build instructions**](https://github.com/hedge-dev/UnleashedRecomp/blob/main/docs/BUILDING.md) · [Project source](https://github.com/hedge-dev/UnleashedRecomp)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-76. <a name="game-snesrev-zelda3"></a>**塞尔达传说：众神的三角力量 · zelda3**
+76. <a name="game-snesrev-zelda3"></a>**The Legend of Zelda: A Link to the Past · zelda3**
 
-    <a href="https://github.com/snesrev/zelda3/blob/master/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/snesrev-zelda3.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/snesrev/zelda3/blob/master/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/snesrev-zelda3.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/xctizwBntag/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/xctizwBntag/maxresdefault.jpg">Image source</a></sub>
 
-    用 C 重新实现经典冒险，并提供宽屏、快照和输入回放等功能。
+    A C reimplementation of the classic adventure with widescreen, snapshots and input replay.
 
-    **平台：** Windows 64-bit / macOS / Linux
+    **Platforms:** Windows 64-bit / macOS / Linux
 
-    **运行：** 准备Python、SDL2与受支持的美版ROM；Windows按README运行构建脚本，macOS/Linux按BUILDING.md使用make。
+    **Run:** Prepare Python, SDL2 and a supported US ROM. Use the README build script on Windows or the BUILDING.md make instructions on macOS/Linux.
 
-    **所需文件：** 自己的受支持美版 ROM，用于提取关卡与图像资源。
+    **Required files:** Your own supported US ROM for level and image extraction.
 
-    [**构建说明**](https://github.com/snesrev/zelda3/blob/master/BUILDING.md) · [项目源码](https://github.com/snesrev/zelda3)
+    [**Build instructions**](https://github.com/snesrev/zelda3/blob/master/BUILDING.md) · [Project source](https://github.com/snesrev/zelda3)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-77. <a name="game-k4zmu2a-spacecadetpinball"></a>**三维弹球：太空军校生**
+77. <a name="game-k4zmu2a-spacecadetpinball"></a>**3D Pinball: Space Cadet**
 
-    <a href="https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/k4zmu2a-spacecadetpinball.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/k4zmu2a-spacecadetpinball.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/smiCSU2sje8/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/smiCSU2sje8/maxresdefault.jpg">Image source</a></sub>
 
-    经典 Windows 弹球的 C++ 重建，支持现代桌面系统。
+    A C++ reconstruction of the classic Windows pinball game for modern desktop systems.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 准备C++编译器、CMake、SDL2及SDL2_mixer，按Compiling章节构建，并将原版资源放入程序要求的目录。
+    **Run:** Prepare a C++ compiler, CMake, SDL2 and SDL2_mixer, follow the Compiling section and place the original data in the required directory.
 
-    **所需文件：** 自己的原版游戏资源；项目支持 Windows 与 Full Tilt 对应数据。
+    **Required files:** Your own game resources from a supported Windows or Full Tilt version.
 
-    [**构建说明**](https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md) · [项目源码](https://github.com/k4zmu2a/SpaceCadetPinball)
+    [**Build instructions**](https://github.com/k4zmu2a/SpaceCadetPinball/blob/master/README.md) · [Project source](https://github.com/k4zmu2a/SpaceCadetPinball)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-78. <a name="game-corsixth-corsixth"></a>**主题医院 · CorsixTH**
+78. <a name="game-corsixth-corsixth"></a>**Theme Hospital · CorsixTH**
 
-    <a href="https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/corsixth-corsixth.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/corsixth-corsixth.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://github.com/CorsixTH/CorsixTH/assets/20030128/71a42d5f-d486-4309-ba85-77e114880bcb">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://github.com/CorsixTH/CorsixTH/assets/20030128/71a42d5f-d486-4309-ba85-77e114880bcb">Image source</a></sub>
 
-    规划诊室、招聘员工并经营医院，重实现支持高分辨率与现代系统。
+    Plan treatment rooms, hire staff and manage a hospital with a modern high-resolution reimplementation.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按How To Compile安装CMake、C++及Lua/SDL等依赖并编译；首次运行选择Theme Hospital数据目录。
+    **Run:** Follow How To Compile for CMake, C++ and Lua/SDL dependencies, then select your Theme Hospital data on first run.
 
-    **所需文件：** 自己的 Theme Hospital 图像、声音及其他游戏数据。
+    **Required files:** Your own Theme Hospital graphics, audio and other game data.
 
-    [**构建说明**](https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile) · [项目源码](https://github.com/CorsixTH/CorsixTH)
+    [**Build instructions**](https://github.com/CorsixTH/CorsixTH/wiki/How-To-Compile) · [Project source](https://github.com/CorsixTH/CorsixTH)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-79. <a name="game-opengoal"></a>**杰克与达斯特 · OpenGOAL**
+79. <a name="game-opengoal"></a>**Jak and Daxter · OpenGOAL**
 
-    <a href="https://github.com/open-goal/jak-project/blob/master/README.md"><img src="https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png" width="760" alt="作者提供的项目画面"></a>
+    <a href="https://github.com/open-goal/jak-project/blob/master/README.md"><img src="https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png" width="760" alt="Project image supplied by the author"></a>
 
-    <sub>作者提供的项目画面 <a href="https://github.com/open-goal/jak-project/blob/master/README.md">图片来源</a></sub>
+    <sub>Project image supplied by the author <a href="https://github.com/open-goal/jak-project/blob/master/README.md">Image source</a></sub>
 
-    将GOAL程序反编译并重新编译为现代原生程序，体验平台跳跃、探索与冒险。
+    Decompiles and recompiles GOAL programs into modern native applications for platforming, exploration and adventure.
 
-    **平台：** Windows / Linux；macOS经Rosetta
+    **Platforms:** Windows / Linux; macOS through Rosetta
 
-    **运行：** 按README先构建C++工具，再提取PS2光盘资源，运行GOAL编译器构建对应游戏。
+    **Run:** Build the C++ tools, extract your PS2 disc assets and run the GOAL compiler for the selected game.
 
-    **所需文件：** 自己的受支持PS2零售版游戏；后续主机重发行版不适用。
+    **Required files:** Your own supported retail PS2 game; later console rereleases are unsupported.
 
-    [**构建说明**](https://github.com/open-goal/jak-project/blob/master/README.md) · [项目介绍](https://github.com/open-goal/jak-project)
+    [**Build instructions**](https://github.com/open-goal/jak-project/blob/master/README.md) · [Project information](https://github.com/open-goal/jak-project)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-80. <a name="game-julius"></a>**凯撒大帝III · Julius**
+80. <a name="game-julius"></a>**Caesar III · Julius**
 
-    <a href="https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/bvschaik/julius/master/res/vita/bg.png" width="760" alt="项目提供的画面预览"></a>
+    <a href="https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/bvschaik/julius/master/res/vita/bg.png" width="760" alt="Preview supplied by the project"></a>
 
-    <sub>项目提供的画面预览 <a href="https://github.com/bvschaik/julius/blob/master/README.md">图片来源</a></sub>
+    <sub>Preview supplied by the project <a href="https://github.com/bvschaik/julius/blob/master/README.md">Image source</a></sub>
 
-    保留原作玩法逻辑的引擎重实现，建设罗马城市并平衡住房、就业与物资。
+    An engine reimplementation preserving the original gameplay, for building Roman cities and balancing housing, employment and supplies.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 准备编译器、CMake、SDL2和SDL2_mixer，在build目录执行cmake与make，再指定Caesar III数据目录。
+    **Run:** Prepare a compiler, CMake, SDL2 and SDL2_mixer, configure and make in build, then point Julius at the Caesar III data folder.
 
-    **所需文件：** 自己的Caesar III游戏资源，按项目要求更新到1.0.1.0。
+    **Required files:** Your own Caesar III data, updated to 1.0.1.0 as required.
 
-    [**构建说明**](https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md) · [项目介绍](https://github.com/bvschaik/julius)
+    [**Build instructions**](https://github.com/bvschaik/julius/blob/master/doc/BUILDING.md) · [Project information](https://github.com/bvschaik/julius)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-81. <a name="game-harbourmasters-spaghettikart"></a>**马力欧卡丁车64 · SpaghettiKart**
+81. <a name="game-harbourmasters-spaghettikart"></a>**Mario Kart 64 · SpaghettiKart**
 
-    <a href="https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-spaghettikart.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-spaghettikart.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/EOWOtd8sZTQ/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/EOWOtd8sZTQ/maxresdefault.jpg">Image source</a></sub>
 
-    在经典赛道竞速，使用现代移植提供的控制与画面设置。
+    Race classic tracks with controls and display options provided by a modern source port.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按构建指南配置依赖，从支持的美版ROM生成游戏资源包，再用CMake编译。
+    **Run:** Configure dependencies using the build guide, generate the data packs from a supported US ROM and compile with CMake.
 
-    **所需文件：** 自己的受支持美版 .z64 ROM，按项目哈希核对。
+    **Required files:** Your own supported US .z64 ROM matching the project&#x27;s hash.
 
-    [**构建说明**](https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/HarbourMasters/SpaghettiKart)
+    [**Build instructions**](https://github.com/HarbourMasters/SpaghettiKart/blob/main/docs/BUILDING.md) · [Project source](https://github.com/HarbourMasters/SpaghettiKart)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-82. <a name="game-augustus"></a>**凯撒大帝III · Augustus**
+82. <a name="game-augustus"></a>**Caesar III · Augustus**
 
-    <a href="https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/Keriew/augustus/master/doc/main-image.png" width="760" alt="作者提供的项目画面"></a>
+    <a href="https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md"><img src="https://raw.githubusercontent.com/Keriew/augustus/master/doc/main-image.png" width="760" alt="Project image supplied by the author"></a>
 
-    <sub>作者提供的项目画面 <a href="https://github.com/Keriew/augustus/blob/master/README.md">图片来源</a></sub>
+    <sub>Project image supplied by the author <a href="https://github.com/Keriew/augustus/blob/master/README.md">Image source</a></sub>
 
-    基于Julius增加路障、劳动力池与仓储管理等玩法的城市建设项目。
+    A Julius-based city builder adding roadblocks, a global labor pool and improved warehouse management.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按作者链接的BUILDING指南准备CMake、SDL2和SDL2_mixer，配置编译后启动并指定原版目录。
+    **Run:** Use the linked BUILDING guide with CMake, SDL2 and SDL2_mixer, then build and point the executable at your original data.
 
-    **所需文件：** 自己的Caesar III 1.0.1.0资源；Augustus存档不兼容原作/Julius。
+    **Required files:** Your own Caesar III 1.0.1.0 data; Augustus saves are incompatible with the original/Julius.
 
-    [**构建说明**](https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md) · [项目介绍](https://github.com/Keriew/augustus)
+    [**Build instructions**](https://github.com/Keriew/augustus/blob/master/doc/BUILDING.md) · [Project information](https://github.com/Keriew/augustus)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-83. <a name="game-harbourmasters-starship"></a>**星际火狐64 · Starship**
+83. <a name="game-harbourmasters-starship"></a>**Star Fox 64 · Starship**
 
-    <a href="https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-starship.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/harbourmasters-starship.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/FZ3o09an9_k/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/FZ3o09an9_k/maxresdefault.jpg">Image source</a></sub>
 
-    驾驶战机穿越关卡，现代移植支持桌面平台与可选画面设置。
+    Pilot a fighter through rail-shooter stages in a modern port with desktop support.
 
-    **平台：** Windows / macOS / Linux（源码构建）
+    **Platforms:** Windows / macOS / Linux (source build)
 
-    **运行：** 按构建指南配置依赖，从美版ROM生成资源包，再用CMake构建对应平台程序。
+    **Run:** Configure the documented dependencies, generate data packs from a US ROM and use CMake for your platform.
 
-    **所需文件：** 自己的美版1.0或1.1 ROM；其他区域语音替换仍需美版基础数据。
+    **Required files:** Your own US 1.0 or 1.1 ROM; other-region voice replacements still require a US base ROM.
 
-    [**构建说明**](https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/HarbourMasters/Starship)
+    [**Build instructions**](https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md) · [Project source](https://github.com/HarbourMasters/Starship)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-84. <a name="game-banjorecomp-banjorecomp"></a>**班卓熊大冒险 · Banjo Recompiled**
+84. <a name="game-banjorecomp-banjorecomp"></a>**Banjo-Kazooie · Banjo Recompiled**
 
-    <a href="https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/banjorecomp-banjorecomp.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/banjorecomp-banjorecomp.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/5YIn43NP2t4/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/5YIn43NP2t4/maxresdefault.jpg">Image source</a></sub>
 
-    收集拼图并探索关卡，静态重编译版本加入宽屏与现代画面选项。
+    Collect puzzle pieces and explore levels in a static recompilation with widescreen and modern display options.
 
-    **平台：** Windows / Linux（源码构建指南）
+    **Platforms:** Windows / Linux (source build guide)
 
-    **运行：** 按BUILDING.md准备工具链与北美1.0版ROM，完成ROM解压、重编译代码生成与CMake构建。
+    **Run:** Follow BUILDING.md with the toolchain and US v1.0 ROM, decompress the ROM, generate recompiled code and build with CMake.
 
-    **所需文件：** 自己的北美1.0版 ROM，以及符合项目要求的硬件。
+    **Required files:** Your own North American 1.0 ROM and hardware meeting the project requirements.
 
-    [**构建说明**](https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md) · [项目源码](https://github.com/BanjoRecomp/BanjoRecomp)
+    [**Build instructions**](https://github.com/BanjoRecomp/BanjoRecomp/blob/main/BUILDING.md) · [Project source](https://github.com/BanjoRecomp/BanjoRecomp)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-85. <a name="game-sdlpal"></a>**仙剑奇侠传 · SDLPal**
+85. <a name="game-sdlpal"></a>**Sword and Fairy · SDLPal**
 
-    <a href="https://github.com/sdlpal/sdlpal/blob/master/README.md"><img src="assets/screenshots/sdlpal-entry.jpg" width="760" alt="当前资源导入启动页"></a>
+    <a href="https://github.com/sdlpal/sdlpal/blob/master/README.md"><img src="assets/screenshots/sdlpal-entry.jpg" width="760" alt="Current resource import launcher"></a>
 
-    <sub>当前资源导入启动页 <a href="https://sdlpal.github.io/demo/sdlpal.html">图片来源</a></sub>
+    <sub>Current resource import launcher <a href="https://sdlpal.github.io/demo/sdlpal.html">Image source</a></sub>
 
-    经典仙剑奇侠传的跨平台引擎重实现，提供剧情探索、迷宫与回合制战斗。
+    A cross-platform reimplementation of the classic Sword and Fairy engine, with story exploration, mazes and turn-based battles.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按README更新子模块；Linux在unix目录运行make，Windows使用提供的工程，macOS用Xcode；网页版导入原版资源ZIP。
+    **Run:** Update submodules; build in unix with make on Linux, use the supplied Windows project or Xcode on macOS; the browser edition imports a game-data ZIP.
 
-    **所需文件：** 自己的受支持仙剑原版资源；网页版需完整资源ZIP，路径与文件名注意小写。
+    **Required files:** Your own supported original game data; the browser edition needs a full data ZIP with lowercase paths and names.
 
-    [**构建说明**](https://github.com/sdlpal/sdlpal/blob/master/README.md) · [项目介绍](https://github.com/sdlpal/sdlpal) · [在线入口 · 查看文件要求](https://sdlpal.github.io/demo/sdlpal.html)
+    [**Build instructions**](https://github.com/sdlpal/sdlpal/blob/master/README.md) · [Project information](https://github.com/sdlpal/sdlpal) · [Browser entry · check file requirements](https://sdlpal.github.io/demo/sdlpal.html)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-86. <a name="game-openloco"></a>**运输帝国 · OpenLoco**
+86. <a name="game-openloco"></a>**Chris Sawyer’s Locomotion · OpenLoco**
 
-    <a href="https://github.com/OpenLoco/OpenLoco/blob/master/README.md"><img src="https://user-images.githubusercontent.com/604665/55420349-1a2aea00-5577-11e9-87da-78fe5cdb09e1.png" width="760" alt="作者README提供的游戏预览"></a>
+    <a href="https://github.com/OpenLoco/OpenLoco/blob/master/README.md"><img src="https://user-images.githubusercontent.com/604665/55420349-1a2aea00-5577-11e9-87da-78fe5cdb09e1.png" width="760" alt="Game preview supplied in the author README"></a>
 
-    <sub>作者README提供的游戏预览 <a href="https://github.com/OpenLoco/OpenLoco/blob/master/README.md">图片来源</a></sub>
+    <sub>Game preview supplied in the author README <a href="https://github.com/OpenLoco/OpenLoco/blob/master/README.md">Image source</a></sub>
 
-    Locomotion的引擎重实现，铺设交通线路，经营铁路、公路和其他运输网络。
+    A Locomotion engine reimplementation for building routes and managing rail, road and other transport networks.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 安装README列出的库，Linux/macOS使用posix预设配置和编译，Windows使用windows预设。
+    **Run:** Install the documented libraries, configure and build with the posix presets on Linux/macOS or the windows presets on Windows.
 
-    **所需文件：** 自己的Chris Sawyer’s Locomotion原版资源。
+    **Required files:** Your own Chris Sawyer’s Locomotion assets.
 
-    [**构建说明**](https://github.com/OpenLoco/OpenLoco/blob/master/README.md) · [项目介绍](https://github.com/OpenLoco/OpenLoco)
+    [**Build instructions**](https://github.com/OpenLoco/OpenLoco/blob/master/README.md) · [Project information](https://github.com/OpenLoco/OpenLoco)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-87. <a name="game-savagewind"></a>**塞尔达传说：旷野之息 · Savage Wind**
+87. <a name="game-savagewind"></a>**Breath of the Wild · Savage Wind**
 
-    <a href="https://github.com/Revivedx/SavageWindRecomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/df849b27-3d7f-4043-9e53-6620d2351105" width="760" alt="上游问题报告中的移植画面"></a>
+    <a href="https://github.com/Revivedx/SavageWindRecomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/df849b27-3d7f-4043-9e53-6620d2351105" width="760" alt="Port screenshot from an upstream issue report"></a>
 
-    <sub>上游问题报告中的移植画面 <a href="https://github.com/Revivedx/SavageWindRecomp/issues/203">图片来源</a></sub>
+    <sub>Port screenshot from an upstream issue report <a href="https://github.com/Revivedx/SavageWindRecomp/issues/203">Image source</a></sub>
 
-    在海拉鲁探索、攀爬并解开神庙谜题。此实验移植目前以开场和初始台地为已报告范围。
+    Explore, climb and solve shrines in Hyrule through an experimental port whose reported coverage centers on the opening and Great Plateau.
 
-    **平台：** Windows 10+ / Linux x86-64，Vulkan1.3
+    **Platforms:** Windows 10+ / Linux x86-64, Vulkan 1.3
 
-    **运行：** 解压Windows包或运行Linux AppImage，选择自有1.9.0的ExeFS和RomFS目录，完成本机构建后启动。源码构建需Clang、SDL3、FFmpeg和Vulkan工具，按README执行make gen与make。
+    **Run:** Extract the Windows package or run the Linux AppImage, select your 1.9.0 ExeFS/RomFS folders and finish the local build. Source builds use Clang, SDL3, FFmpeg and Vulkan tools; follow the make gen and make steps.
 
-    **所需文件：** 自己的Switch版1.9.0游戏与合并更新的exefs/romfs；CPU需SSE4.2，约35GB空间，DLC尚不支持。
+    **Required files:** Your own Switch 1.9.0 ExeFS and merged RomFS; SSE4.2 CPU and about 35 GB disk space. DLC is not supported.
 
-    [**构建说明**](https://github.com/Revivedx/SavageWindRecomp/blob/main/README.md) · [项目源码](https://github.com/Revivedx/SavageWindRecomp)
+    [**Build instructions**](https://github.com/Revivedx/SavageWindRecomp/blob/main/README.md) · [Project source](https://github.com/Revivedx/SavageWindRecomp)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-88. <a name="game-coop-deluxe-sm64coopdx"></a>**超级马力欧64 · sm64coopdx**
+88. <a name="game-coop-deluxe-sm64coopdx"></a>**Super Mario 64 · sm64coopdx**
 
-    <a href="https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/coop-deluxe-sm64coopdx.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/coop-deluxe-sm64coopdx.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/hmqbLyszoYY/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/hmqbLyszoYY/maxresdefault.jpg">Image source</a></sub>
 
-    在同步的关卡中与朋友一起冒险，支持 Lua 模组和扩展玩法。
+    Explore synchronized levels with friends using a multiplayer port with Lua mods.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按仓库Makefile配置编译器与图形依赖，准备受支持的原版数据后用make构建，再运行生成的客户端。
+    **Run:** Configure the compiler and graphics dependencies described by the Makefile, supply supported original data, build with make and run the client.
 
-    **所需文件：** 按项目安装/构建说明准备受支持的原版游戏文件。
+    **Required files:** Prepare supported original game files according to the project&#x27;s setup instructions.
 
-    [**构建说明**](https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile) · [项目源码](https://github.com/coop-deluxe/sm64coopdx)
+    [**Build instructions**](https://github.com/coop-deluxe/sm64coopdx/blob/main/Makefile) · [Project source](https://github.com/coop-deluxe/sm64coopdx)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-89. <a name="game-doukutsu-rs"></a>**洞窟物语 · doukutsu-rs**
+89. <a name="game-doukutsu-rs"></a>**Cave Story · doukutsu-rs**
 
-    <a href="https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml"><img src="https://user-images.githubusercontent.com/53099651/155924461-c63afc93-a41f-4cfd-ac9f-8f021cebcb04.png" width="760" alt="作者提供的免费版画面"></a>
+    <a href="https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml"><img src="https://user-images.githubusercontent.com/53099651/155924461-c63afc93-a41f-4cfd-ac9f-8f021cebcb04.png" width="760" alt="Freeware-edition image supplied by the author"></a>
 
-    <sub>作者提供的免费版画面 <a href="https://github.com/doukutsu-rs/doukutsu-rs/blob/master/README.md">图片来源</a></sub>
+    <sub>Freeware-edition image supplied by the author <a href="https://github.com/doukutsu-rs/doukutsu-rs/blob/master/README.md">Image source</a></sub>
 
-    用Rust重实现洞窟物语，进行平台跳跃、射击与探索，支持原免费版及受支持的Cave Story+数据。
+    A Rust reimplementation of Cave Story for platforming, shooting and exploration, supporting freeware and compatible Cave Story+ data.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按上游CI列出的系统依赖准备Rust，cargo build --release --locked --bin doukutsu-rs；与受支持原版数据配合运行。
+    **Run:** Prepare Rust and the system dependencies listed by upstream CI, run cargo build --release --locked --bin doukutsu-rs and use supported original data.
 
-    **所需文件：** 自己的受支持免费版或Cave Story+数据；原免费版首次提取还需Doukutsu.exe。
+    **Required files:** Supported freeware or Cave Story+ data; initial extraction from freeware also needs Doukutsu.exe.
 
-    [**构建说明**](https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml) · [项目介绍](https://github.com/doukutsu-rs/doukutsu-rs)
+    [**Build instructions**](https://github.com/doukutsu-rs/doukutsu-rs/blob/master/.github/workflows/ci.yml) · [Project information](https://github.com/doukutsu-rs/doukutsu-rs)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-90. <a name="game-dethrace-labs-dethrace"></a>**卡马戈登 · Dethrace**
+90. <a name="game-dethrace-labs-dethrace"></a>**Carmageddon · Dethrace**
 
-    <a href="https://github.com/dethrace-labs/dethrace/blob/main/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/dethrace-labs-dethrace.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/dethrace-labs/dethrace/blob/main/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/dethrace-labs-dethrace.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/MMI45O0RKq0/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/MMI45O0RKq0/maxresdefault.jpg">Image source</a></sub>
 
-    逐函数重建经典赛车游戏，让原作在现代系统上原生运行。
+    A function-by-function reconstruction of the driving game for native execution on modern systems.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按README的Building章节安装依赖并用CMake构建，将原版或受支持演示版数据放入指定目录后运行。
+    **Run:** Install the Building section’s dependencies and compile with CMake, then provide the original or supported demo data.
 
-    **所需文件：** 自己的 Carmageddon 数据，或项目说明支持的演示版数据。
+    **Required files:** Your own Carmageddon data or demo data supported by the project.
 
-    [**构建说明**](https://github.com/dethrace-labs/dethrace/blob/main/README.md) · [项目源码](https://github.com/dethrace-labs/dethrace)
+    [**Build instructions**](https://github.com/dethrace-labs/dethrace/blob/main/README.md) · [Project source](https://github.com/dethrace-labs/dethrace)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-91. <a name="game-horizon"></a>**我的世界 Java版 · Horizon**
+91. <a name="game-horizon"></a>**Minecraft Java Edition · Horizon**
 
-    <a href="https://github.com/horizon-rust/horizon/blob/main/README.md"><img src="https://raw.githubusercontent.com/horizon-rust/horizon/main/docs/media/sunset.webp" width="760" alt="上游引擎夕阳场景截图"></a>
+    <a href="https://github.com/horizon-rust/horizon/blob/main/README.md"><img src="https://raw.githubusercontent.com/horizon-rust/horizon/main/docs/media/sunset.webp" width="760" alt="Upstream engine sunset screenshot"></a>
 
-    <sub>上游引擎夕阳场景截图 <a href="https://github.com/horizon-rust/horizon">图片来源</a></sub>
+    <sub>Upstream engine sunset screenshot <a href="https://github.com/horizon-rust/horizon">Image source</a></sub>
 
-    探索方块世界、采集资源与建造家园。使用自有Java版数据运行的Rust引擎重实现。
+    Explore, gather resources and build in a block world with a Rust engine reimplementation using your own Java Edition files.
 
-    **平台：** Windows / Linux / macOS（Apple Silicon）
+    **Platforms:** Windows / Linux / macOS (Apple Silicon)
 
-    **运行：** 可用上游启动器准备资源后启动；自行构建需Rust1.90+、Python3.10+和JDK25，先运行horizon-prepare，再运行horizon-client。
+    **Run:** Use the upstream launcher to prepare resources and start the game. Source builds need Rust 1.90+, Python 3.10+ and JDK 25; run horizon-prepare, then horizon-client.
 
-    **所需文件：** 自己的Minecraft Java 26.3安装（先运行一次）与对应server.jar；暂不支持微软账号认证。
+    **Required files:** Your own Minecraft Java 26.3 installation, launched once, and matching server.jar; Microsoft account authentication is not yet supported.
 
-    [**构建说明**](https://github.com/horizon-rust/horizon/blob/main/README.md) · [项目源码](https://github.com/horizon-rust/horizon)
+    [**Build instructions**](https://github.com/horizon-rust/horizon/blob/main/README.md) · [Project source](https://github.com/horizon-rust/horizon)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-92. <a name="game-arx-libertatis"></a>**阿克斯之城 · Arx Libertatis**
+92. <a name="game-arx-libertatis"></a>**Arx Fatalis · Arx Libertatis**
 
-    <a href="https://github.com/arx/ArxLibertatis/blob/master/README.md"><img src="assets/screenshots/arx-libertatis-site.jpg" width="760" alt="项目官网与游戏画面预览"></a>
+    <a href="https://github.com/arx/ArxLibertatis/blob/master/README.md"><img src="assets/screenshots/arx-libertatis-site.jpg" width="760" alt="Project website and game preview"></a>
 
-    <sub>项目官网与游戏画面预览 <a href="https://arx-libertatis.org/">图片来源</a></sub>
+    <sub>Project website and game preview <a href="https://arx-libertatis.org/">Image source</a></sub>
 
-    基于公开源码维护的现代引擎，进行地下城探索、物品制作和符文施法。
+    A modern engine maintained from the published source, with dungeon exploration, crafting and rune spellcasting.
 
-    **平台：** Windows / macOS / Linux
+    **Platforms:** Windows / macOS / Linux
 
-    **运行：** 按README准备CMake及SDL、OpenAL等依赖，在build目录配置并make，运行arx并指向原版或演示数据。
+    **Run:** Prepare CMake, SDL, OpenAL and the documented dependencies, configure and make in build, then run arx with original or demo data.
 
-    **所需文件：** 自己的Arx Fatalis原版或演示数据。
+    **Required files:** Your own Arx Fatalis retail or demo data.
 
-    [**构建说明**](https://github.com/arx/ArxLibertatis/blob/master/README.md) · [项目介绍](https://github.com/arx/ArxLibertatis)
+    [**Build instructions**](https://github.com/arx/ArxLibertatis/blob/master/README.md) · [Project information](https://github.com/arx/ArxLibertatis)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-93. <a name="game-isledecomp-isle-portable"></a>**乐高小岛 · isle-portable**
+93. <a name="game-isledecomp-isle-portable"></a>**LEGO Island · isle-portable**
 
-    <a href="https://github.com/isledecomp/isle-portable/blob/master/README.md"><img src="assets/screenshots/isle-launcher.jpg" width="760" alt="网页启动器"></a>
+    <a href="https://github.com/isledecomp/isle-portable/blob/master/README.md"><img src="assets/screenshots/isle-launcher.jpg" width="760" alt="Web launcher"></a>
 
-    <sub>网页启动器 <a href="https://isle.pizza/">图片来源</a></sub>
+    <sub>Web launcher <a href="https://isle.pizza/">Image source</a></sub>
 
-    基于已有反编译成果的跨平台移植，保留乐高小岛的探索体验。
+    A cross-platform port based on an existing decompilation, preserving LEGO Island&#x27;s exploration.
 
-    **平台：** Windows / macOS / Linux / 浏览器（构建目标依指南）
+    **Platforms:** Windows / macOS / Linux / browser (per build target)
 
-    **运行：** 按README的Building章节和项目CI配置选择CMake构建目标，准备LEGO Island英文1.1版数据后运行。
+    **Run:** Use the README Building section and project CI configuration to choose a CMake target, then supply English LEGO Island v1.1 data.
 
-    **所需文件：** 自己的英文1.1版 LEGO Island 游戏数据。
+    **Required files:** Your own English v1.1 LEGO Island game data.
 
-    [**构建说明**](https://github.com/isledecomp/isle-portable/blob/master/README.md) · [项目源码](https://github.com/isledecomp/isle-portable) · [在线入口 · 查看文件要求](https://isle.pizza/)
+    [**Build instructions**](https://github.com/isledecomp/isle-portable/blob/master/README.md) · [Project source](https://github.com/isledecomp/isle-portable) · [Browser entry · check file requirements](https://isle.pizza/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-94. <a name="game-lost-odyssey-recomp"></a>**失落的奥德赛 · Lost Odyssey Recomp**
+94. <a name="game-lost-odyssey-recomp"></a>**Lost Odyssey · Recomp**
 
-    <a href="https://github.com/freefrank/LostOdysseyRecomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/freefrank/LostOdysseyRecomp/main/docs/images/city-exploration.png" width="760" alt="上游项目提供的城市探索画面"></a>
+    <a href="https://github.com/freefrank/LostOdysseyRecomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/freefrank/LostOdysseyRecomp/main/docs/images/city-exploration.png" width="760" alt="City-exploration screenshot supplied by the upstream project"></a>
 
-    <sub>上游项目提供的城市探索画面 <a href="https://github.com/freefrank/LostOdysseyRecomp/blob/main/README.md">图片来源</a></sub>
+    <sub>City-exploration screenshot supplied by the upstream project <a href="https://github.com/freefrank/LostOdysseyRecomp/blob/main/README.md">Image source</a></sub>
 
-    跟随不死者凯姆旅行，在回合制战斗中探索千年记忆。Xbox360作品的原生重编译。
+    Travel with the immortal Kaim and explore a thousand years of memories through turn-based battles in a native Xbox 360 recompilation.
 
-    **平台：** Windows x64 / Linux x64 / macOS15+ Apple Silicon / Android8+ arm64（Vulkan）
+    **Platforms:** Windows x64 / Linux x64 / macOS 15+ Apple Silicon / Android 8+ arm64 (Vulkan)
 
-    **运行：** 可用对应平台发布包导入自有游戏目录、ISO或GOD。Windows源码构建需VS2022工具、LLVM、CMake3.28、Ninja、Python3.11及子模块；先生成工具和PowerPC代码，再构建运行时。
+    **Run:** Platform releases import your game folder, ISO or GOD data. Windows source builds need VS2022 tools, LLVM, CMake 3.28, Ninja, Python 3.11 and submodules; build the tools, generate PowerPC sources and build the runtime.
 
-    **所需文件：** 自己的同一版本Xbox360光盘数据，Disc1用于开始，其余光盘按需导入；源码准备说明以亚洲多语言版为准，不混用版本。Windows CPU需AVX。
+    **Required files:** Your own matching Xbox 360 disc set, starting with Disc 1 and importing later discs as needed. The source-preparation guide specifies the Asian multilingual edition; do not mix editions. Windows needs AVX.
 
-    [**构建说明**](https://github.com/freefrank/LostOdysseyRecomp/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/freefrank/LostOdysseyRecomp)
+    [**Build instructions**](https://github.com/freefrank/LostOdysseyRecomp/blob/main/docs/BUILDING.md) · [Project source](https://github.com/freefrank/LostOdysseyRecomp)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-95. <a name="game-rsdkmodding-sonic-mania-decompilation"></a>**索尼克狂欢 · Sonic Mania Decompilation**
+95. <a name="game-rsdkmodding-sonic-mania-decompilation"></a>**Sonic Mania Decompilation**
 
-    <a href="https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/rsdkmodding-sonic-mania-decompilation.jpg" width="760" alt="上游项目预览"></a>
+    <a href="https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/screenshots/rsdkmodding-sonic-mania-decompilation.jpg" width="760" alt="Upstream project preview"></a>
 
-    <sub>上游项目预览 <a href="https://i.ytimg.com/vi/CSPhyjHt79Y/maxresdefault.jpg">图片来源</a></sub>
+    <sub>Upstream project preview <a href="https://i.ytimg.com/vi/CSPhyjHt79Y/maxresdefault.jpg">Image source</a></sub>
 
-    重建游戏逻辑，支持模组加载及多版本构建。
+    A reconstruction of the game logic with mod loading and builds for multiple versions.
 
-    **平台：** Windows / Linux
+    **Platforms:** Windows / Linux
 
-    **运行：** 递归克隆源码及子模块，按How to Build安装依赖并用CMake编译，再放入对应Sonic Mania游戏资源。
+    **Run:** Clone recursively with submodules, install the How to Build dependencies and compile with CMake, then provide matching Sonic Mania assets.
 
-    **所需文件：** 自己的受支持 Sonic Mania / Plus 资源；不支持Netflix版。
+    **Required files:** Your own supported Sonic Mania or Plus assets; the Netflix edition is unsupported.
 
-    [**构建说明**](https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md) · [项目源码](https://github.com/RSDKModding/Sonic-Mania-Decompilation)
+    [**Build instructions**](https://github.com/RSDKModding/Sonic-Mania-Decompilation/blob/master/README.md) · [Project source](https://github.com/RSDKModding/Sonic-Mania-Decompilation)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-96. <a name="game-silent-hill-pc"></a>**寂静岭1 · PsyCross移植**
+96. <a name="game-silent-hill-pc"></a>**Silent Hill · PsyCross port**
 
-    <a href="https://github.com/SlickAmogus/silent-hill-decomp/blob/pc-port/README.md"><img src="assets/screenshots/silent-hill-upstream.png" width="760" alt="作者官网提供的移植截图"></a>
+    <a href="https://github.com/SlickAmogus/silent-hill-decomp/blob/pc-port/README.md"><img src="assets/screenshots/silent-hill-upstream.png" width="760" alt="Port screenshot from the author’s website"></a>
 
-    <sub>作者官网提供的移植截图 <a href="https://sh1pc.com/">图片来源</a></sub>
+    <sub>Port screenshot from the author’s website <a href="https://sh1pc.com/">Image source</a></sub>
 
-    在雾中的小镇寻找失踪的女儿。基于PS1反编译成果的社区移植，也提供自备光盘镜像的网页版。
+    Search a fogbound town for a missing daughter through a community port based on the PS1 decompilation, with a browser edition that reads your disc image.
 
-    **平台：** Windows / 桌面浏览器；Linux与macOS版本见上游说明
+    **Platforms:** Windows / desktop browser; see upstream notes for Linux and macOS
 
-    **运行：** 可下载发布包并选择自己的BIN，或在网页导入。自行构建使用MSYS2/MinGW64、CMake/Ninja、SDL2、OpenAL，拉取子模块后运行pc_port\build.bat。
+    **Run:** Use an upstream release with your BIN, or import it in the browser. Source builds use MSYS2/MinGW64, CMake/Ninja, SDL2 and OpenAL; initialize submodules and run pc_port\build.bat.
 
-    **所需文件：** 自己的Silent Hill PS1 BIN镜像；Windows构建说明使用USA SLUS-00707，网页版也接受PAL和NTSC-J。
+    **Required files:** Your own Silent Hill PS1 BIN; the Windows build guide uses USA SLUS-00707, while the browser also accepts PAL and NTSC-J.
 
-    [**构建说明**](https://github.com/SlickAmogus/silent-hill-decomp/blob/pc-port/README.md) · [项目源码](https://github.com/SlickAmogus/silent-hill-decomp) · [在线入口 · 查看文件要求](https://sh1pc.com/play/)
+    [**Build instructions**](https://github.com/SlickAmogus/silent-hill-decomp/blob/pc-port/README.md) · [Project source](https://github.com/SlickAmogus/silent-hill-decomp) · [Browser entry · check file requirements](https://sh1pc.com/play/)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-97. <a name="game-bbhost"></a>**血源诅咒 · bbhost**
+97. <a name="game-bbhost"></a>**Bloodborne · bbhost**
 
-    <a href="https://github.com/droogie/bbhost/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/droogie/bbhost/master/docs/images/cainhurst.jpg" width="760" alt="上游项目的该隐赫斯特城堡画面"></a>
+    <a href="https://github.com/droogie/bbhost/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/droogie/bbhost/master/docs/images/cainhurst.jpg" width="760" alt="Cainhurst Castle screenshot supplied by the upstream project"></a>
 
-    <sub>上游项目的该隐赫斯特城堡画面 <a href="https://github.com/droogie/bbhost/blob/master/README.md">图片来源</a></sub>
+    <sub>Cainhurst Castle screenshot supplied by the upstream project <a href="https://github.com/droogie/bbhost/blob/master/README.md">Image source</a></sub>
 
-    在哥特城市中探索、战斗并挑战首领。让PS4原程序在PC运行的兼容项目，提供宽屏、画面设置与私人服务器联机。
+    Explore a Gothic city, fight and challenge bosses through a compatibility layer that runs the PS4 program on PC, with widescreen, graphics settings and private-server multiplayer.
 
-    **平台：** Windows10/11 x86-64 / Linux x86-64，Vulkan1.3；建议16GB内存、8GB显存
+    **Platforms:** Windows 10/11 x86-64 / Linux x86-64, Vulkan 1.3; 16 GB RAM and 8 GB VRAM recommended
 
-    **运行：** 下载对应平台包，运行bbhost，在设置窗口选择游戏目录与解密后的eboot，完成检查后启动。源码在Linux上用C++20、CMake3.20+及SDL3/Vulkan/FFmpeg等依赖构建；Windows需从Linux以Clang和mingw-w64交叉编译，具体步骤见构建说明。
+    **Run:** Download a platform package, run bbhost and select your game folder and decrypted eboot in setup. Source builds use C++20, CMake 3.20+ and SDL3/Vulkan/FFmpeg dependencies on Linux; Windows is cross-compiled from Linux with Clang and mingw-w64 as documented.
 
-    **所需文件：** 自己的PS4游戏与1.09更新数据，以及解密为ELF的1.09 eboot；SHA-256须为941f887a562aae054fac35af8cc8f27cf075f3d4cc2e029fb5ae2a663aaa5ae7。
+    **Required files:** Your own PS4 game and 1.09 update data, plus a decrypted 1.09 eboot ELF with SHA-256 941f887a562aae054fac35af8cc8f27cf075f3d4cc2e029fb5ae2a663aaa5ae7.
 
-    [**构建说明**](https://github.com/droogie/bbhost/blob/master/docs/building.md) · [项目源码](https://github.com/droogie/bbhost)
+    [**Build instructions**](https://github.com/droogie/bbhost/blob/master/docs/building.md) · [Project source](https://github.com/droogie/bbhost)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-98. <a name="game-kartpad"></a>**马力欧卡丁车Wii · KartPad**
+98. <a name="game-kartpad"></a>**Mario Kart Wii · KartPad**
 
-    <a href="https://github.com/chrissotraidis/kartpad/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/chrissotraidis/kartpad/main/docs/social/kartpad-0.4.23-banner.png" width="760" alt="上游0.4.23版启动器宣传图"></a>
+    <a href="https://github.com/chrissotraidis/kartpad/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/chrissotraidis/kartpad/main/docs/social/kartpad-0.4.23-banner.png" width="760" alt="Upstream 0.4.23 launcher promotional graphic"></a>
 
-    <sub>上游0.4.23版启动器宣传图 <a href="https://github.com/chrissotraidis/kartpad">图片来源</a></sub>
+    <sub>Upstream 0.4.23 launcher promotional graphic <a href="https://github.com/chrissotraidis/kartpad">Image source</a></sub>
 
-    驾驶卡丁车争夺名次，并可加入Retro Rewind内容。基于WiiCompiled，面向手机、平板和Apple Silicon Mac。
+    Race karts for the lead, with optional Retro Rewind content, through a WiiCompiled-based port for phones, tablets and Apple Silicon Macs.
 
-    **平台：** Android ARM64 / iPhone / iPad / macOS 14+（Apple Silicon）
+    **Platforms:** Android ARM64 / iPhone / iPad / macOS 14+ (Apple Silicon)
 
-    **运行：** Android安装上游APK后导入游戏目录；Apple设备可用PadMint在自己的Mac上构建并安装。手动Apple构建使用Xcode、CMake/Ninja、Python3、.NET8和Rust，按指南运行self-build-macos.sh。
+    **Run:** On Android, install the upstream APK and import the game folder. For Apple devices, build with PadMint on your Mac. Manual Apple builds use Xcode, CMake/Ninja, Python 3, .NET 8 and Rust; follow the self-build-macos.sh guide.
 
-    **所需文件：** 自己的PAL RMCP01 Rev0游戏提取DATA目录；直接导入ISO/WBFS另需自有Wii common-key.bin，Android也接受RVZ。
+    **Required files:** Your own PAL RMCP01 Rev 0 extracted DATA folder; direct ISO/WBFS import also requires your Wii common-key.bin. Android also accepts RVZ.
 
-    [**构建说明**](https://github.com/chrissotraidis/kartpad/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/chrissotraidis/kartpad)
+    [**Build instructions**](https://github.com/chrissotraidis/kartpad/blob/main/docs/BUILDING.md) · [Project source](https://github.com/chrissotraidis/kartpad)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
 99. <a name="game-opennox"></a>**Nox · OpenNox**
 
-    <a href="https://github.com/opennox/opennox/blob/dev/README.md"><img src="https://github.com/user-attachments/assets/9726b925-1797-4b3f-b63f-afa19a18fa5e" width="760" alt="上游用户存档错误报告中的游戏画面"></a>
+    <a href="https://github.com/opennox/opennox/blob/dev/README.md"><img src="https://github.com/user-attachments/assets/9726b925-1797-4b3f-b63f-afa19a18fa5e" width="760" alt="Gameplay screenshot from an upstream save-error report"></a>
 
-    <sub>上游用户存档错误报告中的游戏画面 <a href="https://github.com/opennox/opennox/issues/750">图片来源</a></sub>
+    <sub>Gameplay screenshot from an upstream save-error report <a href="https://github.com/opennox/opennox/issues/750">Image source</a></sub>
 
-    选择战士、法师或召唤师探索世界、施法并战斗。经典动作RPG的社区引擎扩展与兼容项目，提供战役、多人对战和高分辨率版本。
+    Explore, cast spells and fight as a warrior, wizard or conjurer in a community engine extension and compatibility project for the classic action RPG, with campaign, multiplayer and high-resolution editions.
 
-    **平台：** Windows / Linux
+    **Platforms:** Windows / Linux
 
-    **运行：** 安装原版Nox后，下载安装OpenNox并运行opennox或opennox-hd；若找不到数据，在opennox.yml的game.data设置原作目录。源码需Go1.22+、GCC/MinGW与32位SDL2/OpenAL开发库，在源码src目录执行go run ./internal/noxbuild。HD与legacy联机需使用同类版本。
+    **Run:** Install the original Nox, then install OpenNox and run opennox or opennox-hd. If data is not found, set game.data in opennox.yml to the original installation. Source builds need Go 1.22+, GCC/MinGW and 32-bit SDL2/OpenAL development libraries: run go run ./internal/noxbuild from src. Multiplayer peers must use matching HD or legacy editions.
 
-    **所需文件：** 自己的Nox安装数据；上游安装页列出GOG购买渠道，也支持原版CD。
+    **Required files:** Your own Nox installation data; the upstream install guide links to GOG and also supports the original CD.
 
-    [**构建说明**](https://github.com/opennox/opennox/blob/dev/README.md) · [项目源码](https://github.com/opennox/opennox)
+    [**Build instructions**](https://github.com/opennox/opennox/blob/dev/README.md) · [Project source](https://github.com/opennox/opennox)
 
-    [↑ 返回目录](#game-index)
+    [↑ Back to directory](#game-index)
 
-100. <a name="game-totk-recomp"></a>**塞尔达传说：王国之泪 · TotK Recomp**
+100. <a name="game-totk-recomp"></a>**The Legend of Zelda: Tears of the Kingdom · TotK Recomp**
 
-     <a href="https://github.com/valentderah/totk-pc-recomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/d3a2461e-994f-496d-b7f9-77c3c7e3af39" width="760" alt="上游AMD APU渲染缺陷报告中的游戏画面"></a>
+     <a href="https://github.com/valentderah/totk-pc-recomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/d3a2461e-994f-496d-b7f9-77c3c7e3af39" width="760" alt="Game screenshot from an upstream AMD APU rendering-defect report"></a>
 
-     <sub>上游AMD APU渲染缺陷报告中的游戏画面 <a href="https://github.com/valentderah/totk-pc-recomp/issues/42">图片来源</a></sub>
+     <sub>Game screenshot from an upstream AMD APU rendering-defect report <a href="https://github.com/valentderah/totk-pc-recomp/issues/42">Image source</a></sub>
 
-     探索海拉鲁、组合物件并解决开放世界谜题。Windows早期移植，仍可能出现视觉缺陷和崩溃。
+     Explore Hyrule, combine objects and solve open-world puzzles in an early Windows port with possible visual defects and crashes.
 
-     **平台：** Windows10+ x64，AVX2、Vulkan1.3及VK_EXT_external_memory_host
+     **Platforms:** Windows 10+ x64, AVX2, Vulkan 1.3 and VK_EXT_external_memory_host
 
-     **运行：** 解压发布设置包，选择自有基础游戏和更新，在本机生成后运行totk.exe。源码按docs/building.md准备MSYS2 UCRT64、VS Build Tools、.NET10及uv/Python环境，再依次提取、生成C代码、编译与准备着色器。
+     **Run:** Extract a release setup package, choose your base game and update, build locally and run totk.exe. Source builds follow docs/building.md: prepare MSYS2 UCRT64, VS Build Tools, .NET 10 and uv/Python, then extract, generate C, compile and prepare shaders.
 
-     **所需文件：** 自己的Switch基础游戏及1.2.1或1.4.3更新；源码提取需自己的主机密钥文件。安装约36GiB临时空间，源码工作目录约60GB。
+     **Required files:** Your own Switch base game and update 1.2.1 or 1.4.3; source extraction needs your own console keys file. About 36 GiB during setup or 60 GB for a source work folder.
 
-     [**构建说明**](https://github.com/valentderah/totk-pc-recomp/blob/main/README.md) · [项目源码](https://github.com/valentderah/totk-pc-recomp)
+     [**Build instructions**](https://github.com/valentderah/totk-pc-recomp/blob/main/README.md) · [Project source](https://github.com/valentderah/totk-pc-recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-101. <a name="game-opensmash-ultimate"></a>**任天堂明星大乱斗 特别版 · OpenSmash**
+101. <a name="game-opensmash-ultimate"></a>**Super Smash Bros. Ultimate · OpenSmash**
 
-     <a href="https://github.com/OpenSmash-Ultimate/ssbu-recomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/OpenSmash-Ultimate/ssbu-recomp/main/media/og-image.png" width="760" alt="上游项目标题图"></a>
+     <a href="https://github.com/OpenSmash-Ultimate/ssbu-recomp/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/OpenSmash-Ultimate/ssbu-recomp/main/media/og-image.png" width="760" alt="Upstream project title graphic"></a>
 
-     <sub>上游项目标题图 <a href="https://github.com/OpenSmash-Ultimate/ssbu-recomp">图片来源</a></sub>
+     <sub>Upstream project title graphic <a href="https://github.com/OpenSmash-Ultimate/ssbu-recomp">Image source</a></sub>
 
-     让不同系列的角色在平台擂台上混战。将自有Switch游戏静态重编译为Windows程序的社区项目。
+     Bring characters from different series into platform battles through a community static recompilation of your own Switch game for Windows.
 
-     **平台：** Windows 10 / 11，64位，Vulkan显卡
+     **Platforms:** Windows 10 / 11, 64-bit, Vulkan graphics
 
-     **运行：** 下载源码ZIP或克隆仓库，运行Install SSBU.bat，确认自有文件后在本机构建，再运行Play SSBU.bat；安装器会准备所需工具与运行库。
+     **Run:** Download the source ZIP or clone the repository, run Install SSBU.bat, confirm your own files and build locally, then run Play SSBU.bat. The installer prepares the tools and runtime.
 
-     **所需文件：** 自己的Switch游戏13.0.4或13.0.5数据及对应prod.keys；按上游说明准备更新与DLC。
+     **Required files:** Your own Switch game data for 13.0.4 or 13.0.5 and matching prod.keys; follow upstream instructions for updates and DLC.
 
-     [**构建说明**](https://github.com/OpenSmash-Ultimate/ssbu-recomp/blob/main/BUILDING.md) · [项目源码](https://github.com/OpenSmash-Ultimate/ssbu-recomp)
+     [**Build instructions**](https://github.com/OpenSmash-Ultimate/ssbu-recomp/blob/main/BUILDING.md) · [Project source](https://github.com/OpenSmash-Ultimate/ssbu-recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-102. <a name="game-d3wasm"></a>**毁灭战士3 · D3Wasm**
+102. <a name="game-d3wasm"></a>**Doom 3 · D3Wasm**
 
-     <a href="https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md"><img src="https://www.continuation-labs.com/projects/d3wasm/img/SC2.jpg" width="760" alt="作者提供的D3Wasm游戏截图"></a>
+     <a href="https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md"><img src="https://www.continuation-labs.com/projects/d3wasm/img/SC2.jpg" width="760" alt="D3Wasm game screenshot supplied by the author"></a>
 
-     <sub>作者提供的D3Wasm游戏截图 <a href="https://www.continuation-labs.com/projects/d3wasm/">图片来源</a></sub>
+     <sub>D3Wasm game screenshot supplied by the author <a href="https://www.continuation-labs.com/projects/d3wasm/">Image source</a></sub>
 
-     基于Doom 3公开引擎源码的WebAssembly移植，在火星基地进行第一人称探索与战斗；作者在线演示使用Demo内容。
+     A WebAssembly port based on the released Doom 3 engine source, for first-person exploration and combat on Mars; the author’s online demonstration uses demo content.
 
-     **平台：** Linux / Windows WSL构建；支持WASM和WebGL的桌面浏览器运行
+     **Platforms:** Build on Linux / Windows WSL; run in a desktop browser with WASM and WebGL
 
-     **运行：** 可打开作者提供的在线Demo，首次自动获取约400MB演示数据。自行构建需按BUILD.md配置Emscripten/CMake，编译neo目录、打包Demo数据并启动本地HTTP服务。
+     **Run:** Open the author’s online demo; it automatically fetches about 400 MB of demo data on first use. Source builds follow BUILD.md with Emscripten/CMake: compile neo, package demo data and serve over local HTTP.
 
-     **所需文件：** 自行构建需Doom 3 Demo的demo00.pk4；运行完整版需自己的对应游戏资源。
+     **Required files:** A source build needs demo00.pk4 from the Doom 3 Demo; the full game needs your matching retail assets.
 
-     [**构建说明**](https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md) · [项目源码](https://github.com/gabrielcuvillier/d3wasm) · [在线入口 · 查看文件要求](https://wasm.continuation-labs.com/d3demo/) · [资源获取](https://www.fileplanet.com/archive/p-15998/DOOM-3-Demo)
+     [**Build instructions**](https://github.com/gabrielcuvillier/d3wasm/blob/master/BUILD.md) · [Project source](https://github.com/gabrielcuvillier/d3wasm) · [Browser entry · check file requirements](https://wasm.continuation-labs.com/d3demo/) · [Get game data](https://www.fileplanet.com/archive/p-15998/DOOM-3-Demo)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-103. <a name="game-gta-vcs"></a>**侠盗猎车手：罪恶都市传奇 · PS2重编译**
+103. <a name="game-gta-vcs"></a>**Grand Theft Auto: Vice City Stories · PS2 recompilation**
 
-     <a href="https://github.com/gothamor/gta-vcs-recomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/e492802d-e081-4677-9d23-706db672b35d" width="760" alt="上游用户任务问题中的游戏画面"></a>
+     <a href="https://github.com/gothamor/gta-vcs-recomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/e492802d-e081-4677-9d23-706db672b35d" width="760" alt="Gameplay screenshot from an upstream user mission report"></a>
 
-     <sub>上游用户任务问题中的游戏画面 <a href="https://github.com/gothamor/gta-vcs-recomp/issues/48">图片来源</a></sub>
+     <sub>Gameplay screenshot from an upstream user mission report <a href="https://github.com/gothamor/gta-vcs-recomp/issues/48">Image source</a></sub>
 
-     在罪恶都市驾驶、执行任务并经营势力。PS2版的Windows与Linux移植，提供宽屏和可调帧率，部分任务与高帧率行为仍待修复。
+     Drive, complete missions and build an empire in Vice City. A Windows and Linux port of the PS2 game with widescreen and adjustable frame rates; some missions and high-frame-rate behavior still need fixes.
 
-     **平台：** Windows（Direct3D11）/ Linux（Vulkan1.3）
+     **Platforms:** Windows (Direct3D 11) / Linux (Vulkan 1.3)
 
-     **运行：** Windows解压发布ZIP并运行VCSLauncher.exe，选择ISO、准备C++工具后在本机编译。源码需Python3、Git，Windows使用VS2022 C++/Clang，Linux使用Clang19+/lld及SDL3/FFmpeg等依赖；按README运行build.py --recompile，完成后启动vcs。
+     **Run:** On Windows, extract the release ZIP, run VCSLauncher.exe, choose your ISO and prepare the C++ tools for a local build. Source builds need Python 3 and Git, VS2022 C++/Clang on Windows or Clang 19+/lld and SDL3/FFmpeg dependencies on Linux. Follow build.py --recompile in the README, then run vcs.
 
-     **所需文件：** 自己的PS2美国版SLUS-21590 ISO；运行时仍需读取该镜像。
+     **Required files:** Your own PS2 USA SLUS-21590 ISO, which remains required while playing.
 
-     [**构建说明**](https://github.com/gothamor/gta-vcs-recomp/blob/main/README.md) · [项目源码](https://github.com/gothamor/gta-vcs-recomp)
+     [**Build instructions**](https://github.com/gothamor/gta-vcs-recomp/blob/main/README.md) · [Project source](https://github.com/gothamor/gta-vcs-recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-104. <a name="game-scda-xbe"></a>**细胞分裂：双重间谍 · Xbox重编译**
+104. <a name="game-scda-xbe"></a>**Splinter Cell: Double Agent · Xbox recompilation**
 
-     <a href="https://github.com/TGP482/SCDA-XBERecomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/52b7ed68-cb87-466e-847b-8364589a6d8b" width="760" alt="上游README画质功能对比中的游戏画面"></a>
+     <a href="https://github.com/TGP482/SCDA-XBERecomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/52b7ed68-cb87-466e-847b-8364589a6d8b" width="760" alt="Gameplay image from the upstream README’s graphics comparison"></a>
 
-     <sub>上游README画质功能对比中的游戏画面 <a href="https://github.com/TGP482/SCDA-XBERecomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Gameplay image from the upstream README’s graphics comparison <a href="https://github.com/TGP482/SCDA-XBERecomp/blob/main/README.md">Image source</a></sub>
 
-     扮演山姆·费舍尔潜入敌方设施，在双重身份之间完成任务。初代Xbox版的Windows重编译。
+     Infiltrate hostile facilities as Sam Fisher while balancing two identities in a Windows recompilation of the original Xbox version.
 
-     **平台：** Windows10+ x64，Direct3D12
+     **Platforms:** Windows 10+ x64, Direct3D 12
 
-     **运行：** 可用发布包，将自有ISO或解包文件放入assets后启动SCDA.exe，首启在本机编译。源码构建需VS2022的C++、Clang和CMake组件，准备解包游戏文件后运行build.bat。
+     **Run:** Use a release with your ISO or extracted files in assets, then start SCDA.exe for a local first-run build. Source builds need VS2022 C++, Clang and CMake components; supply extracted game files and run build.bat.
 
-     **所需文件：** 自己的Xbox版游戏数据；源码需default.xbe、sc4_adv.xbe及Default、Media、adv目录。CPU需SSE4.2/POPCNT、4GB内存，约6GB空间。
+     **Required files:** Your own Xbox game data; source builds need default.xbe, sc4_adv.xbe and the Default, Media and adv folders. SSE4.2/POPCNT CPU, 4 GB RAM and about 6 GB storage.
 
-     [**构建说明**](https://github.com/TGP482/SCDA-XBERecomp/blob/main/README.md) · [项目源码](https://github.com/TGP482/SCDA-XBERecomp)
+     [**Build instructions**](https://github.com/TGP482/SCDA-XBERecomp/blob/main/README.md) · [Project source](https://github.com/TGP482/SCDA-XBERecomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-105. <a name="game-project-midas"></a>**007：黄金眼 · Project Midas**
+105. <a name="game-project-midas"></a>**GoldenEye 007 · Project Midas**
 
-     <a href="https://github.com/murkantor/Project-Midas/blob/main/readme.md"><img src="https://raw.githubusercontent.com/murkantor/Project-Midas/main/port/include/presskit/PM%20thin%201%20-%20full.png" width="760" alt="上游项目标题图"></a>
+     <a href="https://github.com/murkantor/Project-Midas/blob/main/readme.md"><img src="https://raw.githubusercontent.com/murkantor/Project-Midas/main/port/include/presskit/PM%20thin%201%20-%20full.png" width="760" alt="Upstream project title graphic"></a>
 
-     <sub>上游项目标题图 <a href="https://github.com/murkantor/Project-Midas">图片来源</a></sub>
+     <sub>Upstream project title graphic <a href="https://github.com/murkantor/Project-Midas">Image source</a></sub>
 
-     重访黄金眼的潜入射击任务。基于N64既有源码重建的Windows和Linux移植，部分扩展功能仍在开发。
+     Revisit GoldenEye stealth and shooting missions through a Windows/Linux port built on the existing N64 decompilation.
 
-     **平台：** Windows / Linux
+     **Platforms:** Windows / Linux
 
-     **运行：** 按Docker构建说明提取自有镜像并生成程序；将美版镜像放入Data目录后运行ProjectMidas。Windows构建步骤使用WSL。
+     **Run:** Follow the Docker build and extraction instructions, then place the US cartridge image in Data and run ProjectMidas. Windows build steps use WSL.
 
-     **所需文件：** 自己的美版GoldenEye N64卡带镜像；Linux运行还需32位SDL2和OpenGL。
+     **Required files:** Your own US GoldenEye N64 cartridge image; Linux also needs 32-bit SDL2 and OpenGL.
 
-     [**构建说明**](https://github.com/murkantor/Project-Midas/blob/main/readme.md) · [项目源码](https://github.com/murkantor/Project-Midas)
+     [**Build instructions**](https://github.com/murkantor/Project-Midas/blob/main/readme.md) · [Project source](https://github.com/murkantor/Project-Midas)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-106. <a name="game-fh1-reimagined"></a>**极限竞速：地平线1 · ReImagined**
+106. <a name="game-fh1-reimagined"></a>**Forza Horizon 1 · ReImagined**
 
-     <a href="https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/blob/main/README.md"><img src="https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/main/docs/images/forza-race.jpg" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/blob/main/README.md"><img src="https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/main/docs/images/forza-race.jpg" width="760" alt="Gameplay image supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/blob/main/docs/images/forza-race.jpg">图片来源</a></sub>
+     <sub>Gameplay image supplied by the upstream project <a href="https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/blob/main/docs/images/forza-race.jpg">Image source</a></sub>
 
-     参加科罗拉多汽车音乐节，在开放道路与赛道上驾驶竞速。基于Xbox360版本的社区重编译。
+     Race through Colorado’s open roads and festival events in a community recompilation of the Xbox 360 game.
 
-     **平台：** Windows 10 / 11 x64 / Linux x86-64 / Steam Deck
+     **Platforms:** Windows 10 / 11 x64 / Linux x86-64 / Steam Deck
 
-     **运行：** 安装上游启动器；Linux可用Flatpak或tar.gz。选择自己的光盘镜像、Games on Demand包或解包目录，点击Build，再Play；Steam Deck按上游指南配置。
+     **Run:** Install the upstream launcher, using Flatpak or tar.gz on Linux. Select your disc image, Games on Demand package or extracted folder, choose Build and then Play. Follow the separate Steam Deck guide.
 
-     **所需文件：** 自己的Xbox360 Forza Horizon文件；TU4和DLC按需自备，约15GB空间。
+     **Required files:** Your own Xbox 360 Forza Horizon files; optional TU4/DLC and about 15 GB disk space.
 
-     [**构建说明**](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/blob/main/README.md) · [项目源码](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined)
+     [**Build instructions**](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/blob/main/README.md) · [Project source](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-107. <a name="game-goldeneye-jkdansereau"></a>**007：黄金眼 · jkdansereau移植**
+107. <a name="game-goldeneye-jkdansereau"></a>**GoldenEye 007 · jkdansereau port**
 
-     <a href="https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/jkdansereau/goldeneye-pc-port/main/docs/img/shots/feature-splitscreen.jpg" width="760" alt="上游分屏游戏截图"></a>
+     <a href="https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/building.md"><img src="https://raw.githubusercontent.com/jkdansereau/goldeneye-pc-port/main/docs/img/shots/feature-splitscreen.jpg" width="760" alt="Upstream split-screen screenshot"></a>
 
-     <sub>上游分屏游戏截图 <a href="https://github.com/jkdansereau/goldeneye-pc-port">图片来源</a></sub>
+     <sub>Upstream split-screen screenshot <a href="https://github.com/jkdansereau/goldeneye-pc-port">Image source</a></sub>
 
-     重访007的潜入射击战役与分屏对战。基于既有N64源码重建，提供Windows与Linux原生程序。
+     Revisit GoldenEye’s stealth-shooting campaign and split-screen multiplayer through a Windows/Linux port built from the existing N64 decompilation.
 
-     **平台：** Windows / Linux / Steam Deck
+     **Platforms:** Windows / Linux / Steam Deck
 
-     **运行：** 解压发布包，将美版ROM命名为ge007.ntsc-final.z64放入data目录后启动。源码构建需CMake、SDL2、zlib、Python3及MIPS工具，提取数据后执行build-pc.sh ntsc-final。
+     **Run:** Extract a release, place your US ROM in the data folder as ge007.ntsc-final.z64 and launch. Source builds need CMake, SDL2, zlib, Python 3 and MIPS tools; extract assets, then run build-pc.sh ntsc-final.
 
-     **所需文件：** 自己的NTSC-U美版GoldenEye 007 ROM；显卡需OpenGL3.0。
+     **Required files:** Your own US NTSC-U GoldenEye 007 ROM; OpenGL 3.0 graphics.
 
-     [**构建说明**](https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/building.md) · [项目源码](https://github.com/jkdansereau/goldeneye-pc-port)
+     [**Build instructions**](https://github.com/jkdansereau/goldeneye-pc-port/blob/main/docs/building.md) · [Project source](https://github.com/jkdansereau/goldeneye-pc-port)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-108. <a name="game-metroid-dread-recomp"></a>**密特罗德：生存恐惧 · PC重编译预览**
+108. <a name="game-metroid-dread-recomp"></a>**Metroid Dread · PC recompilation preview**
 
-     <a href="https://github.com/yozander2009-stack/Metroid-Dread-Recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/yozander2009-stack/Metroid-Dread-Recomp/main/docs/images/play-screen.png" width="760" alt="上游提供的PC启动器页面"></a>
+     <a href="https://github.com/yozander2009-stack/Metroid-Dread-Recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/yozander2009-stack/Metroid-Dread-Recomp/main/docs/images/play-screen.png" width="760" alt="PC launcher page supplied by the upstream project"></a>
 
-     <sub>上游提供的PC启动器页面 <a href="https://github.com/yozander2009-stack/Metroid-Dread-Recomp/blob/main/README.md">图片来源</a></sub>
+     <sub>PC launcher page supplied by the upstream project <a href="https://github.com/yozander2009-stack/Metroid-Dread-Recomp/blob/main/README.md">Image source</a></sub>
 
-     操纵萨姆斯探索设施、获取能力并躲避追击。当前0.x版本为早期移植预览。
+     Guide Samus through facilities, gain abilities and evade pursuers in an early 0.x port preview.
 
-     **平台：** Windows x64
+     **Platforms:** Windows x64
 
-     **运行：** 解压发布ZIP，启动设置器并选择自有游戏文件，完成本机构建后Play。源码构建需GCC14.2、Python3.12、glslang16.6及指定SDL2/zlib运行库，按README准备工具链并执行build.bat。
+     **Run:** Extract a release ZIP, choose your game files in setup, wait for the local build and select Play. Source builds use GCC 14.2, Python 3.12, glslang 16.6 and the specified SDL2/zlib libraries; prepare the toolchain and run build.bat.
 
-     **所需文件：** 自己的Switch版Metroid Dread 2.1.0 ExeFS和合并更新的RomFS；仅有RomFS不够。
+     **Required files:** Your own Metroid Dread 2.1.0 ExeFS and RomFS with the update merged; RomFS alone is insufficient.
 
-     [**构建说明**](https://github.com/yozander2009-stack/Metroid-Dread-Recomp/blob/main/README.md) · [项目源码](https://github.com/yozander2009-stack/Metroid-Dread-Recomp)
+     [**Build instructions**](https://github.com/yozander2009-stack/Metroid-Dread-Recomp/blob/main/README.md) · [Project source](https://github.com/yozander2009-stack/Metroid-Dread-Recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-109. <a name="game-mhgu-recomp"></a>**怪物猎人XX · MHGU Recomp**
+109. <a name="game-mhgu-recomp"></a>**Monster Hunter Generations Ultimate · MHGU Recomp**
 
-     <a href="https://github.com/morerokk/MHGURecomp/blob/master/README.md"><img src="https://github.com/user-attachments/assets/fd759ba1-0c58-4390-96bb-ca81801492e7" width="760" alt="上游问题报告中的村庄画面（气泡显示问题）"></a>
+     <a href="https://github.com/morerokk/MHGURecomp/blob/master/README.md"><img src="https://github.com/user-attachments/assets/fd759ba1-0c58-4390-96bb-ca81801492e7" width="760" alt="Village screenshot from an upstream speech-bubble rendering issue"></a>
 
-     <sub>上游问题报告中的村庄画面（气泡显示问题） <a href="https://github.com/morerokk/MHGURecomp/issues/82">图片来源</a></sub>
+     <sub>Village screenshot from an upstream speech-bubble rendering issue <a href="https://github.com/morerokk/MHGURecomp/issues/82">Image source</a></sub>
 
-     准备装备、挑战大型怪物并与同伴组队狩猎。Switch版1.4.0的Windows/Linux重编译。
+     Prepare equipment, hunt large monsters and join other hunters in a Windows/Linux recompilation of Switch version 1.4.0.
 
-     **平台：** Windows10/11 x64 / Linux，AVX2、Vulkan1.2
+     **Platforms:** Windows 10/11 x64 / Linux, AVX2 and Vulkan 1.2
 
-     **运行：** 可用对应平台发布ZIP导入自有游戏目录。Windows源码构建需MSYS2 UCRT64、Clang、SDL3、Vulkan工具和Python3.10，按README运行make gen及make，再启动mhgurecomp；Linux另有上游步骤。
+     **Run:** Use a platform release ZIP with your game folder. Windows source builds need MSYS2 UCRT64, Clang, SDL3, Vulkan tools and Python 3.10; follow make gen and make, then start mhgurecomp. Separate Linux steps are documented upstream.
 
-     **所需文件：** 自己的MHGU1.4.0 exefs和romfs，Title ID为0100770008DD8000；main的Build ID须与上游要求匹配。
+     **Required files:** Your own MHGU 1.4.0 exefs and romfs for title ID 0100770008DD8000; main must match the upstream build-ID requirement.
 
-     [**构建说明**](https://github.com/morerokk/MHGURecomp/blob/master/README.md) · [项目源码](https://github.com/morerokk/MHGURecomp)
+     [**Build instructions**](https://github.com/morerokk/MHGURecomp/blob/master/README.md) · [Project source](https://github.com/morerokk/MHGURecomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-110. <a name="game-openshao"></a>**真人快打：少林武僧 · OpenShao**
+110. <a name="game-openshao"></a>**Mortal Kombat: Shaolin Monks · OpenShao**
 
-     <a href="https://github.com/OAleex/OpenShao/blob/main/README.md"><img src="https://github.com/user-attachments/assets/ef3f39eb-ba93-4d82-a6c7-e40dd2ab1db7" width="760" alt="上游问题报告中的游戏画面"></a>
+     <a href="https://github.com/OAleex/OpenShao/blob/main/README.md"><img src="https://github.com/user-attachments/assets/ef3f39eb-ba93-4d82-a6c7-e40dd2ab1db7" width="760" alt="Gameplay screenshot from an upstream issue report"></a>
 
-     <sub>上游问题报告中的游戏画面 <a href="https://github.com/OAleex/OpenShao/issues/2">图片来源</a></sub>
+     <sub>Gameplay screenshot from an upstream issue report <a href="https://github.com/OAleex/OpenShao/issues/2">Image source</a></sub>
 
-     在真人快打世界探索并进行动作战斗，支持本地双人合作。Xbox版本的Windows/Linux重编译。
+     Explore and fight through the Mortal Kombat world, including local co-op, in a Windows/Linux recompilation of the Xbox game.
 
-     **平台：** Windows 10 1903+ / Linux x64（glibc2.38+）
+     **Platforms:** Windows 10 1903+ / Linux x64 (glibc 2.38+)
 
-     **运行：** 解压发布包，打开OpenShao，选择自有ISO、XISO、ZIP或解包目录后Play。自行构建需Python3.11、Git及VS2022/LLVM21或Clang18，按构建指南运行build_recomp.py。
+     **Run:** Extract a release, open OpenShao and choose your ISO, XISO, ZIP or extracted folder, then Play. Source builds use Python 3.11, Git and VS2022/LLVM21 or Clang18; follow the build_recomp.py guide.
 
-     **所需文件：** 自己的USA/Europe Xbox游戏数据及default.xbe；SSE4.2/POPCNT CPU，D3D12或Vulkan1.2显卡。
+     **Required files:** Your own US/European Xbox game files including default.xbe; SSE4.2/POPCNT CPU and D3D12 or Vulkan 1.2 graphics.
 
-     [**构建说明**](https://github.com/OAleex/OpenShao/blob/main/README.md) · [项目源码](https://github.com/OAleex/OpenShao)
+     [**Build instructions**](https://github.com/OAleex/OpenShao/blob/main/README.md) · [Project source](https://github.com/OAleex/OpenShao)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-111. <a name="game-namco-2x-systems"></a>**南梦宫街机重建 · Namco 2x Systems**
+111. <a name="game-namco-2x-systems"></a>**Namco 2x Systems · arcade reconstructions**
 
-     <a href="https://github.com/spacestate1/namco22-decompile/blob/main/README.md"><img src="https://raw.githubusercontent.com/spacestate1/namco22-decompile/main/docs/images/raverace-widescreen.png" width="760" alt="上游项目提供的Rave Racer竞速画面"></a>
+     <a href="https://github.com/spacestate1/namco22-decompile/blob/main/README.md"><img src="https://raw.githubusercontent.com/spacestate1/namco22-decompile/main/docs/images/raverace-widescreen.png" width="760" alt="Rave Racer racing screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的Rave Racer竞速画面 <a href="https://github.com/spacestate1/namco22-decompile/blob/main/README.md">图片来源</a></sub>
+     <sub>Rave Racer racing screenshot supplied by the upstream project <a href="https://github.com/spacestate1/namco22-decompile/blob/main/README.md">Image source</a></sub>
 
-     重温Rave Racer竞速、Time Crisis光枪射击与Tokyo Wars坦克对战等12款街机作品。
+     Revisit twelve arcade titles, including Rave Racer racing, Time Crisis shooting and Tokyo Wars tank battles.
 
-     **平台：** Windows x64 / Linux x64
+     **Platforms:** Windows x64 / Linux x64
 
-     **运行：** Linux准备GCC、Make、CMake、SDL2、OpenGL、zlib和Python3/numpy，按游戏选择构建脚本并传入ROM ZIP，再运行对应启动脚本。Windows可用发布包，或从Linux用MinGW交叉构建。
+     **Run:** On Linux, install GCC, Make, CMake, SDL2, OpenGL, zlib and Python 3/numpy, then pass your ROM ZIPs to the documented per-game build script and launch that game. Windows has release packages or a MinGW cross-build route from Linux.
 
-     **所需文件：** 自己的MAME0.271或更新版本对应ROM ZIP；Rave Racer等另需namcoc74，Cyber Sled另需namcoc67/68，具体清单与校验见上游。
+     **Required files:** Your own matching ROM ZIPs from MAME 0.271 or newer; Rave Racer and some others also need namcoc74, while Cyber Sled needs namcoc67/68. Consult the upstream per-game list and checksums.
 
-     [**构建说明**](https://github.com/spacestate1/namco22-decompile/blob/main/README.md) · [项目源码](https://github.com/spacestate1/namco22-decompile)
+     [**Build instructions**](https://github.com/spacestate1/namco22-decompile/blob/main/README.md) · [Project source](https://github.com/spacestate1/namco22-decompile)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-112. <a name="game-ctr-high-octane"></a>**古惑狼赛车 · High Octane**
+112. <a name="game-ctr-high-octane"></a>**Crash Team Racing · High Octane**
 
-     <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml"><img src="https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/vita/screenshots/game1.jpg" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml"><img src="https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/vita/screenshots/game1.jpg" width="760" alt="Project image supplied by the author"></a>
 
-     <sub>作者提供的项目画面 <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/README.md">图片来源</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/README.md">Image source</a></sub>
 
-     基于CTR重建成果的移植，包含赛车、道具和计时模式，并提供WASM入口。
+     A port based on CTR reconstruction work, with kart racing, items, time trials and a WASM entry.
 
-     **平台：** Windows / Linux / macOS构建；浏览器运行
+     **Platforms:** Build on Windows / Linux / macOS; run in browser
 
-     **运行：** 按上游部署工作流准备Emscripten 6.0.9、CMake和Ninja，用emcmake配置build-web后编译；浏览器需导入自己的光盘。
+     **Run:** Follow the deployment workflow with Emscripten 6.0.9, CMake and Ninja, configure build-web with emcmake and compile; supply your disc for browser play.
 
-     **所需文件：** 自己的受支持CTR美版PS1光盘BIN；联机另有密钥文件输入。
+     **Required files:** Your own supported US CTR PS1 BIN; online play has a separate key-file input.
 
-     [**构建说明**](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml) · [项目介绍](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane) · [在线入口 · 查看文件要求](https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane)
+     [**Build instructions**](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/blob/vita/.github/workflows/deploy-pages.yml) · [Project information](https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane) · [Browser entry · check file requirements](https://rinnegatamante.github.io/Crash-Team-Racing-High-Octane)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-113. <a name="game-doaxvb-native"></a>**死或生：沙滩排球 · 原生移植**
+113. <a name="game-doaxvb-native"></a>**Dead or Alive Xtreme Beach Volleyball · native port**
 
-     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="上游README提供的原生移植排球比赛画面"></a>
+     <a href="https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md"><img src="https://github.com/NoRain211/doaxvb-re/releases/download/readme-media/doaxbv-match.jpg" width="760" alt="Native-port volleyball screenshot supplied by the upstream README"></a>
 
-     <sub>上游README提供的原生移植排球比赛画面 <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">图片来源</a></sub>
+     <sub>Native-port volleyball screenshot supplied by the upstream README <a href="https://github.com/NoRain211/doaxvb-re/blob/main/README.md">Image source</a></sub>
 
-     在海岛度假中进行沙滩排球比赛、小游戏与角色互动。初代Xbox作品的原生重编译。
+     Play beach volleyball, minigames and island-vacation activities through a native recompilation of the original Xbox game.
 
-     **平台：** Windows10/11 x64 / macOS（Intel、Apple Silicon）/ Linux / Steam Deck
+     **Platforms:** Windows 10/11 x64 / macOS (Intel, Apple Silicon) / Linux / Steam Deck
 
-     **运行：** Windows解压发布ZIP，在Launcher中选择ISO并Build game，本机构建后Play。源码需Python3.12、Capstone5.0.9、Git、CMake和extract-xiso；macOS/Linux按构建指南准备SDL3、编译器等并运行build_game.sh。
+     **Run:** On Windows, extract a release ZIP, choose your ISO in Launcher, select Build game and then Play. Source builds need Python 3.12, Capstone 5.0.9, Git, CMake and extract-xiso; on macOS/Linux follow the SDL3/compiler prerequisites and build_game.sh guide.
 
-     **所需文件：** 自己的支持的USA Xbox游戏ISO；Windows构建首次需要联网获取llvm-mingw等工具。
+     **Required files:** Your own supported US Xbox game ISO; Windows setup needs internet access to obtain llvm-mingw and other build tools on first use.
 
-     [**构建说明**](https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md) · [项目源码](https://github.com/NoRain211/doaxvb-re)
+     [**Build instructions**](https://github.com/NoRain211/doaxvb-re/blob/main/docs/building.md) · [Project source](https://github.com/NoRain211/doaxvb-re)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-114. <a name="game-open1560"></a>**疯狂都市 · Open1560**
+114. <a name="game-open1560"></a>**Midtown Madness · Open1560**
 
-     <a href="https://github.com/0x1F9F1/Open1560/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/0x1F9F1/Open1560/master/extra/preview.png" width="760" alt="上游城市驾驶预览"></a>
+     <a href="https://github.com/0x1F9F1/Open1560/blob/master/docs/building.md"><img src="https://raw.githubusercontent.com/0x1F9F1/Open1560/master/extra/preview.png" width="760" alt="Upstream city driving preview"></a>
 
-     <sub>上游城市驾驶预览 <a href="https://github.com/0x1F9F1/Open1560">图片来源</a></sub>
+     <sub>Upstream city driving preview <a href="https://github.com/0x1F9F1/Open1560">Image source</a></sub>
 
-     在城市道路中驾驶与竞速。针对Midtown Madness预览版Build1560的部分重实现，保留尚未重写的汇编代码。
+     Drive and race through city streets in a partial reimplementation of Midtown Madness preview build 1560, retaining assembly for functions not yet rewritten.
 
-     **平台：** Windows
+     **Platforms:** Windows
 
-     **运行：** 将上游发布包解压到游戏目录并运行Open1560.exe。自行构建需VS2022 C++，用premake5指定原版安装路径生成解决方案后编译。
+     **Run:** Extract the upstream release into the game folder and run Open1560.exe. To build, use VS2022 C++ and premake5 with your game directory to generate the solution.
 
-     **所需文件：** 自己的Midtown Madness数据audio.ar、core.ar和ui.ar。
+     **Required files:** Your own Midtown Madness audio.ar, core.ar and ui.ar files.
 
-     [**构建说明**](https://github.com/0x1F9F1/Open1560/blob/master/docs/building.md) · [项目源码](https://github.com/0x1F9F1/Open1560)
+     [**Build instructions**](https://github.com/0x1F9F1/Open1560/blob/master/docs/building.md) · [Project source](https://github.com/0x1F9F1/Open1560)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-115. <a name="game-goldenballoon"></a>**迪迪金刚赛车 · Golden Balloon**
+115. <a name="game-goldenballoon"></a>**Diddy Kong Racing · Golden Balloon**
 
-     <a href="https://github.com/akratch/goldenballoon/blob/main/README.md"><img src="assets/screenshots/goldenballoon-entry.jpg" width="760" alt="当前ROM导入页"></a>
+     <a href="https://github.com/akratch/goldenballoon/blob/main/README.md"><img src="assets/screenshots/goldenballoon-entry.jpg" width="760" alt="Current ROM import page"></a>
 
-     <sub>当前ROM导入页 <a href="https://akratch.github.io/golden-balloon/">图片来源</a></sub>
+     <sub>Current ROM import page <a href="https://akratch.github.io/golden-balloon/">Image source</a></sub>
 
-     基于游戏反编译成果的原生与WebGPU移植，提供卡丁车竞速和本地多人模式。
+     A native and WebGPU port based on the game decompilation, with kart racing and local multiplayer.
 
-     **平台：** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-     **运行：** 准备CMake、C11工具链和SDL2，用cmake配置编译；网页版按README使用固定版本emsdk与tools/web/build_web.sh。
+     **Run:** Prepare CMake, a C11 toolchain and SDL2, then configure and build; the browser target uses the pinned emsdk and tools/web/build_web.sh.
 
-     **所需文件：** 自己的美版或欧版1.1 ROM（.z64 / .v64 / .n64）；网页版需WebGPU浏览器。
+     **Required files:** Your own US or European v1.1 ROM (.z64 / .v64 / .n64); the browser target needs WebGPU.
 
-     [**构建说明**](https://github.com/akratch/goldenballoon/blob/main/README.md) · [项目介绍](https://github.com/akratch/goldenballoon) · [在线入口 · 查看文件要求](https://akratch.github.io/golden-balloon/)
+     [**Build instructions**](https://github.com/akratch/goldenballoon/blob/main/README.md) · [Project information](https://github.com/akratch/goldenballoon) · [Browser entry · check file requirements](https://akratch.github.io/golden-balloon/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-116. <a name="game-troyedwardsjr-z2rs"></a>**塞尔达传说II：林克的冒险 · z2rs**
+116. <a name="game-troyedwardsjr-z2rs"></a>**Zelda II: The Adventure of Link · z2rs**
 
-     <a href="https://github.com/troyedwardsjr/z2rs/blob/main/README.md"><img src="assets/screenshots/z2rs-import.jpg" width="760" alt="ROM导入页"></a>
+     <a href="https://github.com/troyedwardsjr/z2rs/blob/main/README.md"><img src="assets/screenshots/z2rs-import.jpg" width="760" alt="ROM import screen"></a>
 
-     <sub>ROM导入页 <a href="https://z2rs.com/">图片来源</a></sub>
+     <sub>ROM import screen <a href="https://z2rs.com/">Image source</a></sub>
 
-     用 Rust 重建横版战斗与地图探索，并提供浏览器版本和可选双人模式。
+     A Rust reconstruction of side-scrolling combat and exploration, with a browser build and optional co-op.
 
-     **平台：** 桌面 / 浏览器 / Android（源码构建）
+     **Platforms:** Desktop / browser / Android (source build)
 
-     **运行：** 安装Rust stable；桌面用make build、make run，网页另需wasm-pack并用make run-web；运行前设置Z2_ROM指向自己的ROM。
+     **Run:** Install stable Rust; use make build and make run for desktop. Web builds also need wasm-pack and make run-web. Set Z2_ROM to your ROM before playing.
 
-     **所需文件：** 自己的受支持美版 Zelda II .nes ROM，由页面校验。
+     **Required files:** Your own supported US Zelda II .nes ROM, checked by the page.
 
-     [**构建说明**](https://github.com/troyedwardsjr/z2rs/blob/main/README.md) · [项目源码](https://github.com/troyedwardsjr/z2rs) · [在线入口 · 查看文件要求](https://z2rs.com/)
+     [**Build instructions**](https://github.com/troyedwardsjr/z2rs/blob/main/README.md) · [Project source](https://github.com/troyedwardsjr/z2rs) · [Browser entry · check file requirements](https://z2rs.com/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-117. <a name="game-gt2-pc"></a>**跑车浪漫旅2 · GT2 PC / Browser**
+117. <a name="game-gt2-pc"></a>**Gran Turismo 2 · PC / Browser**
 
-     <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/main/docs/images/cockpit-0.5.0.png" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/main/docs/images/cockpit-0.5.0.png" width="760" alt="Project image supplied by the author"></a>
 
-     <sub>作者提供的项目画面 <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md">图片来源</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md">Image source</a></sub>
 
-     将Gran Turismo 2移植到桌面与浏览器，提供Arcade和Simulation赛车模式。
+     A desktop and browser port of Gran Turismo 2 with Arcade and Simulation modes.
 
-     **平台：** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-     **运行：** 按README使用对应平台构建脚本；浏览器构建见docs/WEB.md，运行时选择自己的完整BIN镜像。
+     **Run:** Use the platform build scripts in the README; docs/WEB.md covers the browser build. Select your full BIN at launch.
 
-     **所需文件：** 自己的完整2352字节/扇区BIN镜像；网页版不支持VR或联机。
+     **Required files:** Your own complete 2352-byte-sector BIN; browser VR and multiplayer are unavailable.
 
-     [**构建说明**](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md) · [项目介绍](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) · [在线入口 · 查看文件要求](https://ydubr-gt2.surge.sh)
+     [**Build instructions**](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/blob/main/README.md) · [Project information](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) · [Browser entry · check file requirements](https://ydubr-gt2.surge.sh)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-118. <a name="game-dune-dynasty"></a>**沙丘2 · Dune Dynasty**
+118. <a name="game-dune-dynasty"></a>**Dune II · Dune Dynasty**
 
-     <a href="https://github.com/gameflorist/dunedynasty/blob/master/README.md"><img src="https://raw.githubusercontent.com/gameflorist/dunedynasty/master/docs/screenshots.jpg" width="760" alt="上游战斗与菜单截图拼图"></a>
+     <a href="https://github.com/gameflorist/dunedynasty/blob/master/README.md"><img src="https://raw.githubusercontent.com/gameflorist/dunedynasty/master/docs/screenshots.jpg" width="760" alt="Upstream gameplay and menu screenshot collage"></a>
 
-     <sub>上游战斗与菜单截图拼图 <a href="https://github.com/gameflorist/dunedynasty">图片来源</a></sub>
+     <sub>Upstream gameplay and menu screenshot collage <a href="https://github.com/gameflorist/dunedynasty">Image source</a></sub>
 
-     在厄拉科斯采集香料、建设基地并指挥部队。基于OpenDUNE逆向引擎的现代增强移植。
+     Harvest spice, build a base and command armies on Arrakis through a modern port based on the reverse-engineered OpenDUNE engine.
 
-     **平台：** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-     **运行：** 下载对应平台发布包，把PAK文件放入上游说明的数据目录后启动。自行构建需CMake、Allegro等依赖，执行对应平台build脚本。
+     **Run:** Download a platform release, place the PAK files in its documented data folder and launch it. Source builds use CMake, Allegro and the platform build script.
 
-     **所需文件：** 自己的Dune II欧洲版v1.07 PAK数据，文件清单见上游FILELIST.TXT。
+     **Required files:** Your own Dune II EU v1.07 PAK files, as listed in the upstream FILELIST.TXT.
 
-     [**构建说明**](https://github.com/gameflorist/dunedynasty/blob/master/README.md) · [项目源码](https://github.com/gameflorist/dunedynasty)
+     [**Build instructions**](https://github.com/gameflorist/dunedynasty/blob/master/README.md) · [Project source](https://github.com/gameflorist/dunedynasty)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-119. <a name="game-tekken-tag2-shihab"></a>**铁拳TT2 · Shihab PC移植**
+119. <a name="game-tekken-tag2-shihab"></a>**Tekken Tag Tournament 2 · Shihab PC port**
 
-     <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/shihabal3amri/tekken-tag-tournament-2-pc/main/.github/assets/screens/00-hero-lei-china.jpg" width="760" alt="上游对战截图"></a>
+     <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/shihabal3amri/tekken-tag-tournament-2-pc/main/.github/assets/screens/00-hero-lei-china.jpg" width="760" alt="Upstream fight screenshot"></a>
 
-     <sub>上游对战截图 <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc">图片来源</a></sub>
+     <sub>Upstream fight screenshot <a href="https://github.com/shihabal3amri/tekken-tag-tournament-2-pc">Image source</a></sub>
 
-     双人组队的3D格斗，切换角色进行连招。将Xbox360原作静态重编译为Windows程序的社区项目。
+     Switch fighters and chain combos in tag-team 3D combat through a community static recompilation of the Xbox 360 game for Windows.
 
-     **平台：** Windows 10 / 11，64位，DirectX11
+     **Platforms:** Windows 10 / 11, 64-bit, DirectX 11
 
-     **运行：** 运行上游ttt2_setup.exe并选择自有ISO和TU3，由安装器在本地构建后启动。源码构建需VS2022、Clang、CMake/Ninja、Python3.10+及XenonRecomp。
+     **Run:** Run upstream ttt2_setup.exe and select your ISO and TU3 to build locally, then launch. Source builds require VS2022, Clang, CMake/Ninja, Python 3.10+ and XenonRecomp.
 
-     **所需文件：** 自己的Xbox360美/欧版ISO与Title Update3、约13GB空间；在线功能还需Steam。
+     **Required files:** Your own Xbox 360 USA/Europe ISO and Title Update 3, plus about 13 GB free space; online play also needs Steam.
 
-     [**构建说明**](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md) · [项目源码](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc)
+     [**Build instructions**](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/blob/main/BUILDING.md) · [Project source](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-120. <a name="game-gravity-rush2-pc"></a>**重力异想世界2 · 原生PC移植**
+120. <a name="game-gravity-rush2-pc"></a>**Gravity Rush 2 · native PC port**
 
-     <a href="https://github.com/HayatoG/gr2_pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/HayatoG/gr2_pc/main/docs/screenshots/04-gameplay.jpg" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/HayatoG/gr2_pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/HayatoG/gr2_pc/main/docs/screenshots/04-gameplay.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/HayatoG/gr2_pc/blob/main/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/HayatoG/gr2_pc/blob/main/README.md">Image source</a></sub>
 
-     改变重力方向在空中穿梭，探索城市并展开战斗。PS4作品的早期原生移植。
+     Shift gravity to fly, explore cities and fight through an early native port of the PS4 game.
 
-     **平台：** Linux x64（作者已测试）/ Windows x64（自动构建，游戏内验证待补）
+     **Platforms:** Linux x64 (author-tested) / Windows x64 (automated builds; gameplay validation pending)
 
-     **运行：** 解压包，选择自有游戏目录后Play。Linux源码构建需SDL3、Vulkan、FFmpeg、FreeType、Boost等，按README构建port并启动gr2_launcher.sh；Windows使用MSYS2 CLANG64构建说明。
+     **Run:** Extract a package, choose your game folder and select Play. Linux source builds use SDL3, Vulkan, FFmpeg, FreeType, Boost and other listed dependencies; build port and run gr2_launcher.sh. Windows uses the MSYS2 CLANG64 guide.
 
-     **所需文件：** 自己的PS4 CUSA03694美版游戏与01.11更新合并目录，约28GB；音频另需自己主机的libSceNgs2.sprx放入system_lib。
+     **Required files:** Your own US PS4 CUSA03694 game merged with update 01.11, about 28 GB; audio additionally needs libSceNgs2.sprx from your console in system_lib.
 
-     [**构建说明**](https://github.com/HayatoG/gr2_pc/blob/main/README.md) · [项目源码](https://github.com/HayatoG/gr2_pc)
+     [**Build instructions**](https://github.com/HayatoG/gr2_pc/blob/main/README.md) · [Project source](https://github.com/HayatoG/gr2_pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-121. <a name="game-witch-time"></a>**猎天使魔女3 · Witch Time**
+121. <a name="game-witch-time"></a>**Bayonetta 3 · Witch Time**
 
-     <a href="https://github.com/Zexyen/Witch-Time/blob/main/README.md"><img src="https://github.com/user-attachments/assets/a8e4d26b-d997-4f93-b4a9-fbc1f44bf7d5" width="760" alt="上游用户图形问题报告中的过场画面"></a>
+     <a href="https://github.com/Zexyen/Witch-Time/blob/main/README.md"><img src="https://github.com/user-attachments/assets/a8e4d26b-d997-4f93-b4a9-fbc1f44bf7d5" width="760" alt="Cutscene screenshot from an upstream graphics-defect report"></a>
 
-     <sub>上游用户图形问题报告中的过场画面 <a href="https://github.com/Zexyen/Witch-Time/issues/93">图片来源</a></sub>
+     <sub>Cutscene screenshot from an upstream graphics-defect report <a href="https://github.com/Zexyen/Witch-Time/issues/93">Image source</a></sub>
 
-     组合连招、召唤恶魔并在关卡中战斗。Switch版的Windows与Linux重编译移植，仍可能出现视觉缺陷和场景卡顿。
+     Chain attacks, summon demons and fight through stages in a Windows and Linux recompilation of the Switch game. Visual defects and scene-dependent stutters remain possible.
 
-     **平台：** Windows10/11 x64 / Linux；Vulkan
+     **Platforms:** Windows 10/11 x64 / Linux; Vulkan
 
-     **运行：** Windows解压发布ZIP，运行witch-time.exe并选择已解密转储目录，首次在本机生成游戏。Linux发布包自带构建工具；源码需Rust/Cargo、Clang19+/lld及SDL3、Vulkan、glslang、FFmpeg和OpenGL开发库，先构建wtbuild，再按README执行setup --dump。
+     **Run:** On Windows, extract the release ZIP, run witch-time.exe and select your decrypted dump folder for local generation. Linux release packages include build tools. Source builds need Rust/Cargo, Clang 19+/lld and SDL3, Vulkan, glslang, FFmpeg and OpenGL development libraries: build wtbuild, then run setup --dump as documented.
 
-     **所需文件：** 自己的兼容Bayonetta3转储：exefs与romfs目录；main build ID须为b47cc79b88b7091e。项目不提供解密。
+     **Required files:** Your own compatible Bayonetta 3 dump with exefs and romfs folders; main build ID b47cc79b88b7091e. The project does not decrypt the game.
 
-     [**构建说明**](https://github.com/Zexyen/Witch-Time/blob/main/README.md) · [项目源码](https://github.com/Zexyen/Witch-Time)
+     [**Build instructions**](https://github.com/Zexyen/Witch-Time/blob/main/README.md) · [Project source](https://github.com/Zexyen/Witch-Time)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-122. <a name="game-gow-native-pc"></a>**战神 · Native PC**
+122. <a name="game-gow-native-pc"></a>**God of War · Native PC**
 
-     <a href="https://github.com/Vnnc1/gow-native-pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/cd034304-aac9-4815-8b40-e97e50624e7f" width="760" alt="上游用户问题中的编译准备界面，非游戏画面"></a>
+     <a href="https://github.com/Vnnc1/gow-native-pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/cd034304-aac9-4815-8b40-e97e50624e7f" width="760" alt="Build-preparation interface from an upstream user issue; not a gameplay screenshot"></a>
 
-     <sub>上游用户问题中的编译准备界面，非游戏画面 <a href="https://github.com/Vnnc1/gow-native-pc/issues/6">图片来源</a></sub>
+     <sub>Build-preparation interface from an upstream user issue; not a gameplay screenshot <a href="https://github.com/Vnnc1/gow-native-pc/issues/6">Image source</a></sub>
 
-     在希腊神话世界中进行动作战斗与解谜。PS2作品的Windows移植，部分场景尚不能稳定60帧。
+     Fight and solve puzzles through Greek mythology in a Windows port of the PS2 game. Some scenes still fall short of a steady 60 fps.
 
-     **平台：** Windows10/11 x64，SSE4.2、OpenGL4.3+；8GB内存，构建建议16GB
+     **Platforms:** Windows 10/11 x64, SSE4.2, OpenGL 4.3+; 8 GB RAM, 16 GB recommended for building
 
-     **运行：** 下载安装器后，在启动器中下载工具、选择自己的ISO，再执行Install and build。首次需联网取得指定运行时并本机编译；源码也可按README运行build.cmd，通过tools、fetch、discs、configure、recomp等阶段生成游戏。
+     **Run:** Install the release launcher, download its tools, choose your ISO and select Install and build. Initial setup needs internet access for the pinned runtime and compiles locally. Source builds can also use the README’s build.cmd pipeline through tools, fetch, discs, configure and recomp.
 
-     **所需文件：** 自己的PS2美国版God of War SCUS-97399 ISO，或上游明确支持的翻译版；另需工具、运行时与安装空间。
+     **Required files:** Your own PS2 USA God of War SCUS-97399 ISO, or an explicitly supported translation, plus space for the tools, runtime and installed build.
 
-     [**构建说明**](https://github.com/Vnnc1/gow-native-pc/blob/main/README.md) · [项目源码](https://github.com/Vnnc1/gow-native-pc)
+     [**Build instructions**](https://github.com/Vnnc1/gow-native-pc/blob/main/README.md) · [Project source](https://github.com/Vnnc1/gow-native-pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-123. <a name="game-wipeout-pc"></a>**反重力赛车：欧米伽合集 · PC移植**
+123. <a name="game-wipeout-pc"></a>**WipEout Omega Collection · PC port**
 
-     <a href="https://github.com/AbdelmoumenDeghbouche/wipeout_pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/6e48d167-094c-4a1f-83ef-49d53bd3e383" width="760" alt="上游问题报告中的PS4模式画面对比"></a>
+     <a href="https://github.com/AbdelmoumenDeghbouche/wipeout_pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/6e48d167-094c-4a1f-83ef-49d53bd3e383" width="760" alt="PS4-mode image from an upstream port issue report"></a>
 
-     <sub>上游问题报告中的PS4模式画面对比 <a href="https://github.com/AbdelmoumenDeghbouche/wipeout_pc/issues/55">图片来源</a></sub>
+     <sub>PS4-mode image from an upstream port issue report <a href="https://github.com/AbdelmoumenDeghbouche/wipeout_pc/issues/55">Image source</a></sub>
 
-     驾驶反重力飞船高速竞赛，包含2048、HD和Fury内容。PS4程序通过社区运行时在PC执行。
+     Race anti-gravity craft across 2048, HD and Fury through a community runtime that executes the PS4 program on PC.
 
-     **平台：** Windows 10 / 11 x64，AVX，Vulkan1.3
+     **Platforms:** Windows 10 / 11 x64, AVX, Vulkan 1.3
 
-     **运行：** 解压wipeout-windows.zip，运行WipEout.exe，选择包含eboot.bin的自有游戏目录后PLAY。自行构建使用MSYS2 CLANG64、Python3.10及子模块，按README运行build.sh。
+     **Run:** Extract wipeout-windows.zip, run WipEout.exe, select your game folder containing eboot.bin and choose PLAY. Source builds use MSYS2 CLANG64, Python 3.10 and submodules; follow build.sh in the README.
 
-     **所需文件：** 自己的PS4 WipEout Omega Collection及对应更新，合并为含eboot.bin的目录。
+     **Required files:** Your own PS4 WipEout Omega Collection with a matching update merged into a folder containing eboot.bin.
 
-     [**构建说明**](https://github.com/AbdelmoumenDeghbouche/wipeout_pc/blob/main/README.md) · [项目源码](https://github.com/AbdelmoumenDeghbouche/wipeout_pc)
+     [**Build instructions**](https://github.com/AbdelmoumenDeghbouche/wipeout_pc/blob/main/README.md) · [Project source](https://github.com/AbdelmoumenDeghbouche/wipeout_pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-124. <a name="game-aoe-free-remake"></a>**帝国时代 / 罗马复兴 · 基础玩法重实现**
+124. <a name="game-aoe-free-remake"></a>**Age of Empires / Rise of Rome · basic reimplementation**
 
-     <a href="https://github.com/FolkertVanVerseveld/aoe/blob/master/README.md"><img src="https://github.com/FolkertVanVerseveld/aoe/assets/5989565/4920f958-da29-44fd-a263-7ab0d5d9a5f6" width="760" alt="上游README中的基础地图画面"></a>
+     <a href="https://github.com/FolkertVanVerseveld/aoe/blob/master/README.md"><img src="https://github.com/FolkertVanVerseveld/aoe/assets/5989565/4920f958-da29-44fd-a263-7ab0d5d9a5f6" width="760" alt="Basic map screenshot from the upstream README"></a>
 
-     <sub>上游README中的基础地图画面 <a href="https://github.com/FolkertVanVerseveld/aoe/blob/master/README.md">图片来源</a></sub>
+     <sub>Basic map screenshot from the upstream README <a href="https://github.com/FolkertVanVerseveld/aoe/blob/master/README.md">Image source</a></sub>
 
-     采集资源、建设聚落并指挥单位。当前主要是基础多人玩法，电脑对手行为仍有限。
+     Gather resources, build a settlement and command units in a basic multiplayer reimplementation with limited computer-opponent behavior.
 
-     **平台：** Windows / Linux；macOS见上游源码说明
+     **Platforms:** Windows / Linux; see upstream source notes for macOS
 
-     **运行：** 安装C/C++、CMake、SDL2及image/mixer依赖，运行cmake -S . -B build后编译empires。挂载自己的CD或准备安装目录；Linux字体路径需按INSTALL调整。
+     **Run:** Install C/C++, CMake, SDL2 and its image/mixer dependencies, configure with cmake -S . -B build and build empires. Mount your CD or prepare its installation folder; adjust Linux font paths as described in INSTALL.
 
-     **所需文件：** 自己的Age of Empires或Rise of Rome原版数据、language.dll与字体。
+     **Required files:** Your own Age of Empires or Rise of Rome data, language.dll and fonts.
 
-     [**构建说明**](https://github.com/FolkertVanVerseveld/aoe/blob/master/README.md) · [项目源码](https://github.com/FolkertVanVerseveld/aoe)
+     [**Build instructions**](https://github.com/FolkertVanVerseveld/aoe/blob/master/README.md) · [Project source](https://github.com/FolkertVanVerseveld/aoe)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-125. <a name="game-weeping-empire"></a>**塞尔达传说：王国之泪 · Weeping of the Empire**
+125. <a name="game-weeping-empire"></a>**The Legend of Zelda: Tears of the Kingdom · Weeping of the Empire**
 
-     <a href="https://github.com/daniel-madrid-07/weeping-of-the-empire/blob/main/README.md"><img src="https://github.com/daniel-madrid-07/weeping-of-the-empire/releases/download/v0.1.1/screenshot-gliding.jpg" width="760" alt="作者开发构建的滑翔画面，非本合集实测"></a>
+     <a href="https://github.com/daniel-madrid-07/weeping-of-the-empire/blob/main/README.md"><img src="https://github.com/daniel-madrid-07/weeping-of-the-empire/releases/download/v0.1.1/screenshot-gliding.jpg" width="760" alt="Gliding screenshot from the author’s development build; not tested by this directory"></a>
 
-     <sub>作者开发构建的滑翔画面，非本合集实测 <a href="https://github.com/daniel-madrid-07/weeping-of-the-empire/blob/main/README.md">图片来源</a></sub>
+     <sub>Gliding screenshot from the author’s development build; not tested by this directory <a href="https://github.com/daniel-madrid-07/weeping-of-the-empire/blob/main/README.md">Image source</a></sub>
 
-     探索海拉鲁、组合物件并解开开放世界谜题。针对Switch原版1.0.0的Windows移植分支，提供画面与帧率选项，仍有视觉差异和首次着色器卡顿。
+     Explore Hyrule, combine objects and solve open-world puzzles in a Windows port targeting Switch version 1.0.0. Display and frame-rate options are available, with remaining visual differences and first-use shader stutters.
 
-     **平台：** Windows10/11 x64，Vulkan1.3；8GB内存，建议16GB
+     **Platforms:** Windows 10/11 x64, Vulkan 1.3; 8 GB RAM, 16 GB recommended
 
-     **运行：** 下载Setup，选择自己的游戏、密钥和约75GB空闲的NTFS目录，联网下载工具后在本机编译。源码需Git、LLVM、VS C++ Build Tools、Vulkan SDK与Python3.11+，按README使用Builder或builder.py构建；不支持Linux和Steam Deck。
+     **Run:** Download Setup, choose your game, keys and an NTFS folder with about 75 GB free; it downloads tools and compiles locally. Source builds need Git, LLVM, VS C++ Build Tools, the Vulkan SDK and Python 3.11+: use Builder or builder.py as documented. Linux and Steam Deck are unsupported.
 
-     **所需文件：** 自己的Switch 1.0.0 NSP或XCI（Title 0100F2C0115B6000）及prod.keys；自有固件可选，用于原版中文和韩文字体。
+     **Required files:** Your own Switch version 1.0.0 NSP or XCI (title 0100F2C0115B6000) and prod.keys; your own firmware is optional for the original Chinese and Korean fonts.
 
-     [**构建说明**](https://github.com/daniel-madrid-07/weeping-of-the-empire/blob/main/README.md) · [项目源码](https://github.com/daniel-madrid-07/weeping-of-the-empire)
+     [**Build instructions**](https://github.com/daniel-madrid-07/weeping-of-the-empire/blob/main/README.md) · [Project source](https://github.com/daniel-madrid-07/weeping-of-the-empire)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-126. <a name="game-gow2-santi"></a>**战争机器2 · gow2-recomp**
+126. <a name="game-gow2-santi"></a>**Gears of War 2 · gow2-recomp**
 
-     <a href="https://github.com/santiquiroz/gears-of-war-2-pc-port/blob/master/BUILDING.md"><img src="https://raw.githubusercontent.com/santiquiroz/gears-of-war-2-pc-port/master/docs/screenshots/act1-jacintomed.jpg" width="760" alt="上游项目展示的Act1医院战斗画面"></a>
+     <a href="https://github.com/santiquiroz/gears-of-war-2-pc-port/blob/master/BUILDING.md"><img src="https://raw.githubusercontent.com/santiquiroz/gears-of-war-2-pc-port/master/docs/screenshots/act1-jacintomed.jpg" width="760" alt="Upstream screenshot of combat in the Act 1 hospital"></a>
 
-     <sub>上游项目展示的Act1医院战斗画面 <a href="https://github.com/santiquiroz/gears-of-war-2-pc-port/blob/master/README.md">图片来源</a></sub>
+     <sub>Upstream screenshot of combat in the Act 1 hospital <a href="https://github.com/santiquiroz/gears-of-war-2-pc-port/blob/master/README.md">Image source</a></sub>
 
-     利用掩体与队友合作对抗兽族。Xbox360版的Windows移植，也提供实验性Android版。
+     Fight the Locust with cover-based combat and squad cooperation in a Windows port of the Xbox 360 game, with an experimental Android build.
 
-     **平台：** Windows10/11 x64，Direct3D12；Android10+ ARM64/Vulkan实验
+     **Platforms:** Windows 10/11 x64, Direct3D 12; experimental Android 10+ ARM64/Vulkan
 
-     **运行：** Windows解压发布ZIP并启动gow2.exe，选择自己的ISO或含default.xex与GearGame的目录；Android使用APK导入。自行构建按BUILDING.md准备VS2022、clang18+、CMake3.25、Ninja、Python3.9+及指定ReXGlue SDK，再执行上游PowerShell构建脚本。
+     **Run:** On Windows, extract a release ZIP, run gow2.exe and select your ISO or a folder containing default.xex and GearGame; the Android APK imports the same files. Source builds follow BUILDING.md with VS2022, clang 18+, CMake 3.25+, Ninja, Python 3.9+ and the specified ReXGlue SDK, then the upstream PowerShell build script.
 
-     **所需文件：** 自己的美国Xbox360零售版游戏，default.xex为0.0.0.5、Title ID 4D53082D、Media ID 63AF211E；不支持更新后的XEX。ISO首次提取约需8GB空间。
+     **Required files:** Your own US retail Xbox 360 game, default.xex version 0.0.0.5, title ID 4D53082D, media ID 63AF211E; title-update executables are unsupported. Initial ISO extraction needs about 8 GB.
 
-     [**构建说明**](https://github.com/santiquiroz/gears-of-war-2-pc-port/blob/master/BUILDING.md) · [项目源码](https://github.com/santiquiroz/gears-of-war-2-pc-port)
+     [**Build instructions**](https://github.com/santiquiroz/gears-of-war-2-pc-port/blob/master/BUILDING.md) · [Project source](https://github.com/santiquiroz/gears-of-war-2-pc-port)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-127. <a name="game-mcla-renan"></a>**湾岸午夜俱乐部：洛杉矶完整版 · Renan分支**
+127. <a name="game-mcla-renan"></a>**Midnight Club: Los Angeles Complete Edition · Renan fork**
 
-     <a href="https://github.com/RenanQueiroz/mcla-recomp/blob/main/docs/building.md"><img src="https://github.com/user-attachments/assets/4b884999-5ada-4c1d-8443-bb248e4ce0c3" width="760" alt="上游用户提供的启动器设置界面，非游戏画面"></a>
+     <a href="https://github.com/RenanQueiroz/mcla-recomp/blob/main/docs/building.md"><img src="https://github.com/user-attachments/assets/4b884999-5ada-4c1d-8443-bb248e4ce0c3" width="760" alt="Launcher settings from an upstream user report; not a gameplay screenshot"></a>
 
-     <sub>上游用户提供的启动器设置界面，非游戏画面 <a href="https://github.com/RenanQueiroz/mcla-recomp/issues/45">图片来源</a></sub>
+     <sub>Launcher settings from an upstream user report; not a gameplay screenshot <a href="https://github.com/RenanQueiroz/mcla-recomp/issues/45">Image source</a></sub>
 
-     在洛杉矶街头竞速、改装赛车并挑战生涯。基于既有重编译项目的Windows分支，增加启动器、HDR与画面选项。
+     Race through Los Angeles, tune cars and progress through a career in a Windows fork of the existing recompilation, adding a launcher, HDR and graphics options.
 
-     **平台：** Windows10/11 x64，Direct3D12；可选Vulkan
+     **Platforms:** Windows 10/11 x64, Direct3D 12; optional Vulkan
 
-     **运行：** 下载MCLA-Setup.exe，在向导中选择ISO与安装目录，由启动器准备工具并本机构建。源码需Git、Python3、CMake/Ninja、VS2022 C++与Clang20（或llvm-mingw）及.NET10；按构建说明运行build-game.ps1 -Iso和build-launcher.ps1。
+     **Run:** Download MCLA-Setup.exe and choose your ISO and install folder; the launcher prepares tools and builds locally. Source builds need Git, Python 3, CMake/Ninja, VS2022 C++ and Clang 20 (or llvm-mingw), plus .NET 10. Follow build-game.ps1 -Iso and build-launcher.ps1 in the build guide.
 
-     **所需文件：** 自己的Xbox360美国/欧洲Complete Edition ISO，Title ID 545407F8；源码构建约需20GB空间。
+     **Required files:** Your own Xbox 360 USA/Europe Complete Edition ISO, title ID 545407F8; allow about 20 GB for a source build.
 
-     [**构建说明**](https://github.com/RenanQueiroz/mcla-recomp/blob/main/docs/building.md) · [项目源码](https://github.com/RenanQueiroz/mcla-recomp)
+     [**Build instructions**](https://github.com/RenanQueiroz/mcla-recomp/blob/main/docs/building.md) · [Project source](https://github.com/RenanQueiroz/mcla-recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-128. <a name="game-th08"></a>**东方永夜抄 TH08**
+128. <a name="game-th08"></a>**Touhou 8: Imperishable Night**
 
-     <a href="https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="760" alt="上游标题预览"></a>
+     <a href="https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="760" alt="Upstream title preview"></a>
 
-     <sub>上游标题预览 <a href="https://github.com/N0zoM1z0/th08-web">图片来源</a></sub>
+     <sub>Upstream title preview <a href="https://github.com/N0zoM1z0/th08-web">Image source</a></sub>
 
-     在密集弹幕中移动与射击，体验东方永夜抄的夜间冒险。浏览器版本来自已有源码重建项目。
+     Dodge dense bullet patterns in a shooting adventure. This browser edition builds on the existing source-reconstruction project.
 
-     **平台：** Windows 32-bit / Linux
+     **Platforms:** Windows 32-bit / Linux
 
-     **运行：** 准备原版TH08数据与指南要求的工具链，按构建说明选择原版重建或Linux移植目标。
+     **Run:** Prepare the TH08 data and required toolchain, then follow the original rebuild or Linux-port instructions.
 
-     **所需文件：** 自己的TH08 1.00d原程序和数据；运行时需th08.dat、thbgm.dat，工具链按构建目标准备。
+     **Required files:** Your TH08 v1.00d program and data, including th08.dat and thbgm.dat at runtime; toolchain requirements depend on the build target.
 
-     [**构建说明**](https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md) · [项目源码](https://github.com/N0zoM1z0/th08) · [在线入口 · 查看文件要求](https://th08-web.pages.dev/)
+     [**Build instructions**](https://github.com/N0zoM1z0/th08/blob/main/docs/BUILD_MATCHING.md) · [Project source](https://github.com/N0zoM1z0/th08) · [Browser entry · check file requirements](https://th08-web.pages.dev/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-129. <a name="game-magic-carpet2-hd"></a>**魔毯2 · Magic Carpet 2 HD**
+129. <a name="game-magic-carpet2-hd"></a>**Magic Carpet 2 · Magic Carpet 2 HD**
 
-     <a href="https://github.com/thobbsinteractive/magic-carpet-2-hd/blob/development/README.md"><img src="https://github.com/user-attachments/assets/c6507af5-3be5-4a24-806f-9bb5338ece3b" width="760" alt="上游Configurator启动器界面，非游戏截图"></a>
+     <a href="https://github.com/thobbsinteractive/magic-carpet-2-hd/blob/development/README.md"><img src="https://github.com/user-attachments/assets/c6507af5-3be5-4a24-806f-9bb5338ece3b" width="760" alt="Upstream Configurator launcher interface; not a gameplay screenshot"></a>
 
-     <sub>上游Configurator启动器界面，非游戏截图 <a href="https://github.com/thobbsinteractive/magic-carpet-2-hd/blob/development/README.md">图片来源</a></sub>
+     <sub>Upstream Configurator launcher interface; not a gameplay screenshot <a href="https://github.com/thobbsinteractive/magic-carpet-2-hd/blob/development/README.md">Image source</a></sub>
 
-     驾驶飞毯施法战斗、收集魔力并扩建城堡。经典作品的Windows/Linux原生移植，支持高分辨率。
+     Fly a magic carpet, cast spells, gather mana and expand your castle in a native Windows/Linux port with higher-resolution rendering.
 
-     **平台：** Windows / Linux
+     **Platforms:** Windows / Linux
 
-     **运行：** Windows使用发布页MSI或安装包，并按安装指南导入原作文件。自行构建使用development分支：Windows以VS2022/vcpkg打开remc2.sln；Linux准备CMake、GCC、SDL2及README依赖，构建后配置资源并启动remc2。
+     **Run:** On Windows, use a release MSI or package and import the original files following the installation guide. Source builds use the development branch: open remc2.sln with VS2022/vcpkg on Windows, or install CMake, GCC, SDL2 and the README dependencies on Linux, then build, configure assets and start remc2.
 
-     **所需文件：** 自己的GOG版或CD版Magic Carpet2；按README提取NETHERW及CD_Files目录。
+     **Required files:** Your own GOG or CD copy of Magic Carpet 2; extract NETHERW and CD_Files as described in the README.
 
-     [**构建说明**](https://github.com/thobbsinteractive/magic-carpet-2-hd/blob/development/README.md) · [项目源码](https://github.com/thobbsinteractive/magic-carpet-2-hd) · [资源获取](https://www.gog.com/game/magic_carpet_2_the_netherworlds)
+     [**Build instructions**](https://github.com/thobbsinteractive/magic-carpet-2-hd/blob/development/README.md) · [Project source](https://github.com/thobbsinteractive/magic-carpet-2-hd) · [Get game data](https://www.gog.com/game/magic_carpet_2_the_netherworlds)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-130. <a name="game-prime-remastered"></a>**密特罗德Prime复刻版 · PrimeRecomp**
+130. <a name="game-prime-remastered"></a>**Metroid Prime Remastered · PrimeRecomp**
 
-     <a href="https://github.com/gminustwo/primerecomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/gminustwo/primerecomp/main/docs/landing_site.jpg" width="760" alt="上游项目的塔隆IV着陆点游戏画面"></a>
+     <a href="https://github.com/gminustwo/primerecomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/gminustwo/primerecomp/main/docs/landing_site.jpg" width="760" alt="Upstream gameplay screenshot of the Tallon IV landing site"></a>
 
-     <sub>上游项目的塔隆IV着陆点游戏画面 <a href="https://github.com/gminustwo/primerecomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Upstream gameplay screenshot of the Tallon IV landing site <a href="https://github.com/gminustwo/primerecomp/blob/main/README.md">Image source</a></sub>
 
-     探索塔隆IV、扫描环境并解谜战斗。将Switch复刻版移植到电脑，仍有光照与渲染缺陷。
+     Explore Tallon IV, scan the environment, solve puzzles and fight in a PC port of the Switch remaster. Lighting and rendering defects remain.
 
-     **平台：** Windows10/11 x64 / Linux与SteamDeck实验（AVX2、Vulkan1.3）；macOS15+ Apple Silicon
+     **Platforms:** Windows 10/11 x64 / experimental Linux and Steam Deck (AVX2, Vulkan 1.3); macOS 15+ Apple Silicon
 
-     **运行：** 下载平台包，选择自有exefs/romfs，首次设置在本机编译后游玩。源码按README安装平台依赖并执行make gen与make；Linux可构建AppImage，macOS使用make deps、make gen-helper与tools/fetch_zig.sh后make app。
+     **Run:** Download a platform package, select your exefs/romfs and let setup compile the game locally. Source builds follow the platform dependencies and make gen / make in the README; Linux can build an AppImage, while macOS uses make deps, make gen-helper, tools/fetch_zig.sh and make app.
 
-     **所需文件：** 自己从Switch导出的Metroid Prime Remastered1.0.0基础版exefs与romfs，不含更新；约15GB空间。
+     **Required files:** Your own extracted Switch Metroid Prime Remastered v1.0.0 exefs and romfs, without updates; about 15 GB of space.
 
-     [**构建说明**](https://github.com/gminustwo/primerecomp/blob/main/README.md) · [项目源码](https://github.com/gminustwo/primerecomp)
+     [**Build instructions**](https://github.com/gminustwo/primerecomp/blob/main/README.md) · [Project source](https://github.com/gminustwo/primerecomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-131. <a name="game-007-frwl-xbe"></a>**007：来自俄罗斯的爱情 · Xbox重编译**
+131. <a name="game-007-frwl-xbe"></a>**007: From Russia with Love · Xbox recompilation**
 
-     <a href="https://github.com/TGP482/007FRWL-XBERecomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/363e9317-6e84-47c4-882f-de36724157ce" width="760" alt="上游README中的重编译设置界面"></a>
+     <a href="https://github.com/TGP482/007FRWL-XBERecomp/blob/main/README.md"><img src="https://github.com/user-attachments/assets/363e9317-6e84-47c4-882f-de36724157ce" width="760" alt="Recompilation settings screen from the upstream README"></a>
 
-     <sub>上游README中的重编译设置界面 <a href="https://github.com/TGP482/007FRWL-XBERecomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Recompilation settings screen from the upstream README <a href="https://github.com/TGP482/007FRWL-XBERecomp/blob/main/README.md">Image source</a></sub>
 
-     扮演詹姆斯·邦德完成射击、潜入和动作任务。初代Xbox美欧版本的Windows移植。
+     Complete shooting, infiltration and action missions as James Bond through a Windows port of the US/European Xbox game.
 
-     **平台：** Windows x64
+     **Platforms:** Windows x64
 
-     **运行：** 解压发布包，将自有ISO或解包文件放入assets，启动007FRWL.exe并等待首轮本机构建。源码按README准备VS2022 C++、Clang和CMake组件，放入解包文件后执行build.bat。
+     **Run:** Extract a release, place your ISO or extracted files in assets and start 007FRWL.exe for the first local build. For source builds, install the documented VS2022 C++, Clang and CMake components, supply extracted files and run build.bat.
 
-     **所需文件：** 自己的USA或Europe初代Xbox版007: From Russia with Love游戏文件；源码构建使用解包数据。
+     **Required files:** Your own US or European Xbox copy of 007: From Russia with Love; source builds use extracted data.
 
-     [**构建说明**](https://github.com/TGP482/007FRWL-XBERecomp/blob/main/README.md) · [项目源码](https://github.com/TGP482/007FRWL-XBERecomp)
+     [**Build instructions**](https://github.com/TGP482/007FRWL-XBERecomp/blob/main/README.md) · [Project source](https://github.com/TGP482/007FRWL-XBERecomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-132. <a name="game-timesplitters-fp"></a>**时空分裂者：未来完美 · Recomp**
+132. <a name="game-timesplitters-fp"></a>**TimeSplitters: Future Perfect · Recomp**
 
-     <a href="https://github.com/TheDoffman/timesplitters-future-perfect-pc/blob/main/docs/development/building.md"><img src="https://raw.githubusercontent.com/TheDoffman/timesplitters-future-perfect-pc/main/docs/assets/gameplay-story1.jpg" width="760" alt="上游v0.3.2故事模式游戏画面"></a>
+     <a href="https://github.com/TheDoffman/timesplitters-future-perfect-pc/blob/main/docs/development/building.md"><img src="https://raw.githubusercontent.com/TheDoffman/timesplitters-future-perfect-pc/main/docs/assets/gameplay-story1.jpg" width="760" alt="Upstream v0.3.2 story-mode screenshot"></a>
 
-     <sub>上游v0.3.2故事模式游戏画面 <a href="https://github.com/TheDoffman/timesplitters-future-perfect-pc/blob/main/README.md">图片来源</a></sub>
+     <sub>Upstream v0.3.2 story-mode screenshot <a href="https://github.com/TheDoffman/timesplitters-future-perfect-pc/blob/main/README.md">Image source</a></sub>
 
-     穿越不同年代进行射击战斗的原Xbox移植，提供宽屏和画面设置。Windows有实验联机；Mac的存档、视频和联机仍不完整。
+     Travel through different eras in a port of the original Xbox shooter, with widescreen and graphics options. Windows has experimental multiplayer; Mac save/load, movies and multiplayer remain incomplete.
 
-     **平台：** Windows10/11 x64；macOS Apple Silicon，共享Vulkan渲染需macOS26+，旧系统有实验OpenGL回退
+     **Platforms:** Windows 10/11 x64; Apple Silicon Mac, macOS 26+ for the shared Vulkan renderer, with an experimental OpenGL fallback on older systems
 
-     **运行：** 下载平台启动器并解压，选择Stable与Install release，然后导入ISO或解包目录并启动。Windows源码需Git/Git LFS、VS2022 C++及Python3.12+，运行setup.ps1 -Iso；Mac需Python3.12+、Xcode命令行工具和OpenSSL，按Mac指南运行build-native-mac.py --setup --generate。
+     **Run:** Download and extract a platform launcher, choose Stable and Install release, then import your ISO or extracted folder. Windows source builds need Git/Git LFS, VS2022 C++ and Python 3.12+: run setup.ps1 -Iso. Mac needs Python 3.12+, Xcode Command Line Tools and OpenSSL; follow build-native-mac.py --setup --generate in the Mac guide.
 
-     **所需文件：** 自己的美国Xbox游戏，Title ID 45410066；ISO或含default.xbe、pak及xmv的解包目录。首次取得运行时需联网。
+     **Required files:** Your own supported US Xbox game, title ID 45410066, as an ISO or an extracted folder with default.xbe, pak and xmv. Initial runtime download needs internet access.
 
-     [**构建说明**](https://github.com/TheDoffman/timesplitters-future-perfect-pc/blob/main/docs/development/building.md) · [项目源码](https://github.com/TheDoffman/timesplitters-future-perfect-pc)
+     [**Build instructions**](https://github.com/TheDoffman/timesplitters-future-perfect-pc/blob/main/docs/development/building.md) · [Project source](https://github.com/TheDoffman/timesplitters-future-perfect-pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-133. <a name="game-brawl-recompiled"></a>**任天堂明星大乱斗X · Brawl Recompiled**
+133. <a name="game-brawl-recompiled"></a>**Super Smash Bros. Brawl · Brawl Recompiled**
 
-     <a href="https://github.com/josiahg2502-glitch/BrawlRecompiled/blob/master/README.md"><img src="https://raw.githubusercontent.com/josiahg2502-glitch/BrawlRecompiled/master/screenshots/05_castle_siege.jpg" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/josiahg2502-glitch/BrawlRecompiled/blob/master/README.md"><img src="https://raw.githubusercontent.com/josiahg2502-glitch/BrawlRecompiled/master/screenshots/05_castle_siege.jpg" width="760" alt="Gameplay image supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/josiahg2502-glitch/BrawlRecompiled/blob/master/screenshots/05_castle_siege.jpg">图片来源</a></sub>
+     <sub>Gameplay image supplied by the upstream project <a href="https://github.com/josiahg2502-glitch/BrawlRecompiled/blob/master/screenshots/05_castle_siege.jpg">Image source</a></sub>
 
-     选择任天堂角色进行平台格斗。目前上游报告覆盖对战、菜单及亚空使者开头。
+     Choose Nintendo characters for platform battles; upstream reports cover versus matches, menus and the opening of Subspace Emissary.
 
-     **平台：** Windows / Linux x86-64
+     **Platforms:** Windows / Linux x86-64
 
-     **运行：** 下载对应平台包，用启动器选择自己的Wii光盘镜像。源码构建需Windows、Python3、16GB内存及README指定的WiiCompiled工具链，提取游戏后运行build_modules.py和build-brawl.ps1。
+     **Run:** Download a platform package and select your Wii disc image in the launcher. Source builds need Windows, Python 3, 16 GB RAM and the documented WiiCompiled toolchain; extract your game and follow build_modules.py and build-brawl.ps1.
 
-     **所需文件：** 自己的USA RSBE01 Wii ISO、CISO或WBFS；模组需另备对应文件。
+     **Required files:** Your own US RSBE01 Wii ISO, CISO or WBFS; mods require their own files.
 
-     [**构建说明**](https://github.com/josiahg2502-glitch/BrawlRecompiled/blob/master/README.md) · [项目源码](https://github.com/josiahg2502-glitch/BrawlRecompiled)
+     [**Build instructions**](https://github.com/josiahg2502-glitch/BrawlRecompiled/blob/master/README.md) · [Project source](https://github.com/josiahg2502-glitch/BrawlRecompiled)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-134. <a name="game-chupathingy"></a>**光环：战斗进化 · Chupathingy**
+134. <a name="game-chupathingy"></a>**Halo: Combat Evolved · Chupathingy**
 
-     <a href="https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md"><img src="https://raw.githubusercontent.com/ChupathingyCE/chupathingyce/main/docs/screenshots/lobby.jpg" width="760" alt="上游多人大厅截图"></a>
+     <a href="https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md"><img src="https://raw.githubusercontent.com/ChupathingyCE/chupathingyce/main/docs/screenshots/lobby.jpg" width="760" alt="Upstream multiplayer lobby screenshot"></a>
 
-     <sub>上游多人大厅截图 <a href="https://github.com/ChupathingyCE/chupathingyce">图片来源</a></sub>
+     <sub>Upstream multiplayer lobby screenshot <a href="https://github.com/ChupathingyCE/chupathingyce">Image source</a></sub>
 
-     体验光环初代的战役和多人对战。这一社区移植基于已有反编译成果，支持桌面与Android。
+     Play the original Halo campaign and multiplayer through a community port based on existing decompilation work.
 
-     **平台：** Windows / macOS / Linux（含Steam Deck）/ Android
+     **Platforms:** Windows / macOS / Linux (including Steam Deck) / Android
 
-     **运行：** 准备Python3、clang和ninja，运行configure.py并构建对应平台目标；启动后选择自己的Halo数据。也可使用上游发布包。
+     **Run:** With Python 3, clang and ninja, run configure.py and build the platform target. Start the game and select your Halo data; upstream release packages are also available.
 
-     **所需文件：** 自己的Halo Xbox、PC或Custom Edition地图及对应数据。
+     **Required files:** Your own Halo Xbox, PC or Custom Edition maps and matching data.
 
-     [**构建说明**](https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md) · [项目源码](https://github.com/ChupathingyCE/chupathingyce)
+     [**Build instructions**](https://github.com/ChupathingyCE/chupathingyce/blob/main/README.md) · [Project source](https://github.com/ChupathingyCE/chupathingyce)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-135. <a name="game-pyrrhus"></a>**杀戮地带 2 · Project Pyrrhus**
+135. <a name="game-pyrrhus"></a>**Killzone 2 · Project Pyrrhus**
 
-     <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md"><img src="assets/screenshots/pyrrhus.png" width="760" alt="上游在 Proton 下运行首关科林斯河的画面"></a>
+     <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md"><img src="assets/screenshots/pyrrhus.png" width="760" alt="Upstream screenshot of the first level, Corinth River, under Proton"></a>
 
-     <sub>上游在 Proton 下运行首关科林斯河的画面 <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/SCREENSHOTS.md">图片来源</a></sub>
+     <sub>Upstream screenshot of the first level, Corinth River, under Proton <a href="https://github.com/undecuple/project-pyrrhus/blob/main/docs/SCREENSHOTS.md">Image source</a></sub>
 
-     在科林斯河登陆并进行第一人称战斗。PS3 版的早期 PC 重编译，已有首关玩法，战役尚未通关验证。
+     Land at Corinth River and fight in first person. This early PS3 recompilation has first-level gameplay; a full campaign playthrough is unverified.
 
-     **平台：** Windows 10/11 x64、Direct3D 12；上游主要在 Linux 的 Proton 下测试
+     **Platforms:** Windows 10/11 x64 with Direct3D 12; upstream mainly tests under Proton on Linux
 
-     **运行：** 运行 Windows 预发行安装器，选择光盘数据、更新和解密后的 EBOOT，待本机生成程序后从启动器进入。也可用 Nix 和指定版本 ps3recomp 按指南构建。
+     **Run:** Run the Windows prerelease installer, supply the disc data, update and decrypted EBOOT, and let it build locally before launching. The source guide uses Nix and a pinned ps3recomp version.
 
-     **所需文件：** 自己的美国版 PS3 光盘（BCUS98116，解密 ISO 或解包目录）、1.29 更新及解密后的 EBOOT.elf。
+     **Required files:** Your own USA PS3 disc (BCUS98116, decrypted ISO or extracted folder), the 1.29 update and decrypted EBOOT.elf.
 
-     [**构建说明**](https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/undecuple/project-pyrrhus)
+     [**Build instructions**](https://github.com/undecuple/project-pyrrhus/blob/main/docs/BUILDING.md) · [Project source](https://github.com/undecuple/project-pyrrhus)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-136. <a name="game-weltall"></a>**异度装甲 · Weltall**
+136. <a name="game-weltall"></a>**Xenogears · Weltall**
 
-     <a href="https://github.com/Roman215/Weltall/blob/main/README.md"><img src="https://github.com/user-attachments/assets/e55e7862-49ae-46b5-ba14-9b5ad9727418" width="760" alt="上游用户颜色问题报告中的机甲对话画面"></a>
+     <a href="https://github.com/Roman215/Weltall/blob/main/README.md"><img src="https://github.com/user-attachments/assets/e55e7862-49ae-46b5-ba14-9b5ad9727418" width="760" alt="Gear dialogue screenshot from an upstream color-defect report"></a>
 
-     <sub>上游用户颜色问题报告中的机甲对话画面 <a href="https://github.com/Roman215/Weltall/issues/22">图片来源</a></sub>
+     <sub>Gear dialogue screenshot from an upstream color-defect report <a href="https://github.com/Roman215/Weltall/issues/22">Image source</a></sub>
 
-     通过角色与机甲战斗推进长篇剧情。用Unreal Engine 5重建的PS1作品移植，可调整画面、文字速度与玩法选项。
+     Follow a long story through character and Gear battles in a PS1 port rebuilt with Unreal Engine 5, with display, text-speed and gameplay options.
 
-     **平台：** Windows10/11 x64（Direct3D12）/ Linux x64（Vulkan）/ Android10+ 64位（Vulkan）
+     **Platforms:** Windows 10/11 x64 (Direct3D 12) / Linux x64 (Vulkan) / Android 10+ 64-bit (Vulkan)
 
-     **运行：** 桌面版解压后将双盘镜像放入Games，运行Weltall.exe或Weltall.sh；Android安装APK后选择镜像或目录。源码需Unreal Engine5.8源码构建，设置UE_ROOT后运行package.py；Android还需SDK、NDK r27c、JDK21与签名配置，见README。
+     **Run:** Extract a desktop package, place the disc images in Games and run Weltall.exe or Weltall.sh; on Android, install the APK and select images or a folder. Source builds require an Unreal Engine 5.8 source build: set UE_ROOT and run package.py. Android also needs its SDK, NDK r27c, JDK 21 and signing configuration as documented.
 
-     **所需文件：** 自己的美国版双盘或受支持English undub。BIN/CUE或CHD保留电影音频；ISO/IMG电影静音，日本零售盘不支持。
+     **Required files:** Your own USA discs or a supported English undub. BIN/CUE or CHD preserves movie audio; ISO/IMG movies are silent. Japanese retail discs are unsupported.
 
-     [**构建说明**](https://github.com/Roman215/Weltall/blob/main/README.md) · [项目源码](https://github.com/Roman215/Weltall)
+     [**Build instructions**](https://github.com/Roman215/Weltall/blob/main/README.md) · [Project source](https://github.com/Roman215/Weltall)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-137. <a name="game-echoes-unbound"></a>**密特罗德Prime 2：回声 · Echoes Unbound**
+137. <a name="game-echoes-unbound"></a>**Metroid Prime 2: Echoes · Echoes Unbound**
 
-     <a href="https://github.com/Odrannnn/MetroidPrime2Port/blob/port/README.md"><img src="https://github.com/user-attachments/assets/efe38067-cc57-4ac1-b78c-dc155d4c3978" width="760" alt="上游用户反馈中的游戏画面"></a>
+     <a href="https://github.com/Odrannnn/MetroidPrime2Port/blob/port/README.md"><img src="https://github.com/user-attachments/assets/efe38067-cc57-4ac1-b78c-dc155d4c3978" width="760" alt="Game screenshot from an upstream user report"></a>
 
-     <sub>上游用户反馈中的游戏画面 <a href="https://github.com/Odrannnn/MetroidPrime2Port/issues/17">图片来源</a></sub>
+     <sub>Game screenshot from an upstream user report <a href="https://github.com/Odrannnn/MetroidPrime2Port/issues/17">Image source</a></sub>
 
-     操纵萨姆斯在光暗世界之间探索、解谜和战斗。基于既有反编译成果的原生移植，当前为预发布。
+     Explore, solve puzzles and fight between light and dark worlds as Samus in a pre-release native port built on existing decompilation work.
 
-     **平台：** Windows x64/ARM64 / Linux x64/ARM64 / macOS Apple Silicon / Android ARM64；iOS实验
+     **Platforms:** Windows x64/ARM64 / Linux x64/ARM64 / macOS Apple Silicon / Android ARM64; experimental iOS
 
-     **运行：** 下载对应平台包，启动后选择自有光盘镜像；iOS需自行签名侧载。源码需CMake3.25+、Ninja和C++20工具链，按README以MP_SDK_HEADERS_ONLY=OFF配置并构建metroid_prime2_port。
+     **Run:** Download a platform package, start it and select your disc image; iOS needs self-signing and sideloading. Source builds need CMake 3.25+, Ninja and C++20: configure with MP_SDK_HEADERS_ONLY=OFF and build metroid_prime2_port as documented.
 
-     **所需文件：** 自己的GameCube USA G2ME01、PAL G2MP01，或Wii Metroid Prime Trilogy USA R3ME01、PAL R3MP01镜像；支持ISO/GCM/RVZ等格式。Linux AppImage另依赖系统图形及字体库。
+     **Required files:** Your own GameCube USA G2ME01, PAL G2MP01, or Wii Metroid Prime Trilogy USA R3ME01 / PAL R3MP01 image; ISO/GCM/RVZ and other documented formats work. Linux AppImages also need system graphics and font libraries.
 
-     [**构建说明**](https://github.com/Odrannnn/MetroidPrime2Port/blob/port/README.md) · [项目源码](https://github.com/Odrannnn/MetroidPrime2Port)
+     [**Build instructions**](https://github.com/Odrannnn/MetroidPrime2Port/blob/port/README.md) · [Project source](https://github.com/Odrannnn/MetroidPrime2Port)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-138. <a name="game-code-veronica-ps3-recomp"></a>**生化危机：代号维罗妮卡X · PS3重编译**
+138. <a name="game-code-veronica-ps3-recomp"></a>**Resident Evil Code: Veronica X · PS3 recompilation**
 
-     <a href="https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md"><img src="https://raw.githubusercontent.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/code-veronica/docs/images/gameplay-claire-red-room.jpg" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md"><img src="https://raw.githubusercontent.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/code-veronica/docs/images/gameplay-claire-red-room.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md">Image source</a></sub>
 
-     操纵克莱尔与克里斯探索、解谜并对抗生化怪物。PS3高清版本的Windows重编译。
+     Explore, solve puzzles and fight bioweapons as Claire and Chris through a Windows recompilation of the PS3 HD edition.
 
-     **平台：** Windows10/11 x64，Direct3D12
+     **Platforms:** Windows 10/11 x64, Direct3D 12
 
-     **运行：** 解压发布包，用启动器添加自有游戏目录和对应许可后Play。源码需VS2022、LLVM、CMake、Ninja、Python3.12与FFmpeg7.1；按上游指南生成PPU/SPU代码，再运行对应区域的构建脚本并调整本机路径。
+     **Run:** Extract a release and add your game folder and required license in the launcher, then Play. Source builds use VS2022, LLVM, CMake, Ninja, Python 3.12 and FFmpeg 7.1; generate PPU/SPU code and run the regional build script, adjusting its machine-specific paths.
 
-     **所需文件：** 自己的PS3 PSN01.00版：NPEB00553、NPUB30467或NPJB00135；欧/美版另需自己的.rap许可文件。光盘版及游戏更新不支持。
+     **Required files:** Your own PS3 PSN version 01.00: NPEB00553, NPUB30467 or NPJB00135. EU/US versions also need your own .rap license. Disc releases and game updates are unsupported.
 
-     [**构建说明**](https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md) · [项目源码](https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC)
+     [**Build instructions**](https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/blob/code-veronica/README.md) · [Project source](https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-139. <a name="game-cps2-recomp"></a>**卡普空街机重编译 · CPS-2 Recomp**
+139. <a name="game-cps2-recomp"></a>**Capcom arcade recompilations · CPS-2 Recomp**
 
-     <a href="https://github.com/tmcleroy/cps2recomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/tmcleroy/cps2recomp/main/docs/screenshots/sfa2/training.png" width="760" alt="上游项目提供的Street Fighter Alpha2训练画面"></a>
+     <a href="https://github.com/tmcleroy/cps2recomp/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/tmcleroy/cps2recomp/main/docs/screenshots/sfa2/training.png" width="760" alt="Street Fighter Alpha 2 training screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的Street Fighter Alpha2训练画面 <a href="https://github.com/tmcleroy/cps2recomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Street Fighter Alpha 2 training screenshot supplied by the upstream project <a href="https://github.com/tmcleroy/cps2recomp/blob/main/README.md">Image source</a></sub>
 
-     重温街头霸王、恶魔战士、超级街头霸王方块与部分清版动作游戏，提供统一启动器与训练功能。
+     Revisit Street Fighter, Darkstalkers, Super Puzzle Fighter and selected beat ’em ups with a shared launcher and training features.
 
-     **平台：** Windows / macOS / Linux（含ARM64、Steam Deck）
+     **Platforms:** Windows / macOS / Linux (including ARM64 and Steam Deck)
 
-     **运行：** 可下载平台包，用启动器选择自己的ROM文件夹。源码构建需CMake、Ninja、SDL3、Python3与自己的ROM；先按单游戏执行Make及代码发现/转译步骤，再构建collection启动器。
+     **Run:** Download a platform package and choose your ROM folder in the launcher. Source builds need CMake, Ninja, SDL3, Python 3 and your ROM sets; follow the per-game Make and code-discovery/translation steps, then build the collection launcher.
 
-     **所需文件：** 自己的指定版本ROM ZIP及CPS2密钥；例如Super Street Fighter II Turbo需ssf2xjr1、Street Fighter Alpha2需sfa2u。其他游戏与父集要求见构建清单。
+     **Required files:** Your own exact supported ROM sets and CPS-2 keys; for example, Super Street Fighter II Turbo needs ssf2xjr1 and Street Fighter Alpha 2 needs sfa2u. See the build list for other sets and parent files.
 
-     [**构建说明**](https://github.com/tmcleroy/cps2recomp/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/tmcleroy/cps2recomp)
+     [**Build instructions**](https://github.com/tmcleroy/cps2recomp/blob/main/docs/BUILDING.md) · [Project source](https://github.com/tmcleroy/cps2recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-140. <a name="game-smash4pc"></a>**任天堂明星大乱斗 for Wii U · Smash 4 PC**
+140. <a name="game-smash4pc"></a>**Super Smash Bros. for Wii U · Smash 4 PC**
 
-     <a href="https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md"><img src="https://raw.githubusercontent.com/josiahg2502-glitch/Smash4PC/main/screenshots/match.jpg" width="760" alt="上游项目的路易吉洋馆训练场景"></a>
+     <a href="https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md"><img src="https://raw.githubusercontent.com/josiahg2502-glitch/Smash4PC/main/screenshots/match.jpg" width="760" alt="Upstream training scene on Luigi’s Mansion"></a>
 
-     <sub>上游项目的路易吉洋馆训练场景 <a href="https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md">图片来源</a></sub>
+     <sub>Upstream training scene on Luigi’s Mansion <a href="https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md">Image source</a></sub>
 
-     选择任天堂角色在多层场景中对战。Wii U版的Windows移植，支持本地多人；高刷新率使用画面插值。
+     Choose Nintendo fighters and battle across layered stages in a Windows port of the Wii U game, with local multiplayer and interpolated high-refresh presentation.
 
-     **平台：** Windows10/11 x64，Vulkan1.3
+     **Platforms:** Windows 10/11 x64, Vulkan 1.3
 
-     **运行：** 解压发布ZIP并打开Smash 4 PC.exe，选择游戏、更新及可选DLC目录。源码需Git、Python3、llvm-mingw、CMake/Ninja和约16GB内存，按README运行tools/windows/build-smash.ps1。
+     **Run:** Extract a release ZIP, open Smash 4 PC.exe and select the game, update and optional DLC folders. Source builds need Git, Python 3, llvm-mingw, CMake/Ninja and about 16 GB RAM; follow tools/windows/build-smash.ps1 in the README.
 
-     **所需文件：** 自己的USA Wii U游戏目录0005000010144F00；推荐v304更新，DLC可选。源码需对应code/cross_f.rpx；Pretendo联机另需自己的主机文件和账号。
+     **Required files:** Your own USA Wii U game folder 0005000010144F00; v304 update recommended, DLC optional. Source builds need the corresponding code/cross_f.rpx files; Pretendo additionally needs your own console files and account.
 
-     [**构建说明**](https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md) · [项目源码](https://github.com/josiahg2502-glitch/Smash4PC)
+     [**Build instructions**](https://github.com/josiahg2502-glitch/Smash4PC/blob/main/README.md) · [Project source](https://github.com/josiahg2502-glitch/Smash4PC)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-141. <a name="game-nfsu2-mac"></a>**极品飞车：地下狂飙2 · Apple Silicon移植**
+141. <a name="game-nfsu2-mac"></a>**Need for Speed: Underground 2 · Apple Silicon port**
 
-     <a href="https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/TalhaMudo/NFSU2Recomp/main/screenshots/selected/27_20260924_current-race.jpg" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/TalhaMudo/NFSU2Recomp/main/screenshots/selected/27_20260924_current-race.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md">Image source</a></sub>
 
-     改装赛车、参加街头赛事并探索城市。将PC版重编译为Mac原生程序，暂不支持过场视频、手柄和联网。
+     Tune cars, race through the streets and explore the city in a native Mac recompilation of the PC game. Movies, gamepads and network play are not supported.
 
-     **平台：** macOS11+，Apple Silicon M1及更新芯片
+     **Platforms:** macOS 11+, Apple Silicon M1 or newer
 
-     **运行：** 下载NFSU2.zip，打开.app后选择自有游戏目录。自行构建需Xcode命令行工具和Python3：安装requirements.txt依赖，运行tools/gen_v2.sh生成，再执行build.sh、link.sh和pack.sh。
+     **Run:** Download NFSU2.zip, open the app and choose your game folder. Source builds need Xcode Command Line Tools and Python 3: install requirements.txt, generate with tools/gen_v2.sh, then run build.sh, link.sh and pack.sh.
 
-     **所需文件：** 自己的PC版安装数据，以及符合上游哈希的欧洲或北美v1.2 SPEED2.EXE；受保护的零售EXE不支持。
+     **Required files:** Your own PC game data and European or North American v1.2 SPEED2.EXE matching the upstream hash; protected retail executables are unsupported.
 
-     [**构建说明**](https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md) · [项目源码](https://github.com/TalhaMudo/NFSU2Recomp)
+     [**Build instructions**](https://github.com/TalhaMudo/NFSU2Recomp/blob/main/README.md) · [Project source](https://github.com/TalhaMudo/NFSU2Recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
 142. <a name="game-fzero-forever"></a>**F-Zero · F-Zero Forever**
 
-     <a href="https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/RetroPortingToolKit/FZeroSNESRecomp/main/docs/screenshots/bs-forest-iii-race-21x9.png" width="760" alt="上游展示的BS F-Zero扩展赛道画面"></a>
+     <a href="https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/RetroPortingToolKit/FZeroSNESRecomp/main/docs/screenshots/bs-forest-iii-race-21x9.png" width="760" alt="Upstream screenshot of a BS F-Zero expansion course"></a>
 
-     <sub>上游展示的BS F-Zero扩展赛道画面 <a href="https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Upstream screenshot of a BS F-Zero expansion course <a href="https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md">Image source</a></sub>
 
-     驾驶悬浮赛车挑战高速赛道。SNES作品的原生移植，提供宽屏、双人模式和可选社区赛道。
+     Race futuristic hovercars through high-speed circuits in a native SNES port with widescreen, two-player modes and optional community courses.
 
-     **平台：** Windows x64 / Linux
+     **Platforms:** Windows x64 / Linux
 
-     **运行：** Windows解压发布ZIP后运行F-Zero Forever.exe并选择ROM；Linux使用AppImage。源码需子模块、CMake/Ninja和C/C++工具链，将ROM放为fzero.sfc，运行tools/regen.sh后按README执行CMake生成与构建。
+     **Run:** On Windows, extract a release ZIP, run F-Zero Forever.exe and select your ROM; Linux offers an AppImage. Source builds need submodules, CMake/Ninja and a C/C++ toolchain: supply fzero.sfc, run tools/regen.sh, then configure and build with CMake as documented.
 
-     **所需文件：** 自己的未修改F-Zero美国版.sfc或.smc ROM。
+     **Required files:** Your own unmodified F-Zero USA .sfc or .smc ROM.
 
-     [**构建说明**](https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md) · [项目源码](https://github.com/RetroPortingToolKit/FZeroSNESRecomp)
+     [**Build instructions**](https://github.com/RetroPortingToolKit/FZeroSNESRecomp/blob/main/README.md) · [Project source](https://github.com/RetroPortingToolKit/FZeroSNESRecomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-143. <a name="game-rekhcom"></a>**王国之心：记忆之链 · ReKHCoM**
+143. <a name="game-rekhcom"></a>**Kingdom Hearts: Chain of Memories · ReKHCoM**
 
-     <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md"><img src="https://raw.githubusercontent.com/MatyMeatBoy/ReKHCoM/main/docs/screenshots/battle.png" width="760" alt="Project image supplied by the author"></a>
 
-     <sub>作者提供的项目画面 <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md">图片来源</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md">Image source</a></sub>
 
-     将GBA游戏重建成果移植到桌面和浏览器，结合动作战斗与卡牌组合。
+     A desktop and browser port of the reconstructed GBA game, combining action combat and card decks.
 
-     **平台：** Windows构建；另有Linux、Android和浏览器版本
+     **Platforms:** Windows build; Linux, Android and browser editions also available
 
-     **运行：** 按README准备Python/PyYAML、llvm-mingw、SDL3和Ninja，用configure_pc.py生成后由Ninja构建。
+     **Run:** Follow the README with Python/PyYAML, llvm-mingw, SDL3 and Ninja; generate with configure_pc.py and build with Ninja.
 
-     **所需文件：** 自己的未修改美、日或欧版GBA ROM；语言随ROM版本。
+     **Required files:** Your own unpatched US, Japanese or European GBA ROM; language depends on the ROM.
 
-     [**构建说明**](https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md) · [项目介绍](https://github.com/MatyMeatBoy/ReKHCoM) · [在线入口 · 查看文件要求](https://matymeatboy.github.io/ReKHCoM/)
+     [**Build instructions**](https://github.com/MatyMeatBoy/ReKHCoM/blob/main/README.md) · [Project information](https://github.com/MatyMeatBoy/ReKHCoM) · [Browser entry · check file requirements](https://matymeatboy.github.io/ReKHCoM/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
 144. <a name="game-dx-ball"></a>**DX-Ball 1.07**
 
-     <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="上游标题画面"></a>
+     <a href="https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="760" alt="Upstream title screen"></a>
 
-     <sub>上游标题画面 <a href="https://github.com/N0zoM1z0/dx-ball">图片来源</a></sub>
+     <sub>Upstream title screen <a href="https://github.com/N0zoM1z0/dx-ball">Image source</a></sub>
 
-     移动挡板接住弹球，清除屏幕上的砖块。这个经典 Windows 游戏正在通过 REA 调查重建为 C/C++。
+     Move the paddle, keep the ball in play and clear the bricks. This classic Windows game is being reconstructed in C/C++ through REA-assisted investigation.
 
-     **平台：** Windows 32-bit / Wine
+     **Platforms:** Windows 32-bit / Wine
 
-     **运行：** 按构建指南准备Python、VC4工具链及原版1.07文件，构建Windows程序；Linux构建环境另需32位Wine。
+     **Run:** Follow the guide to prepare Python, the VC4 toolchain and v1.07 files, then build the Windows program. Linux build environments also need 32-bit Wine.
 
-     **所需文件：** 自己的匹配版本原程序和资源，并按源码指南构建。
+     **Required files:** Your own matching executable and resources, plus the upstream build toolchain.
 
-     [**构建说明**](https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md) · [项目源码](https://github.com/N0zoM1z0/dx-ball)
+     [**Build instructions**](https://github.com/N0zoM1z0/dx-ball/blob/main/docs/BUILD.md) · [Project source](https://github.com/N0zoM1z0/dx-ball)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-145. <a name="game-007-eon"></a>**007：一切或一无所有 · PC 重编译**
+145. <a name="game-007-eon"></a>**007: Everything or Nothing · PC Recompilation**
 
-     <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers"><img src="assets/screenshots/007-eon.jpg" width="760" alt="上游 README 的 PC 移植标题图"></a>
+     <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers"><img src="assets/screenshots/007-eon.jpg" width="760" alt="PC port title preview from the upstream README"></a>
 
-     <sub>上游 README 的 PC 移植标题图 <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md">图片来源</a></sub>
+     <sub>PC port title preview from the upstream README <a href="https://github.com/hk21x/007eon-recomp/blob/main/README.md">Image source</a></sub>
 
-     以詹姆斯·邦德的身份完成第三人称潜入、枪战与载具任务。原 Xbox 版的 PC 重编译，加入宽屏和画面选项。
+     Play as James Bond in third-person stealth, shootouts and driving missions. This original Xbox recompilation adds widescreen and display options.
 
-     **平台：** Windows 10/11 x64，Direct3D 11 或 12
+     **Platforms:** Windows 10/11 x64 with Direct3D 11 or 12
 
-     **运行：** 从发布页取得 EoNLauncher.exe，选择光盘镜像或解包目录，本地构建后启动。自行构建需 Visual Studio 2022 C++，把原盘文件放入 assets 并运行 build.bat。
+     **Run:** Get EoNLauncher.exe from Releases, choose a disc image or extracted folder, and launch after it builds locally. For a source build, use Visual Studio 2022 C++, put the disc files in assets and run build.bat.
 
-     **所需文件：** 自己的欧洲版或美国版原 Xbox 光盘，ISO 或包含 default.xbe、driving.xbe 和数据目录的解包文件。
+     **Required files:** Your own European or USA original Xbox disc as an ISO or an extracted folder with default.xbe, driving.xbe and the data directories.
 
-     [**构建说明**](https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers) · [项目源码](https://github.com/hk21x/007eon-recomp)
+     [**Build instructions**](https://github.com/hk21x/007eon-recomp/blob/main/README.md#building-from-source-developers) · [Project source](https://github.com/hk21x/007eon-recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-146. <a name="game-odin-sphere-pc"></a>**奥丁领域：里普特拉西尔 · PC移植**
+146. <a name="game-odin-sphere-pc"></a>**Odin Sphere Leifthrasir · PC port**
 
-     <a href="https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/5a94903d-2680-4679-9098-6cb0cb305b8b" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md"><img src="https://github.com/user-attachments/assets/5a94903d-2680-4679-9098-6cb0cb305b8b" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md">Image source</a></sub>
 
-     在手绘风格舞台上连击、培育食物并体验多位角色的交错故事。PS4作品的早期PC移植。
+     Chain attacks, grow food and follow intertwined character stories across hand-painted stages in an early PC port of the PS4 game.
 
-     **平台：** Windows10 1903+/11 x64 / Linux、Steam Deck（实验），Vulkan1.3
+     **Platforms:** Windows 10 1903+/11 x64 / Linux and Steam Deck (experimental), Vulkan 1.3
 
-     **运行：** 解压平台包，通过TRG启动器安装自有受支持PKG后启动。Windows源码需MSYS2 CLANG64和PowerShell，按README运行setup.ps1、build.ps1，再在启动器准备游戏。
+     **Run:** Extract a platform package and install your supported PKG through the TRG launcher. Windows source builds need MSYS2 CLANG64 and PowerShell; follow setup.ps1 and build.ps1, then prepare the game in the launcher.
 
-     **所需文件：** 自己的解密PS4 PKG：美版CUSA05083 1.00、日版CUSA01290 1.00/1.02或欧版CUSA05262 1.00/1.01；约4GB空间，显卡需满足上游所列Vulkan扩展。
+     **Required files:** Your own decrypted PS4 PKG: US CUSA05083 1.00, JP CUSA01290 1.00/1.02 or EU CUSA05262 1.00/1.01; about 4 GB storage and the listed Vulkan extensions.
 
-     [**构建说明**](https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md) · [项目源码](https://github.com/saulob/odin-sphere-leifthrasir-pc)
+     [**Build instructions**](https://github.com/saulob/odin-sphere-leifthrasir-pc/blob/main/README.md) · [Project source](https://github.com/saulob/odin-sphere-leifthrasir-pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-147. <a name="game-torchlight-rekindled"></a>**火炬之光 · Rekindled**
+147. <a name="game-torchlight-rekindled"></a>**Torchlight · Rekindled**
 
-     <a href="https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md"><img src="https://raw.githubusercontent.com/GreenSwampDweller/torchlight-rekindled/main/android.jpg" width="760" alt="上游项目提供的Android矿洞画面"></a>
+     <a href="https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md"><img src="https://raw.githubusercontent.com/GreenSwampDweller/torchlight-rekindled/main/android.jpg" width="760" alt="Android mine screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的Android矿洞画面 <a href="https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md">图片来源</a></sub>
+     <sub>Android mine screenshot supplied by the upstream project <a href="https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md">Image source</a></sub>
 
-     深入矿洞战斗、收集装备并培养宠物。以Xbox360版逻辑重实现的跨平台引擎。
+     Fight through mines, collect equipment and develop a pet in a cross-platform engine following the Xbox 360 game’s logic.
 
-     **平台：** Windows / Linux / Android12+ arm64 / Switch自制系统 / iOS（自行签名）
+     **Platforms:** Windows / Linux / Android 12+ arm64 / homebrew Switch / iOS (self-signed)
 
-     **运行：** 可用发布包并放入自己的Pak.zip和音乐目录。源码构建需Git子模块、Python3/Pillow、CMake、Ninja及OGRE依赖，先准备依赖和OGRE，再按平台编译引擎；iOS用Xcode签名。
+     **Run:** Use a release package with your Pak.zip and music folder. Source builds need submodules, Python 3/Pillow, CMake, Ninja and OGRE dependencies; prepare dependencies and OGRE, then build the engine for your platform. iOS requires Xcode signing.
 
-     **所需文件：** 自己的PC版或Xbox360版完整游戏Pak.zip/pak.zip；music目录用于音乐。PC资源使用仍在建设的基础界面，也可自备Xbox版界面文件。
+     **Required files:** Your own full PC or Xbox 360 game Pak.zip/pak.zip, plus music for background tracks. PC data uses a basic interface still under development, or your own extracted Xbox interface files.
 
-     [**构建说明**](https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md) · [项目源码](https://github.com/GreenSwampDweller/torchlight-rekindled)
+     [**Build instructions**](https://github.com/GreenSwampDweller/torchlight-rekindled/blob/main/README.md) · [Project source](https://github.com/GreenSwampDweller/torchlight-rekindled)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-148. <a name="game-killzone3-helghast"></a>**杀戮地带3 · Project Helghast 早期移植**
+148. <a name="game-killzone3-helghast"></a>**Killzone 3 · Project Helghast early port**
 
-     <a href="https://github.com/undecuple/project-helghast/blob/main/README.md"><img src="https://raw.githubusercontent.com/undecuple/project-helghast/main/docs/screenshots/20261027-191315Z_kz3-frozen-shores-firefight.webp" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/undecuple/project-helghast/blob/main/README.md"><img src="https://raw.githubusercontent.com/undecuple/project-helghast/main/docs/screenshots/20261027-191315Z_kz3-frozen-shores-firefight.webp" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/undecuple/project-helghast/blob/main/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/undecuple/project-helghast/blob/main/README.md">Image source</a></sub>
 
-     体验赫尔盖星的第一人称射击战斗。当前为部分可玩的移植，主要已有首关和少量后续场景报告。
+     Experience first-person combat on Helghan through a partly playable port, currently reported mainly across the first level and limited later scenes.
 
-     **平台：** Windows x64，Direct3D12 / Linux经Proton
+     **Platforms:** Windows x64, Direct3D 12 / Linux through Proton
 
-     **运行：** 可用发布安装流程从自有数据在本机准备游戏。源码构建在Linux使用Nix、MinGW和固定ps3recomp子模块，分别生成PPU/SPU代码及Windows程序，再按指南布置PS3_GAME并运行kz3.exe。
+     **Run:** Release setup prepares the game locally from your files. Source builds use Linux, Nix, MinGW and the pinned ps3recomp submodule; generate PPU/SPU code, build the Windows program, stage PS3_GAME and run kz3.exe as documented.
 
-     **所需文件：** 自己的解密PS3游戏EBOOT、PS3_GAME或ISO及1.14更新，首选US BCUS98234；其他支持区域尚未由作者验证。中日韩等文字另需自己的PS3字体。
+     **Required files:** Your own decrypted PS3 EBOOT, PS3_GAME or ISO and update 1.14, preferably US BCUS98234; other accepted regions remain untested by the author. CJK text additionally needs your own PS3 fonts.
 
-     [**构建说明**](https://github.com/undecuple/project-helghast/blob/main/README.md) · [项目源码](https://github.com/undecuple/project-helghast)
+     [**Build instructions**](https://github.com/undecuple/project-helghast/blob/main/README.md) · [Project source](https://github.com/undecuple/project-helghast)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-149. <a name="game-stunts-hd"></a>**特技赛车 · Stunts HD**
+149. <a name="game-stunts-hd"></a>**Stunts HD**
 
-     <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="项目标题预览"></a>
+     <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md"><img src="https://raw.githubusercontent.com/mr-finster/stunts-hd/main/stunts/logo-hd.png" width="760" alt="Project title preview"></a>
 
-     <sub>项目标题预览 <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md">图片来源</a></sub>
+     <sub>Project title preview <a href="https://github.com/mr-finster/stunts-hd/blob/main/README.md">Image source</a></sub>
 
-     DOS赛车的静态重编译项目，提供宽屏、高清3D与浏览器入口。
+     A static recompilation of the DOS racer with widescreen, HD 3D and a browser entry.
 
-     **平台：** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-     **运行：** 按README准备Restunts和原版GAME.EXE，生成exedump/map.json，再运行Python服务打开本地stunts页面。
+     **Run:** Follow the README to prepare Restunts and GAME.EXE, generate exedump/map.json, then serve the local stunts page.
 
-     **所需文件：** 自己的Stunts 1.1游戏目录或ZIP及构建所需原程序。
+     **Required files:** Your own Stunts 1.1 folder or ZIP and original executable for the build.
 
-     [**构建说明**](https://github.com/mr-finster/stunts-hd/blob/main/README.md) · [项目介绍](https://github.com/mr-finster/stunts-hd) · [在线入口 · 查看文件要求](https://stunts-recomp.pages.dev)
+     [**Build instructions**](https://github.com/mr-finster/stunts-hd/blob/main/README.md) · [Project information](https://github.com/mr-finster/stunts-hd) · [Browser entry · check file requirements](https://stunts-recomp.pages.dev)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-150. <a name="game-speedbreaker-carbon"></a>**极品飞车：卡本峡谷 · SpeedBreaker Carbon**
+150. <a name="game-speedbreaker-carbon"></a>**Need for Speed: Carbon · SpeedBreaker Carbon**
 
-     <a href="https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md"><img src="https://raw.githubusercontent.com/SpeedBreakerProject/speedbreaker-carbon/main/assets/screenshots/speedbreaker-carbon-20-16x10-canyon-duel.jpg" width="760" alt="作者Mac版峡谷对决截图，车牌已由上游模糊处理"></a>
+     <a href="https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md"><img src="https://raw.githubusercontent.com/SpeedBreakerProject/speedbreaker-carbon/main/assets/screenshots/speedbreaker-carbon-20-16x10-canyon-duel.jpg" width="760" alt="Author’s Mac Canyon Duel screenshot; the upstream image has a blurred licence plate"></a>
 
-     <sub>作者Mac版峡谷对决截图，车牌已由上游模糊处理 <a href="https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md">图片来源</a></sub>
+     <sub>Author’s Mac Canyon Duel screenshot; the upstream image has a blurred licence plate <a href="https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md">Image source</a></sub>
 
-     改装赛车、争夺城市地盘并挑战峡谷对决。Xbox360版的原生移植，支持宽屏与画面设置；与同引擎的Most Wanted为独立项目。
+     Tune cars, claim city territory and challenge Canyon Duels in a native port of the Xbox 360 game, with widescreen and graphics settings. It is a separate project from Most Wanted on the same engine.
 
-     **平台：** SteamOS/Linux x86-64（AVX2、Vulkan1.2）；macOS15+ Apple Silicon；Windows10/11 x64测试版；iOS/iPadOS实验
+     **Platforms:** SteamOS/Linux x86-64 (AVX2, Vulkan 1.2); macOS 15+ Apple Silicon; Windows 10/11 x64 beta; experimental iOS/iPadOS
 
-     **运行：** 下载对应平台包，启动后选择自己的光盘镜像并完成导入。源码需Clang18+、CMake/Ninja、SDL3/Vulkan及FFmpeg等依赖，先运行setup_tools.sh、提取default.xex并用XenonRecomp生成，再以SB_GAME=carbon构建。iOS需签名侧载或用Xcode自建，发布IPA尚未经作者设备安装验证。
+     **Run:** Download a platform package, start it and import your disc image. Source builds need Clang 18+, CMake/Ninja, SDL3/Vulkan and FFmpeg dependencies: run setup_tools.sh, extract default.xex, generate with XenonRecomp and build with SB_GAME=carbon. iOS requires signed sideloading or an Xcode build; the release IPA has not yet been installed on a device by the author.
 
-     **所需文件：** 自己的Xbox360美国收藏版ISO、XISO或解包目录，Media ID 1F8BEB88；约6GB安装空间。标准版及其他地区不支持。
+     **Required files:** Your own Xbox 360 USA Collector’s Edition ISO, XISO or extracted folder, media ID 1F8BEB88; about 6 GB install space. Standard editions and other regions are unsupported.
 
-     [**构建说明**](https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md) · [项目源码](https://github.com/SpeedBreakerProject/speedbreaker-carbon)
+     [**Build instructions**](https://github.com/SpeedBreakerProject/speedbreaker-carbon/blob/main/README.md) · [Project source](https://github.com/SpeedBreakerProject/speedbreaker-carbon)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-151. <a name="game-legaia"></a>**乐雅传说 · Legend of Legaia**
+151. <a name="game-legaia"></a>**Legend of Legaia**
 
-     <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md"><img src="https://raw.githubusercontent.com/AndrewAltimit/legend-of-legaia-re/main/site/assets/hero-montage.webp" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md"><img src="https://raw.githubusercontent.com/AndrewAltimit/legend-of-legaia-re/main/site/assets/hero-montage.webp" width="760" alt="Project image supplied by the author"></a>
 
-     <sub>作者提供的项目画面 <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md">图片来源</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md">Image source</a></sub>
 
-     从逆向记录重实现的Rust引擎，探索城镇与世界地图，进行回合制战斗和组合技。
+     A Rust engine reimplementation from reverse-engineering records, with towns, a world map, turn-based battles and combo arts.
 
-     **平台：** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-     **运行：** 按README准备支持2024 edition的Rust工具链，cargo build --release，运行引擎并指定自己的光盘数据。
+     **Run:** Use a Rust toolchain supporting edition 2024, run cargo build --release and start the engine with your disc data.
 
-     **所需文件：** 自己的受支持美版Legend of Legaia SCUS-94254光盘BIN。
+     **Required files:** Your own supported US Legend of Legaia SCUS-94254 BIN.
 
-     [**构建说明**](https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md) · [项目介绍](https://github.com/AndrewAltimit/legend-of-legaia-re) · [在线入口 · 查看文件要求](https://andrewaltimit.github.io/legend-of-legaia-re/play.html)
+     [**Build instructions**](https://github.com/AndrewAltimit/legend-of-legaia-re/blob/main/README.md) · [Project information](https://github.com/AndrewAltimit/legend-of-legaia-re) · [Browser entry · check file requirements](https://andrewaltimit.github.io/legend-of-legaia-re/play.html)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-152. <a name="game-th095"></a>**东方文花帖 TH095**
+152. <a name="game-th095"></a>**Touhou 9.5: Shoot the Bullet**
 
-     <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="上游标题画面"></a>
+     <a href="https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="760" alt="Upstream title screen"></a>
 
-     <sub>上游标题画面 <a href="https://github.com/N0zoM1z0/th095">图片来源</a></sub>
+     <sub>Upstream title screen <a href="https://github.com/N0zoM1z0/th095">Image source</a></sub>
 
-     躲避弹幕并寻找拍摄时机。项目重建原版 Windows 程序，作者已公开运行录像与测试说明。
+     Dodge bullet patterns while looking for the right moment to take a photograph. The project reconstructs the original Windows program and publishes runtime evidence.
 
-     **平台：** Windows 32-bit
+     **Platforms:** Windows 32-bit
 
-     **运行：** 准备TH095 1.02a文件与VC7.1工具链，按指南执行整程序编译和链接，再运行生成的EXE。
+     **Run:** Prepare TH095 v1.02a files and the VC7.1 toolchain, follow the whole-program compile/link steps and run the resulting EXE.
 
-     **所需文件：** 自己的 TH095 1.02a 程序和游戏数据，按原项目构建。
+     **Required files:** Your own TH095 1.02a executable and game data, with the upstream build setup.
 
-     [**构建说明**](https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md) · [项目源码](https://github.com/N0zoM1z0/th095)
+     [**Build instructions**](https://github.com/N0zoM1z0/th095/blob/main/docs/BUILD_MATCHING.md) · [Project source](https://github.com/N0zoM1z0/th095)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-153. <a name="game-newshoes"></a>**命令与征服：将军绝命时刻 · NewShoes**
+153. <a name="game-newshoes"></a>**Command &amp; Conquer: Zero Hour · NewShoes**
 
-     <a href="https://github.com/Agusx1211/NewShoes/blob/main/README.md"><img src="assets/screenshots/newshoes-entry.jpg" width="760" alt="当前游戏文件导入启动器"></a>
+     <a href="https://github.com/Agusx1211/NewShoes/blob/main/README.md"><img src="assets/screenshots/newshoes-entry.jpg" width="760" alt="Current game-data import launcher"></a>
 
-     <sub>当前游戏文件导入启动器 <a href="https://newshoes.gg">图片来源</a></sub>
+     <sub>Current game-data import launcher <a href="https://newshoes.gg">Image source</a></sub>
 
-     基于公开C++引擎源码的WASM移植，提供基地建设、战役和遭遇战。
+     A WASM port of the publicly released C++ engine, with base building, campaigns and skirmishes.
 
-     **平台：** 桌面浏览器
+     **Platforms:** Desktop browser
 
-     **运行：** 准备README指定的Emscripten 3.1.6、Node.js、npm与CMake，安装依赖并执行build:port:threaded:release，再启动harness服务。
+     **Run:** Prepare Emscripten 3.1.6, Node.js, npm and CMake, install dependencies, run build:port:threaded:release and serve the harness.
 
-     **所需文件：** 自己的完整英文Zero Hour安装目录，或将军与绝命时刻光盘。
+     **Required files:** Your own complete English Zero Hour installation, or Generals and Zero Hour discs.
 
-     [**构建说明**](https://github.com/Agusx1211/NewShoes/blob/main/README.md) · [项目介绍](https://github.com/Agusx1211/NewShoes) · [在线入口 · 查看文件要求](https://newshoes.gg)
+     [**Build instructions**](https://github.com/Agusx1211/NewShoes/blob/main/README.md) · [Project information](https://github.com/Agusx1211/NewShoes) · [Browser entry · check file requirements](https://newshoes.gg)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-154. <a name="game-tmb-bozos"></a>**烈火战车：黑暗 · The Bozos**
+154. <a name="game-tmb-bozos"></a>**Twisted Metal: Black · The Bozos**
 
-     <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run"><img src="assets/screenshots/tmb-bozos.jpg" width="760" alt="上游移植版垃圾场战斗画面"></a>
+     <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run"><img src="assets/screenshots/tmb-bozos.jpg" width="760" alt="Junkyard match screenshot from the upstream port"></a>
 
-     <sub>上游移植版垃圾场战斗画面 <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Junkyard match screenshot from the upstream port <a href="https://github.com/TheBozos/TMB_Recomp/blob/main/README.md">Image source</a></sub>
 
-     在竞技场驾驶武装车辆，用火箭和其他武器对战。PS2 版静态重编译到 PC，支持故事和挑战模式；后续故事关卡尚未完整验证。
+     Drive armed vehicles and fight with rockets and other weapons in arenas. This PS2 recompilation has Story and Challenge modes; later Story stages have limited testing.
 
-     **平台：** Windows 64 位；Linux 可从源码构建，近期版本尚未在 Linux 复测
+     **Platforms:** 64-bit Windows; Linux source builds are documented but recent changes have not been retested there
 
-     **运行：** Windows 解压发布包，打开 TMB Launcher，选择光盘镜像，点 Prepare the game，再点 Play。自行构建见上游说明，Windows 使用 Python、MSYS2 UCRT64 工具链和 CMake/Ninja。
+     **Run:** On Windows, extract the release, open TMB Launcher, select your disc image, then choose Prepare the game and Play. Windows source builds use Python, MSYS2 UCRT64 tools and CMake/Ninja.
 
-     **所需文件：** 自己的美国 PS2 版（SCUS-97101），ISO 或配套的 BIN/CUE。
+     **Required files:** Your own USA PS2 disc (SCUS-97101), as an ISO or matching BIN/CUE.
 
-     [**构建说明**](https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run) · [项目源码](https://github.com/TheBozos/TMB_Recomp)
+     [**Build instructions**](https://github.com/TheBozos/TMB_Recomp/blob/main/README.md#build-and-run) · [Project source](https://github.com/TheBozos/TMB_Recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-155. <a name="game-segasonic-native"></a>**世嘉索尼克刺猬 · 原生移植**
+155. <a name="game-segasonic-native"></a>**SegaSonic The Hedgehog · native port**
 
-     <a href="https://github.com/cheviman/segasonic-port/blob/main/README.md"><img src="https://raw.githubusercontent.com/cheviman/segasonic-port/main/docs/screenshots/volcanic_vault.png" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/cheviman/segasonic-port/blob/main/README.md"><img src="https://raw.githubusercontent.com/cheviman/segasonic-port/main/docs/screenshots/volcanic_vault.png" width="760" alt="Gameplay image supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/cheviman/segasonic-port/blob/main/docs/screenshots/volcanic_vault.png">图片来源</a></sub>
+     <sub>Gameplay image supplied by the upstream project <a href="https://github.com/cheviman/segasonic-port/blob/main/docs/screenshots/volcanic_vault.png">Image source</a></sub>
 
-     与索尼克、雷和迈迪一起逃出机关岛，可三人同屏合作。提供街机与家用风格两种模式。
+     Escape a trap-filled island with Sonic, Ray and Mighty, including three-player co-op and arcade or home-style modes.
 
-     **平台：** Windows / Linux / macOS；Android、Switch及Anbernic H700需自己生成资源包
+     **Platforms:** Windows / Linux / macOS; Android, Switch and Anbernic H700 require a locally generated asset pack
 
-     **运行：** 解压对应平台包，将自己的sonic.zip放在程序旁，或拖入首次启动窗口。源码构建需CMake3.20、C11/C++17、Python3.10和SDL2，按README配置编译。
+     **Run:** Extract a platform package and place your sonic.zip beside it, or drop it on the first-run window. Source builds use CMake 3.20, C11/C++17, Python 3.10 and SDL2; follow the README.
 
-     **所需文件：** 自己的MAME sonic.zip（Japan rev.C，18个文件）；首次启动提取本地资源包。
+     **Required files:** Your own MAME sonic.zip for Japan rev. C, containing 18 files; first launch extracts a local asset pack.
 
-     [**构建说明**](https://github.com/cheviman/segasonic-port/blob/main/README.md) · [项目源码](https://github.com/cheviman/segasonic-port)
+     [**Build instructions**](https://github.com/cheviman/segasonic-port/blob/main/README.md) · [Project source](https://github.com/cheviman/segasonic-port)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-156. <a name="game-xmen2-pc"></a>**X战警2：克隆人战争 · XMen2 PC**
+156. <a name="game-xmen2-pc"></a>**X-Men 2: Clone Wars · XMen2 PC**
 
-     <a href="https://github.com/crabsmack/xmen2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/crabsmack/xmen2-pc/main/docs/media/magneto.png" width="760" alt="上游项目的万磁王关卡游戏画面"></a>
+     <a href="https://github.com/crabsmack/xmen2-pc/blob/main/README.md"><img src="https://raw.githubusercontent.com/crabsmack/xmen2-pc/main/docs/media/magneto.png" width="760" alt="Upstream gameplay screenshot featuring Magneto"></a>
 
-     <sub>上游项目的万磁王关卡游戏画面 <a href="https://github.com/crabsmack/xmen2-pc/blob/main/README.md">图片来源</a></sub>
+     <sub>Upstream gameplay screenshot featuring Magneto <a href="https://github.com/crabsmack/xmen2-pc/blob/main/README.md">Image source</a></sub>
 
-     操纵X战警闯过横向卷轴关卡。Mega Drive作品的原生移植，加入宽屏、较高刷新率和多人选项。
+     Guide the X-Men through side-scrolling stages in a native Genesis port with widescreen, higher-refresh presentation and multiplayer options.
 
-     **平台：** Windows / Linux
+     **Platforms:** Windows / Linux
 
-     **运行：** 下载平台ZIP，解压后运行XMen2.exe或xmen2并选择ROM。自行构建需uv、对应ROM与子模块；Windows安装VS2022 C++，Linux准备CMake、Ninja和SDL2，设置XMEN2_ROM后执行uv sync与uv run tools/xmen2check.py native-build。
+     **Run:** Download and extract a platform ZIP, run XMen2.exe or xmen2 and select your ROM. Source builds need uv, the ROM and submodules; use VS2022 C++ on Windows or CMake, Ninja and SDL2 on Linux, set XMEN2_ROM, then run uv sync and uv run tools/xmen2check.py native-build.
 
-     **所需文件：** 自己的美国/欧洲版ROM，SHA-1为61409e6cf6065ab67d8952b891d8edcf47777193；运行时仍需该ROM读取关卡、画面与声音。
+     **Required files:** Your own USA/Europe ROM with SHA-1 61409e6cf6065ab67d8952b891d8edcf47777193; it remains required at runtime for level, graphics and sound data.
 
-     [**构建说明**](https://github.com/crabsmack/xmen2-pc/blob/main/README.md) · [项目源码](https://github.com/crabsmack/xmen2-pc)
+     [**Build instructions**](https://github.com/crabsmack/xmen2-pc/blob/main/README.md) · [Project source](https://github.com/crabsmack/xmen2-pc)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-157. <a name="game-glassline"></a>**镜之边缘 iPad版 · Glassline**
+157. <a name="game-glassline"></a>**Mirror’s Edge for iPad · Glassline**
 
-     <a href="https://github.com/MoonCellar-Team/Glassline/blob/main/README.md"><img src="https://raw.githubusercontent.com/MoonCellar-Team/Glassline/main/docs/screenshots/rooftop-jump.jpg" width="760" alt="上游屋顶跳跃截图"></a>
+     <a href="https://github.com/MoonCellar-Team/Glassline/blob/main/README.md"><img src="https://raw.githubusercontent.com/MoonCellar-Team/Glassline/main/docs/screenshots/rooftop-jump.jpg" width="760" alt="Upstream rooftop jump screenshot"></a>
 
-     <sub>上游屋顶跳跃截图 <a href="https://github.com/MoonCellar-Team/Glassline">图片来源</a></sub>
+     <sub>Upstream rooftop jump screenshot <a href="https://github.com/MoonCellar-Team/Glassline">Image source</a></sub>
 
-     在城市楼顶奔跑、跳跃与滑行。这是2010年iPad横向跑酷作品的桌面和Android移植。
+     Run, leap and slide across city rooftops in a desktop and Android port of the 2010 side-scrolling iPad game.
 
-     **平台：** Windows 10 / 11 x64 / Linux / Steam Deck / Android 9+
+     **Platforms:** Windows 10 / 11 x64 / Linux / Steam Deck / Android 9+
 
-     **运行：** 下载对应平台发布包，启动Glassline并选择自有IPA或解包APP后Play。源码构建在Linux使用build.sh，Windows交叉构建需Clang、CMake和Python3，Android按脚本准备SDK/NDK。
+     **Run:** Download a platform release, launch Glassline, select your IPA or unpacked APP and choose Play. Source builds use build.sh on Linux; Windows cross-builds need Clang, CMake and Python 3, while the Android script prepares SDK/NDK tools.
 
-     **所需文件：** 自己的iPad Mirror’s Edge 1.1.48或更新版IPA；PC也接受解包APP目录。
+     **Required files:** Your own iPad Mirror’s Edge 1.1.48 or newer IPA; PC also accepts an unpacked APP folder.
 
-     [**构建说明**](https://github.com/MoonCellar-Team/Glassline/blob/main/README.md) · [项目源码](https://github.com/MoonCellar-Team/Glassline)
+     [**Build instructions**](https://github.com/MoonCellar-Team/Glassline/blob/main/README.md) · [Project source](https://github.com/MoonCellar-Team/Glassline)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-158. <a name="game-precursor"></a>**杰克与达斯特三部曲 · Precursor**
+158. <a name="game-precursor"></a>**Jak and Daxter trilogy · Precursor**
 
-     <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="上游游戏启动器截图"></a>
+     <a href="https://github.com/thebardockgames/Precursor/blob/master/README.md"><img src="https://raw.githubusercontent.com/thebardockgames/Precursor/master/docs/img/precursor/estante-horizontal.jpg" width="760" alt="Upstream game launcher screenshot"></a>
 
-     <sub>上游游戏启动器截图 <a href="https://github.com/thebardockgames/Precursor">图片来源</a></sub>
+     <sub>Upstream game launcher screenshot <a href="https://github.com/thebardockgames/Precursor">Image source</a></sub>
 
-     在Android上探索杰克与达斯特的平台跳跃冒险。基于OpenGOAL的实验移植，三部作品仍在开发。
+     Explore Jak and Daxter platforming adventures on Android through an experimental OpenGOAL-based port of the trilogy.
 
-     **平台：** Android 9及以上 / ARM64
+     **Platforms:** Android 9 or later / ARM64
 
-     **运行：** 按上游说明准备Android SDK、NDK并构建APK；也可下载beta APK，导入自己的PS2光盘镜像后由应用提取和编译。
+     **Run:** Build the APK with the documented Android SDK/NDK setup, or use the beta APK. Import your PS2 disc image so the app can extract and compile it.
 
-     **所需文件：** 自己的对应PS2游戏ISO；设备需支持OpenGL ES 3.2。
+     **Required files:** Your own matching PS2 game ISO and a device supporting OpenGL ES 3.2.
 
-     [**构建说明**](https://github.com/thebardockgames/Precursor/blob/master/README.md) · [项目源码](https://github.com/thebardockgames/Precursor)
+     [**Build instructions**](https://github.com/thebardockgames/Precursor/blob/master/README.md) · [Project source](https://github.com/thebardockgames/Precursor)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-159. <a name="game-grandia3-pc"></a>**格兰蒂亚3 · PC重编译**
+159. <a name="game-grandia3-pc"></a>**Grandia III · PC recompilation**
 
-     <a href="https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVjyGNBWgAAYi7L?format=jpg&amp;name=small" width="760" alt="原帖提供的游戏预览"></a>
+     <a href="https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVjyGNBWgAAYi7L?format=jpg&amp;name=small" width="760" alt="Game preview supplied by the discovery post"></a>
 
-     <sub>原帖提供的游戏预览 <a href="https://x.com/McGroin83/status/2114706219973677067">图片来源</a></sub>
+     <sub>Game preview supplied by the discovery post <a href="https://x.com/McGroin83/status/2114706219973677067">Image source</a></sub>
 
-     跟随尤奇冒险，并在回合制战斗中使用连击和取消技。PS2作品的Windows重编译。
+     Follow Yuki’s adventure and use combos and cancel attacks in turn-based battles through a Windows recompilation of the PS2 game.
 
-     **平台：** Windows 10 / 11，Direct3D11.3；Linux / Steam Deck通过Proton
+     **Platforms:** Windows 10 / 11, Direct3D 11.3; Linux / Steam Deck through Proton
 
-     **运行：** 解压发布包，运行Grandia3.exe并选择自己的Disc1镜像，Disc2按需切换。自行构建需LLVM-MinGW、Ninja和Python，按README提取Disc1、生成代码后运行build.py。
+     **Run:** Extract a release, run Grandia3.exe and select your Disc 1 image, switching to Disc 2 when needed. Source builds use LLVM-MinGW, Ninja and Python; extract Disc 1, generate code and run build.py as documented.
 
-     **所需文件：** 自己的Grandia III USA Disc1与Disc2 ISO。
+     **Required files:** Your own Grandia III USA Disc 1 and Disc 2 ISOs.
 
-     [**构建说明**](https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md) · [项目源码](https://github.com/GranasSabre/Grandia3-PC)
+     [**Build instructions**](https://github.com/GranasSabre/Grandia3-PC/blob/main/README.md) · [Project source](https://github.com/GranasSabre/Grandia3-PC)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-160. <a name="game-openkingdoms"></a>**横扫千军：王国 · OpenKingdoms**
+160. <a name="game-openkingdoms"></a>**Total Annihilation: Kingdoms · OpenKingdoms**
 
-     <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenKingdoms/OpenKingdoms/main/docs/img/fortress-classic.jpg" width="760" alt="Project image supplied by the author"></a>
 
-     <sub>作者提供的项目画面 <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md">图片来源</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md">Image source</a></sub>
 
-     以C语言重实现幻想即时战略引擎，发展经济、建造军队并指挥魔法战斗。
+     A C reimplementation of the fantasy RTS engine, for economy building, armies and magical battles.
 
-     **平台：** Windows / macOS / Linux
+     **Platforms:** Windows / macOS / Linux
 
-     **运行：** 按README准备CMake和SDL2，设置TAK_GAME_DIR后配置、编译并运行tak-re；另有浏览器导入入口。
+     **Run:** Prepare CMake and SDL2, set TAK_GAME_DIR, configure, build and run tak-re; a browser import entry is also available.
 
-     **所需文件：** 自己的Total Annihilation: Kingdoms游戏目录或资源包；扩展需对应数据。
+     **Required files:** Your own Total Annihilation: Kingdoms folder or archives; expansions need matching data.
 
-     [**构建说明**](https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md) · [项目介绍](https://github.com/OpenKingdoms/OpenKingdoms) · [在线入口 · 查看文件要求](https://openkingdoms.net)
+     [**Build instructions**](https://github.com/OpenKingdoms/OpenKingdoms/blob/main/README.md) · [Project information](https://github.com/OpenKingdoms/OpenKingdoms) · [Browser entry · check file requirements](https://openkingdoms.net)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-161. <a name="game-nhl2k8"></a>**NHL 2K8 · Windows重编译**
+161. <a name="game-nhl2k8"></a>**NHL 2K8 · Windows recompilation**
 
-     <a href="https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md"><img src="https://raw.githubusercontent.com/anishchandra24/NHL2K8-Recompiled/main/docs/screenshots/03-in-game.png" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md"><img src="https://raw.githubusercontent.com/anishchandra24/NHL2K8-Recompiled/main/docs/screenshots/03-in-game.png" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md">Image source</a></sub>
 
-     带领冰球队参加比赛、锦标赛和生涯模式，支持本地多人。繁忙球场可能卡顿，在线模式不可用。
+     Lead a hockey team through quick games, tournaments and franchise play, with local multiplayer. Busy arenas may stutter; online features are unavailable.
 
-     **平台：** Windows10/11 x64，Direct3D12（作者测试Windows10）
+     **Platforms:** Windows 10/11 x64, Direct3D 12 (author tested Windows 10)
 
-     **运行：** 可用发布安装器从自有文件在本机构建。手动构建需Git及VS2022的C++、Clang、CMake组件，运行setup.bat并输入解包目录，完成后启动dist/Launch NHL 2K8.bat。
+     **Run:** A release installer builds locally from your files. Manual builds need Git and VS2022 C++, Clang and CMake components: run setup.bat with your extracted game folder, then start dist/Launch NHL 2K8.bat.
 
-     **所需文件：** 自己的Xbox360 NHL2K8解包数据，Title ID 54540809、版本0.0.0.3；default.xex须符合README哈希。构建约需10GB空间，另加原作文件。
+     **Required files:** Your own extracted Xbox 360 NHL 2K8, title ID 54540809, version 0.0.0.3; default.xex must match the README hash. About 10 GB build space plus the game files.
 
-     [**构建说明**](https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md) · [项目源码](https://github.com/anishchandra24/NHL2K8-Recompiled)
+     [**Build instructions**](https://github.com/anishchandra24/NHL2K8-Recompiled/blob/main/README.md) · [Project source](https://github.com/anishchandra24/NHL2K8-Recompiled)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-162. <a name="game-project-stonehenge"></a>**皇牌空战04 · ProjectStonehenge**
+162. <a name="game-project-stonehenge"></a>**Ace Combat 04 · ProjectStonehenge**
 
-     <a href="https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md"><img src="https://raw.githubusercontent.com/Onaga00/ProjectStonehenge/main/docs/images/screenshot.png" width="760" alt="上游空战截图"></a>
+     <a href="https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md"><img src="https://raw.githubusercontent.com/Onaga00/ProjectStonehenge/main/docs/images/screenshot.png" width="760" alt="Upstream air-combat screenshot"></a>
 
-     <sub>上游空战截图 <a href="https://github.com/Onaga00/ProjectStonehenge">图片来源</a></sub>
+     <sub>Upstream air-combat screenshot <a href="https://github.com/Onaga00/ProjectStonehenge">Image source</a></sub>
 
-     驾驶战斗机完成空战与对地任务。把PS2美版逐函数重建为Windows原生程序的社区项目。
+     Fly fighter aircraft on air-combat and ground-attack missions through a community Windows port reconstructed function by function from the US PS2 release.
 
-     **平台：** Windows 10 / 11，64位，Vulkan1.2
+     **Platforms:** Windows 10 / 11, 64-bit, Vulkan 1.2
 
-     **运行：** 解压上游发布包，运行ProjectStonehenge.exe并选择自己的ISO。自行构建需VS2026 C++与CMake3.24+，执行cmake --preset windows及cmake --build --preset release。
+     **Run:** Extract an upstream release, run ProjectStonehenge.exe and select your ISO. Source builds need VS2026 C++ and CMake 3.24+; run cmake --preset windows and cmake --build --preset release.
 
-     **所需文件：** 自己的NTSC-U美版SLUS-20152 ISO（2048字节扇区），不接受原始BIN/CUE。
+     **Required files:** Your own US NTSC-U SLUS-20152 ISO with 2048-byte sectors; raw BIN/CUE is not accepted.
 
-     [**构建说明**](https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md) · [项目源码](https://github.com/Onaga00/ProjectStonehenge)
+     [**Build instructions**](https://github.com/Onaga00/ProjectStonehenge/blob/main/README.md) · [Project source](https://github.com/Onaga00/ProjectStonehenge)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-163. <a name="game-openciv2"></a>**文明2多人黄金版 · OpenCiv2**
+163. <a name="game-openciv2"></a>**Civilization II Multiplayer Gold · OpenCiv2**
 
-     <a href="https://github.com/richardpenman/civ2/blob/main/README.md"><img src="https://raw.githubusercontent.com/richardpenman/civ2/main/docs/screenshots/city.png" width="760" alt="上游城市管理画面截图"></a>
+     <a href="https://github.com/richardpenman/civ2/blob/main/README.md"><img src="https://raw.githubusercontent.com/richardpenman/civ2/main/docs/screenshots/city.png" width="760" alt="Upstream city management screenshot"></a>
 
-     <sub>上游城市管理画面截图 <a href="https://github.com/richardpenman/civ2">图片来源</a></sub>
+     <sub>Upstream city management screenshot <a href="https://github.com/richardpenman/civ2">Image source</a></sub>
 
-     从一座城市开始，发展科技、外交与军队。把文明2多人黄金版重建为跨平台C++程序。
+     Grow a city into a civilization through technology, diplomacy and armies in a cross-platform C++ reconstruction of Multiplayer Gold Edition.
 
-     **平台：** Windows / Linux x86-64 / macOS 11+（Intel与Apple Silicon）
+     **Platforms:** Windows / Linux x86-64 / macOS 11+ (Intel and Apple Silicon)
 
-     **运行：** 下载对应平台程序，首次启动选择自己的安装、CD或CUE/BIN镜像。自行构建需C/C++、SDL2、Python3和pefile，按README运行tools/build_port.py。
+     **Run:** Download the platform program and select your installation, CD or CUE/BIN on first launch. Source builds need C/C++, SDL2, Python 3 and pefile; run tools/build_port.py as documented.
 
-     **所需文件：** 自己的Civilization II Multiplayer Gold Edition安装、CD或CUE/BIN镜像；音乐来自CD音轨。
+     **Required files:** Your own Civilization II Multiplayer Gold installation, CD or CUE/BIN image; music comes from the CD audio tracks.
 
-     [**构建说明**](https://github.com/richardpenman/civ2/blob/main/README.md) · [项目源码](https://github.com/richardpenman/civ2)
+     [**Build instructions**](https://github.com/richardpenman/civ2/blob/main/README.md) · [Project source](https://github.com/richardpenman/civ2)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-164. <a name="game-igi-re"></a>**秘密潜入 · IGI-RE**
+164. <a name="game-igi-re"></a>**Project I.G.I. · IGI-RE**
 
-     <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/README.md"><img src="https://raw.githubusercontent.com/slickdaddyy/IGI-RE/main/docs/media/igi.jpg" width="760" alt="上游README提供的游戏预览"></a>
+     <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/README.md"><img src="https://raw.githubusercontent.com/slickdaddyy/IGI-RE/main/docs/media/igi.jpg" width="760" alt="Game preview supplied by the upstream README"></a>
 
-     <sub>上游README提供的游戏预览 <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/docs/media/igi.jpg">图片来源</a></sub>
+     <sub>Game preview supplied by the upstream README <a href="https://github.com/slickdaddyy/IGI-RE/blob/main/docs/media/igi.jpg">Image source</a></sub>
 
-     潜入军事设施，完成侦察和射击任务。把2000年原作重建为可编译的C程序。
+     Infiltrate military sites for reconnaissance and combat missions through a compilable C reconstruction of the 2000 game.
 
-     **平台：** Windows / Linux（Wine）
+     **Platforms:** Windows / Linux (Wine)
 
-     **运行：** 准备CMake、Ninja和i686 MinGW-w64，按README编译igidecomp.exe，将它放入自有游戏目录后运行；Linux用Wine。dinput.dll是可选的对照测试路径。
+     **Run:** Use CMake, Ninja and i686 MinGW-w64 to build igidecomp.exe, copy it into your game folder and run it, using Wine on Linux. dinput.dll is the optional comparison-test route.
 
-     **所需文件：** 自己的固定EU版安装，以及ANYS.AFP、MPZM.AFP、YMBE.AFP文件；版本哈希见README。
+     **Required files:** Your own matching EU installation plus ANYS.AFP, MPZM.AFP and YMBE.AFP; see the README for the executable hash.
 
-     [**构建说明**](https://github.com/slickdaddyy/IGI-RE/blob/main/README.md) · [项目源码](https://github.com/slickdaddyy/IGI-RE)
+     [**Build instructions**](https://github.com/slickdaddyy/IGI-RE/blob/main/README.md) · [Project source](https://github.com/slickdaddyy/IGI-RE)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-165. <a name="game-dreams-recomp"></a>**梦境成真 · Dreams to Reality Recompiled**
+165. <a name="game-dreams-recomp"></a>**Dreams to Reality · Recompiled**
 
-     <a href="https://github.com/jlagedo/dreams-to-reality-re/blob/main/recomp/README.md"><img src="https://raw.githubusercontent.com/jlagedo/dreams-to-reality-re/main/docs/demo.jpg" width="760" alt="作者重编译版第一关游戏画面"></a>
+     <a href="https://github.com/jlagedo/dreams-to-reality-re/blob/main/recomp/README.md"><img src="https://raw.githubusercontent.com/jlagedo/dreams-to-reality-re/main/docs/demo.jpg" width="760" alt="First-level screenshot from the author’s recompilation"></a>
 
-     <sub>作者重编译版第一关游戏画面 <a href="https://github.com/jlagedo/dreams-to-reality-re/blob/main/README.md">图片来源</a></sub>
+     <sub>First-level screenshot from the author’s recompilation <a href="https://github.com/jlagedo/dreams-to-reality-re/blob/main/README.md">Image source</a></sub>
 
-     在奇幻梦境中奔跑、探索并战斗。1997年Windows作品的重编译移植，增加现代渲染、画面插值和开发编辑器模式。
+     Run, explore and fight through a fantasy dream world in a recompilation of the 1997 Windows game, adding modern rendering, frame interpolation and a developer-editor mode.
 
-     **平台：** Windows10/11 x64；Linux x86-64构建测试较少
+     **Platforms:** Windows 10/11 x64; Linux x86-64 builds have less testing
 
-     **运行：** Windows解压发布ZIP，运行DreamsToReality.exe并选择双盘镜像。源码需Python/uv、pcrecomp、VS的Clang/CMake/Ninja及SDL3；按构建说明配置原作EXE与安装目录，依次运行lift.py、gen_imports.py、build.py和run.py。Linux可按同一文档用gcc或clang自建。
+     **Run:** On Windows, extract the release ZIP, run DreamsToReality.exe and select both disc images. Source builds need Python/uv, pcrecomp, VS Clang/CMake/Ninja and SDL3: configure your original EXE and installed folder, then run lift.py, gen_imports.py, build.py and run.py as documented. Linux can build with GCC or Clang following the same guide.
 
-     **所需文件：** 自己的欧洲英语Windows版双CD，推荐CUE及BIN；ISO没有CD音乐。源码另需GDIDREAM.EXE和CRYO/DREAMS安装树；完整开发编辑器可选自备1997年7月demo。
+     **Required files:** Your own European English Windows discs, preferably CUE and BIN; ISO lacks CD music. Source builds also need GDIDREAM.EXE and the CRYO/DREAMS installation tree; the full developer editor optionally needs the July 1997 demo.
 
-     [**构建说明**](https://github.com/jlagedo/dreams-to-reality-re/blob/main/recomp/README.md) · [项目源码](https://github.com/jlagedo/dreams-to-reality-re)
+     [**Build instructions**](https://github.com/jlagedo/dreams-to-reality-re/blob/main/recomp/README.md) · [Project source](https://github.com/jlagedo/dreams-to-reality-re)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-166. <a name="game-rush2049"></a>**旧金山狂飙2049 · Rush 2049 Recompiled**
+166. <a name="game-rush2049"></a>**San Francisco Rush 2049 · Recompiled**
 
-     <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser"><img src="assets/screenshots/rush2049-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
-     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/rush-2049/">图片来源</a></sub>
+     <sub>Current browser ROM launcher; no game file loaded <a href="https://n64hub.com/rush-2049/">Image source</a></sub>
 
-     在未来都市中竞速、抄近道并完成特技；N64静态重编译项目提供原生和WebGPU版本。
+     Race through a futuristic city, take shortcuts and perform stunts in native and WebGPU ports produced by N64 static recompilation.
 
-     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **Platforms:** Chrome / Edge 113+ with WebGPU; documented Linux or Windows/WSL build path
 
-     **运行：** 原生版按README提取ROM并用Ninja构建；网页版另准备Emscripten、naga与SPIRV-Tools，通过emcmake构建build-web。也可打开在线入口，在启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **Run:** Extract your ROM and build the native version with Ninja; for the web target add Emscripten, naga and SPIRV-Tools, then build build-web via emcmake. Alternatively open the hosted launcher and select your ROM. Use WebGPU-capable Chrome or Edge 113+; reload once if cross-origin isolation is requested on the first visit.
 
-     **所需文件：** 自己的美版N64 ROM（.z64），SHA-1为3f99351d7bb61656614bdb2aa1a90cfe55d1922c。
+     **Required files:** Your own US N64 ROM (.z64), SHA-1 3f99351d7bb61656614bdb2aa1a90cfe55d1922c.
 
-     [**构建说明**](https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser) · [项目源码](https://github.com/n64hub/rush-2049-recomp) · [在线入口 · 查看文件要求](https://n64hub.com/rush-2049/)
+     [**Build instructions**](https://github.com/n64hub/rush-2049-recomp/blob/main/README.md#in-a-browser) · [Project source](https://github.com/n64hub/rush-2049-recomp) · [Browser entry · check file requirements](https://n64hub.com/rush-2049/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-167. <a name="game-kirby-air-ride"></a>**星之卡比：飞天赛车 · 重编译**
+167. <a name="game-kirby-air-ride"></a>**Kirby Air Ride · Recompiled**
 
-     <a href="https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md"><img src="https://raw.githubusercontent.com/sonsegajp/Kirby-Air-Ride-Recompiled/master/docs/images/16x9_city1.jpg" width="760" alt="上游项目提供的16:9 City Trial游戏画面"></a>
+     <a href="https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md"><img src="https://raw.githubusercontent.com/sonsegajp/Kirby-Air-Ride-Recompiled/master/docs/images/16x9_city1.jpg" width="760" alt="Upstream 16:9 City Trial gameplay screenshot"></a>
 
-     <sub>上游项目提供的16:9 City Trial游戏画面 <a href="https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md">图片来源</a></sub>
+     <sub>Upstream 16:9 City Trial gameplay screenshot <a href="https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md">Image source</a></sub>
 
-     驾驶星星与赛车竞速，在City Trial中收集强化并挑战竞技场。GameCube作品的Windows移植，支持宽屏与多人选项。
+     Race stars and other machines, collect upgrades in City Trial and compete in stadium events in a Windows port of the GameCube game, with widescreen and multiplayer options.
 
-     **平台：** Windows x64
+     **Platforms:** Windows x64
 
-     **运行：** 解压Windows发布ZIP，运行kirbyairride.exe并选择光盘镜像，首次启动在本机编译。自行构建需VS2022的C++与Clang组件、CMake/Ninja及Python3.10+，递归获取子模块后按README运行上游PowerShell构建脚本；8人City Trial需另用8人启动方式。
+     **Run:** Extract the Windows release ZIP, run kirbyairride.exe and select your disc image; first launch builds the game locally. Source builds need VS2022 C++ and Clang components, CMake/Ninja and Python 3.10+: clone submodules recursively and use the README’s PowerShell build script. Eight-player City Trial uses a separate launch mode.
 
-     **所需文件：** 自己的美国版GameCube GKYE01光盘镜像（ISO/GCM/CISO/RVZ/WIA）；main.dol须为5514016字节，SHA-1为977533bb96e6a16e127946396489be1b4164ac42。
+     **Required files:** Your own USA GameCube GKYE01 disc image (ISO/GCM/CISO/RVZ/WIA); main.dol must be 5,514,016 bytes with SHA-1 977533bb96e6a16e127946396489be1b4164ac42.
 
-     [**构建说明**](https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md) · [项目源码](https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled)
+     [**Build instructions**](https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled/blob/master/README.md) · [Project source](https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-168. <a name="game-muppet-racemania"></a>**布偶赛车 · Muppet RaceMania Recompiled**
+168. <a name="game-muppet-racemania"></a>**Muppet RaceMania · Recompiled**
 
-     <a href="https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/TekRantGaming/muppet-racemania-recompiled/main/docs/images/race-1.jpg" width="760" alt="上游项目提供的游戏画面"></a>
+     <a href="https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/BUILDING.md"><img src="https://raw.githubusercontent.com/TekRantGaming/muppet-racemania-recompiled/main/docs/images/race-1.jpg" width="760" alt="Game screenshot supplied by the upstream project"></a>
 
-     <sub>上游项目提供的游戏画面 <a href="https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/README.md">图片来源</a></sub>
+     <sub>Game screenshot supplied by the upstream project <a href="https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/README.md">Image source</a></sub>
 
-     驾驶布偶角色的卡丁车，在电影主题赛道上竞速并使用道具。PS1作品的Windows与Linux移植，提供宽屏和画面增强选项。
+     Race Muppet characters through movie-themed kart tracks and use power-ups in a Windows and Linux port of the PS1 game, with widescreen and visual options.
 
-     **平台：** Windows10/11 x64 / Linux x86-64（glibc2.38+）；OpenGL3.3，放大滤镜需4.3
+     **Platforms:** Windows 10/11 x64 / Linux x86-64 (glibc 2.38+); OpenGL 3.3, 4.3 for upscalers
 
-     **运行：** Windows解压发布ZIP后运行MuppetRaceMania.exe，首次选择CUE；Linux运行AppImage。源码需递归子模块、Python3、CMake/Ninja及C++工具链，用psxrecomp生成地区代码，再按BUILDING.md执行Windows构建批处理或Linux构建与打包脚本。
+     **Run:** On Windows, extract the release ZIP, run MuppetRaceMania.exe and choose your CUE on first launch; Linux uses an AppImage. Source builds need recursive submodules, Python 3, CMake/Ninja and a C++ toolchain: generate regional code with psxrecomp, then follow the Windows batch files or Linux build/package steps in BUILDING.md.
 
-     **所需文件：** 自己的PS1美国版SLUS-01237或欧洲版SCES-02008光盘镜像，CUE及对应BIN文件。
+     **Required files:** Your own PS1 USA SLUS-01237 or Europe SCES-02008 disc image, with its CUE and matching BIN files.
 
-     [**构建说明**](https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/BUILDING.md) · [项目源码](https://github.com/TekRantGaming/muppet-racemania-recompiled)
+     [**Build instructions**](https://github.com/TekRantGaming/muppet-racemania-recompiled/blob/main/BUILDING.md) · [Project source](https://github.com/TekRantGaming/muppet-racemania-recompiled)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-169. <a name="game-strikers-charged-vita"></a>**马力欧激战前锋 Charged · PS Vita**
+169. <a name="game-strikers-charged-vita"></a>**Mario Strikers Charged · PS Vita**
 
-     <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/CBOC-Vita-Lab/strikers-charged-vita/main/store/screenshots/gameplay-vita.png" width="760" alt="上游PS Vita比赛截图"></a>
+     <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md"><img src="https://raw.githubusercontent.com/CBOC-Vita-Lab/strikers-charged-vita/main/store/screenshots/gameplay-vita.png" width="760" alt="Upstream PS Vita match screenshot"></a>
 
-     <sub>上游PS Vita比赛截图 <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita">图片来源</a></sub>
+     <sub>Upstream PS Vita match screenshot <a href="https://github.com/CBOC-Vita-Lab/strikers-charged-vita">Image source</a></sub>
 
-     马力欧角色登场的快节奏足球对抗。基于既有反编译成果移植至PS Vita。
+     Fast-paced football with Mario characters, ported to PS Vita using existing decompilation work.
 
-     **平台：** 支持自制软件的PS Vita
+     **Platforms:** Homebrew-enabled PS Vita
 
-     **运行：** 可用VitaShell安装上游VPK，将提取的sys与files放入ux0: 下的 data → mscharged → game 目录后启动。源码构建使用Linux、VitaSDK、Clang18及上游固定依赖。
+     **Run:** Install the upstream VPK with VitaShell, copy extracted sys and files folders to the data → mscharged → game folder under ux0: and launch. Source builds use Linux, VitaSDK, Clang 18 and pinned dependencies.
 
-     **所需文件：** 自己的Wii美版Rev1（R4QE01）游戏数据、合法取得的libshacccg.suprx及约3GB空间。
+     **Required files:** Your own Wii USA Rev 1 (R4QE01) game data, legitimately obtained libshacccg.suprx and about 3 GB free space.
 
-     [**构建说明**](https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md) · [项目源码](https://github.com/CBOC-Vita-Lab/strikers-charged-vita)
+     [**Build instructions**](https://github.com/CBOC-Vita-Lab/strikers-charged-vita/blob/main/docs/BUILDING.md) · [Project source](https://github.com/CBOC-Vita-Lab/strikers-charged-vita)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-170. <a name="game-stunt-race-fx-mabec"></a>**特技赛车FX · Mabec增强移植**
+170. <a name="game-stunt-race-fx-mabec"></a>**Stunt Race FX · Mabec enhanced port**
 
-     <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md"><img src="https://raw.githubusercontent.com/Mabec-games/Stunt-Race-FX-DECOMP/main/docs/media/smooth-1.gif" width="760" alt="作者README提供的竞速动图"></a>
+     <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md"><img src="https://raw.githubusercontent.com/Mabec-games/Stunt-Race-FX-DECOMP/main/docs/media/smooth-1.gif" width="760" alt="Racing animation supplied by the author’s README"></a>
 
-     <sub>作者README提供的竞速动图 <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md">图片来源</a></sub>
+     <sub>Racing animation supplied by the author’s README <a href="https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md">Image source</a></sub>
 
-     驾驶卡通赛车参加Speed Trax竞速。基于SNES反编译移植，增加平滑画面与高分辨率绘制。
+     Race cartoon vehicles in Speed Trax through an SNES decompilation-based port with smoother frames and higher-resolution rendering.
 
-     **平台：** Linux（源码构建）
+     **Platforms:** Linux (source build)
 
-     **运行：** 准备Clang、Python3和SDL3开发库，按README设置自己的ROM路径并运行link.sh，然后用--rom参数启动生成的stuntracefx。
+     **Run:** Install Clang, Python 3 and SDL3 development files. Follow the README to set your ROM path, run link.sh and start the built stuntracefx with --rom.
 
-     **所需文件：** 自己的Stunt Race FX USA Rev1 SFC；SHA1为781e376ff453a83c7bcf72339abe6b842efd9c86。
+     **Required files:** Your own Stunt Race FX USA Rev 1 SFC; SHA-1 781e376ff453a83c7bcf72339abe6b842efd9c86.
 
-     [**构建说明**](https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md) · [项目源码](https://github.com/Mabec-games/Stunt-Race-FX-DECOMP)
+     [**Build instructions**](https://github.com/Mabec-games/Stunt-Race-FX-DECOMP/blob/main/README.md) · [Project source](https://github.com/Mabec-games/Stunt-Race-FX-DECOMP)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-171. <a name="game-ultima6"></a>**Ultima VI：Amiga 版移植**
+171. <a name="game-ultima6"></a>**Ultima VI — Amiga port**
 
-     <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="设置入口"></a>
+     <a href="https://github.com/2lab-ai/ultima6/blob/main/README.md"><img src="assets/screenshots/ultima6-setup.jpg" width="760" alt="Setup screen"></a>
 
-     <sub>设置入口 <a href="https://ultima6.2lab.ai/">图片来源</a></sub>
+     <sub>Setup screen <a href="https://ultima6.2lab.ai/">Image source</a></sub>
 
-     探索世界、与角色交谈并进行战斗。这个 Rust 项目把 Amiga 版 Ultima VI 带到原生环境和浏览器。
+     Explore a world, talk to characters and fight battles. This Rust project ports the Amiga edition of Ultima VI to native systems and the browser.
 
-     **平台：** 浏览器（WebAssembly）/ Rust原生窗口版
+     **Platforms:** Browser (WebAssembly) / native Rust window
 
-     **运行：** 安装Rust和Node.js 22+，按Build章节构建原生或网页版，再提供自己的Amiga游戏文件；语音等增强内容可选。
+     **Run:** Install Rust and Node.js 22+, follow the Build section for native or web output and supply your Amiga files. Voice enhancements are optional.
 
-     **所需文件：** 自己的 Amiga 游戏文件；入口另有画面和可选语音设置。
+     **Required files:** Your own Amiga game files. The entry page also offers display and optional voice settings.
 
-     [**构建说明**](https://github.com/2lab-ai/ultima6/blob/main/README.md) · [项目源码](https://github.com/2lab-ai/ultima6) · [在线入口 · 查看文件要求](https://ultima6.2lab.ai/)
+     [**Build instructions**](https://github.com/2lab-ai/ultima6/blob/main/README.md) · [Project source](https://github.com/2lab-ai/ultima6) · [Browser entry · check file requirements](https://ultima6.2lab.ai/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-172. <a name="game-gunzrs"></a>**GunZ：The Duel · GunZRs**
+172. <a name="game-gunzrs"></a>**GunZ: The Duel · GunZRs**
 
-     <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="作者提供的项目画面"></a>
+     <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="760" alt="Project image supplied by the author"></a>
 
-     <sub>作者提供的项目画面 <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md">图片来源</a></sub>
+     <sub>Project image supplied by the author <a href="https://github.com/OpenRsG/GunZRs/blob/main/README.md">Image source</a></sub>
 
-     使用Rust与Bevy重建GunZ，提供近战、射击、墙面移动和多种比赛模式。
+     A Rust/Bevy reconstruction of GunZ with melee, shooting, wall movement and multiple match modes.
 
-     **平台：** Linux；Windows可构建
+     **Platforms:** Linux; Windows build available
 
-     **运行：** 按README安装Rust和系统依赖，运行start.sh，或用cargo run --release --bin gunz-play并指定原作目录。
+     **Run:** Install Rust and the documented system dependencies, then run start.sh or cargo run --release --bin gunz-play with your original game folder.
 
-     **所需文件：** 自己的Steam版GunZ安装目录。
+     **Required files:** Your own Steam GunZ installation.
 
-     [**构建说明**](https://github.com/OpenRsG/GunZRs/blob/main/README.md) · [项目介绍](https://github.com/OpenRsG/GunZRs)
+     [**Build instructions**](https://github.com/OpenRsG/GunZRs/blob/main/README.md) · [Project information](https://github.com/OpenRsG/GunZRs)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-173. <a name="game-alice-web"></a>**爱丽丝梦游魔境2000 · Alice Web**
+173. <a name="game-alice-web"></a>**American McGee’s Alice · Alice Web**
 
-     <a href="https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md"><img src="https://raw.githubusercontent.com/looking-glass-project/LookingGlass/main/docs/media/gameplay/story-poster.jpg" width="760" alt="上游Looking Glass引擎的实录封面"></a>
+     <a href="https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md"><img src="https://raw.githubusercontent.com/looking-glass-project/LookingGlass/main/docs/media/gameplay/story-poster.jpg" width="760" alt="Recorded-footage poster from the upstream Looking Glass engine"></a>
 
-     <sub>上游Looking Glass引擎的实录封面 <a href="https://github.com/looking-glass-project/LookingGlass/blob/main/docs/media/gameplay/story-poster.jpg">图片来源</a></sub>
+     <sub>Recorded-footage poster from the upstream Looking Glass engine <a href="https://github.com/looking-glass-project/LookingGlass/blob/main/docs/media/gameplay/story-poster.jpg">Image source</a></sub>
 
-     探索扭曲的仙境、战斗并解谜。把Looking Glass的Rust重实现引擎编译到浏览器运行。
+     Explore a twisted Wonderland, fight and solve puzzles through a browser build of Looking Glass’s Rust engine reimplementation.
 
-     **平台：** 桌面Chrome / Edge / Firefox，需WebGL2、OffscreenCanvas与OPFS
+     **Platforms:** Desktop Chrome / Edge / Firefox with WebGL2, OffscreenCanvas and OPFS
 
-     **运行：** 打开在线入口，选择自己安装中的Alice1、bin或base目录，首次会复制PK3到浏览器私有存储。自行构建需Node22和Rust/WASM，运行npm run build:wasm与npm run build:site。
+     **Run:** Open the browser entry and select your installed Alice1, bin or base folder; first setup copies PK3 files into browser-private storage. Source builds use Node 22 and Rust/WASM with npm run build:wasm and npm run build:site.
 
-     **所需文件：** 自己的2011再发行版Alice游戏PK3文件，约660MB；浏览器存储预留约700MB。
+     **Required files:** Your own PK3 files from the 2011 Alice rerelease, about 660 MB; allow about 700 MB browser storage.
 
-     [**构建说明**](https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md) · [项目源码](https://github.com/yselimarslan98-dot/alice-web) · [在线入口 · 查看文件要求](https://yselimarslan98-dot.github.io/alice-web/)
+     [**Build instructions**](https://github.com/yselimarslan98-dot/alice-web/blob/master/README.md) · [Project source](https://github.com/yselimarslan98-dot/alice-web) · [Browser entry · check file requirements](https://yselimarslan98-dot.github.io/alice-web/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-174. <a name="game-conker-web"></a>**松鼠库克：倒霉的一天 · n64hub网页版**
+174. <a name="game-conker-web"></a>**Conker&#x27;s Bad Fur Day · n64hub web fork**
 
-     <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page"><img src="assets/screenshots/conker-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
-     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/conker/">图片来源</a></sub>
+     <sub>Current browser ROM launcher; no game file loaded <a href="https://n64hub.com/conker/">Image source</a></sub>
 
-     基于Conker重编译项目的独立网页移植，以成人幽默串联平台跳跃、探索和多种情境玩法。
+     An independent web fork of the Conker recompilation, combining adult humor with platforming, exploration and varied scenario-based play.
 
-     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **Platforms:** Chrome / Edge 113+ with WebGPU; documented Linux or Windows/WSL build path
 
-     **运行：** 按README先在Linux/macOS或WSL运行build.sh完成重编译，再用Emscripten、naga和CMake构建host/build-web；也可打开在线启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **Run:** Run build.sh on Linux, macOS or WSL to recompile, then build host/build-web with Emscripten, naga and CMake; or open the hosted launcher and select your ROM. Use WebGPU-capable Chrome or Edge 113+; reload once if cross-origin isolation is requested on the first visit.
 
-     **所需文件：** 自己的美版N64 ROM（.z64），SHA-1为4cbadd3c4e0729dec46af64ad018050eada4f47a。
+     **Required files:** Your own US N64 ROM (.z64), SHA-1 4cbadd3c4e0729dec46af64ad018050eada4f47a.
 
-     [**构建说明**](https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page) · [项目源码](https://github.com/n64hub/CBFD-Recompiled-web) · [在线入口 · 查看文件要求](https://n64hub.com/conker/)
+     [**Build instructions**](https://github.com/n64hub/CBFD-Recompiled-web/blob/main/README.md#the-web-page) · [Project source](https://github.com/n64hub/CBFD-Recompiled-web) · [Browser entry · check file requirements](https://n64hub.com/conker/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-175. <a name="game-diablo2-rust-wasm"></a>**暗黑破坏神2 · Rust/WASM原型**
+175. <a name="game-diablo2-rust-wasm"></a>**Diablo II · Rust/WASM prototype**
 
-     <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="上游原型截图"></a>
+     <a href="https://github.com/shpaw415/diablo2-wasm/blob/master/README.md"><img src="https://raw.githubusercontent.com/shpaw415/diablo2-wasm/master/docs/game-e2e.png" width="760" alt="Upstream prototype screenshot"></a>
 
-     <sub>上游原型截图 <a href="https://github.com/shpaw415/diablo2-wasm">图片来源</a></sub>
+     <sub>Upstream prototype screenshot <a href="https://github.com/shpaw415/diablo2-wasm">Image source</a></sub>
 
-     在罗格营地进行移动、战斗与物品收集的浏览器原型，提供野蛮人、法师和圣骑士；并非完整游戏。
+     A browser prototype around the Rogue Encampment with movement, combat, loot and three classes: Barbarian, Sorceress and Paladin.
 
-     **平台：** 桌面浏览器；本地构建需Rust与Python3
+     **Platforms:** Desktop browser; Rust and Python 3 for local builds
 
-     **运行：** 构建d2game的WASM并用wasm-bindgen生成网页模块，从自己的安装中提取MPQ数据；在demo目录启动本地HTTP服务后打开menu.html。
+     **Run:** Build d2game for WebAssembly and generate bindings with wasm-bindgen. Extract MPQ data from your installation, serve the demo directory locally and open menu.html.
 
-     **所需文件：** 自己的Diablo II v1.12安装或安装MPQ数据；部分发行版的角色资源路径需要调整。
+     **Required files:** Your own Diablo II v1.12 installation or installer MPQs; character asset paths may need adjustment for some editions.
 
-     [**构建说明**](https://github.com/shpaw415/diablo2-wasm/blob/master/README.md) · [项目源码](https://github.com/shpaw415/diablo2-wasm)
+     [**Build instructions**](https://github.com/shpaw415/diablo2-wasm/blob/master/README.md) · [Project source](https://github.com/shpaw415/diablo2-wasm)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
 176. <a name="game-dark-colony"></a>**Open Dark Colony**
 
-     <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="文件导入页"></a>
+     <a href="https://github.com/edulazaro/open-dark-colony/blob/main/README.md"><img src="assets/screenshots/dark-colony-import.jpg" width="760" alt="File import screen"></a>
 
-     <sub>文件导入页 <a href="https://edulazaro.github.io/open-dark-colony/">图片来源</a></sub>
+     <sub>File import screen <a href="https://edulazaro.github.io/open-dark-colony/">Image source</a></sub>
 
-     在浏览器中运行 Dark Colony 的即时战略重实现。项目使用原版文件提供的地图、单位与音效。
+     A browser-based real-time strategy reimplementation of Dark Colony, reading maps, units and sounds from original game files.
 
-     **平台：** 浏览器（本地Node.js服务）
+     **Platforms:** Browser (local Node.js server)
 
-     **运行：** 安装项目要求的Node.js及依赖，执行npm run build与npm start，再导入自己的游戏目录或ZIP。
+     **Run:** Install the required Node.js version and dependencies, run npm run build and npm start, then import your game folder or ZIP.
 
-     **所需文件：** 自己的 Dark Colony 安装目录或 ZIP；页面会要求导入。
+     **Required files:** Your own Dark Colony installation folder or ZIP, selected on the page.
 
-     [**构建说明**](https://github.com/edulazaro/open-dark-colony/blob/main/README.md) · [项目源码](https://github.com/edulazaro/open-dark-colony) · [在线入口 · 查看文件要求](https://edulazaro.github.io/open-dark-colony/)
+     [**Build instructions**](https://github.com/edulazaro/open-dark-colony/blob/main/README.md) · [Project source](https://github.com/edulazaro/open-dark-colony) · [Browser entry · check file requirements](https://edulazaro.github.io/open-dark-colony/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-177. <a name="game-web-generalsx"></a>**命令与征服：将军绝命时刻 · GeneralsX Web**
+177. <a name="game-web-generalsx"></a>**GeneralsX Web · Zero Hour**
 
-     <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="上游提供的在线入口预览"></a>
+     <a href="https://github.com/origami-ltd/wasm-generals"><img src="https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg" width="760" alt="Browser-entry preview supplied by the upstream collection"></a>
 
-     <sub>上游提供的在线入口预览 <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg">图片来源</a></sub>
+     <sub>Browser-entry preview supplied by the upstream collection <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/9dd80506a67217df01af09ac1ca739a95b2f519a/screenshots/browser-command-conquer-generals-zero-hour.jpg">Image source</a></sub>
 
-     基于EA公开源码与GeneralsX的WebGPU移植，提供基地建设与即时战略对战。
+     A WebGPU port based on EA’s published source and GeneralsX, for base-building RTS battles.
 
-     **平台：** macOS构建；Chrome / Edge等支持WebGPU的浏览器运行
+     **Platforms:** Build on macOS; run in WebGPU-capable Chrome / Edge
 
-     **运行：** 按README准备Emscripten、CMake、Ninja及vcpkg，用webgpu预设构建引擎，再构建web目录并启动本地服务。
+     **Run:** Follow the README: prepare Emscripten, CMake, Ninja and vcpkg, build the webgpu engine preset and web directory, then start the local server.
 
-     **所需文件：** 需要自己的Zero Hour安装目录及.big资源；线上入口也要求自备文件。
+     **Required files:** Requires your own Zero Hour installation and .big archives; the hosted edition also needs these files.
 
-     [**构建说明**](https://github.com/origami-ltd/wasm-generals) · [项目介绍](https://github.com/origami-ltd/wasm-generals) · [在线入口 · 查看文件要求](https://generals.wasm.ltd)
+     [**Build instructions**](https://github.com/origami-ltd/wasm-generals) · [Project information](https://github.com/origami-ltd/wasm-generals) · [Browser entry · check file requirements](https://generals.wasm.ltd)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-178. <a name="game-wow-shadowfang-slice"></a>**魔兽世界：影牙城堡 · 单机演示**
+178. <a name="game-wow-shadowfang-slice"></a>**WoW: Shadowfang Keep · Standalone slice**
 
-     <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="作者提供的单场景演示截图"></a>
+     <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md"><img src="https://raw.githubusercontent.com/wubing733-prog/wow-mobile-ios/main/docs/screenshot.png" width="760" alt="Author-supplied screenshot of the single-scene demo"></a>
 
-     <sub>作者提供的单场景演示截图 <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/README.md">图片来源</a></sub>
+     <sub>Author-supplied screenshot of the single-scene demo <a href="https://github.com/wubing733-prog/wow-mobile-ios/blob/main/README.md">Image source</a></sub>
 
-     使用Godot重建影牙城堡单场景的单机演示，提供移动、攻击与技能；角色模型为静态网格。
+     A Godot single-scene reconstruction of Shadowfang Keep, with movement, attacks and abilities; character models are static meshes.
 
-     **平台：** Windows；iOS需自行签名
+     **Platforms:** Windows; iOS requires signing
 
-     **运行：** 按构建说明解压仓库内压缩地形，用Godot 4.7.2导入并运行工程；iOS需按文档导出Xcode工程并签名。
+     **Run:** Follow the build guide to expand the compressed terrain, import and run with Godot 4.7.2; iOS requires the documented Xcode export and signing.
 
-     [**构建说明**](https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md) · [项目介绍](https://github.com/wubing733-prog/wow-mobile-ios)
+     [**Build instructions**](https://github.com/wubing733-prog/wow-mobile-ios/blob/main/docs/IOS-BUILD.md) · [Project information](https://github.com/wubing733-prog/wow-mobile-ios)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-179. <a name="game-banjo-web"></a>**班卓熊大冒险 · n64hub网页版**
+179. <a name="game-banjo-web"></a>**Banjo-Kazooie · n64hub web fork**
 
-     <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/banjo-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
-     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/banjo-kazooie/">图片来源</a></sub>
+     <sub>Current browser ROM launcher; no game file loaded <a href="https://n64hub.com/banjo-kazooie/">Image source</a></sub>
 
-     基于Banjo Recompiled的独立网页移植，操纵班卓与卡祖伊探索关卡、解谜并收集拼图。
+     An independent web fork of Banjo Recompiled for exploring worlds, solving puzzles and collecting Jiggies as Banjo and Kazooie.
 
-     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **Platforms:** Chrome / Edge 113+ with WebGPU; documented Linux or Windows/WSL build path
 
-     **运行：** 按BUILDING.md准备ROM与重编译工具，应用N64Recomp-browser补丁，再用Emscripten、naga、CMake和Ninja构建build-web；也可打开在线启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **Run:** Follow BUILDING.md to prepare the ROM and recompilers, apply the N64Recomp-browser patches, then build build-web with Emscripten, naga, CMake and Ninja; or use the hosted ROM launcher. Use WebGPU-capable Chrome or Edge 113+; reload once if cross-origin isolation is requested on the first visit.
 
-     **所需文件：** 自己的北美1.0版N64 ROM。
+     **Required files:** Your own North American v1.0 N64 ROM.
 
-     [**构建说明**](https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page) · [项目源码](https://github.com/n64hub/BanjoRecomp-web) · [在线入口 · 查看文件要求](https://n64hub.com/banjo-kazooie/)
+     [**Build instructions**](https://github.com/n64hub/BanjoRecomp-web/blob/main/BUILDING.md#the-web-page) · [Project source](https://github.com/n64hub/BanjoRecomp-web) · [Browser entry · check file requirements](https://n64hub.com/banjo-kazooie/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-180. <a name="game-zelda-web"></a>**塞尔达传说：姆吉拉的假面 · n64hub网页版**
+180. <a name="game-zelda-web"></a>**The Legend of Zelda: Majora&#x27;s Mask · n64hub web fork**
 
-     <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/zelda-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
-     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/majoras-mask/">图片来源</a></sub>
+     <sub>Current browser ROM launcher; no game file loaded <a href="https://n64hub.com/majoras-mask/">Image source</a></sub>
 
-     基于Zelda64Recomp的独立网页移植，在三日循环中探索时钟镇、变身解谜并攻略迷宫。
+     An independent Zelda64Recomp web fork for exploring Clock Town, transforming, solving puzzles and visiting dungeons within a three-day cycle.
 
-     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **Platforms:** Chrome / Edge 113+ with WebGPU; documented Linux or Windows/WSL build path
 
-     **运行：** 按BUILDING.md准备ROM与重编译工具，应用N64Recomp-browser补丁，再用Emscripten、naga、CMake和Ninja构建build-web；也可打开在线启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **Run:** Follow BUILDING.md to prepare the ROM and recompilers, apply the N64Recomp-browser patches, then build build-web with Emscripten, naga, CMake and Ninja; or use the hosted ROM launcher. Use WebGPU-capable Chrome or Edge 113+; reload once if cross-origin isolation is requested on the first visit.
 
-     **所需文件：** 自己的北美版N64 ROM；运行时使用未解压的原始镜像。
+     **Required files:** Your own North American N64 ROM; use the original, non-decompressed image at runtime.
 
-     [**构建说明**](https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page) · [项目源码](https://github.com/n64hub/Zelda64Recomp-web) · [在线入口 · 查看文件要求](https://n64hub.com/majoras-mask/)
+     [**Build instructions**](https://github.com/n64hub/Zelda64Recomp-web/blob/main/BUILDING.md#the-web-page) · [Project source](https://github.com/n64hub/Zelda64Recomp-web) · [Browser entry · check file requirements](https://n64hub.com/majoras-mask/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-181. <a name="game-dk64-web"></a>**大金刚64 · n64hub网页版**
+181. <a name="game-dk64-web"></a>**Donkey Kong 64 · n64hub web fork**
 
-     <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="当前网页ROM启动器，未载入游戏文件"></a>
+     <a href="https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page"><img src="assets/screenshots/dk64-web-entry.jpg" width="760" alt="Current browser ROM launcher; no game file loaded"></a>
 
-     <sub>当前网页ROM启动器，未载入游戏文件 <a href="https://n64hub.com/donkey-kong-64/">图片来源</a></sub>
+     <sub>Current browser ROM launcher; no game file loaded <a href="https://n64hub.com/donkey-kong-64/">Image source</a></sub>
 
-     基于DK64 Recompiled的独立网页移植，切换金刚角色探索3D关卡，收集香蕉并完成挑战。
+     An independent DK64 Recompiled web fork for switching Kongs, exploring 3D worlds, collecting bananas and completing challenges.
 
-     **平台：** Chrome / Edge 113+（WebGPU）；可按文档在Linux或Windows/WSL构建
+     **Platforms:** Chrome / Edge 113+ with WebGPU; documented Linux or Windows/WSL build path
 
-     **运行：** 按BUILDING.md准备ROM与重编译工具，应用N64Recomp-browser补丁，再用Emscripten、naga、CMake和Ninja构建build-web；也可打开在线启动器选取自己的ROM。 使用支持WebGPU的Chrome或Edge 113+；首次提示跨源隔离时刷新一次。
+     **Run:** Follow BUILDING.md to prepare the ROM and recompilers, apply the N64Recomp-browser patches, then build build-web with Emscripten, naga, CMake and Ninja; or use the hosted ROM launcher. Use WebGPU-capable Chrome or Edge 113+; reload once if cross-origin isolation is requested on the first visit.
 
-     **所需文件：** 自己的美版N64 ROM；运行时使用未解压的原始镜像。
+     **Required files:** Your own US N64 ROM; use the original, non-decompressed image at runtime.
 
-     [**构建说明**](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page) · [项目源码](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web) · [在线入口 · 查看文件要求](https://n64hub.com/donkey-kong-64/)
+     [**Build instructions**](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web/blob/main/BUILDING.md#the-web-page) · [Project source](https://github.com/n64hub/Donkey-Kong-64-Recompiled-web) · [Browser entry · check file requirements](https://n64hub.com/donkey-kong-64/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-182. <a name="game-chessmaster-web"></a>**国际象棋大师9000 · Chessmaster-Web**
+182. <a name="game-chessmaster-web"></a>**Chessmaster 9000 · Chessmaster-Web**
 
-     <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="作者原帖项目预览"></a>
+     <a href="https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md"><img src="https://pbs.twimg.com/media/HVS6GTsbcAAzxDm?format=jpg&amp;name=small" width="760" alt="Project preview from the author’s post"></a>
 
-     <sub>作者原帖项目预览 <a href="https://x.com/senguttuvang/status/2113518853649289638">图片来源</a></sub>
+     <sub>Project preview from the author’s post <a href="https://x.com/senguttuvang/status/2113518853649289638">Image source</a></sub>
 
-     用3D棋盘重访Chessmaster 9000。公开工程提供引擎重建工具和浏览器界面，部分教学、音频及棋力等价仍不完整。
+     Revisit Chessmaster 9000 with a 3D board. The public project supplies reconstruction tools and a browser interface; lessons, audio and engine equivalence remain incomplete.
 
-     **平台：** 桌面浏览器；已说明的构建平台为macOS ARM64
+     **Platforms:** Desktop browser; documented build platform: macOS ARM64
 
-     **运行：** 准备Bun、uv、C编译器、Emscripten、Ghidra/JDK与Assimp，按README执行make setup、prepare-media和make dev；也可查看作者在线入口。
+     **Run:** Install Bun, uv, a C compiler, Emscripten, Ghidra/JDK and Assimp, then follow make setup, prepare-media and make dev. The author also links an online edition.
 
-     **所需文件：** 自己的Chessmaster 9000已安装数据，且The King 3.23引擎须匹配README指定哈希。
+     **Required files:** Your own installed Chessmaster 9000 data, with The King 3.23 matching the README hash.
 
-     [**构建说明**](https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md) · [项目源码](https://github.com/senguttuvang/Chessmaster-Web) · [在线入口 · 查看文件要求](https://chessmaster9000.com/)
+     [**Build instructions**](https://github.com/senguttuvang/Chessmaster-Web/blob/main/README.md) · [Project source](https://github.com/senguttuvang/Chessmaster-Web) · [Browser entry · check file requirements](https://chessmaster9000.com/)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-183. <a name="game-dicing-knight"></a>**骰子骑士 · Dicing Knight原生重编译**
+183. <a name="game-dicing-knight"></a>**Dicing Knight. · Native recompilation**
 
-     <a href="https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/aoxzh/dicing-knight-static-recomp/main/docs/screenshots/tower-interior.png" width="760" alt="作者Windows原生构建的塔内画面"></a>
+     <a href="https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md"><img src="https://raw.githubusercontent.com/aoxzh/dicing-knight-static-recomp/main/docs/screenshots/tower-interior.png" width="760" alt="Tower-interior screenshot from the author’s native Windows build"></a>
 
-     <sub>作者Windows原生构建的塔内画面 <a href="https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md">图片来源</a></sub>
+     <sub>Tower-interior screenshot from the author’s native Windows build <a href="https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md">Image source</a></sub>
 
-     在随机迷宫中战斗、搜集道具并爬塔。WonderSwan Color作品的早期C11重编译，已有标题、地图与塔内玩法，作者尚未到达结局。
+     Fight, collect items and climb towers in an early C11 recompilation of the WonderSwan Color dungeon crawler. Titles, maps and tower play are present; the author has not reached the ending.
 
-     **平台：** Windows / Linux（X11或无界面）；Android构建测试版尚未真机验证
+     **Platforms:** Windows / Linux (X11 or headless); Android build beta has not been verified on a device
 
-     **运行：** 目前没有预编译包。先用Python3按README运行recomp.py，从卡带镜像生成C代码；Windows再以llvm-mingw、CMake和Ninja运行build_windows.ps1，打开wsnative-win.exe选择镜像。Linux使用build_x11.sh或build_linux.sh；Android需SDK并按说明自建。
+     **Run:** No prebuilt package is available. First use Python 3 and recomp.py as documented to generate C from your cartridge image. On Windows, use llvm-mingw, CMake and Ninja with build_windows.ps1, then open wsnative-win.exe and choose the image. Linux uses build_x11.sh or build_linux.sh; Android requires the SDK and a source build.
 
-     **所需文件：** 自己的日本版Dicing Knight. .wsc卡带镜像；构建结果含由原作生成的代码，仅供自用。
+     **Required files:** Your own Japanese Dicing Knight. .wsc cartridge image; the resulting build contains game-derived code and is for personal use.
 
-     [**构建说明**](https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md) · [项目源码](https://github.com/aoxzh/dicing-knight-static-recomp)
+     [**Build instructions**](https://github.com/aoxzh/dicing-knight-static-recomp/blob/main/README.md) · [Project source](https://github.com/aoxzh/dicing-knight-static-recomp)
 
-     [↑ 返回目录](#game-index)
+     [↑ Back to directory](#game-index)
 
-本合集只提供项目与体验链接，不托管原版程序或游戏资源。
+This directory links to projects and browser editions; it hosts no original game executables or assets.
 
-原创整理文字采用 [MIT](LICENSE) 授权。第三方内容见[版权与来源](NOTICE.md)。
+Original editorial text is licensed under [MIT](LICENSE). See [content and attribution](NOTICE.md) for third-party material.

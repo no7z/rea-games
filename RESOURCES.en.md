@@ -1,6 +1,6 @@
 # Game data sources
 
-[Home](README.en.md) · [简体中文](RESOURCES.md)
+[Home](README.md) · [简体中文](RESOURCES.md)
 
 Start with the launch instructions for each game. Browser editions, downloadable packages and source builds can have different data requirements; entries that need original files name them explicitly.
 
