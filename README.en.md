@@ -16,13 +16,10 @@ Ready-to-run projects and source builds are listed separately. Build entries sta
 
 Today's additions are listed first; the remaining games follow the detail sections. Select a game to jump to its details.
 
-### Today's additions (2026-11-04)
+### Today's additions (2026-11-05)
 
 | Game | Access | Genre |
 | --- | --- | --- |
-| [Killzone 2 · Project Pyrrhus](#game-pyrrhus) | Source build | Shooters &amp; bullet hell |
-| [007: Everything or Nothing · PC Recompilation](#game-007-eon) | Source build | Action &amp; adventure |
-| [Twisted Metal: Black · The Bozos](#game-tmb-bozos) | Source build | Racing &amp; driving |
 
 ### Run in browser
 
@@ -167,6 +164,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [TimeSplitters: Future Perfect · Recomp](#game-timesplitters-fp) | Source build | Shooters &amp; bullet hell |
 | [Super Smash Bros. Brawl · Brawl Recompiled](#game-brawl-recompiled) | Source build | Fighting |
 | [Halo: Combat Evolved · Chupathingy](#game-chupathingy) | Source build | Shooters &amp; bullet hell |
+| [Killzone 2 · Project Pyrrhus](#game-pyrrhus) | Source build | Shooters &amp; bullet hell |
 | [Xenogears · Weltall](#game-weltall) | Source build | Role-playing |
 | [Metroid Prime 2: Echoes · Echoes Unbound](#game-echoes-unbound) | Source build | Action &amp; adventure |
 | [Resident Evil Code: Veronica X · PS3 recompilation](#game-code-veronica-ps3-recomp) | Source build | Action &amp; adventure |
@@ -176,6 +174,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [F-Zero · F-Zero Forever](#game-fzero-forever) | Source build | Racing &amp; driving |
 | [Kingdom Hearts: Chain of Memories · ReKHCoM](#game-rekhcom) | Source build / browser | Role-playing |
 | [DX-Ball 1.07](#game-dx-ball) | Source build | Puzzle &amp; casual |
+| [007: Everything or Nothing · PC Recompilation](#game-007-eon) | Source build | Action &amp; adventure |
 | [Odin Sphere Leifthrasir · PC port](#game-odin-sphere-pc) | Source build | Role-playing |
 | [Torchlight · Rekindled](#game-torchlight-rekindled) | Source build | Role-playing |
 | [Killzone 3 · Project Helghast early port](#game-killzone3-helghast) | Source build | Shooters &amp; bullet hell |
@@ -184,6 +183,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 | [Legend of Legaia](#game-legaia) | Source build / browser | Role-playing |
 | [Touhou 9.5: Shoot the Bullet](#game-th095) | Source build | Shooters &amp; bullet hell |
 | [Command &amp; Conquer: Zero Hour · NewShoes](#game-newshoes) | Source build / browser | Strategy &amp; tower defense |
+| [Twisted Metal: Black · The Bozos](#game-tmb-bozos) | Source build | Racing &amp; driving |
 | [SegaSonic The Hedgehog · native port](#game-segasonic-native) | Source build | Platformers |
 | [X-Men 2: Clone Wars · XMen2 PC](#game-xmen2-pc) | Source build | Action &amp; adventure |
 | [Mirror’s Edge for iPad · Glassline](#game-glassline) | Source build | Platformers |
@@ -1141,7 +1141,7 @@ Today's additions are listed first; the remaining games follow the detail sectio
 
     Fight on foot and in vehicles on Tobruk in an author-hosted browser port of the 2002 demo, with a multiplayer entry.
 
-    **Platforms:** Desktop Chrome or Edge 137+, WebAssembly / WebGL 2
+    **Platforms:** Chrome or Edge 137+ on desktop or Android, WebAssembly / WebGL 2
 
     **Run:** Open the entry and click Play. The site loads demo data and connects to the author’s server.
 

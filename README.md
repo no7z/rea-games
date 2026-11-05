@@ -16,13 +16,10 @@
 
 今日新增单列，其余按正文分类排列；点击游戏名称跳转到下方详情。
 
-### 今日更新（2026-11-04）
+### 今日更新（2026-11-05）
 
 | 游戏 | 运行方式 | 玩法说明 |
 | --- | --- | --- |
-| [杀戮地带 2 · Project Pyrrhus](#game-pyrrhus) | 自行构建 | 射击与弹幕 |
-| [007：一切或一无所有 · PC 重编译](#game-007-eon) | 自行构建 | 动作与冒险 |
-| [烈火战车：黑暗 · The Bozos](#game-tmb-bozos) | 自行构建 | 赛车与驾驶 |
 
 ### 在线运行
 
@@ -167,6 +164,7 @@
 | [时空分裂者：未来完美 · Recomp](#game-timesplitters-fp) | 自行构建 | 射击与弹幕 |
 | [任天堂明星大乱斗X · Brawl Recompiled](#game-brawl-recompiled) | 自行构建 | 格斗 |
 | [光环：战斗进化 · Chupathingy](#game-chupathingy) | 自行构建 | 射击与弹幕 |
+| [杀戮地带 2 · Project Pyrrhus](#game-pyrrhus) | 自行构建 | 射击与弹幕 |
 | [异度装甲 · Weltall](#game-weltall) | 自行构建 | 角色扮演 |
 | [密特罗德Prime 2：回声 · Echoes Unbound](#game-echoes-unbound) | 自行构建 | 动作与冒险 |
 | [生化危机：代号维罗妮卡X · PS3重编译](#game-code-veronica-ps3-recomp) | 自行构建 | 动作与冒险 |
@@ -176,6 +174,7 @@
 | [F-Zero · F-Zero Forever](#game-fzero-forever) | 自行构建 | 赛车与驾驶 |
 | [王国之心：记忆之链 · ReKHCoM](#game-rekhcom) | 自行构建 / 在线 | 角色扮演 |
 | [DX-Ball 1.07](#game-dx-ball) | 自行构建 | 益智与休闲 |
+| [007：一切或一无所有 · PC 重编译](#game-007-eon) | 自行构建 | 动作与冒险 |
 | [奥丁领域：里普特拉西尔 · PC移植](#game-odin-sphere-pc) | 自行构建 | 角色扮演 |
 | [火炬之光 · Rekindled](#game-torchlight-rekindled) | 自行构建 | 角色扮演 |
 | [杀戮地带3 · Project Helghast 早期移植](#game-killzone3-helghast) | 自行构建 | 射击与弹幕 |
@@ -184,6 +183,7 @@
 | [乐雅传说 · Legend of Legaia](#game-legaia) | 自行构建 / 在线 | 角色扮演 |
 | [东方文花帖 TH095](#game-th095) | 自行构建 | 射击与弹幕 |
 | [命令与征服：将军绝命时刻 · NewShoes](#game-newshoes) | 自行构建 / 在线 | 策略与塔防 |
+| [烈火战车：黑暗 · The Bozos](#game-tmb-bozos) | 自行构建 | 赛车与驾驶 |
 | [世嘉索尼克刺猬 · 原生移植](#game-segasonic-native) | 自行构建 | 平台跳跃 |
 | [X战警2：克隆人战争 · XMen2 PC](#game-xmen2-pc) | 自行构建 | 动作与冒险 |
 | [镜之边缘 iPad版 · Glassline](#game-glassline) | 自行构建 | 平台跳跃 |
@@ -1141,7 +1141,7 @@
 
     在托布鲁克战场进行第一人称射击与载具作战。作者托管的2002年演示版网页移植，提供多人联机入口。
 
-    **平台：** 桌面Chrome或Edge 137+，WebAssembly / WebGL2
+    **平台：** 桌面或 Android 的 Chrome / Edge 137+，WebAssembly / WebGL2
 
     **运行：** 打开入口后点击Play进入演示版；网站会加载游戏数据并连接作者提供的服务器。
 
