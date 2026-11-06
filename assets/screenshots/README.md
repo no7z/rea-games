@@ -24,6 +24,7 @@ Local images used by the homepage are listed below with their original pages. Ca
 | [dino-entry.jpg](dino-entry.jpg) | [原页面 / Original page](https://zhxunzh84.github.io/rea-dino-reverse-engineering/dino-demo.html) | 演示准备画面 / Demo start screen |
 | [dk64-web-entry.jpg](dk64-web-entry.jpg) | [原页面 / Original page](https://n64hub.com/donkey-kong-64/) | 当前网页ROM启动器，未载入游戏文件 / Current browser ROM launcher; no game file loaded |
 | [dwasm-entry.jpg](dwasm-entry.jpg) | [原页面 / Original page](https://dwasm.m-h.org.uk/) | 当前演示启动/加载页 / Current demo launcher/loading page |
+| [f1-ce-recomp.png](f1-ce-recomp.png) | [原页面 / Original page](https://github.com/mauricristiano95-hub/F1_CE_PS3/releases/tag/0.0.2) | 上游 0.0.2 发行页的发车画面 / Starting-grid screenshot from the upstream 0.0.2 release |
 | [goldenballoon-entry.jpg](goldenballoon-entry.jpg) | [原页面 / Original page](https://akratch.github.io/golden-balloon/) | 当前ROM导入页 / Current ROM import page |
 | [isle-launcher.jpg](isle-launcher.jpg) | [原页面 / Original page](https://isle.pizza/) | 网页启动器 / Web launcher |
 | [marbleblast-gold-entry.jpg](marbleblast-gold-entry.jpg) | [原页面 / Original page](https://marbleblastgold.randomityguy.me) | Gold主菜单 / Gold main menu |
@@ -38,8 +39,10 @@ Local images used by the homepage are listed below with their original pages. Ca
 | [sdlpal-entry.jpg](sdlpal-entry.jpg) | [原页面 / Original page](https://sdlpal.github.io/demo/sdlpal.html) | 当前资源导入启动页 / Current resource import launcher |
 | [silent-hill-upstream.png](silent-hill-upstream.png) | [原页面 / Original page](https://sh1pc.com/) | 作者官网提供的移植截图 / Port screenshot from the author’s website |
 | [snail-mail-entry.jpg](snail-mail-entry.jpg) | [原页面 / Original page](https://snail.banteg.xyz) | 点击启动画面 / Click-to-play screen |
+| [soulcalibur2-recomp.jpg](soulcalibur2-recomp.jpg) | [原页面 / Original page](https://github.com/tmcleroy/soulcalibur2-recomp/blob/main/README.md) | 上游提供的平八对 Spawn 游戏画面 / Upstream gameplay screenshot of Heihachi versus Spawn |
 | [tmb-bozos.jpg](tmb-bozos.jpg) | [原页面 / Original page](https://github.com/TheBozos/TMB_Recomp/blob/main/README.md) | 上游移植版垃圾场战斗画面 / Junkyard match screenshot from the upstream port |
 | [ultima6-setup.jpg](ultima6-setup.jpg) | [原页面 / Original page](https://ultima6.2lab.ai/) | 设置入口 / Setup screen |
+| [ultratears.png](ultratears.png) | [原页面 / Original page](https://github.com/kuraeow/ultratears/blob/main/README.md) | 上游 README 的 UltraTears 标题图 / UltraTears title artwork from the upstream README |
 | [untangle-entry.jpg](untangle-entry.jpg) | [原页面 / Original page](https://az9713.github.io/untangle-rebuild/rebuild/index.html) | 棋盘画面 / Puzzle board |
 | [weltendaemmerung-entry.jpg](weltendaemmerung-entry.jpg) | [原页面 / Original page](https://s-macke.github.io/weltendaemmerung/) | 当前标题页 / Current title screen |
 | [wipeout-entry.jpg](wipeout-entry.jpg) | [原页面 / Original page](https://phoboslab.org/wipegame/) | 网页版本选择页 / Browser edition selection page |
